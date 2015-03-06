@@ -1,0 +1,27 @@
+<Alloy>
+	<View class="container" backgroundColor="#262626">
+		<TableView class="menuTable" onClick="navMenu">
+			<TableViewRow height=50>
+				<Label text="My Account" class="menuLabel" color="#ffffff" apiName="Button" />
+			</TableViewRow>
+			<TableViewRow height=50>
+				<Label text="Promo / News" class="menuLabel" color="#ffffff" apiName="Button" />
+			</TableViewRow>
+			<TableViewRow height=50>
+				<Label text="Products" class="menuLabel" color="#ffffff" apiName="Button" />
+			</TableViewRow>
+			<TableViewRow height=50>
+				<Label text="Online Purchases" class="menuLabel" color="#ffffff" apiName="Button" />
+			</TableViewRow>
+			<TableViewRow height=50>
+				<Label text="Ordering History" class="menuLabel" color="#ffffff" apiName="Button" />
+			</TableViewRow>
+			<TableViewRow height=50>
+				<Label text="Contact" class="menuLabel" color="#ffffff" apiName="Button" />
+			</TableViewRow>
+			<TableViewRow height=50>
+				<Label text="Settings" class="menuLabel" color="#ffffff" apiName="Button" />
+			</TableViewRow>
+		</TableView>
+	</View>
+</Alloy>  

@@ -1,0 +1,9 @@
+<Alloy>
+	<View class="container" layout="vertical" backgroundImage="/images/BG_Large.jpg">
+	<Require src="_header" ></Require>
+	<ScrollView id="scrollView" class="container" top="0" layout="vertical" disableBounce="true" height="Ti.UI.SIZE" scrollType="vertical" backgroundColor="transparent">
+		
+		 
+	</ScrollView>
+	</View>
+</Alloy>
