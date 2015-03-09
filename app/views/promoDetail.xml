@@ -1,0 +1,26 @@
+<Alloy>
+	<View layout="composite" class="container" backgroundColor="white" fullscreen="true">
+		<View layout="vertical" top="0" bottom="50">
+			<View height="50" backgroundColor="black">
+				<View left="10" backgroundColor="white" width="40" height="40" onClick="back"></View>
+				<Label color="white">XOX</Label>
+			</View>
+			<View layout="vertical" width="auto" top="10">
+				<View height="40" width="40" backgroundColor="black" right="10" onClick="back" bottom="10"></View>
+				<View width="280" height="200" backgroundColor="yellow" bottom="10"></View>
+				<ScrollView contentHeight="Ti.UI.SIZE" height="Ti.UI.FILL" bottom="10">
+					<Label color="#E6E7E9" textAlign="left">Lorem ipsum dolor sit amet, sed errem solet euripidis ad, sint putent at nam, vel falli causae ea. Mei facete electram prodesset at, vix id elitr percipit reprehendunt. Pri ex reque movet constituto, at assentior sententiae deterruisset vim. Nam illud dolores eu, sed an nobis antiopam. Laudem labore facilisi vim eu, sumo soluta comprehensam te sed. Ea per nostrum menandri, ne quo quas eligendi.No habeo novum contentiones eos. Pri te solum prodesset abhorreant, ut illum corrumpit mnesarchum est, porro movet nullam id vim. An ius affert neglegentur, at eam quis animal accumsan. Ea utinam verear eam, sea eu essent ullamcorper. Et quo falli doctus similique.</Label>
+				</ScrollView>
+			</View>
+		</View>
+		<View layout="horizontal" backgroundColor="#333333" height="50" bottom="0">
+			<View width="3%"></View>
+			<View width="30%" height="30" backgroundColor="#3E6AC3"></View>
+			<View width="2%"></View>
+			<View width="30%" height="30" backgroundColor="#E04A32"></View>
+			<View width="2%"></View>
+			<View width="30%" height="30" backgroundColor="#27ACEC"></View>
+			<View width="3%"></View>
+		</View>
+	</View>
+</Alloy>

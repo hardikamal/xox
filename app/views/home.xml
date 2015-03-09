@@ -1,9 +1,45 @@
 <Alloy>
-	<View class="container" layout="vertical" backgroundImage="/images/BG_Large.jpg">
+	<View class="container" layout="composite" backgroundColor="black">
 	<Require src="_header" ></Require>
-	<ScrollView id="scrollView" class="container" top="0" layout="vertical" disableBounce="true" height="Ti.UI.SIZE" scrollType="vertical" backgroundColor="transparent">
-		
-		 
-	</ScrollView>
+		<View layout="vertical" id="login" width="90%" height="50%" backgroundColor="white" zIndex="0">
+			<View height="15%" width="Ti.UI.FILL">
+				<View height="40" width="40" right="10" backgroundColor="black" onClick="close"></View>
+			</View>
+			<View height="25%" width="Ti.UI.FILL">
+				<View layout="vertical">
+					<Label color="black">Username</Label>
+					<TextField id="username" width="90%" height="50%" value="username" backgroundColor="#E6E7E9" textAlign="center" hintText="someone@example.com" borderRadius="15"></TextField>
+				</View>
+			</View>
+			<View height="25%" width="Ti.UI.FILL">
+				<View layout="vertical">
+					<Label color="black">Password</Label>
+					<TextField id="password" width="90%" height="50%" value="password" backgroundColor="#E6E7E9" textAlign="center" hintText="********" passwordMask="true" borderRadius="15"></TextField>
+				</View>
+			</View>
+			<View height="20%" width="Ti.UI.FILL">
+				<Button color="#44C7D6" borderColor="#44C7D6" height="80%" width="60%" borderRadius="20" onClick="login">Login</Button>
+			</View>
+			<View height="15%" width="Ti.UI.FILL">
+				<Label color="#44C7D6" onClick="register">Not Registered yet?</Label>
+			</View>
+		</View>
+		<ScrollView layout="vertical" backgroundColor="black" top="60" left="10" right="10" bottom="10" zIndex="1">
+			<View width="100%" height="33%" backgroundColor="red" bottom="5" onClick="myAccount"></View>
+			<View layout="horizontal" height="33%" width="100%" top="5" bottom="5">
+				<View height="100%" width="49%" right="5" backgroundColor="blue" onClick="promoNews"></View>
+				<View height="100%" width="auto" left="5" backgroundColor="orange" onClick="product"></View>
+			</View>
+			<View layout="horizontal" height="33%" width="100%" top="5">
+				<View height="100%" width="49%" right="5" backgroundColor="pink" onClick="online"></View>
+				<View layout="vertical" height="100%" width="auto" left="5">
+					<View height="49%" width="100%" bottom="5" backgroundColor="green" onClick="history"></View>
+					<View layout="horizontal" height="auto" width="100%" top="5">
+						<View height="100%" width="49%" right="5" backgroundColor="purple" onClick="contact"></View>
+						<View height="100%" width="auto" left="5" backgroundColor="gray" onClick="setting"></View>
+					</View>
+				</View>
+			</View>
+		</ScrollView> 
 	</View>
 </Alloy>

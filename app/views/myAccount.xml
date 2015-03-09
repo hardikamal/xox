@@ -1,0 +1,49 @@
+<Alloy>
+	<View layout="vertical" class="container" backgroundColor="black" fullscreen="true">
+		<View height="50" backgroundColor="black">
+			<View left="10" backgroundColor="white" width="40" height="40" onClick="back"></View>
+			<Label color="white">XOX</Label>
+		</View>
+		<View layout="horizontal" height="20%" width="Ti.UI.FILL" backgroundColor="red">
+			<View width="33%" height="Ti.UI.FILL" backgroundColor="blue">
+				<Label color="white" left="10" top="10">Hello!</Label>
+				<Label color="white" left="10" bottom="10">John Smith</Label>
+			</View>
+			<View width="33%"></View>
+			<View width="auto" height="Ti.UI.FILL">
+				<View width="80" height="80" backgroundColor="green" borderRadius="40"></View>
+			</View>
+		</View>
+		<View layout="horizontal" height="20%" backgroundColor="#A5A5A5">
+			<View layout="composite" width="50%" backgroundColor="blue">
+				<View layout="vertical" height="Ti.UI.SIZE" width="100%">
+					<Label color="gray" left="10">Current Balance (RM)</Label>
+					<Label color="black" left="10">85.05</Label>
+				</View>
+			</View>
+			<View layout="composite" width="auto">
+				<View layout="vertical" height="Ti.UI.SIZE" width="100%">
+					<Label color="gray" left="10" bottom="2.5">Expiry Date</Label>
+					<Label color="black" left="10" top="2.5">1 Dec 2015</Label>
+				</View>
+			</View>
+		</View>
+		<ScrollView layout="vertical" backgroundColor="white">
+			<View layout="horizontal" height="33%" width="Ti.UI.FILL">
+				<View width="33%" height="Ti.UI.FILL" backgroundColor="yellow"></View>
+				<View width="33%" height="Ti.UI.FILL" backgroundColor="pink"></View>
+				<View width="auto" height="Ti.UI.FILL" backgroundColor="purple"></View>
+			</View>
+			<View layout="horizontal" height="33%" width="Ti.UI.FILL">
+				<View width="33%" height="Ti.UI.FILL" backgroundColor="blue"></View>
+				<View width="33%" height="Ti.UI.FILL" backgroundColor="green"></View>
+				<View width="auto" height="Ti.UI.FILL" backgroundColor="red"></View>
+			</View>
+			<View layout="horizontal" height="34%" width="Ti.UI.FILL">
+				<View width="33%" height="Ti.UI.FILL" backgroundColor="yellow"></View>
+				<View width="33%" height="Ti.UI.FILL" backgroundColor="pink"></View>
+				<View width="auto" height="Ti.UI.FILL" backgroundColor="purple"></View>
+			</View>
+		</ScrollView>
+	</View>
+</Alloy>

@@ -1,0 +1,25 @@
+<Alloy>
+	<View layout="vertical" class="container" backgroundColor="white" fullscreen="true">
+		<View height="50" backgroundColor="black">
+			<View left="10" backgroundColor="white" width="40" height="40" onClick="back"></View>
+			<Label color="white">XOX</Label>
+		</View>
+		<View layout="composite" height="50" backgroundColor="#4CC4D2">
+			<Label backgroundColor="transparent" color="white" left="20">XOX PREPAID PACK</Label>
+			<View backgroundColor="black" width="40" height="40" right="10" onClick="back"></View>
+		</View>
+		<View layout="vertical" height="50" backgroundColor="#F2F2F2">
+			<Label backgroundColor="transparent" color="black" left="20">Step 1 of 4</Label>
+			<Label backgroundColor="transparent" color="#4CC4D2" left="20">ORDERING</Label>
+		</View>
+		<View layout="vertical" width="90%" backgroundColor="red">
+			<View layout="horizontal" height="100" backgroundColor="green">
+				<Label color="black" width="40%">Sim Type</Label>
+				<View id="picker" width="60%">
+
+				</View>
+			</View>
+			
+		</View>
+	</View>
+</Alloy>

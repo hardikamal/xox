@@ -1,0 +1,21 @@
+<Alloy>
+	<View layout="vertical" class="container" backgroundColor="#E6E7E9" fullscreen="true">
+		<View height="50" backgroundColor="black">
+			<View left="10" backgroundColor="white" width="40" height="40" onClick="back"></View>
+			<Label color="white">XOX</Label>
+		</View>
+		<View height="20%" backgroundColor="#1C6D83">
+			<Label left="10" top="10" color="white">Online Purchases</Label>
+		</View>
+		<View layout="vertical">
+			<View layout="horizontal" height="20%" backgroundColor="#EB2127" onClick="prepaidPack">
+				<ImageView backgroundColor="#A3161A" height="100%" width="25%"></ImageView>
+				<Label backgroundColor="transparent" color="white" left="20">HOP ON</Label>
+			</View>
+			<View layout="horizontal" height="20%" backgroundColor="#4CC4D2" onClick="prepaidPack">
+				<ImageView backgroundColor="#358790" height="100%" width="25%"></ImageView>
+				<Label backgroundColor="transparent" color="white" left="20">XOX PREPAID PACK</Label>
+			</View>
+		</View>
+	</View>
+</Alloy>
