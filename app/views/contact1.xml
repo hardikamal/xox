@@ -10,16 +10,49 @@
 					<ImageView id="tel1" backgroundColor="#4FC3D2" image="" width="40" height="40"></ImageView>
 				</View>
 			</TableViewRow>
-            <TableViewRow title="Bananas">
-            </TableViewRow>
-            <TableViewRow title="Carrots">
-            </TableViewRow>
-            <TableViewRow title="Potatoes">
-            </TableViewRow>
-            <TableViewRow title="Cod">
-            </TableViewRow>
-            <TableViewRow title="Haddock">
-            </TableViewRow>
+            <TableViewRow layout="composite" height="20%" onClick="mobile">
+        		<View layout="vertical" height="Ti.UI.SIZE">
+					<Label backgroundColor="transparent" color="#9D9F9E" left="5%">From Your XOX Mobile: </Label>
+					<Label backgroundColor="transparent" color="black" left="5%">12273</Label>
+				</View>
+				<View height="100%" width="Ti.UI.SIZE" right="10" backgroundColor="transparent">
+					<ImageView id="tel1" backgroundColor="#4FC3D2" image="" width="40" height="40"></ImageView>
+				</View>
+			</TableViewRow>
+			<TableViewRow layout="composite" height="20%" onClick="abroad">
+        		<View layout="vertical" height="Ti.UI.SIZE">
+					<Label backgroundColor="transparent" color="#9D9F9E" left="5%">From Abroad: </Label>
+					<Label backgroundColor="transparent" color="black" left="5%">+603-7962 8000</Label>
+				</View>
+				<View height="100%" width="Ti.UI.SIZE" right="10" backgroundColor="transparent">
+					<ImageView id="tel1" backgroundColor="#4FC3D2" image="" width="40" height="40"></ImageView>
+				</View>
+			</TableViewRow>
+            <TableViewRow layout="composite" height="20%" onClick="abroad">
+        		<View layout="vertical" height="Ti.UI.SIZE">
+					<Label backgroundColor="transparent" color="#9D9F9E" left="5%">From Abroad: </Label>
+					<Label backgroundColor="transparent" color="black" left="5%">+603-7962 8000</Label>
+				</View>
+				<View height="100%" width="Ti.UI.SIZE" right="10" backgroundColor="transparent">
+					<ImageView id="tel1" backgroundColor="#4FC3D2" image="" width="40" height="40"></ImageView>
+				</View>
+			</TableViewRow>
+            <TableViewRow layout="composite" height="30%">
+        		<View layout="vertical" height="Ti.UI.SIZE">
+					<Label backgroundColor="transparent" color="#9D9F9E" left="5%">Operation Hours For Call Center: </Label>
+					<View layout="horizontal">
+						<Label backgroundColor="transparent" color="black" left="5%">8:00 A.M. - 12:00 A.M. </Label>
+						<Label backgroundColor="transparent" color="#9D9F9E" left="5%">(Including Public Holidays)</Label>
+					</View>
+				</View>
+			</TableViewRow>
+			<TableViewRow layout="composite" height="40%">
+        		<View layout="vertical" height="Ti.UI.SIZE">
+					<Label backgroundColor="transparent" color="#9D9F9E" left="5%">Our Main Office: </Label>
+					<Label backgroundColor="transparent" color="black" left="5%">31-3, Block C, Jaya One, 72A, Jalan Universiti, 46200 Petaling Jaya, Selangor Darul Ehsan</Label>
+					<Label backgroundColor="transparent" color="#9D9F9E" left="5%">Operation Hours: 9am - 6pm</Label>
+				</View>
+			</TableViewRow>
         </TableView>
 	</ScrollView>
 </Alloy>

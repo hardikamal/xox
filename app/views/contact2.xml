@@ -1,6 +1,60 @@
 <Alloy>
 	<ScrollView id="scrollView" layout="vertical" height="Ti.UI.SIZE" scrollType="vertical" backgroundImage="/images/BG_Large.jpg">
-    	<ImageView top="10" width="300" height="300" image="" backgroundColor="blue" ></ImageView>
-    	<Label width="90%">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Label>
+    	 <TableView id="table">
+            <TableViewRow layout="vertical" height="Ti.UI.SIZE">
+            	<Label textAlign="left" top="10" left="10" color="black">Petaling Jaya (Jaya One)</Label>
+            	<Label textAlign="left" left="10" color="#9D9F9E">XOX Mobile Sdn Bhd</Label>
+            	<Label textAlign="left" left="10" color="#9D9F9E">31-3, Block C, Jaya One,72A, Jalan Universiti, 46200 Petaling Jaya, Selangor Darul Ehsan.</Label>
+            	<Label textAlign="left" bottom="10" left="10" color="#9D9F9E">Contact: 03-7962 8000</Label>
+            </TableViewRow>
+            <TableViewRow layout="vertical" height="Ti.UI.SIZE">
+            	<Label textAlign="left" top="10" left="10" color="black">Petaling Jaya (Digital Mall)</Label>
+            	<Label textAlign="left" left="10" color="#9D9F9E">XOX Mobile Sdn Bhd</Label>
+            	<Label textAlign="left" left="10" color="#9D9F9E">Lot G-03A, Ground Floor Digital Mall PJ, No2 Jalan 14/20 Section 14, 46100 Petaling Jaya, Selangor.</Label>
+            	<Label textAlign="left" bottom="10" left="10" color="#9D9F9E">Contact: 010-831 6363</Label>
+            </TableViewRow>
+            <TableViewRow layout="vertical" height="Ti.UI.SIZE">
+            	<Label textAlign="left" top="10" left="10" color="black">KUALA LUMPUR (Plaza Low Yat)</Label>
+            	<Label textAlign="left" left="10" color="#9D9F9E">XOX Retails Sdn Bhd</Label>
+            	<Label textAlign="left" left="10" color="#9D9F9E">Plaza Low Yat, 7 Jalan Bintang, Jalan Bukit Bintang, 55100 Kuala Lumpur.</Label>
+            	<Label textAlign="left" bottom="10" left="10" color="#9D9F9E">Contact: 010-8666288 / 012-2704222</Label>
+            </TableViewRow>
+            <TableViewRow layout="vertical" height="Ti.UI.SIZE">
+            	<Label textAlign="left" top="10" left="10" color="black">KUALA LUMPUR (Kepong)</Label>
+            	<Label textAlign="left" left="10" color="#9D9F9E">XOX Mobile Sdn Bhd</Label>
+            	<Label textAlign="left" left="10" color="#9D9F9E">33, Jalan Metro Perdana Timur 1, Taman Usahawan Kepong, 52100 Kepong, Kuala Lumpur.</Label>
+            	<Label textAlign="left" bottom="10" left="10" color="#9D9F9E">Contact: 03-62503003</Label>
+            </TableViewRow>
+            <TableViewRow layout="vertical" height="Ti.UI.SIZE">
+            	<Label textAlign="left" top="10" left="10" color="black">KUALA LUMPUR (Pudu)</Label>
+            	<Label textAlign="left" left="10" color="#9D9F9E">XOX Mobile Sdn Bhd</Label>
+            	<Label textAlign="left" left="10" color="#9D9F9E">21, Lorong Thambi 2, Off Jalan Changkat Thambi Dollah, Pudu, 55100 Kuala Lumpur.</Label>
+            	<Label textAlign="left" bottom="10" left="10" color="#9D9F9E">Contact: 03-21458010</Label>
+            </TableViewRow>
+            <TableViewRow layout="vertical" height="Ti.UI.SIZE">
+            	<Label textAlign="left" top="10" left="10" color="black">SELANGOR (Puchong)</Label>
+            	<Label textAlign="left" left="10" color="#9D9F9E">XOX Mobile Sdn Bhd</Label>
+            	<Label textAlign="left" left="10" color="#9D9F9E">54-G, Jalan Puteri 1/4, Bandar Puteri, 47100 Puchong, Selangor.</Label>
+            	<Label textAlign="left" bottom="10" left="10" color="#9D9F9E">Contact: 03-80511568</Label>
+            </TableViewRow>
+            <TableViewRow layout="vertical" height="Ti.UI.SIZE">
+            	<Label textAlign="left" top="10" left="10" color="black">PENANG (George Town)</Label>
+            	<Label textAlign="left" left="10" color="#9D9F9E">XOX Mobile Sdn Bhd</Label>
+            	<Label textAlign="left" left="10" color="#9D9F9E">112, Jalan Terengganu, 10460 Georgetown Penang.</Label>
+            	<Label textAlign="left" bottom="10" left="10" color="#9D9F9E">Contact: 04-282 6388 / 04-281 7188</Label>
+            </TableViewRow>
+            <TableViewRow layout="vertical" height="Ti.UI.SIZE">
+            	<Label textAlign="left" top="10" left="10" color="black">PENANG (George Town)</Label>
+            	<Label textAlign="left" left="10" color="#9D9F9E">XOX Care Centre</Label>
+            	<Label textAlign="left" left="10" color="#9D9F9E">Kiosk G-01 Level 1@ ICT Komtar, Unit 01-4.01 Komtar, Jalan Penang 10000 Georgetown Penang.</Label>
+            	<Label textAlign="left" bottom="10" left="10" color="#9D9F9E">Contact: -</Label>
+            </TableViewRow>
+            <TableViewRow layout="vertical" height="Ti.UI.SIZE">
+            	<Label textAlign="left" top="10" left="10" color="black">SARAWAK (Kuching)</Label>
+            	<Label textAlign="left" left="10" color="#9D9F9E">XOX Mobile Sdn Bhd</Label>
+            	<Label textAlign="left" left="10" color="#9D9F9E">1st Floor, Lot 2082, Section 60 KTLD, Jalan Sekama, 93300 Kuching Sarawak.</Label>
+            	<Label textAlign="left" bottom="10" left="10" color="#9D9F9E">Contact: 082-337010</Label>
+            </TableViewRow>
+        </TableView>
 	</ScrollView>
 </Alloy>

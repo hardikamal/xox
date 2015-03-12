@@ -31,58 +31,57 @@ function Controller() {
         backgroundImage: "/images/BG_Large.jpg"
     });
     $.__views.scrollView && $.addTopLevelView($.__views.scrollView);
-    $.__views.__alloyId22 = Ti.UI.createLabel({
-        width: "90%",
-        color: "#000000",
-        font: {
-            fontSize: "14dp",
-            fontStyle: "normal",
-            fontWeight: "normal"
-        },
-        text: "1.	The Account Holder must be non-Muslim, and above the age of 18 Years.",
-        top: "8",
-        id: "__alloyId22"
+    var __alloyId87 = [];
+    $.__views.sectionFruit = Ti.UI.createTableViewSection({
+        id: "sectionFruit",
+        headerTitle: "Fruit"
     });
-    $.__views.scrollView.add($.__views.__alloyId22);
-    $.__views.__alloyId23 = Ti.UI.createLabel({
-        width: "90%",
-        color: "#000000",
-        font: {
-            fontSize: "14dp",
-            fontStyle: "normal",
-            fontWeight: "normal"
-        },
-        text: "2.	The Account Holder agrees to be bound by the provisions of the Act (“the Racing (Totalisator Board) Act 1961”), the Totalisator Agency Scheme 1961 and the Rules laid down by the Lembaga Totalisator Malaysia pursuant to the authority of and for the purposes provided by Section 14(e) of the Act and any subsequent amendments thereto.",
-        top: "8",
-        id: "__alloyId23"
+    __alloyId87.push($.__views.sectionFruit);
+    $.__views.__alloyId88 = Ti.UI.createTableViewRow({
+        title: "Apple",
+        id: "__alloyId88"
     });
-    $.__views.scrollView.add($.__views.__alloyId23);
-    $.__views.__alloyId24 = Ti.UI.createLabel({
-        width: "90%",
-        color: "#000000",
-        font: {
-            fontSize: "14dp",
-            fontStyle: "normal",
-            fontWeight: "normal"
-        },
-        text: "3.	The Account Holder shall access and use the EQ Link Account in accordance with these Terms and Conditions of use of the EQ Link, the guide provided by EQ Sport containing information on the EQ Link and access to the EQ Link, the instructions of EQ Sport issued from time to time (and all amendments, revisions and supplements thereto). The Account Holder shall be deemed to be bound by these Terms and Conditions upon the opening and maintenance of a EQ Link Account with EQ Sport.",
-        top: "8",
-        id: "__alloyId24"
+    $.__views.sectionFruit.add($.__views.__alloyId88);
+    $.__views.__alloyId89 = Ti.UI.createTableViewRow({
+        title: "Bananas",
+        id: "__alloyId89"
     });
-    $.__views.scrollView.add($.__views.__alloyId24);
-    $.__views.__alloyId25 = Ti.UI.createLabel({
-        width: "90%",
-        color: "#000000",
-        font: {
-            fontSize: "14dp",
-            fontStyle: "normal",
-            fontWeight: "normal"
-        },
-        text: "4.	The above terms and conditions form an integral part of the Terms and Conditions of use of the EQ Link, issued by EQ Sport from time to time. The Terms and Conditions shall be governed by and construed in accordance with the laws of Malaysia.",
-        top: "8",
-        id: "__alloyId25"
+    $.__views.sectionFruit.add($.__views.__alloyId89);
+    $.__views.sectionVeg = Ti.UI.createTableViewSection({
+        id: "sectionVeg",
+        headerTitle: "Vegetables"
     });
-    $.__views.scrollView.add($.__views.__alloyId25);
+    __alloyId87.push($.__views.sectionVeg);
+    $.__views.__alloyId90 = Ti.UI.createTableViewRow({
+        title: "Carrots",
+        id: "__alloyId90"
+    });
+    $.__views.sectionVeg.add($.__views.__alloyId90);
+    $.__views.__alloyId91 = Ti.UI.createTableViewRow({
+        title: "Potatoes",
+        id: "__alloyId91"
+    });
+    $.__views.sectionVeg.add($.__views.__alloyId91);
+    $.__views.sectionFish = Ti.UI.createTableViewSection({
+        id: "sectionFish",
+        headerTitle: "Fish"
+    });
+    __alloyId87.push($.__views.sectionFish);
+    $.__views.__alloyId92 = Ti.UI.createTableViewRow({
+        title: "Cod",
+        id: "__alloyId92"
+    });
+    $.__views.sectionFish.add($.__views.__alloyId92);
+    $.__views.__alloyId93 = Ti.UI.createTableViewRow({
+        title: "Haddock",
+        id: "__alloyId93"
+    });
+    $.__views.sectionFish.add($.__views.__alloyId93);
+    $.__views.table = Ti.UI.createTableView({
+        data: __alloyId87,
+        id: "table"
+    });
+    $.__views.scrollView.add($.__views.table);
     exports.destroy = function() {};
     _.extend($, $.__views);
     "android" == Ti.Platform.osname && ($.scrollView.overScrollMode = Titanium.UI.Android.OVER_SCROLL_NEVER);
