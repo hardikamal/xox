@@ -1,4 +1,5 @@
 dependencies: \
+<<<<<<< Updated upstream
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiUIiOSProxy.m \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiUIiOSProxy.h \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiProxy.h \
@@ -7,6 +8,16 @@ dependencies: \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiPublicAPI.h \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiEvaluator.h \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/KrollContext.h \
+=======
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUIiOSProxy.m \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUIiOSProxy.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiProxy.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiBase.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiThreading.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiPublicAPI.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiEvaluator.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollContext.h \
+>>>>>>> Stashed changes
   headers/JavaScriptCore/TiCore.h headers/JavaScriptCore/Ti.h \
   headers/JavaScriptCore/TiBase.h headers/JavaScriptCore/TiContextRef.h \
   headers/JavaScriptCore/TiObjectRef.h \
@@ -14,6 +25,7 @@ dependencies: \
   headers/JavaScriptCore/WebKitAvailability.h \
   headers/JavaScriptCore/TiStringRef.h \
   headers/JavaScriptCore/TiStringRefCF.h \
+<<<<<<< Updated upstream
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/KrollCallback.h \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/KrollObject.h \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiBindingRunLoop.h \
@@ -59,3 +71,50 @@ dependencies: \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiViewAttachBehavior.h \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiCollisionBehavior.h \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiDynamicItemBehavior.h
+=======
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollCallback.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollObject.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiBindingRunLoop.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUIiOSAdViewProxy.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUIViewProxy.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiViewProxy.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUIView.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiAnimation.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiPoint.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiDimension.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiColor.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/ListenerEntry.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiModule.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUtils.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/WebFont.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiFile.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiBuffer.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiBlob.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/LayoutConstraint.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiGradient.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiRect.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiViewTemplate.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/Webcolor.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUIiOSTransitionAnimationProxy.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUIiOSAttributedStringProxy.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/Ti3DMatrix.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUIiOSCoverFlowViewProxy.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUIiOSToolbarProxy.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiToolbar.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUIiOSTabbedBarProxy.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUIiOSDocumentViewerProxy.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUIiOSNavWindowProxy.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiWindowProxy.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiTab.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiTabGroup.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiViewController.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiControllerProtocols.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiAnimatorProxy.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiSnapBehavior.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiPushBehavior.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiGravityBehavior.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiAnchorAttachBehavior.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiViewAttachBehavior.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiCollisionBehavior.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiDynamicItemBehavior.h
+>>>>>>> Stashed changes

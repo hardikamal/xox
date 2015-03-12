@@ -1,6 +1,11 @@
 dependencies: \
+<<<<<<< Updated upstream
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/KrollCallback.m \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/KrollCallback.h \
+=======
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollCallback.m \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollCallback.h \
+>>>>>>> Stashed changes
   headers/JavaScriptCore/TiCore.h headers/JavaScriptCore/Ti.h \
   headers/JavaScriptCore/TiBase.h headers/JavaScriptCore/TiContextRef.h \
   headers/JavaScriptCore/TiObjectRef.h \
@@ -8,6 +13,7 @@ dependencies: \
   headers/JavaScriptCore/WebKitAvailability.h \
   headers/JavaScriptCore/TiStringRef.h \
   headers/JavaScriptCore/TiStringRefCF.h \
+<<<<<<< Updated upstream
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/KrollContext.h \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiBase.h \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiThreading.h \
@@ -27,3 +33,24 @@ dependencies: \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiBuffer.h \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiBlob.h \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiExceptionHandler.h
+=======
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollContext.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiBase.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiThreading.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiPublicAPI.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollBridge.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/Bridge.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiProxy.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiEvaluator.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollObject.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiBindingRunLoop.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiModule.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUtils.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiDimension.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiColor.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/WebFont.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiFile.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiBuffer.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiBlob.h \
+  /Users/HatsuneMiku/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiExceptionHandler.h
+>>>>>>> Stashed changes
