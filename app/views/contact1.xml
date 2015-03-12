@@ -1,0 +1,25 @@
+<Alloy>
+	<ScrollView id="scrollView" layout="vertical" height="100%" scrollType="vertical" backgroundColor="#F4F6F5" >
+    	<TableView id="table" backgroundColor="#F4F6F5" separatorColor="#D3D5D4">
+            <TableViewRow layout="composite" height="20%" onClick="malaysia">
+        		<View layout="vertical" height="Ti.UI.SIZE">
+					<Label backgroundColor="transparent" color="#9D9F9E" left="5%">From Malaysia: </Label>
+					<Label backgroundColor="transparent" color="black" left="5%">1300 888 010</Label>
+				</View>
+				<View height="100%" width="Ti.UI.SIZE" right="10" backgroundColor="transparent">
+					<ImageView id="tel1" backgroundColor="#4FC3D2" image="" width="40" height="40"></ImageView>
+				</View>
+			</TableViewRow>
+            <TableViewRow title="Bananas">
+            </TableViewRow>
+            <TableViewRow title="Carrots">
+            </TableViewRow>
+            <TableViewRow title="Potatoes">
+            </TableViewRow>
+            <TableViewRow title="Cod">
+            </TableViewRow>
+            <TableViewRow title="Haddock">
+            </TableViewRow>
+        </TableView>
+	</ScrollView>
+</Alloy>

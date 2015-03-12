@@ -1,9 +1,9 @@
 <Alloy>
 	<View class="container" layout="composite" backgroundColor="black">
-	<Require src="_header" ></Require>
+		<Require src="_header" ></Require>
 		<View layout="vertical" id="login" width="90%" height="50%" backgroundColor="white" zIndex="0">
 			<View height="15%" width="Ti.UI.FILL">
-				<View height="40" width="40" right="10" backgroundColor="black" onClick="close"></View>
+				<ImageView backgroundColor="transparent" width="20" height="20" right="10" top="10" onClick="close" image="/images/close_icon.png"></ImageView>
 			</View>
 			<View height="25%" width="Ti.UI.FILL">
 				<View layout="vertical">

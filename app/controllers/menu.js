@@ -23,5 +23,8 @@ function navMenu(e){
 		case 6: 
 			DRAWER.navigation("settings",2);
 			break;
+		case 7: 
+			DRAWER.navigation("home",2);
+			break;
 	}
 }

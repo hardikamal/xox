@@ -1,3 +1,18 @@
 <Alloy>
-	
+	<View layout="vertical" id="win" backgroundColor="white">
+		<Require src="_header"></Require>
+		<View height="20%" backgroundColor="#836EAF">
+			<Label left="10" top="10" color="white">Contact us</Label>
+		</View>
+    	<View id="menu" layout="horizontal" height="50" width="100%">
+    		<Label id="lbl1" mod="0" height="100%" width="33.3%" onTouchend="goSlide" class="menuItem" textAlign="center" backgroundColor="#453363" color="#AA9DB6" borderColor="#453363" borderWidth="0.5">Our Offices</Label>
+    		<Label id="lbl2" mod="1" height="100%" width="33.3%" onTouchend="goSlide" class="menuItem" textAlign="center" backgroundColor="#E6E7E9" color="#4CC4D2" borderColor="#4CC4D2" borderWidth="0.5">Care Center</Label>
+    		<Label id="lbl3" mod="2" height="100%" width="33.2%" onTouchend="goSlide" class="menuItem" textAlign="center" backgroundColor="#E6E7E9" color="#4CC4D2" borderColor="#4CC4D2" borderWidth="0.5">XOX Dealers</Label>
+    	</View>
+        <ScrollableView id="scrollableView" showPagingControl="false" scrollingEnabled="false">
+        	<Require src="contact1"/>
+        	<Require src="contact2"/>
+        	<Require src="contact3"/>
+        </ScrollableView>
+    </View> 
 </Alloy>
