@@ -1,0 +1,66 @@
+<Alloy>
+	<View layout="vertical" class="container" backgroundColor="white" fullscreen="true">
+		<Require src="_header" ></Require>
+		<View layout="composite" height="50" backgroundColor="#E82630">
+			<Label backgroundColor="transparent" color="white" left="20">Account Details</Label>
+			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
+		</View>
+		<ScrollView id="scrollView" layout="vertical" width="100%" backgroundColor="#F5F5F5">
+			<View layout="vertical" height="Ti.UI.SIZE">
+				<Label color="black">Current Balance (RM)</Label>
+				<View height="Ti.UI.SIZE" top="10" bottom="10">
+					<View height="160" width="160" borderRadius="80" backgroundColor="red"></View>
+					<View layout="composite" height="120" width="120" borderRadius="60" backgroundColor="#F5F5F5">
+						<View layout="vertical" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+							<Label color="black" textAlign="center">RM</Label>
+							<Label color="black" textAlign="center">85.05</Label>
+						</View>
+					</View>
+				</View>
+			</View>
+			<View layout="vertical" height="Ti.UI.SIZE" width="100%" top="20" backgroundColor="white">
+				<View layout="horizontal" height="50">
+					<View width="50%">
+						<Label color="black" textAlign="left">Handphone No.:</Label>
+					</View>
+					<View width="50%">
+						<Label color="#F5F5F5" textAlign="left">01xxxxxxxx</Label>
+					</View>
+				</View>
+				<View height="2" width="90%" backgroundColor="#F5F5F5"></View>
+				<View layout="horizontal" height="50">
+					<View width="50%">
+						<Label color="black" textAlign="left">International Roaming:</Label>
+					</View>
+					<View width="50%">
+						<Label color="#F5F5F5" textAlign="left">Active</Label>
+					</View>
+				</View>
+				<View height="2" width="90%" backgroundColor="#F5F5F5"></View>
+				<View layout="horizontal" height="50">
+					<View width="50%">
+						<Label color="black" textAlign="left">Plan Status:</Label>
+					</View>
+					<View width="50%">
+						<Label color="#F5F5F5" textAlign="left">Active</Label>
+					</View>
+				</View>
+				<View height="2" width="90%" backgroundColor="#F5F5F5"></View>
+				<View layout="horizontal" height="50">
+					<View width="50%">
+						<Label color="black" textAlign="left">Credit Limit:</Label>
+					</View>
+					<View width="50%">
+						<Label color="#F5F5F5" textAlign="left">RM200.00</Label>
+					</View>
+				</View>
+				<View height="2" width="90%" backgroundColor="#F5F5F5"></View>
+			</View>
+		</ScrollView>
+		<View layout="horizontal" height="50" backgroundColor="#4CC4D2">
+			<Label color="white" height="100%" width="49.75%" textAlign="center">View Statement</Label>
+			<View backgroundColor="white" height="100%" width="0.5%"></View>
+			<Label color="white" height="100%" width="49.75%" textAlign="center">Download</Label>
+		</View>
+	</View>
+</Alloy>

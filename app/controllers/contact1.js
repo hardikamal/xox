@@ -2,11 +2,6 @@ if(Ti.Platform.osname == "android"){
 	$.scrollView.overScrollMode = Titanium.UI.Android.OVER_SCROLL_NEVER;
 }
 
-// var view = Ti.UI.createView({
-    // height : 1
-// });
-// $.table.footerView = view;
-
 function malaysia()
 {
 	console.log("malaysia");

@@ -1,27 +1,29 @@
 <Alloy>
 	<View class="container" layout="composite" backgroundColor="black">
 		<Require src="_header" ></Require>
-		<View layout="vertical" id="login" width="90%" height="50%" backgroundColor="white" zIndex="0">
-			<View height="15%" width="Ti.UI.FILL">
-				<ImageView backgroundColor="transparent" width="20" height="20" right="10" top="10" onClick="close" image="/images/close_icon.png"></ImageView>
-			</View>
-			<View height="25%" width="Ti.UI.FILL">
-				<View layout="vertical">
-					<Label color="black">Username</Label>
-					<TextField id="username" width="90%" height="50%" value="username" backgroundColor="#E6E7E9" textAlign="center" hintText="someone@example.com" borderRadius="15"></TextField>
+		<View id="login" backgroundColor="black" zIndex="0" top="50">
+			<View layout="vertical" width="90%" height="50%" backgroundColor="white">
+				<View height="15%" width="Ti.UI.FILL">
+					<ImageView backgroundColor="transparent" width="20" height="20" right="10" top="10" onClick="close" image="/images/close_icon.png"></ImageView>
 				</View>
-			</View>
-			<View height="25%" width="Ti.UI.FILL">
-				<View layout="vertical">
-					<Label color="black">Password</Label>
-					<TextField id="password" width="90%" height="50%" value="password" backgroundColor="#E6E7E9" textAlign="center" hintText="********" passwordMask="true" borderRadius="15"></TextField>
+				<View height="25%" width="Ti.UI.FILL">
+					<View layout="vertical">
+						<Label color="black">Username</Label>
+						<TextField id="username" width="90%" height="50%" value="username" backgroundColor="#E6E7E9" textAlign="center" hintText="someone@example.com" borderRadius="15"></TextField>
+					</View>
 				</View>
-			</View>
-			<View height="20%" width="Ti.UI.FILL">
-				<Button color="#44C7D6" borderColor="#44C7D6" height="80%" width="60%" borderRadius="20" onClick="login">Login</Button>
-			</View>
-			<View height="15%" width="Ti.UI.FILL">
-				<Label color="#44C7D6" onClick="register">Not Registered yet?</Label>
+				<View height="25%" width="Ti.UI.FILL">
+					<View layout="vertical">
+						<Label color="black">Password</Label>
+						<TextField id="password" width="90%" height="50%" value="password" backgroundColor="#E6E7E9" textAlign="center" hintText="********" passwordMask="true" borderRadius="15"></TextField>
+					</View>
+				</View>
+				<View height="20%" width="Ti.UI.FILL">
+					<Button color="#44C7D6" borderColor="#44C7D6" height="80%" width="60%" borderRadius="20" onClick="login">Login</Button>
+				</View>
+				<View height="15%" width="Ti.UI.FILL">
+					<Label color="#44C7D6" onClick="register">Not Registered yet?</Label>
+				</View>
 			</View>
 		</View>
 		<ScrollView layout="vertical" backgroundColor="black" top="60" left="10" right="10" bottom="10" zIndex="1">

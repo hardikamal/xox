@@ -15,37 +15,28 @@ function Controller() {
           case "0":
             $.lbl1.backgroundColor = "#453363";
             $.lbl1.color = "#AA9DB6";
-            $.lbl1.borderColor = "#453363";
             $.lbl2.backgroundColor = "#E6E7E9";
             $.lbl2.color = "#4CC4D2";
-            $.lbl2.borderColor = "#4CC4D2";
             $.lbl3.backgroundColor = "#E6E7E9";
             $.lbl3.color = "#4CC4D2";
-            $.lbl3.borderColor = "#4CC4D2";
             break;
 
           case "1":
             $.lbl1.backgroundColor = "#E6E7E9";
             $.lbl1.color = "#4CC4D2";
-            $.lbl1.borderColor = "#4CC4D2";
             $.lbl2.backgroundColor = "#453363";
             $.lbl2.color = "#AA9DB6";
-            $.lbl2.borderColor = "#453363";
             $.lbl3.backgroundColor = "#E6E7E9";
             $.lbl3.color = "#4CC4D2";
-            $.lbl3.borderColor = "#4CC4D2";
             break;
 
           case "2":
             $.lbl1.backgroundColor = "#E6E7E9";
             $.lbl1.color = "#4CC4D2";
-            $.lbl1.borderColor = "#4CC4D2";
             $.lbl2.backgroundColor = "#E6E7E9";
             $.lbl2.color = "#4CC4D2";
-            $.lbl2.borderColor = "#4CC4D2";
             $.lbl3.backgroundColor = "#453363";
             $.lbl3.color = "#AA9DB6";
-            $.lbl3.borderColor = "#453363";
         }
         $.scrollableView.scrollToView(arrViews[index]);
     }
@@ -69,25 +60,25 @@ function Controller() {
         backgroundColor: "white"
     });
     $.__views.win && $.addTopLevelView($.__views.win);
-    $.__views.__alloyId2 = Alloy.createController("_header", {
-        id: "__alloyId2",
+    $.__views.__alloyId43 = Alloy.createController("_header", {
+        id: "__alloyId43",
         __parentSymbol: $.__views.win
     });
-    $.__views.__alloyId2.setParent($.__views.win);
-    $.__views.__alloyId3 = Ti.UI.createView({
+    $.__views.__alloyId43.setParent($.__views.win);
+    $.__views.__alloyId44 = Ti.UI.createView({
         height: "20%",
         backgroundColor: "#836EAF",
-        id: "__alloyId3"
+        id: "__alloyId44"
     });
-    $.__views.win.add($.__views.__alloyId3);
-    $.__views.__alloyId4 = Ti.UI.createLabel({
+    $.__views.win.add($.__views.__alloyId44);
+    $.__views.__alloyId45 = Ti.UI.createLabel({
         text: "Contact us",
         left: "10",
         top: "10",
         color: "white",
-        id: "__alloyId4"
+        id: "__alloyId45"
     });
-    $.__views.__alloyId3.add($.__views.__alloyId4);
+    $.__views.__alloyId44.add($.__views.__alloyId45);
     $.__views.menu = Ti.UI.createView({
         id: "menu",
         layout: "horizontal",
@@ -100,67 +91,75 @@ function Controller() {
         id: "lbl1",
         mod: "0",
         height: "100%",
-        width: "33.3%",
+        width: "33%",
         textAlign: "center",
         backgroundColor: "#453363",
-        color: "#AA9DB6",
-        borderColor: "#453363",
-        borderWidth: "0.5"
+        color: "#AA9DB6"
     });
     $.__views.menu.add($.__views.lbl1);
     goSlide ? $.__views.lbl1.addEventListener("touchend", goSlide) : __defers["$.__views.lbl1!touchend!goSlide"] = true;
+    $.__views.__alloyId46 = Ti.UI.createView({
+        backgroundColor: "4CC4D2",
+        height: "100%",
+        width: "0.45%",
+        id: "__alloyId46"
+    });
+    $.__views.menu.add($.__views.__alloyId46);
     $.__views.lbl2 = Ti.UI.createLabel({
         text: "Care Center",
         id: "lbl2",
         mod: "1",
         height: "100%",
-        width: "33.3%",
+        width: "33%",
         textAlign: "center",
         backgroundColor: "#E6E7E9",
-        color: "#4CC4D2",
-        borderColor: "#4CC4D2",
-        borderWidth: "0.5"
+        color: "#4CC4D2"
     });
     $.__views.menu.add($.__views.lbl2);
     goSlide ? $.__views.lbl2.addEventListener("touchend", goSlide) : __defers["$.__views.lbl2!touchend!goSlide"] = true;
+    $.__views.__alloyId47 = Ti.UI.createView({
+        backgroundColor: "4CC4D2",
+        height: "100%",
+        width: "0.45%",
+        id: "__alloyId47"
+    });
+    $.__views.menu.add($.__views.__alloyId47);
     $.__views.lbl3 = Ti.UI.createLabel({
         text: "XOX Dealers",
         id: "lbl3",
         mod: "2",
         height: "100%",
-        width: "33.2%",
+        width: "33%",
         textAlign: "center",
         backgroundColor: "#E6E7E9",
-        color: "#4CC4D2",
-        borderColor: "#4CC4D2",
-        borderWidth: "0.5"
+        color: "#4CC4D2"
     });
     $.__views.menu.add($.__views.lbl3);
     goSlide ? $.__views.lbl3.addEventListener("touchend", goSlide) : __defers["$.__views.lbl3!touchend!goSlide"] = true;
-    var __alloyId5 = [];
-    $.__views.__alloyId6 = Alloy.createController("contact1", {
-        id: "__alloyId6",
+    var __alloyId48 = [];
+    $.__views.__alloyId49 = Alloy.createController("contact1", {
+        id: "__alloyId49",
         __parentSymbol: __parentSymbol
     });
-    __alloyId5.push($.__views.__alloyId6.getViewEx({
+    __alloyId48.push($.__views.__alloyId49.getViewEx({
         recurse: true
     }));
-    $.__views.__alloyId7 = Alloy.createController("contact2", {
-        id: "__alloyId7",
+    $.__views.__alloyId50 = Alloy.createController("contact2", {
+        id: "__alloyId50",
         __parentSymbol: __parentSymbol
     });
-    __alloyId5.push($.__views.__alloyId7.getViewEx({
+    __alloyId48.push($.__views.__alloyId50.getViewEx({
         recurse: true
     }));
-    $.__views.__alloyId8 = Alloy.createController("contact3", {
-        id: "__alloyId8",
+    $.__views.__alloyId51 = Alloy.createController("contact3", {
+        id: "__alloyId51",
         __parentSymbol: __parentSymbol
     });
-    __alloyId5.push($.__views.__alloyId8.getViewEx({
+    __alloyId48.push($.__views.__alloyId51.getViewEx({
         recurse: true
     }));
     $.__views.scrollableView = Ti.UI.createScrollableView({
-        views: __alloyId5,
+        views: __alloyId48,
         id: "scrollableView",
         showPagingControl: "false",
         scrollingEnabled: "false"

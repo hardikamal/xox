@@ -6,23 +6,33 @@
 		</View>
 		<View layout="vertical">
 			<View layout="horizontal" height="20%" backgroundColor="#EB2127" onClick="prepaidPlus">
-				<ImageView backgroundColor="#A3161A" height="100%" width="25%"></ImageView>
+				<View backgroundColor="#A3161A" height="100%" width="25%">
+					<ImageView image="/images/products_01.png" height="32" width="50"></ImageView>
+				</View>
 				<Label backgroundColor="transparent" color="white" left="20">PREPAID PLUS</Label>
 			</View>
 			<View layout="horizontal" height="20%" backgroundColor="#4CC4D2" onClick="prepaidPlus">
-				<ImageView backgroundColor="#358790" height="100%" width="25%"></ImageView>
+				<View backgroundColor="#358790" height="100%" width="25%">
+					<ImageView image="/images/products_02.png" height="55" width="65"></ImageView>
+				</View>
 				<Label backgroundColor="transparent" color="white" left="20">PREPAID</Label>
 			</View>
 			<View layout="horizontal" height="20%" backgroundColor="#1C6D83" onClick="prepaidPlus">
-				<ImageView backgroundColor="#134D5B" height="100%" width="25%"></ImageView>
+				<View backgroundColor="#134D5B" height="100%" width="25%">
+					<ImageView image="/images/products_03.png" height="38" width="38"></ImageView>
+				</View>
 				<Label backgroundColor="transparent" color="white" left="20">PENANG #1758</Label>
 			</View>
 			<View layout="horizontal" height="20%" backgroundColor="#28404C" onClick="prepaidPlus">
-				<ImageView backgroundColor="#1A2D34" height="100%" width="25%"></ImageView>
+				<View backgroundColor="#1A2D34" height="100%" width="25%">
+					<ImageView image="/images/products_04.png" height="50" width="35"></ImageView>
+				</View>
 				<Label backgroundColor="transparent" color="white" left="20">MOBILE INTERNET</Label>
 			</View>
 			<View layout="horizontal" height="20%" backgroundColor="#646461" onClick="prepaidPlus">
-				<ImageView backgroundColor="#454543" height="100%" width="25%"></ImageView>
+				<View backgroundColor="#454543" height="100%" width="25%">
+					<ImageView image="/images/products_05.png" height="41" width="41"></ImageView>
+				</View>
 				<Label backgroundColor="transparent" color="white" left="20">IDD</Label>
 			</View>
 		</View>

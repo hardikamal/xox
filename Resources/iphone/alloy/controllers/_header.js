@@ -51,7 +51,7 @@ function Controller() {
         top: 0,
         layout: "composite",
         id: "header",
-        backgroundColor: "#000000"
+        backgroundColor: "#FFFFFF"
     });
     $.__views.header && $.addTopLevelView($.__views.header);
     $.__views.leftButton = Ti.UI.createImageView({

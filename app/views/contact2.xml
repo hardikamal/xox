@@ -1,5 +1,5 @@
 <Alloy>
-	<ScrollView id="scrollView" layout="vertical" height="Ti.UI.SIZE" scrollType="vertical" backgroundImage="/images/BG_Large.jpg">
+	<ScrollView id="scrollView" layout="vertical" height="100%" scrollType="vertical" backgroundColor="#F4F6F5">
     	 <TableView id="table">
             <TableViewRow layout="vertical" height="Ti.UI.SIZE">
             	<Label textAlign="left" top="10" left="10" color="black">Petaling Jaya (Jaya One)</Label>

@@ -1,5 +1,5 @@
 <Alloy>
-	<View layout="composite" id="header" height="50" backgroundColor="#000000">
+	<View layout="composite" id="header" height="50" backgroundColor="#FFFFFF">
 		<ImageView zIndex="11" id="leftButton" mod="menu" image="/images/menu_button.png" left="10" onTouchend="menuToggle" height="30"  />
 		<ImageView zIndex="10" height="30" image="/images/XOX_logo.png"></ImageView>
 		<View bottom='0' class="hr"></View>

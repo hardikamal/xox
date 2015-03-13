@@ -1,0 +1,109 @@
+<Alloy>
+	<View layout="vertical" class="container" backgroundColor="white" fullscreen="true">
+		<Require src="_header" ></Require>
+		<View layout="composite" height="50" backgroundColor="#E82630">
+			<Label backgroundColor="transparent" color="white" left="20">FAQs</Label>
+			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
+		</View>
+		<ScrollView layout="vertical" backgroundColor="#E6E7E9">
+			<View id="row1" layout="vertical" height="50" onClick="row1" backgroundColor="white">
+				<View layout="horizontal" height="50">
+	        		<View height="100%" width="85%">
+	        			<Label textAlign="left" color="black" left="10">What is the Self Care Hotline?</Label>
+	        			<View backgroundColor="#F5F5F5" height="2" width="Ti.UI.FILL" bottom="0"></View>
+	        		</View>
+	        		<View height="100%" width="15%">
+	        			<ImageView image="/images/dropdown_icon.png" width="25" height="15" right="10"></ImageView>
+	        			<View backgroundColor="#F5F5F5" height="2" width="Ti.UI.FILL" bottom="0"></View>
+	        		</View>
+	        	</View>
+	        	<View height="Ti.UI.SIZE" layout="composite" backgroundColor="#F5F5F5">
+	        		<Label width="90%" backgroundColor="white" textAlign="left" bottom="2" right="0" color="black">Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)</Label>
+	        	</View>
+			</View>
+			<View id="row2" layout="vertical" height="50" onClick="row2" backgroundColor="white">
+				<View layout="horizontal" height="50">
+	        		<View height="100%" width="85%">
+	        			<Label textAlign="left" color="black" left="10">What is the Self Care Hotline?</Label>
+	        			<View backgroundColor="#F5F5F5" height="2" width="Ti.UI.FILL" bottom="0"></View>
+	        		</View>
+	        		<View height="100%" width="15%">
+	        			<ImageView image="/images/dropdown_icon.png" width="25" height="15" right="10"></ImageView>
+	        			<View backgroundColor="#F5F5F5" height="2" width="Ti.UI.FILL" bottom="0"></View>
+	        		</View>
+	        	</View>
+	        	<View height="Ti.UI.SIZE" layout="composite" backgroundColor="#F5F5F5">
+	        		<Label width="90%" backgroundColor="white" textAlign="left" bottom="2" right="0" color="black">Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)</Label>
+	        	</View>
+			</View>
+			<View id="row3" layout="vertical" height="50" onClick="row3" backgroundColor="white">
+				<View layout="horizontal" height="50">
+	        		<View height="100%" width="85%">
+	        			<Label textAlign="left" color="black" left="10">What is the Self Care Hotline?</Label>
+	        			<View backgroundColor="#F5F5F5" height="2" width="Ti.UI.FILL" bottom="0"></View>
+	        		</View>
+	        		<View height="100%" width="15%">
+	        			<ImageView image="/images/dropdown_icon.png" width="25" height="15" right="10"></ImageView>
+	        			<View backgroundColor="#F5F5F5" height="2" width="Ti.UI.FILL" bottom="0"></View>
+	        		</View>
+	        	</View>
+	        	<View height="Ti.UI.SIZE" layout="composite" backgroundColor="#F5F5F5">
+	        		<Label width="90%" backgroundColor="white" textAlign="left" bottom="2" right="0" color="black">Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)</Label>
+	        	</View>
+			</View>
+			<View id="row4" layout="vertical" height="50" onClick="row4" backgroundColor="white">
+				<View layout="horizontal" height="50">
+	        		<View height="100%" width="85%">
+	        			<Label textAlign="left" color="black" left="10">What is the Self Care Hotline?</Label>
+	        			<View backgroundColor="#F5F5F5" height="2" width="Ti.UI.FILL" bottom="0"></View>
+	        		</View>
+	        		<View height="100%" width="15%">
+	        			<ImageView image="/images/dropdown_icon.png" width="25" height="15" right="10"></ImageView>
+	        			<View backgroundColor="#F5F5F5" height="2" width="Ti.UI.FILL" bottom="0"></View>
+	        		</View>
+	        	</View>
+	        	<View height="Ti.UI.SIZE" layout="composite" backgroundColor="#F5F5F5">
+	        		<Label width="90%" backgroundColor="white" textAlign="left" bottom="2" right="0" color="black">Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)</Label>
+	        	</View>
+			</View>
+			<View id="row5" layout="vertical" height="50" onClick="row5" backgroundColor="white">
+				<View layout="horizontal" height="50">
+	        		<View height="100%" width="85%">
+	        			<Label textAlign="left" color="black" left="10">What is the Self Care Hotline?</Label>
+	        			<View backgroundColor="#F5F5F5" height="2" width="Ti.UI.FILL" bottom="0"></View>
+	        		</View>
+	        		<View height="100%" width="15%">
+	        			<ImageView image="/images/dropdown_icon.png" width="25" height="15" right="10"></ImageView>
+	        			<View backgroundColor="#F5F5F5" height="2" width="Ti.UI.FILL" bottom="0"></View>
+	        		</View>
+	        	</View>
+	        	<View height="Ti.UI.SIZE" layout="composite" backgroundColor="#F5F5F5">
+	        		<Label width="90%" backgroundColor="white" textAlign="left" bottom="2" right="0" color="black">Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)</Label>
+	        	</View>
+			</View>
+		</ScrollView>
+		<!--<TableView id="table" backgroundColor="#FFFFFF">
+            <TableViewRow id="row1" layout="vertical" height="50" onClick="row1">
+            	<View layout="horizontal" height="50" top="10" bottom="10" backgroundColor="yellow">
+            		<View height="100%" width="85%">
+            			<Label textAlign="left" color="black" left="10">What is the Self Care Hotline?</Label>
+            		</View>
+            		<View height="100%" width="15%">
+            			<ImageView id="arrow1" image="/images/dropdown_icon.png" width="25" height="15" right="10"></ImageView>
+            		</View>
+            	</View>
+            	<View layout="horizontal" backgroundColor="#F5F5F5">
+            		<View backgroundColor="#F5F5F5" width="10%"></View>
+            		<Label width="90%" backgroundColor="red" textAlign="left" top="10" right="0" color="black">Petaling Jaya (Jaya One)</Label>
+            	</View>
+            	
+            </TableViewRow>
+            <TableViewRow layout="vertical" height="Ti.UI.SIZE">
+            	<Label textAlign="left" top="10" left="10" color="black">Petaling Jaya (Digital Mall)</Label>
+            	<Label textAlign="left" left="10" color="#9D9F9E">XOX Mobile Sdn Bhd</Label>
+            	<Label textAlign="left" left="10" color="#9D9F9E">Lot G-03A, Ground Floor Digital Mall PJ, No2 Jalan 14/20 Section 14, 46100 Petaling Jaya, Selangor.</Label>
+            	<Label textAlign="left" bottom="10" left="10" color="#9D9F9E">Contact: 010-831 6363</Label>
+            </TableViewRow>
+     </TableView>-->
+	</View>
+</Alloy>

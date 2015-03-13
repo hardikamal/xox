@@ -1,101 +1,127 @@
 <Alloy>
-	<View layout="vertical" class="container" backgroundColor="black" fullscreen="true">
+	<View layout="composite" class="container" backgroundColor="black">
 		<Require src="_header" ></Require>
-		<View layout="horizontal" height="20%" width="Ti.UI.FILL" backgroundColor="red">
-			<View width="33%" height="Ti.UI.FILL">
-				<Label color="white" left="10" top="10">Hello!</Label>
-				<Label color="white" left="10" bottom="10">John Smith</Label>
-			</View>
-			<View width="33%"></View>
-			<View width="auto" height="Ti.UI.FILL">
-				<ImageView width="80" height="80" image="/images/profile_images.png" borderRadius="40"></ImageView>
+		<View id="photo" backgroundColor="black" zIndex="0" top="50">
+			<View layout="vertical" width="80%" height="40%" backgroundColor="white">
+				<View layout="composite" height="30%">
+					<Label left="10" color="#E6E7E9">Choose an option</Label>
+					<ImageView backgroundColor="transparent" width="20" height="20" right="10" onClick="close" image="/images/close_icon.png"></ImageView>
+				</View>
+				<View layout="horizontal" height="35%" backgroundColor="#4CC4D2" onClick="gallery">
+					<View width="Ti.UI.SIZE">
+						<ImageView backgroundColor="transparent" width="32" height="32" left="10" image="/images/gallery_icon.png"></ImageView>
+					</View>
+					<View>
+						<Label color="white" textAlign="left" left="10">Photo Gallery</Label>
+					</View>
+				</View>
+				<View layout="horizontal" height="35%" backgroundColor="#3E6AC3" onClick="facebook">
+					<View width="Ti.UI.SIZE">
+						<ImageView backgroundColor="transparent" width="32" height="32" left="10" image="/images/facebook_icon.png"></ImageView>
+					</View>
+					<View>
+						<Label color="white" textAlign="left" left="10">Connect with Facebook</Label>
+					</View>
+				</View>
 			</View>
 		</View>
-		<View layout="horizontal" height="20%" backgroundColor="#F5F5F5">
-			<View layout="composite" width="50%">
-				<View layout="vertical" height="Ti.UI.SIZE" width="100%">
-					<Label color="#878787" left="10">Current Balance (RM)</Label>
-					<Label color="black" left="10">85.05</Label>
+		<View layout="vertical" backgroundColor="black" top="50" zIndex="1">
+			<View layout="horizontal" height="20%" width="Ti.UI.FILL" backgroundColor="red">
+				<View width="33%" height="Ti.UI.FILL">
+					<Label color="white" left="10" top="10">Hello!</Label>
+					<Label color="white" left="10" bottom="10">John Smith</Label>
+				</View>
+				<View width="33%"></View>
+				<View width="auto" height="Ti.UI.FILL">
+					<ImageView width="80" height="80" image="/images/profile_images.png" borderRadius="40" onClick="editPhoto"></ImageView>
 				</View>
 			</View>
-			<View layout="composite" width="auto">
-				<View layout="vertical" height="Ti.UI.SIZE" width="100%">
-					<Label color="#878787" left="10" bottom="2.5">Expiry Date</Label>
-					<Label color="black" left="10" top="2.5">1 Dec 2015</Label>
+			<View layout="horizontal" height="20%" backgroundColor="#F5F5F5">
+				<View layout="composite" width="50%">
+					<View layout="vertical" height="Ti.UI.SIZE" width="100%">
+						<Label color="#878787" left="10">Current Balance (RM)</Label>
+						<Label color="black" left="10">85.05</Label>
+					</View>
+				</View>
+				<View layout="composite" width="auto">
+					<View layout="vertical" height="Ti.UI.SIZE" width="100%">
+						<Label color="#878787" left="10" bottom="2.5">Expiry Date</Label>
+						<Label color="black" left="10" top="2.5">1 Dec 2015</Label>
+					</View>
 				</View>
 			</View>
+			<ScrollView layout="vertical" backgroundColor="white">
+				<View layout="horizontal" height="40%" width="Ti.UI.FILL">
+					<View width="33%" height="Ti.UI.FILL">
+						<ImageView width="80" height="80" image="/images/acc_button_01.png" onClick="accDetail" ></ImageView>
+					</View>
+					<View width="33%" height="Ti.UI.FILL">
+						<ImageView width="80" height="80" image="/images/acc_button_03.png" ></ImageView>
+					</View>
+					<View width="33%" height="Ti.UI.FILL">
+						<ImageView width="80" height="80" image="/images/acc_button_04.png" ></ImageView>
+					</View>
+					<!--<View width="33%" height="Ti.UI.FILL" backgroundColor="yellow"></View>
+					<View width="33%" height="Ti.UI.FILL" backgroundColor="pink"></View>
+					<View width="auto" height="Ti.UI.FILL" backgroundColor="purple"></View>-->
+				</View>
+				<View layout="horizontal" height="20%" width="Ti.UI.FILL">
+					<View width="33%" height="Ti.UI.FILL">
+						<Label color="#41B9C7" textAlign="center" onClick="accDetail">Account Details</Label>
+					</View>
+					<View width="33%" height="Ti.UI.FILL">
+						<Label color="#41B9C7" textAlign="center">Payment</Label>
+					</View>
+					<View width="33%" height="Ti.UI.FILL">
+						<Label color="#41B9C7" textAlign="center">Subline Management</Label>
+					</View>
+				</View>
+				<View layout="horizontal" height="40%" width="Ti.UI.FILL">
+					<View width="33%" height="Ti.UI.FILL">
+						<ImageView width="80" height="80" image="/images/acc_button_05.png" ></ImageView>
+					</View>
+					<View width="33%" height="Ti.UI.FILL">
+						<ImageView width="80" height="80" image="/images/acc_button_06.png" ></ImageView>
+					</View>
+					<View width="33%" height="Ti.UI.FILL">
+						<ImageView width="80" height="80" image="/images/acc_button_07.png" ></ImageView>
+					</View>
+					<!--<View width="33%" height="Ti.UI.FILL" backgroundColor="blue"></View>
+					<View width="33%" height="Ti.UI.FILL" backgroundColor="green"></View>
+					<View width="auto" height="Ti.UI.FILL" backgroundColor="red"></View>-->
+				</View>
+				<View layout="horizontal" height="20%" width="Ti.UI.FILL">
+					<View width="33%" height="Ti.UI.FILL">
+						<Label color="#41B9C7" textAlign="center">VAS Management</Label>
+					</View>
+					<View width="33%" height="Ti.UI.FILL">
+						<Label color="#41B9C7" textAlign="center">Season Pass</Label>
+					</View>
+					<View width="33%" height="Ti.UI.FILL">
+						<Label color="#41B9C7" textAlign="center">Loyalty</Label>
+					</View>
+				</View>
+				<View layout="horizontal" height="40%" width="Ti.UI.FILL">
+					<View width="33%" height="Ti.UI.FILL">
+						<ImageView width="80" height="80" image="/images/acc_button_08.png" ></ImageView>
+					</View>
+					<View width="33%" height="Ti.UI.FILL">
+						<ImageView width="80" height="80" image="/images/acc_button_09.png" onClick="faq" ></ImageView>
+					</View>
+					<!--<ImageView width="auto" height="Ti.UI.FILL" image="" ></ImageView>
+					<View width="33%" height="Ti.UI.FILL" backgroundColor="yellow"></View>
+					<View width="33%" height="Ti.UI.FILL" backgroundColor="pink"></View>
+					<View width="auto" height="Ti.UI.FILL" backgroundColor="purple"></View>-->
+				</View>
+				<View layout="horizontal" height="20%" width="Ti.UI.FILL">
+					<View width="33%" height="Ti.UI.FILL">
+						<Label color="#41B9C7" textAlign="center">Report Case</Label>
+					</View>
+					<View width="33%" height="Ti.UI.FILL">
+						<Label color="#41B9C7" textAlign="center" onClick="faq">FAQs</Label>
+					</View>
+				</View>
+			</ScrollView>
 		</View>
-		<ScrollView layout="vertical" backgroundColor="white">
-			<View layout="horizontal" height="40%" width="Ti.UI.FILL">
-				<View width="33%" height="Ti.UI.FILL">
-					<ImageView width="80" height="80" image="/images/acc_button_01.png" ></ImageView>
-				</View>
-				<View width="33%" height="Ti.UI.FILL">
-					<ImageView width="80" height="80" image="/images/acc_button_03.png" ></ImageView>
-				</View>
-				<View width="33%" height="Ti.UI.FILL">
-					<ImageView width="80" height="80" image="/images/acc_button_04.png" ></ImageView>
-				</View>
-				<!--<View width="33%" height="Ti.UI.FILL" backgroundColor="yellow"></View>
-				<View width="33%" height="Ti.UI.FILL" backgroundColor="pink"></View>
-				<View width="auto" height="Ti.UI.FILL" backgroundColor="purple"></View>-->
-			</View>
-			<View layout="horizontal" height="20%" width="Ti.UI.FILL">
-				<View width="33%" height="Ti.UI.FILL">
-					<Label color="#60CBC8" textAlign="center">Account Details</Label>
-				</View>
-				<View width="33%" height="Ti.UI.FILL">
-					<Label color="#60CBC8" textAlign="center">Payment</Label>
-				</View>
-				<View width="33%" height="Ti.UI.FILL">
-					<Label color="#60CBC8" textAlign="center">Subline Management</Label>
-				</View>
-			</View>
-			<View layout="horizontal" height="40%" width="Ti.UI.FILL">
-				<View width="33%" height="Ti.UI.FILL">
-					<ImageView width="80" height="80" image="/images/acc_button_05.png" ></ImageView>
-				</View>
-				<View width="33%" height="Ti.UI.FILL">
-					<ImageView width="80" height="80" image="/images/acc_button_06.png" ></ImageView>
-				</View>
-				<View width="33%" height="Ti.UI.FILL">
-					<ImageView width="80" height="80" image="/images/acc_button_07.png" ></ImageView>
-				</View>
-				<!--<View width="33%" height="Ti.UI.FILL" backgroundColor="blue"></View>
-				<View width="33%" height="Ti.UI.FILL" backgroundColor="green"></View>
-				<View width="auto" height="Ti.UI.FILL" backgroundColor="red"></View>-->
-			</View>
-			<View layout="horizontal" height="20%" width="Ti.UI.FILL">
-				<View width="33%" height="Ti.UI.FILL">
-					<Label color="#60CBC8" textAlign="center">VAS Management</Label>
-				</View>
-				<View width="33%" height="Ti.UI.FILL">
-					<Label color="#60CBC8" textAlign="center">Season Pass</Label>
-				</View>
-				<View width="33%" height="Ti.UI.FILL">
-					<Label color="#60CBC8" textAlign="center">Loyalty</Label>
-				</View>
-			</View>
-			<View layout="horizontal" height="40%" width="Ti.UI.FILL">
-				<View width="33%" height="Ti.UI.FILL">
-					<ImageView width="80" height="80" image="/images/acc_button_08.png" ></ImageView>
-				</View>
-				<View width="33%" height="Ti.UI.FILL">
-					<ImageView width="80" height="80" image="/images/acc_button_09.png" ></ImageView>
-				</View>
-				<!--<ImageView width="auto" height="Ti.UI.FILL" image="" ></ImageView>
-				<View width="33%" height="Ti.UI.FILL" backgroundColor="yellow"></View>
-				<View width="33%" height="Ti.UI.FILL" backgroundColor="pink"></View>
-				<View width="auto" height="Ti.UI.FILL" backgroundColor="purple"></View>-->
-			</View>
-			<View layout="horizontal" height="20%" width="Ti.UI.FILL">
-				<View width="33%" height="Ti.UI.FILL">
-					<Label color="#60CBC8" textAlign="center">Report Case</Label>
-				</View>
-				<View width="33%" height="Ti.UI.FILL">
-					<Label color="#60CBC8" textAlign="center">FAQs</Label>
-				</View>
-			</View>
-		</ScrollView>
 	</View>
 </Alloy>
