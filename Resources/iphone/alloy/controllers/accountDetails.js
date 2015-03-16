@@ -162,7 +162,7 @@ function Controller() {
     $.__views.__alloyId15.add($.__views.__alloyId18);
     $.__views.__alloyId19 = Ti.UI.createLabel({
         text: "01xxxxxxxx",
-        color: "#F5F5F5",
+        color: "#929292",
         textAlign: "left",
         id: "__alloyId19"
     });
@@ -199,7 +199,7 @@ function Controller() {
     $.__views.__alloyId21.add($.__views.__alloyId24);
     $.__views.__alloyId25 = Ti.UI.createLabel({
         text: "Active",
-        color: "#F5F5F5",
+        color: "#929292",
         textAlign: "left",
         id: "__alloyId25"
     });
@@ -236,7 +236,7 @@ function Controller() {
     $.__views.__alloyId27.add($.__views.__alloyId30);
     $.__views.__alloyId31 = Ti.UI.createLabel({
         text: "Active",
-        color: "#F5F5F5",
+        color: "#929292",
         textAlign: "left",
         id: "__alloyId31"
     });
@@ -273,7 +273,7 @@ function Controller() {
     $.__views.__alloyId33.add($.__views.__alloyId36);
     $.__views.__alloyId37 = Ti.UI.createLabel({
         text: "RM200.00",
-        color: "#F5F5F5",
+        color: "#929292",
         textAlign: "left",
         id: "__alloyId37"
     });
@@ -282,6 +282,7 @@ function Controller() {
         height: "2",
         width: "90%",
         backgroundColor: "#F5F5F5",
+        bottom: "10",
         id: "__alloyId38"
     });
     $.__views.__alloyId14.add($.__views.__alloyId38);

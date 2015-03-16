@@ -24,7 +24,7 @@
 						<Label color="black" textAlign="left">Handphone No.:</Label>
 					</View>
 					<View width="50%">
-						<Label color="#F5F5F5" textAlign="left">01xxxxxxxx</Label>
+						<Label color="#929292" textAlign="left">01xxxxxxxx</Label>
 					</View>
 				</View>
 				<View height="2" width="90%" backgroundColor="#F5F5F5"></View>
@@ -33,7 +33,7 @@
 						<Label color="black" textAlign="left">International Roaming:</Label>
 					</View>
 					<View width="50%">
-						<Label color="#F5F5F5" textAlign="left">Active</Label>
+						<Label color="#929292" textAlign="left">Active</Label>
 					</View>
 				</View>
 				<View height="2" width="90%" backgroundColor="#F5F5F5"></View>
@@ -42,7 +42,7 @@
 						<Label color="black" textAlign="left">Plan Status:</Label>
 					</View>
 					<View width="50%">
-						<Label color="#F5F5F5" textAlign="left">Active</Label>
+						<Label color="#929292" textAlign="left">Active</Label>
 					</View>
 				</View>
 				<View height="2" width="90%" backgroundColor="#F5F5F5"></View>
@@ -51,10 +51,10 @@
 						<Label color="black" textAlign="left">Credit Limit:</Label>
 					</View>
 					<View width="50%">
-						<Label color="#F5F5F5" textAlign="left">RM200.00</Label>
+						<Label color="#929292" textAlign="left">RM200.00</Label>
 					</View>
 				</View>
-				<View height="2" width="90%" backgroundColor="#F5F5F5"></View>
+				<View height="2" width="90%" backgroundColor="#F5F5F5" bottom="10"></View>
 			</View>
 		</ScrollView>
 		<View layout="horizontal" height="50" backgroundColor="#4CC4D2">

@@ -99,7 +99,7 @@ function Controller() {
     $.__views.menu.add($.__views.lbl1);
     goSlide ? $.__views.lbl1.addEventListener("touchend", goSlide) : __defers["$.__views.lbl1!touchend!goSlide"] = true;
     $.__views.__alloyId46 = Ti.UI.createView({
-        backgroundColor: "4CC4D2",
+        backgroundColor: "#4CC4D2",
         height: "100%",
         width: "0.45%",
         id: "__alloyId46"
@@ -118,7 +118,7 @@ function Controller() {
     $.__views.menu.add($.__views.lbl2);
     goSlide ? $.__views.lbl2.addEventListener("touchend", goSlide) : __defers["$.__views.lbl2!touchend!goSlide"] = true;
     $.__views.__alloyId47 = Ti.UI.createView({
-        backgroundColor: "4CC4D2",
+        backgroundColor: "#4CC4D2",
         height: "100%",
         width: "0.45%",
         id: "__alloyId47"

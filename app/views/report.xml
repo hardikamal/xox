@@ -1,0 +1,52 @@
+<Alloy>
+	<View layout="vertical" class="container" backgroundColor="white" fullscreen="true">
+		<Require src="_header" ></Require>
+		<View layout="composite" height="50" backgroundColor="#E82630">
+			<Label backgroundColor="transparent" color="white" left="20">Report Case</Label>
+			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
+		</View>
+		<ScrollView id="scrollView" layout="vertical" width="100%" backgroundColor="#F2F2F2">
+			<View id="contentView" layout="horizontal" height="50" width="90%">
+				<View layout="horizontal" height="50" width="30%" top="0">
+					<Label height="50" color="black" textAlign="left">Subject</Label>
+					<Label height="50" color="red" textAlign="left">*</Label>
+				</View>
+				<View id="pickerContentView" layout="composite" height="100%" width="70%">
+					<Label id="subjectLabel" height="30" width="100%" backgroundColor="#FCFCFC" borderRadius="5" borderColor="gray" color="black" onClick="showPicker" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="10">Select an option</Label>
+					<ImageView image="/images/dropdown_icon.png" width="15" height="10" right="10" top="20" onClick="showPicker"></ImageView>
+					<View id="pickerView" height="50" width="100%" visible="false" top="50">
+						<Button id="done" height="30" width="100%" backgroundColor="black" color="white" top="0" left="0" onClick="done" visible="false">Done</Button>
+						<Picker id="picker" onChange="subjectType" width="100%" height="Ti.UI.SIZE" top="30" selectionIndicator="true" backgroundColor="#EFEFEF" visible="false">
+							<PickerRow title="Subject 1"/>
+                			<PickerRow title="Subject 2"/>
+                			<PickerRow title="Subject 3"/>
+						</Picker>
+					</View>
+				</View>
+			</View>
+			<View layout="horizontal" height="50" width="90%">
+				<View layout="horizontal" height="50" width="30%" top="0">
+					<Label height="50" color="black" textAlign="left">Email Address</Label>
+					<Label height="50" color="red" textAlign="left">*</Label>
+				</View>
+				<TextField id="email" width="70%" height="30" borderRadius="5" backgroundColor="white" borderColor="gray" ></TextField>
+			</View>
+			<View layout="horizontal" height="50" width="90%">
+				<View layout="horizontal" height="50" width="30%" top="0">
+					<Label height="50" color="black" textAlign="left">Mobile No.</Label>
+					<Label height="50" color="red" textAlign="left">*</Label>
+				</View>
+				<TextField id="mobileNo" width="70%" height="30" borderRadius="5" backgroundColor="white" borderColor="gray" ></TextField>
+			</View>
+			<View layout="horizontal" height="50" width="90%">
+				<Label height="50" color="black" textAlign="left">Message</Label>
+				<Label height="50" color="red" textAlign="left">*</Label>
+			</View>
+			<TextArea id="message" height="250" width="90%" borderRadius="5" backgroundColor="white" borderColor="gray"></TextArea>
+			<Label height="50" color="red" textAlign="left" left="10%" top="10">* Required fields</Label>
+		</ScrollView>
+		<View height="50" backgroundColor="#4CC4D2" onClick="send">
+			<Label color="white" height="100%" textAlign="center">Send</Label>
+		</View>
+	</View>
+</Alloy>

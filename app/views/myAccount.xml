@@ -34,6 +34,7 @@
 				<View width="33%"></View>
 				<View width="auto" height="Ti.UI.FILL">
 					<ImageView width="80" height="80" image="/images/profile_images.png" borderRadius="40" onClick="editPhoto"></ImageView>
+					<ImageView width="20" height="20" image="/images/profileedit_icon.png" borderRadius="10" bottom="10" onClick="editPhoto"></ImageView>
 				</View>
 			</View>
 			<View layout="horizontal" height="20%" backgroundColor="#F5F5F5">
@@ -56,10 +57,10 @@
 						<ImageView width="80" height="80" image="/images/acc_button_01.png" onClick="accDetail" ></ImageView>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
-						<ImageView width="80" height="80" image="/images/acc_button_03.png" ></ImageView>
+						<ImageView width="80" height="80" image="/images/acc_button_03.png" onClick="payment" ></ImageView>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
-						<ImageView width="80" height="80" image="/images/acc_button_04.png" ></ImageView>
+						<ImageView width="80" height="80" image="/images/acc_button_04.png" onClick="subline" ></ImageView>
 					</View>
 					<!--<View width="33%" height="Ti.UI.FILL" backgroundColor="yellow"></View>
 					<View width="33%" height="Ti.UI.FILL" backgroundColor="pink"></View>
@@ -67,24 +68,24 @@
 				</View>
 				<View layout="horizontal" height="20%" width="Ti.UI.FILL">
 					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center" onClick="accDetail">Account Details</Label>
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="accDetail">Account Details</Label>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center">Payment</Label>
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="payment">Payment</Label>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center">Subline Management</Label>
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="subline">Subline Management</Label>
 					</View>
 				</View>
 				<View layout="horizontal" height="40%" width="Ti.UI.FILL">
 					<View width="33%" height="Ti.UI.FILL">
-						<ImageView width="80" height="80" image="/images/acc_button_05.png" ></ImageView>
+						<ImageView width="80" height="80" image="/images/acc_button_05.png" onClick="vas" ></ImageView>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
-						<ImageView width="80" height="80" image="/images/acc_button_06.png" ></ImageView>
+						<ImageView width="80" height="80" image="/images/acc_button_06.png" onClick="seasonPass" ></ImageView>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
-						<ImageView width="80" height="80" image="/images/acc_button_07.png" ></ImageView>
+						<ImageView width="80" height="80" image="/images/acc_button_07.png" onClick="loyalty" ></ImageView>
 					</View>
 					<!--<View width="33%" height="Ti.UI.FILL" backgroundColor="blue"></View>
 					<View width="33%" height="Ti.UI.FILL" backgroundColor="green"></View>
@@ -92,18 +93,18 @@
 				</View>
 				<View layout="horizontal" height="20%" width="Ti.UI.FILL">
 					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center">VAS Management</Label>
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="vas">VAS Management</Label>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center">Season Pass</Label>
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="seasonPass">Season Pass</Label>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center">Loyalty</Label>
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="loyalty">Loyalty</Label>
 					</View>
 				</View>
 				<View layout="horizontal" height="40%" width="Ti.UI.FILL">
 					<View width="33%" height="Ti.UI.FILL">
-						<ImageView width="80" height="80" image="/images/acc_button_08.png" ></ImageView>
+						<ImageView width="80" height="80" image="/images/acc_button_08.png" onClick="report" ></ImageView>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
 						<ImageView width="80" height="80" image="/images/acc_button_09.png" onClick="faq" ></ImageView>
@@ -115,10 +116,10 @@
 				</View>
 				<View layout="horizontal" height="20%" width="Ti.UI.FILL">
 					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center">Report Case</Label>
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="report">Report Case</Label>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center" onClick="faq">FAQs</Label>
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="faq">FAQs</Label>
 					</View>
 				</View>
 			</ScrollView>

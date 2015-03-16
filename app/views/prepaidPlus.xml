@@ -3,7 +3,10 @@
 		<Require src="_header" ></Require>
 		<View layout="composite" height="20%" backgroundColor="#EB2127">
 			<View layout="horizontal" left="0">
-				<ImageView backgroundColor="#A3161A" height="100%" width="30%"></ImageView>
+				<View backgroundColor="#A3161A" height="100%" width="30%">
+					<ImageView image="/images/products_01.png" height="32" width="50"></ImageView>
+				</View>
+				<!--<ImageView backgroundColor="#A3161A" height="100%" width="30%"></ImageView>-->
 				<Label backgroundColor="transparent" color="white" left="20">PREPAID PLUS</Label>
 			</View>
 			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
@@ -11,49 +14,49 @@
 		<ScrollView layout="vertical" backgroundColor="#E6E7E9" width="90%">
 			<View layout="vertical" height="Ti.UI.SIZE" top="10" backgroundColor="white">
 				<View backgroundColor="#787878" height="30">
-					<Label color="white" left="10">Voice Call (All Networks)</Label>
+					<Label color="white" height="30" left="10">Voice Call (All Networks)</Label>
 				</View>
 				<View layout="horizontal" borderColor="#F0F0F0" height="30">
-					<Label width="60%" color="#44C4D3" left="10">First 10sec</Label>
-					<Label width="auto" color="black">5cent</Label>
+					<Label width="60%" height="30" color="#44C4D3" left="10">First 10sec</Label>
+					<Label width="auto" height="30" color="black">5cent</Label>
 				</View>
 				<View layout="horizontal" borderColor="#F0F0F0" height="30">
-					<Label width="60%" color="#44C4D3" left="10">1min</Label>
-					<Label width="auto" color="black">15cent</Label>
+					<Label width="60%" height="30" color="#44C4D3" left="10">1min</Label>
+					<Label width="auto" height="30" color="black">15cent</Label>
 				</View>
 			</View>
 			<View layout="vertical" height="Ti.UI.SIZE" top="10" backgroundColor="white">
 				<View backgroundColor="#44C4D3" height="30">
-					<Label color="white" left="10">SMS</Label>
+					<Label color="white" height="30" left="10">SMS</Label>
 				</View>
 				<View layout="horizontal" borderColor="#F0F0F0" height="30">
-					<Label width="60%" color="#44C4D3" left="10">to XOX network</Label>
-					<Label width="auto" color="black">5cent</Label>
+					<Label width="60%" height="30" color="#44C4D3" left="10">to XOX network</Label>
+					<Label width="auto" height="30" color="black">5cent</Label>
 				</View>
 				<View layout="horizontal" borderColor="#F0F0F0" height="30">
-					<Label width="60%" color="#44C4D3" left="10">to other networks</Label>
-					<Label width="auto" color="black">5cent</Label>
+					<Label width="60%" height="30" color="#44C4D3" left="10">to other networks</Label>
+					<Label width="auto" height="30" color="black">5cent</Label>
 				</View>
 				<View layout="horizontal" borderColor="#F0F0F0" height="30">
-					<Label width="60%" color="#44C4D3" left="10">to international</Label>
-					<Label width="auto" color="black">5cent</Label>
+					<Label width="60%" height="30" color="#44C4D3" left="10">to international</Label>
+					<Label width="auto" height="30" color="black">5cent</Label>
 				</View>
 				<View layout="horizontal" borderColor="#F0F0F0" height="30">
-					<Label width="60%" color="#44C4D3" left="10">while roaming</Label>
-					<Label width="auto" color="black">5cent</Label>
+					<Label width="60%" height="30" color="#44C4D3" left="10">while roaming</Label>
+					<Label width="auto" height="30" color="black">5cent</Label>
 				</View>
 			</View>
 			<View layout="vertical" height="Ti.UI.SIZE" top="10" backgroundColor="white" bottom="10">
 				<View backgroundColor="black" height="30">
-					<Label color="white" left="10">Video Call</Label>
+					<Label color="white" height="30" left="10">Video Call</Label>
 				</View>
 				<View layout="horizontal" borderColor="#F0F0F0" height="30">
-					<Label width="60%" color="#44C4D3" left="10">to XOX network</Label>
-					<Label width="auto" color="black">5cent</Label>
+					<Label width="60%" height="30" color="#44C4D3" left="10">to XOX network</Label>
+					<Label width="auto" height="30" color="black">5cent</Label>
 				</View>
 				<View layout="horizontal" borderColor="#F0F0F0" height="30">
-					<Label width="60%" color="#44C4D3" left="10">to other networks</Label>
-					<Label width="auto" color="black">5cent</Label>
+					<Label width="60%" height="30" color="#44C4D3" left="10">to other networks</Label>
+					<Label width="auto" height="30" color="black">5cent</Label>
 				</View>
 			</View>
 		</ScrollView>

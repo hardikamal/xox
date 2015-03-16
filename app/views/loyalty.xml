@@ -1,0 +1,25 @@
+<Alloy>
+	<View layout="vertical" class="container" backgroundColor="white" fullscreen="true">
+		<Require src="_header" ></Require>
+		<View layout="composite" height="50" backgroundColor="#E82630">
+			<Label backgroundColor="transparent" color="white" left="20">Loyalty</Label>
+			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
+		</View>
+		<ScrollView id="scrollView" layout="vertical" width="100%" backgroundColor="#E6E7E9">
+			<View height="20%" backgroundColor="white">
+				<View layout="vertical" height="Ti.UI.SIZE" backgroundColor="white">
+					<Label backgroundColor="transparent" color="black" textAlign="center" >Your Loyalty Points</Label>
+					<Label backgroundColor="transparent" color="black" textAlign="center" >8500</Label>
+				</View>
+			</View>
+			<View height="50%" backgroundColor="#4CC4D2">
+				<View layout="vertical" height="Ti.UI.SIZE" width="90%" backgroundColor="#4CC4D2">
+					<ImageView backgroundColor="yellow" width="40" height="30" image="/images/close_icon.png"></ImageView>
+					<Label backgroundColor="transparent" color="white" textAlign="center" >FREE SMS</Label>
+					<Label backgroundColor="transparent" color="white" textAlign="center" >To redeem free SMS with your Loyalty Points:</Label>
+					<Label id="sms" backgroundColor="transparent" color="white" textAlign="center" ></Label>
+				</View>
+			</View>
+		</ScrollView>
+	</View>
+</Alloy>

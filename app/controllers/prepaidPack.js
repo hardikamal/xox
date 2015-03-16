@@ -15,7 +15,7 @@ $.picker.setSelectedRow(0,0,false);
 function showPicker()
 {
 	console.log("showPicker");
-	if($.pickerView.visible == false)
+	if($.pickerView.visible == "false")
 	{
 		$.contentView.height = 250;
 		$.pickerView.height = 250;
@@ -26,12 +26,24 @@ function showPicker()
 	}
 	else
 	{
-		$.contentView.height = 50;
-		$.pickerView.height = 50;
-		$.pickerContentView.height  = 50;
-		$.pickerView.setVisible(false);
-		$.done.setVisible(false);
-		$.picker.setVisible(false);
+		if($.pickerView.visible == false)
+		{
+			$.contentView.height = 250;
+			$.pickerView.height = 250;
+			$.pickerContentView.height  = 250;
+			$.pickerView.setVisible(true);
+			$.done.setVisible(true);
+			$.picker.setVisible(true);
+		}
+		else
+		{
+			$.contentView.height = 50;
+			$.pickerView.height = 50;
+			$.pickerContentView.height  = 50;
+			$.pickerView.setVisible(false);
+			$.done.setVisible(false);
+			$.picker.setVisible(false);
+		}
 	}
 }
 

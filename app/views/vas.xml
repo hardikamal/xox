@@ -1,0 +1,51 @@
+<Alloy>
+	<View layout="vertical" class="container" backgroundColor="white" fullscreen="true">
+		<Require src="_header" ></Require>
+		<View layout="composite" height="50" backgroundColor="#E82630">
+			<Label backgroundColor="transparent" color="white" left="20">VAS Management</Label>
+			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
+		</View>
+		<ScrollView id="scrollView" layout="vertical" width="100%" backgroundColor="#E6E7E9">
+			<View layout="horizontal" top="5" bottom="5" height="20%" width="90%" backgroundColor="white">
+				<View width="70%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >Call Forwarding</Label>
+				</View>
+				<View width="30%" height="100%">
+					<Switch id="switch1" onChange="forwarding" value="false"/>
+				</View>
+			</View>
+			<View layout="horizontal" top="5" bottom="5" height="20%" width="90%" backgroundColor="white">
+				<View width="70%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >Caller Line Identification Presentation</Label>
+				</View>
+				<View width="30%" height="100%">
+					<Switch id="switch2" onChange="presentation" value="false"/>
+				</View>
+			</View>
+			<View layout="horizontal" top="5" bottom="5" height="20%" width="90%" backgroundColor="white">
+				<View width="70%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >Caller Line Identification Restriction</Label>
+				</View>
+				<View width="30%" height="100%">
+					<Switch id="switch3" onChange="restriction" value="false"/>
+				</View>
+			</View>
+			<View layout="horizontal" top="5" bottom="5" height="20%" width="90%" backgroundColor="white">
+				<View width="70%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >Itemized Billing</Label>
+				</View>
+				<View width="30%" height="100%">
+					<Switch id="switch4" onChange="billing" value="false"/>
+				</View>
+			</View>
+			<View layout="horizontal" top="5" bottom="5" height="20%" width="90%" backgroundColor="white">
+				<View width="70%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >International Direct Dial</Label>
+				</View>
+				<View width="30%" height="100%">
+					<Switch id="switch5" onChange="international" value="false"/>
+				</View>
+			</View>
+		</ScrollView>
+	</View>
+</Alloy>

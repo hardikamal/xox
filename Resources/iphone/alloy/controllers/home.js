@@ -232,6 +232,7 @@ function Controller() {
         width: "100%",
         height: "33%",
         backgroundColor: "red",
+        backgroundImage: "/images/button_01.png",
         bottom: "5",
         id: "__alloyId241"
     });
@@ -251,6 +252,7 @@ function Controller() {
         width: "49%",
         right: "5",
         backgroundColor: "blue",
+        backgroundImage: "/images/button_02.png",
         id: "__alloyId243"
     });
     $.__views.__alloyId242.add($.__views.__alloyId243);
@@ -260,6 +262,7 @@ function Controller() {
         width: "auto",
         left: "5",
         backgroundColor: "orange",
+        backgroundImage: "/images/button_03.png",
         id: "__alloyId244"
     });
     $.__views.__alloyId242.add($.__views.__alloyId244);
@@ -277,6 +280,7 @@ function Controller() {
         width: "49%",
         right: "5",
         backgroundColor: "pink",
+        backgroundImage: "/images/button_04.png",
         id: "__alloyId246"
     });
     $.__views.__alloyId245.add($.__views.__alloyId246);
@@ -294,6 +298,7 @@ function Controller() {
         width: "100%",
         bottom: "5",
         backgroundColor: "green",
+        backgroundImage: "/images/button_05.png",
         id: "__alloyId248"
     });
     $.__views.__alloyId247.add($.__views.__alloyId248);
@@ -311,6 +316,7 @@ function Controller() {
         width: "49%",
         right: "5",
         backgroundColor: "purple",
+        backgroundImage: "/images/button_06.png",
         id: "__alloyId250"
     });
     $.__views.__alloyId249.add($.__views.__alloyId250);
@@ -320,6 +326,7 @@ function Controller() {
         width: "auto",
         left: "5",
         backgroundColor: "gray",
+        backgroundImage: "/images/button_07.png",
         id: "__alloyId251"
     });
     $.__views.__alloyId249.add($.__views.__alloyId251);
