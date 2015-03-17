@@ -69,7 +69,10 @@ function simType(e)
 {
 	console.log("simType");
 	simType = e.row.title;
-	$.simLabel.text = simType;
+	if(Ti.Platform.osname == "iphone" || Ti.Platform.osname == "ipad") 
+	{ 
+		$.simLabel.text = simType;
+	}
 }
 
 function done(){
