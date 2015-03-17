@@ -383,7 +383,6 @@ function Controller() {
     $.__views.__alloyId326 = Ti.UI.createLabel({
         text: "Account Details",
         color: "#41B9C7",
-        width: Ti.UI.FILL,
         textAlign: "center",
         top: "0",
         id: "__alloyId326"
@@ -399,7 +398,6 @@ function Controller() {
     $.__views.__alloyId328 = Ti.UI.createLabel({
         text: "Payment",
         color: "#41B9C7",
-        width: Ti.UI.FILL,
         textAlign: "center",
         top: "0",
         id: "__alloyId328"
@@ -415,7 +413,6 @@ function Controller() {
     $.__views.__alloyId330 = Ti.UI.createLabel({
         text: "Subline Management",
         color: "#41B9C7",
-        width: Ti.UI.FILL,
         textAlign: "center",
         top: "0",
         id: "__alloyId330"
@@ -487,7 +484,6 @@ function Controller() {
     $.__views.__alloyId340 = Ti.UI.createLabel({
         text: "VAS Management",
         color: "#41B9C7",
-        width: Ti.UI.FILL,
         textAlign: "center",
         top: "0",
         id: "__alloyId340"
@@ -503,7 +499,6 @@ function Controller() {
     $.__views.__alloyId342 = Ti.UI.createLabel({
         text: "Season Pass",
         color: "#41B9C7",
-        width: Ti.UI.FILL,
         textAlign: "center",
         top: "0",
         id: "__alloyId342"
@@ -519,7 +514,6 @@ function Controller() {
     $.__views.__alloyId344 = Ti.UI.createLabel({
         text: "Loyalty",
         color: "#41B9C7",
-        width: Ti.UI.FILL,
         textAlign: "center",
         top: "0",
         id: "__alloyId344"
@@ -577,7 +571,6 @@ function Controller() {
     $.__views.__alloyId352 = Ti.UI.createLabel({
         text: "Report Case",
         color: "#41B9C7",
-        width: Ti.UI.FILL,
         textAlign: "center",
         top: "0",
         id: "__alloyId352"
@@ -593,7 +586,6 @@ function Controller() {
     $.__views.__alloyId354 = Ti.UI.createLabel({
         text: "FAQs",
         color: "#41B9C7",
-        width: Ti.UI.FILL,
         textAlign: "center",
         top: "0",
         id: "__alloyId354"

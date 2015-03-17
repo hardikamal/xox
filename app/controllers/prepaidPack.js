@@ -1,5 +1,23 @@
 $.scrollView.height = Ti.Platform.displayCaps.platformHeight - 200;
 
+if(Ti.Platform.osname == "android") {
+	console.log("android");
+	$.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 200;
+	$.switch1.style = Ti.UI.Android.SWITCH_STYLE_CHECKBOX;
+	$.switch2.style = Ti.UI.Android.SWITCH_STYLE_CHECKBOX;
+	$.switch3.style = Ti.UI.Android.SWITCH_STYLE_CHECKBOX;
+	$.switch4.style = Ti.UI.Android.SWITCH_STYLE_CHECKBOX;
+	$.switch5.style = Ti.UI.Android.SWITCH_STYLE_CHECKBOX;
+	$.switch6.style = Ti.UI.Android.SWITCH_STYLE_CHECKBOX;
+	$.switch7.style = Ti.UI.Android.SWITCH_STYLE_CHECKBOX;
+	$.switch8.style = Ti.UI.Android.SWITCH_STYLE_CHECKBOX;
+	$.switch9.style = Ti.UI.Android.SWITCH_STYLE_CHECKBOX;
+	$.switch10.style = Ti.UI.Android.SWITCH_STYLE_CHECKBOX;
+	$.switch11.style = Ti.UI.Android.SWITCH_STYLE_CHECKBOX;
+	$.switch12.style = Ti.UI.Android.SWITCH_STYLE_CHECKBOX;
+	$.switch13.style = Ti.UI.Android.SWITCH_STYLE_CHECKBOX;
+}
+
 var simType;
 
 function back()

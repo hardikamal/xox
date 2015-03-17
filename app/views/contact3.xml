@@ -1,5 +1,5 @@
 <Alloy>
-	<ScrollView id="scrollView" layout="vertical" height="100%" scrollType="vertical" backgroundColor="#F4F6F5">
+	<ScrollView id="scrollView" layout="vertical" height="100%" scrollType="vertical" backgroundColor="#F4F6F5" contentHeight="Ti.UI.SIZE">
     	<View id="contentView" layout="vertical" height="100">
 	    	<TextField width="90%" height="30" top="10" bottom="5" borderRadius="15" textAlign="center" backgroundColor="#E6E7E9" hintText="Search keywords on area"></TextField>
 	    	<View id="pickerContentView" layout="composite" height="50" width="90%">
@@ -16,7 +16,7 @@
 				</View>
 			</View>
 		</View>
-    	<TableView id="table">
+    	<TableView id="table" height="Ti.UI.SIZE">
             <TableViewRow layout="vertical" height="Ti.UI.SIZE">
             	<Label textAlign="left" top="10" left="10" color="black">Petaling Jaya (Jaya One)</Label>
             	<Label textAlign="left" left="10" color="#9D9F9E">XOX Mobile Sdn Bhd</Label>

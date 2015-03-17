@@ -1,6 +1,23 @@
 var args = arguments[0] || {}; 
 Ti.App.Properties.setString('root',"1");
 var pHeight = Ti.Platform.displayCaps.platformHeight;
+
+if(Ti.Platform.osname == "android") {
+	console.log("android");
+	$.scrollView.overScrollMode = Titanium.UI.Android.OVER_SCROLL_NEVER;
+
+	var first = true;
+	$.username.addEventListener('focus', function f(e){
+	    if(first){
+	        first = false;
+	        $.username.blur();
+	        $.password.blur();
+	    }else{
+	        $.username.removeEventListener('focus', f);
+	    }
+	});
+}
+
 // $.scrollView.height = pHeight - 50;  
 // if(Ti.Platform.osname == "android") {
 	// $.scrollView.overScrollMode = Titanium.UI.Android.OVER_SCROLL_NEVER;

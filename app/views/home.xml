@@ -9,24 +9,24 @@
 				<View height="25%" width="Ti.UI.FILL">
 					<View layout="vertical">
 						<Label color="black">Username</Label>
-						<TextField id="username" width="90%" height="50%" value="username" backgroundColor="#E6E7E9" textAlign="center" hintText="someone@example.com" borderRadius="15"></TextField>
+						<TextField id="username" width="90%" height="50%" value="username" backgroundColor="#E6E7E9" textAlign="center" hintText="someone@example.com" color="black" borderRadius="15"></TextField>
 					</View>
 				</View>
 				<View height="25%" width="Ti.UI.FILL">
 					<View layout="vertical">
 						<Label color="black">Password</Label>
-						<TextField id="password" width="90%" height="50%" value="password" backgroundColor="#E6E7E9" textAlign="center" hintText="********" passwordMask="true" borderRadius="15"></TextField>
+						<TextField id="password" width="90%" height="50%" value="password" backgroundColor="#E6E7E9" textAlign="center" hintText="********" color="black" passwordMask="true" borderRadius="15"></TextField>
 					</View>
 				</View>
 				<View height="20%" width="Ti.UI.FILL">
-					<Button color="#44C7D6" borderColor="#44C7D6" height="80%" width="60%" borderRadius="20" onClick="login">Login</Button>
+					<Button color="#44C7D6" borderColor="#44C7D6" height="80%" width="60%" backgroundColor="white" borderRadius="20" onClick="login">Login</Button>
 				</View>
 				<View height="15%" width="Ti.UI.FILL">
 					<Label color="#44C7D6" onClick="register">Not Registered yet?</Label>
 				</View>
 			</View>
 		</View>
-		<ScrollView layout="vertical" backgroundColor="black" top="60" left="10" right="10" bottom="10" zIndex="1">
+		<ScrollView id="scrollView" layout="vertical" backgroundColor="black" top="60" left="10" right="10" bottom="10" zIndex="1">
 			<View width="100%" height="33%" backgroundColor="red" backgroundImage="/images/button_01.png" bottom="5" onClick="myAccount"></View>
 			<View layout="horizontal" height="33%" width="100%" top="5" bottom="5">
 				<View height="100%" width="49%" right="5" backgroundColor="blue" backgroundImage="/images/button_02.png" onClick="promoNews"></View>

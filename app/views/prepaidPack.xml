@@ -60,7 +60,7 @@
 				<Label color="black" height="30" left="0">Number Selection</Label>
 				<TextField height="30" width="Ti.UI.FILL" top="10" borderColor="#F2F2F2"></TextField>
 			</View>
-			<View layout="vertical">
+			<View layout="vertical" height="Ti.UI.SIZE">
 				<View layout="horizontal" height="Ti.UI.SIZE">
 					<Switch id="switch6" height="50" value="false"/>
 					<Label color="black" height="50" width="Ti.UI.SIZE" left="10">0103091675</Label>

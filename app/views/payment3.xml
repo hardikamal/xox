@@ -11,7 +11,7 @@
 			<Label id="account" text="left" left="10%" color="black">Account No.: 011 xxxxxxx</Label>
 			<Label id="amount" text="left" left="10%" color="black"></Label>
 			<Label id="method" text="left" left="10%" color="black"></Label>
-			<Button color="#44C7D6" borderColor="#44C7D6" height="10%" width="60%" borderRadius="20" onClick="done" top="40">Done</Button>
+			<Button color="#44C7D6" borderColor="#44C7D6" backgroundColor="white" height="10%" width="60%" borderRadius="20" onClick="done" top="40">Done</Button>
 		</ScrollView>
 	</View>
 </Alloy>

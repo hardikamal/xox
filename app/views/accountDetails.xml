@@ -7,7 +7,7 @@
 		</View>
 		<ScrollView id="scrollView" layout="vertical" width="100%" backgroundColor="#F5F5F5">
 			<View layout="vertical" height="Ti.UI.SIZE">
-				<Label color="black">Current Balance (RM)</Label>
+				<Label color="black" top="10">Current Balance (RM)</Label>
 				<View height="Ti.UI.SIZE" top="10" bottom="10">
 					<View height="160" width="160" borderRadius="80" backgroundColor="red"></View>
 					<View layout="composite" height="120" width="120" borderRadius="60" backgroundColor="#F5F5F5">
@@ -58,9 +58,9 @@
 			</View>
 		</ScrollView>
 		<View layout="horizontal" height="50" backgroundColor="#4CC4D2">
-			<Label color="white" height="100%" width="49.75%" textAlign="center">View Statement</Label>
+			<Label color="white" height="100%" width="49.72%" textAlign="center">View Statement</Label>
 			<View backgroundColor="white" height="100%" width="0.5%"></View>
-			<Label color="white" height="100%" width="49.75%" textAlign="center">Download</Label>
+			<Label color="white" height="100%" width="49.72%" textAlign="center">Download</Label>
 		</View>
 	</View>
 </Alloy>
