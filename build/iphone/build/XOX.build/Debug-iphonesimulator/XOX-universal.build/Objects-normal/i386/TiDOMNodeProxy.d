@@ -1,12 +1,12 @@
 dependencies: \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiDOMNodeProxy.m \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiDOMNodeProxy.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiProxy.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiBase.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiThreading.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiPublicAPI.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiEvaluator.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/KrollContext.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiDOMNodeProxy.m \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiDOMNodeProxy.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiProxy.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiBase.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiThreading.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiPublicAPI.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiEvaluator.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/KrollContext.h \
   headers/JavaScriptCore/TiCore.h headers/JavaScriptCore/Ti.h \
   headers/JavaScriptCore/TiBase.h headers/JavaScriptCore/TiContextRef.h \
   headers/JavaScriptCore/TiObjectRef.h \
@@ -14,10 +14,10 @@ dependencies: \
   headers/JavaScriptCore/WebKitAvailability.h \
   headers/JavaScriptCore/TiStringRef.h \
   headers/JavaScriptCore/TiStringRefCF.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/KrollCallback.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/KrollObject.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiBindingRunLoop.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/GDataXMLNode.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/KrollCallback.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/KrollObject.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiBindingRunLoop.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/GDataXMLNode.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.1.sdk/usr/include/libxml2/libxml/tree.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.1.sdk/usr/include/libxml2/libxml/xmlversion.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.1.sdk/usr/include/libxml2/libxml/xmlexports.h \
@@ -41,26 +41,26 @@ dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.1.sdk/usr/include/libxml2/libxml/SAX2.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.1.sdk/usr/include/libxml2/libxml/xpath.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.1.sdk/usr/include/libxml2/libxml/xpathInternals.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiDOMDocumentProxy.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiDOMElementProxy.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiDOMTextNodeProxy.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TIDOMCharacterDataProxy.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiDOMNamedNodeMapProxy.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiDOMNodeListProxy.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiDOMAttrProxy.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiDOMCDATANodeProxy.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiDOMCommentProxy.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TIDOMDocumentTypeProxy.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiDOMDocFragProxy.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiDOMPIProxy.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiDOMEntityProxy.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiDOMEntityRefProxy.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiDOMNotationProxy.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiUtils.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiDimension.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiColor.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/WebFont.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiFile.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiBuffer.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiBlob.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiDOMValidator.h
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiDOMDocumentProxy.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiDOMElementProxy.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiDOMTextNodeProxy.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TIDOMCharacterDataProxy.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiDOMNamedNodeMapProxy.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiDOMNodeListProxy.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiDOMAttrProxy.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiDOMCDATANodeProxy.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiDOMCommentProxy.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TIDOMDocumentTypeProxy.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiDOMDocFragProxy.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiDOMPIProxy.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiDOMEntityProxy.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiDOMEntityRefProxy.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiDOMNotationProxy.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiUtils.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiDimension.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiColor.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/WebFont.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiFile.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiBuffer.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiBlob.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiDOMValidator.h

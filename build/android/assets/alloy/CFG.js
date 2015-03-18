@@ -1,1 +1,1 @@
-/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/Resources/alloy/CFG.js
+/Users/chrispang/Documents/Chris/Mobile Projects/xox/Resources/android/alloy/CFG.js

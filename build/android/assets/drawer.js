@@ -1,1 +1,1 @@
-/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/Resources/android/drawer.js
+/Users/chrispang/Documents/Chris/Mobile Projects/xox/Resources/android/drawer.js

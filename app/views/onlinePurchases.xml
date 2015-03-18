@@ -5,7 +5,7 @@
 			<Label left="10" top="10" color="white">Online Purchases</Label>
 		</View>
 		<View layout="vertical">
-			<View layout="horizontal" height="20%" backgroundColor="#EB2127" onClick="prepaidPack">
+			<View layout="horizontal" height="20%" backgroundColor="#EB2127" onClick="hopOn">
 				<ImageView backgroundColor="#A3161A" height="100%" width="25%"></ImageView>
 				<Label backgroundColor="transparent" color="white" left="20">HOP ON</Label>
 			</View>

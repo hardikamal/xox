@@ -25,62 +25,61 @@ function back()
 	// console.log("online");
 	// var win = Alloy.createController('online').getView();
 	// win.open();
-	DRAWER.navigation("onlinePurchases",2);
+	DRAWER.navigation("onlinePurchases",1);
 }
+//$.picker.setSelectedRow(0,0,false);
 
-$.picker.setSelectedRow(0,0,false);
+// function showPicker()
+// {
+	// console.log("showPicker");
+	// if($.pickerView.visible == "false")
+	// {
+		// $.contentView.height = 250;
+		// $.pickerView.height = 250;
+		// $.pickerContentView.height  = 250;
+		// $.pickerView.setVisible(true);
+		// $.done.setVisible(true);
+		// $.picker.setVisible(true);
+	// }
+	// else
+	// {
+		// if($.pickerView.visible == false)
+		// {
+			// $.contentView.height = 250;
+			// $.pickerView.height = 250;
+			// $.pickerContentView.height  = 250;
+			// $.pickerView.setVisible(true);
+			// $.done.setVisible(true);
+			// $.picker.setVisible(true);
+		// }
+		// else
+		// {
+			// $.contentView.height = 50;
+			// $.pickerView.height = 50;
+			// $.pickerContentView.height  = 50;
+			// $.pickerView.setVisible(false);
+			// $.done.setVisible(false);
+			// $.picker.setVisible(false);
+		// }
+	// }
+// }
+// 
+// function simType(e)
+// {
+	// console.log("simType");
+	// simType = e.row.title;
+	// $.simLabel.text = simType;
+// }
 
-function showPicker()
-{
-	console.log("showPicker");
-	if($.pickerView.visible == "false")
-	{
-		$.contentView.height = 250;
-		$.pickerView.height = 250;
-		$.pickerContentView.height  = 250;
-		$.pickerView.setVisible(true);
-		$.done.setVisible(true);
-		$.picker.setVisible(true);
-	}
-	else
-	{
-		if($.pickerView.visible == false)
-		{
-			$.contentView.height = 250;
-			$.pickerView.height = 250;
-			$.pickerContentView.height  = 250;
-			$.pickerView.setVisible(true);
-			$.done.setVisible(true);
-			$.picker.setVisible(true);
-		}
-		else
-		{
-			$.contentView.height = 50;
-			$.pickerView.height = 50;
-			$.pickerContentView.height  = 50;
-			$.pickerView.setVisible(false);
-			$.done.setVisible(false);
-			$.picker.setVisible(false);
-		}
-	}
-}
-
-function simType(e)
-{
-	console.log("simType");
-	simType = e.row.title;
-	$.simLabel.text = simType;
-}
-
-function done(){
-	console.log("done");
-	$.contentView.height = 50;
-	$.pickerView.height = 50;
-	$.pickerContentView.height  = 50;
-	$.pickerView.setVisible(false);
-	$.done.setVisible(false);
-	$.picker.setVisible(false);
-}
+// function done(){
+	// console.log("done");
+	// $.contentView.height = 50;
+	// $.pickerView.height = 50;
+	// $.pickerContentView.height  = 50;
+	// $.pickerView.setVisible(false);
+	// $.done.setVisible(false);
+	// $.picker.setVisible(false);
+// }
 
 function highSpeed(e)
 {
@@ -89,6 +88,7 @@ function highSpeed(e)
 
 function next()
 {
+	DRAWER.navigation("prepaidPack2",1);
 	console.log("next");
 }
 

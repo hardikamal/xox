@@ -80,6 +80,7 @@ function Controller() {
     $.__views.__alloyId7 = Ti.UI.createLabel({
         text: "Current Balance (RM)",
         color: "black",
+        top: "10",
         id: "__alloyId7"
     });
     $.__views.__alloyId6.add($.__views.__alloyId7);
@@ -297,7 +298,7 @@ function Controller() {
         text: "View Statement",
         color: "white",
         height: "100%",
-        width: "49.75%",
+        width: "49.72%",
         textAlign: "center",
         id: "__alloyId40"
     });
@@ -313,7 +314,7 @@ function Controller() {
         text: "Download",
         color: "white",
         height: "100%",
-        width: "49.75%",
+        width: "49.72%",
         textAlign: "center",
         id: "__alloyId42"
     });
@@ -321,6 +322,12 @@ function Controller() {
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.scrollView.height = Ti.Platform.displayCaps.platformHeight - 150;
+    console.log("scroll height: " + $.scrollView.height);
+    console.log("full height: " + Ti.Platform.displayCaps.platformHeight);
+    if ("android" == Ti.Platform.osname) {
+        console.log("android");
+        $.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 150;
+    }
     __defers["$.__views.__alloyId5!click!back"] && $.__views.__alloyId5.addEventListener("click", back);
     _.extend($, exports);
 }

@@ -49,36 +49,36 @@ function Controller() {
         id: "vas"
     });
     $.__views.vas && $.addTopLevelView($.__views.vas);
-    $.__views.__alloyId767 = Alloy.createController("_header", {
-        id: "__alloyId767",
+    $.__views.__alloyId800 = Alloy.createController("_header", {
+        id: "__alloyId800",
         __parentSymbol: $.__views.vas
     });
-    $.__views.__alloyId767.setParent($.__views.vas);
-    $.__views.__alloyId768 = Ti.UI.createView({
+    $.__views.__alloyId800.setParent($.__views.vas);
+    $.__views.__alloyId801 = Ti.UI.createView({
         layout: "composite",
         height: "50",
         backgroundColor: "#E82630",
-        id: "__alloyId768"
+        id: "__alloyId801"
     });
-    $.__views.vas.add($.__views.__alloyId768);
-    $.__views.__alloyId769 = Ti.UI.createLabel({
+    $.__views.vas.add($.__views.__alloyId801);
+    $.__views.__alloyId802 = Ti.UI.createLabel({
         text: "VAS Management",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
-        id: "__alloyId769"
+        id: "__alloyId802"
     });
-    $.__views.__alloyId768.add($.__views.__alloyId769);
-    $.__views.__alloyId770 = Ti.UI.createImageView({
+    $.__views.__alloyId801.add($.__views.__alloyId802);
+    $.__views.__alloyId803 = Ti.UI.createImageView({
         backgroundColor: "transparent",
         width: "30",
         height: "30",
         right: "10",
         image: "/images/close_icon.png",
-        id: "__alloyId770"
+        id: "__alloyId803"
     });
-    $.__views.__alloyId768.add($.__views.__alloyId770);
-    back ? $.__views.__alloyId770.addEventListener("click", back) : __defers["$.__views.__alloyId770!click!back"] = true;
+    $.__views.__alloyId801.add($.__views.__alloyId803);
+    back ? $.__views.__alloyId803.addEventListener("click", back) : __defers["$.__views.__alloyId803!click!back"] = true;
     $.__views.scrollView = Ti.UI.createScrollView({
         id: "scrollView",
         layout: "vertical",
@@ -86,194 +86,194 @@ function Controller() {
         backgroundColor: "#E6E7E9"
     });
     $.__views.vas.add($.__views.scrollView);
-    $.__views.__alloyId771 = Ti.UI.createView({
+    $.__views.__alloyId804 = Ti.UI.createView({
         layout: "horizontal",
         top: "5",
         bottom: "5",
-        height: "20%",
+        height: "50",
         width: "90%",
         backgroundColor: "white",
-        id: "__alloyId771"
+        id: "__alloyId804"
     });
-    $.__views.scrollView.add($.__views.__alloyId771);
-    $.__views.__alloyId772 = Ti.UI.createView({
+    $.__views.scrollView.add($.__views.__alloyId804);
+    $.__views.__alloyId805 = Ti.UI.createView({
         width: "70%",
         height: "100%",
-        id: "__alloyId772"
+        id: "__alloyId805"
     });
-    $.__views.__alloyId771.add($.__views.__alloyId772);
-    $.__views.__alloyId773 = Ti.UI.createLabel({
+    $.__views.__alloyId804.add($.__views.__alloyId805);
+    $.__views.__alloyId806 = Ti.UI.createLabel({
         text: "Call Forwarding",
         backgroundColor: "transparent",
         color: "black",
         textAlign: "left",
         left: "10",
-        id: "__alloyId773"
+        id: "__alloyId806"
     });
-    $.__views.__alloyId772.add($.__views.__alloyId773);
-    $.__views.__alloyId774 = Ti.UI.createView({
+    $.__views.__alloyId805.add($.__views.__alloyId806);
+    $.__views.__alloyId807 = Ti.UI.createView({
         width: "30%",
         height: "100%",
-        id: "__alloyId774"
+        id: "__alloyId807"
     });
-    $.__views.__alloyId771.add($.__views.__alloyId774);
+    $.__views.__alloyId804.add($.__views.__alloyId807);
     $.__views.switch1 = Ti.UI.createSwitch({
         value: false,
         id: "switch1"
     });
-    $.__views.__alloyId774.add($.__views.switch1);
+    $.__views.__alloyId807.add($.__views.switch1);
     forwarding ? $.__views.switch1.addEventListener("change", forwarding) : __defers["$.__views.switch1!change!forwarding"] = true;
-    $.__views.__alloyId775 = Ti.UI.createView({
+    $.__views.__alloyId808 = Ti.UI.createView({
         layout: "horizontal",
         top: "5",
         bottom: "5",
-        height: "20%",
+        height: "50",
         width: "90%",
         backgroundColor: "white",
-        id: "__alloyId775"
+        id: "__alloyId808"
     });
-    $.__views.scrollView.add($.__views.__alloyId775);
-    $.__views.__alloyId776 = Ti.UI.createView({
+    $.__views.scrollView.add($.__views.__alloyId808);
+    $.__views.__alloyId809 = Ti.UI.createView({
         width: "70%",
         height: "100%",
-        id: "__alloyId776"
+        id: "__alloyId809"
     });
-    $.__views.__alloyId775.add($.__views.__alloyId776);
-    $.__views.__alloyId777 = Ti.UI.createLabel({
+    $.__views.__alloyId808.add($.__views.__alloyId809);
+    $.__views.__alloyId810 = Ti.UI.createLabel({
         text: "Caller Line Identification Presentation",
         backgroundColor: "transparent",
         color: "black",
         textAlign: "left",
         left: "10",
-        id: "__alloyId777"
+        id: "__alloyId810"
     });
-    $.__views.__alloyId776.add($.__views.__alloyId777);
-    $.__views.__alloyId778 = Ti.UI.createView({
+    $.__views.__alloyId809.add($.__views.__alloyId810);
+    $.__views.__alloyId811 = Ti.UI.createView({
         width: "30%",
         height: "100%",
-        id: "__alloyId778"
+        id: "__alloyId811"
     });
-    $.__views.__alloyId775.add($.__views.__alloyId778);
+    $.__views.__alloyId808.add($.__views.__alloyId811);
     $.__views.switch2 = Ti.UI.createSwitch({
         value: false,
         id: "switch2"
     });
-    $.__views.__alloyId778.add($.__views.switch2);
+    $.__views.__alloyId811.add($.__views.switch2);
     presentation ? $.__views.switch2.addEventListener("change", presentation) : __defers["$.__views.switch2!change!presentation"] = true;
-    $.__views.__alloyId779 = Ti.UI.createView({
+    $.__views.__alloyId812 = Ti.UI.createView({
         layout: "horizontal",
         top: "5",
         bottom: "5",
-        height: "20%",
+        height: "50",
         width: "90%",
         backgroundColor: "white",
-        id: "__alloyId779"
+        id: "__alloyId812"
     });
-    $.__views.scrollView.add($.__views.__alloyId779);
-    $.__views.__alloyId780 = Ti.UI.createView({
+    $.__views.scrollView.add($.__views.__alloyId812);
+    $.__views.__alloyId813 = Ti.UI.createView({
         width: "70%",
         height: "100%",
-        id: "__alloyId780"
+        id: "__alloyId813"
     });
-    $.__views.__alloyId779.add($.__views.__alloyId780);
-    $.__views.__alloyId781 = Ti.UI.createLabel({
+    $.__views.__alloyId812.add($.__views.__alloyId813);
+    $.__views.__alloyId814 = Ti.UI.createLabel({
         text: "Caller Line Identification Restriction",
         backgroundColor: "transparent",
         color: "black",
         textAlign: "left",
         left: "10",
-        id: "__alloyId781"
+        id: "__alloyId814"
     });
-    $.__views.__alloyId780.add($.__views.__alloyId781);
-    $.__views.__alloyId782 = Ti.UI.createView({
+    $.__views.__alloyId813.add($.__views.__alloyId814);
+    $.__views.__alloyId815 = Ti.UI.createView({
         width: "30%",
         height: "100%",
-        id: "__alloyId782"
+        id: "__alloyId815"
     });
-    $.__views.__alloyId779.add($.__views.__alloyId782);
+    $.__views.__alloyId812.add($.__views.__alloyId815);
     $.__views.switch3 = Ti.UI.createSwitch({
         value: false,
         id: "switch3"
     });
-    $.__views.__alloyId782.add($.__views.switch3);
+    $.__views.__alloyId815.add($.__views.switch3);
     restriction ? $.__views.switch3.addEventListener("change", restriction) : __defers["$.__views.switch3!change!restriction"] = true;
-    $.__views.__alloyId783 = Ti.UI.createView({
+    $.__views.__alloyId816 = Ti.UI.createView({
         layout: "horizontal",
         top: "5",
         bottom: "5",
-        height: "20%",
+        height: "50",
         width: "90%",
         backgroundColor: "white",
-        id: "__alloyId783"
+        id: "__alloyId816"
     });
-    $.__views.scrollView.add($.__views.__alloyId783);
-    $.__views.__alloyId784 = Ti.UI.createView({
+    $.__views.scrollView.add($.__views.__alloyId816);
+    $.__views.__alloyId817 = Ti.UI.createView({
         width: "70%",
         height: "100%",
-        id: "__alloyId784"
+        id: "__alloyId817"
     });
-    $.__views.__alloyId783.add($.__views.__alloyId784);
-    $.__views.__alloyId785 = Ti.UI.createLabel({
+    $.__views.__alloyId816.add($.__views.__alloyId817);
+    $.__views.__alloyId818 = Ti.UI.createLabel({
         text: "Itemized Billing",
         backgroundColor: "transparent",
         color: "black",
         textAlign: "left",
         left: "10",
-        id: "__alloyId785"
+        id: "__alloyId818"
     });
-    $.__views.__alloyId784.add($.__views.__alloyId785);
-    $.__views.__alloyId786 = Ti.UI.createView({
+    $.__views.__alloyId817.add($.__views.__alloyId818);
+    $.__views.__alloyId819 = Ti.UI.createView({
         width: "30%",
         height: "100%",
-        id: "__alloyId786"
+        id: "__alloyId819"
     });
-    $.__views.__alloyId783.add($.__views.__alloyId786);
+    $.__views.__alloyId816.add($.__views.__alloyId819);
     $.__views.switch4 = Ti.UI.createSwitch({
         value: false,
         id: "switch4"
     });
-    $.__views.__alloyId786.add($.__views.switch4);
+    $.__views.__alloyId819.add($.__views.switch4);
     billing ? $.__views.switch4.addEventListener("change", billing) : __defers["$.__views.switch4!change!billing"] = true;
-    $.__views.__alloyId787 = Ti.UI.createView({
+    $.__views.__alloyId820 = Ti.UI.createView({
         layout: "horizontal",
         top: "5",
         bottom: "5",
-        height: "20%",
+        height: "50",
         width: "90%",
         backgroundColor: "white",
-        id: "__alloyId787"
+        id: "__alloyId820"
     });
-    $.__views.scrollView.add($.__views.__alloyId787);
-    $.__views.__alloyId788 = Ti.UI.createView({
+    $.__views.scrollView.add($.__views.__alloyId820);
+    $.__views.__alloyId821 = Ti.UI.createView({
         width: "70%",
         height: "100%",
-        id: "__alloyId788"
+        id: "__alloyId821"
     });
-    $.__views.__alloyId787.add($.__views.__alloyId788);
-    $.__views.__alloyId789 = Ti.UI.createLabel({
+    $.__views.__alloyId820.add($.__views.__alloyId821);
+    $.__views.__alloyId822 = Ti.UI.createLabel({
         text: "International Direct Dial",
         backgroundColor: "transparent",
         color: "black",
         textAlign: "left",
         left: "10",
-        id: "__alloyId789"
+        id: "__alloyId822"
     });
-    $.__views.__alloyId788.add($.__views.__alloyId789);
-    $.__views.__alloyId790 = Ti.UI.createView({
+    $.__views.__alloyId821.add($.__views.__alloyId822);
+    $.__views.__alloyId823 = Ti.UI.createView({
         width: "30%",
         height: "100%",
-        id: "__alloyId790"
+        id: "__alloyId823"
     });
-    $.__views.__alloyId787.add($.__views.__alloyId790);
+    $.__views.__alloyId820.add($.__views.__alloyId823);
     $.__views.switch5 = Ti.UI.createSwitch({
         value: false,
         id: "switch5"
     });
-    $.__views.__alloyId790.add($.__views.switch5);
+    $.__views.__alloyId823.add($.__views.switch5);
     international ? $.__views.switch5.addEventListener("change", international) : __defers["$.__views.switch5!change!international"] = true;
     exports.destroy = function() {};
     _.extend($, $.__views);
-    __defers["$.__views.__alloyId770!click!back"] && $.__views.__alloyId770.addEventListener("click", back);
+    __defers["$.__views.__alloyId803!click!back"] && $.__views.__alloyId803.addEventListener("click", back);
     __defers["$.__views.switch1!change!forwarding"] && $.__views.switch1.addEventListener("change", forwarding);
     __defers["$.__views.switch2!change!presentation"] && $.__views.switch2.addEventListener("change", presentation);
     __defers["$.__views.switch3!change!restriction"] && $.__views.switch3.addEventListener("change", restriction);

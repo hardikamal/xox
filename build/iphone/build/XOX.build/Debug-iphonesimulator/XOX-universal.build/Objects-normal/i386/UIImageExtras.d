@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/AFOpenFlow/UIImageExtras.m \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/AFOpenFlow/UIImageExtras.h
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/AFOpenFlow/UIImageExtras.m \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/AFOpenFlow/UIImageExtras.h

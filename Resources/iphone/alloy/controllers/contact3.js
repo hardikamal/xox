@@ -72,7 +72,8 @@ function Controller() {
         layout: "vertical",
         height: "100%",
         scrollType: "vertical",
-        backgroundColor: "#F4F6F5"
+        backgroundColor: "#F4F6F5",
+        contentHeight: Ti.UI.SIZE
     });
     $.__views.scrollView && $.addTopLevelView($.__views.scrollView);
     $.__views.contentView = Ti.UI.createView({
@@ -541,7 +542,8 @@ function Controller() {
     $.__views.__alloyId171.add($.__views.__alloyId175);
     $.__views.table = Ti.UI.createTableView({
         data: __alloyId130,
-        id: "table"
+        id: "table",
+        height: Ti.UI.SIZE
     });
     $.__views.scrollView.add($.__views.table);
     exports.destroy = function() {};

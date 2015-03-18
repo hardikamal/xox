@@ -1,1 +1,1 @@
-/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/Resources/android/alloy/styles/orderHistory.js
+/Users/chrispang/Documents/Chris/Mobile Projects/xox/Resources/android/alloy/styles/orderHistory.js

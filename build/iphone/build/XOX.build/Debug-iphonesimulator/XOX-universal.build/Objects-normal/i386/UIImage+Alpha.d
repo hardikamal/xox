@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/UIImage+Alpha.m \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/UIImage+Alpha.h
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/UIImage+Alpha.m \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/UIImage+Alpha.h

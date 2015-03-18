@@ -1,1 +1,1 @@
-/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/Resources/iphone/alloy/backbone.js
+/Users/chrispang/Documents/Chris/Mobile Projects/xox/Resources/iphone/alloy/backbone.js

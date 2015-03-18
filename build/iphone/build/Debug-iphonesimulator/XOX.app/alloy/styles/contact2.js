@@ -1,1 +1,1 @@
-/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/Resources/iphone/alloy/styles/contact2.js
+/Users/chrispang/Documents/Chris/Mobile Projects/xox/Resources/iphone/alloy/styles/contact2.js

@@ -1,13 +1,13 @@
 dependencies: \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/ContactsModule.m \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/ContactsModule.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiModule.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiProxy.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiBase.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiThreading.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiPublicAPI.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiEvaluator.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/KrollContext.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/ContactsModule.m \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/ContactsModule.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiModule.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiProxy.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiBase.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiThreading.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiPublicAPI.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiEvaluator.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/KrollContext.h \
   headers/JavaScriptCore/TiCore.h headers/JavaScriptCore/Ti.h \
   headers/JavaScriptCore/TiBase.h headers/JavaScriptCore/TiContextRef.h \
   headers/JavaScriptCore/TiObjectRef.h \
@@ -15,32 +15,32 @@ dependencies: \
   headers/JavaScriptCore/WebKitAvailability.h \
   headers/JavaScriptCore/TiStringRef.h \
   headers/JavaScriptCore/TiStringRefCF.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/KrollCallback.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/KrollObject.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiBindingRunLoop.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiUtils.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiDimension.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiColor.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/WebFont.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiFile.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiBuffer.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiBlob.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiContactsPerson.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiContactsGroup.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiApp.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiHost.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/Bridge.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiStylesheet.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/KrollBridge.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/XHRBridge.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiRootViewController.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiControllerProtocols.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiViewProxy.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiUIView.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiAnimation.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiPoint.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/ListenerEntry.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/LayoutConstraint.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiGradient.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiRect.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiViewTemplate.h
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/KrollCallback.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/KrollObject.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiBindingRunLoop.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiUtils.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiDimension.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiColor.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/WebFont.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiFile.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiBuffer.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiBlob.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiContactsPerson.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiContactsGroup.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiApp.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiHost.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/Bridge.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiStylesheet.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/KrollBridge.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/XHRBridge.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiRootViewController.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiControllerProtocols.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiViewProxy.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiUIView.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiAnimation.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiPoint.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/ListenerEntry.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/LayoutConstraint.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiGradient.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiRect.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiViewTemplate.h

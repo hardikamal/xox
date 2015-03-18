@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/UIImage+RoundedCorner.m \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/UIImage+RoundedCorner.h \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/UIImage+Alpha.h
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/UIImage+RoundedCorner.m \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/UIImage+RoundedCorner.h \
+  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/UIImage+Alpha.h
