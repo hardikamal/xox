@@ -4,8 +4,9 @@
 		<View layout="vertical" width="auto" top="60" bottom="50">
 			<ImageView backgroundColor="transparent" width="30" height="30" right="10" bottom="10" onClick="back" image="/images/close_icon.png"></ImageView>
 			<View width="280" height="200" backgroundColor="yellow" bottom="10"></View>
-			<ScrollView contentHeight="Ti.UI.SIZE" height="Ti.UI.FILL" bottom="0">
+			<ScrollView layout="vertical" contentHeight="Ti.UI.SIZE" height="Ti.UI.FILL" bottom="0">
 				<Label color="#E6E7E9" textAlign="left">Lorem ipsum dolor sit amet, sed errem solet euripidis ad, sint putent at nam, vel falli causae ea. Mei facete electram prodesset at, vix id elitr percipit reprehendunt. Pri ex reque movet constituto, at assentior sententiae deterruisset vim. Nam illud dolores eu, sed an nobis antiopam. Laudem labore facilisi vim eu, sumo soluta comprehensam te sed. Ea per nostrum menandri, ne quo quas eligendi.No habeo novum contentiones eos. Pri te solum prodesset abhorreant, ut illum corrumpit mnesarchum est, porro movet nullam id vim. An ius affert neglegentur, at eam quis animal accumsan. Ea utinam verear eam, sea eu essent ullamcorper. Et quo falli doctus similique.</Label>
+				<Button color="#44C7D6" borderColor="#44C7D6" backgroundColor="white" height="40" width="120" borderRadius="20" onClick="buy" top="40">Buy Now</Button>
 			</ScrollView>
 		</View>
 		<View layout="horizontal" backgroundColor="#333333" height="50" bottom="0">

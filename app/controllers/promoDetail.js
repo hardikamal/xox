@@ -7,3 +7,8 @@ function back()
 	// win.open();
 	DRAWER.navigation("promo",2);
 }
+
+function buy()
+{
+	console.log("buy");
+}

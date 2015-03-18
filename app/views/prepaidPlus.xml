@@ -11,7 +11,7 @@
 			</View>
 			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
 		</View>
-		<ScrollView layout="vertical" backgroundColor="#E6E7E9" width="90%">
+		<ScrollView id="scrollView" layout="vertical" backgroundColor="#E6E7E9" width="90%">
 			<View layout="vertical" height="Ti.UI.SIZE" top="10" backgroundColor="white">
 				<View backgroundColor="#787878" height="30">
 					<Label color="white" height="30" left="10">Voice Call (All Networks)</Label>
@@ -60,5 +60,8 @@
 				</View>
 			</View>
 		</ScrollView>
+		<View height="50" backgroundColor="#000000" onClick="subscribe">
+			<Label color="white">Subscribe Now</Label>
+		</View>
 	</View>
 </Alloy>

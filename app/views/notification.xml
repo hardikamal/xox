@@ -1,0 +1,15 @@
+<Alloy>
+	<View layout="vertical" class="container" backgroundColor="#E6E7E9" fullscreen="true">
+		<Require src="_header" ></Require>
+		<View height="20%" backgroundColor="#AFCD3F">
+			<Label left="10" top="10" color="white">Support</Label>
+		</View>
+		<View height="50" backgroundColor="#E6E7E9">
+			<Label left="5%" height="50" textAlign="left" color="black" >Notification</Label>
+		</View>
+		<ScrollView layout="vertical" backgroundColor="white">
+			<Label id="title" width="90%" height="Ti.UI.SIZE" top="10" textAlign="left" color="black" ></Label>
+			<Label id="label" width="90%" height="Ti.UI.SIZE" top="10" textAlign="left" color="black" ></Label>
+		</ScrollView>
+	</View>
+</Alloy>

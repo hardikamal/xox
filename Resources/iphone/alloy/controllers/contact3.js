@@ -11,7 +11,7 @@ function Controller() {
     function state(e) {
         console.log("state");
         state = e.row.title;
-        $.stateLabel.text = state;
+        ("iphone" == Ti.Platform.osname || "ipad" == Ti.Platform.osname) && ($.stateLabel.text = state);
     }
     function showPicker() {
         console.log("showPicker");
@@ -72,7 +72,8 @@ function Controller() {
         layout: "vertical",
         height: "100%",
         scrollType: "vertical",
-        backgroundColor: "#F4F6F5"
+        backgroundColor: "#F4F6F5",
+        contentHeight: Ti.UI.SIZE
     });
     $.__views.scrollView && $.addTopLevelView($.__views.scrollView);
     $.__views.contentView = Ti.UI.createView({
@@ -88,6 +89,7 @@ function Controller() {
         bottom: "5",
         borderRadius: "15",
         textAlign: "center",
+        color: "black",
         backgroundColor: "#E6E7E9",
         hintText: "Search keywords on area",
         id: "__alloyId123"
@@ -541,7 +543,8 @@ function Controller() {
     $.__views.__alloyId171.add($.__views.__alloyId175);
     $.__views.table = Ti.UI.createTableView({
         data: __alloyId130,
-        id: "table"
+        id: "table",
+        height: Ti.UI.SIZE
     });
     $.__views.scrollView.add($.__views.table);
     exports.destroy = function() {};
