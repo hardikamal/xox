@@ -10,7 +10,10 @@ function state(e)
 {
 	console.log("state");
 	state = e.row.title;
-	$.stateLabel.text = state;
+	if(Ti.Platform.osname == "iphone" || Ti.Platform.osname == "ipad") 
+	{ 
+		$.stateLabel.text = state;
+	}
 }
 
 function showPicker()

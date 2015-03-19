@@ -51,7 +51,10 @@ function subjectType(e)
 {
 	console.log("subjectType");
 	subjectType = e.row.title;
-	$.subjectLabel.text = subjectType;
+	if(Ti.Platform.osname == "iphone" || Ti.Platform.osname == "ipad") 
+	{ 
+		$.subjectLabel.text = subjectType;
+	}
 }
 
 function done(){

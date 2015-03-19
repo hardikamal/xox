@@ -1,0 +1,54 @@
+<Alloy>
+	<View layout="vertical" class="container" backgroundColor="#E6E7E9" fullscreen="true">
+		<Require src="_header" ></Require>
+		<View layout="composite" height="50" backgroundColor="#EB2127">
+			<Label backgroundColor="transparent" color="white" left="10">MOBILE INTERNET</Label>
+			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
+		</View>
+		<ScrollView id="scrollView" layout="vertical" backgroundColor="#E6E7E9" width="90%">
+			<View layout="vertical" height="Ti.UI.SIZE" top="10" backgroundColor="white">
+				<View backgroundColor="#787878" height="30">
+					<Label color="white" height="30" left="10">Mobile Data Plan</Label>
+				</View>
+				<View layout="horizontal" borderColor="#F0F0F0" height="30">
+					<Label width="55%" height="30" color="#44C4D3" left="10">Daily 250MB</Label>
+					<Label width="25%" height="30" color="black">24 hours</Label>
+					<Label width="auto" height="30" color="black">RM7</Label>
+				</View>
+				<View layout="horizontal" borderColor="#F0F0F0" height="30">
+					<Label width="55%" height="30" color="#44C4D3" left="10">Weekly 250MB</Label>
+					<Label width="25%" height="30" color="black">7 days</Label>
+					<Label width="auto" height="30" color="black">RM10</Label>
+				</View>
+				<View layout="horizontal" borderColor="#F0F0F0" height="30">
+					<Label width="55%" height="30" color="#44C4D3" left="10">Monthly 500MB</Label>
+					<Label width="25%" height="30" color="black">30 days</Label>
+					<Label width="auto" height="30" color="black">RM7</Label>
+				</View>
+				<View layout="horizontal" borderColor="#F0F0F0" height="30">
+					<Label width="55%" height="30" color="#44C4D3" left="10">Monthly 1GB</Label>
+					<Label width="25%" height="30" color="black">30 days</Label>
+					<Label width="auto" height="30" color="black">RM7</Label>
+				</View>
+				<View layout="horizontal" borderColor="#F0F0F0" height="30">
+					<Label width="55%" height="30" color="#44C4D3" left="10">Monthly 3GB</Label>
+					<Label width="25%" height="30" color="black">30 days</Label>
+					<Label width="auto" height="30" color="black">RM7</Label>
+				</View>
+				<View layout="horizontal" borderColor="#F0F0F0" height="30">
+					<Label width="55%" height="30" color="#44C4D3" left="10">Monthly 5GB</Label>
+					<Label width="25%" height="30" color="black">30 days</Label>
+					<Label width="auto" height="30" color="black">RM7</Label>
+				</View>
+				<View layout="horizontal" borderColor="#F0F0F0" height="30">
+					<Label width="55%" height="30" color="#44C4D3" left="10">Data Promo 2.3GB</Label>
+					<Label width="25%" height="30" color="black">30 days</Label>
+					<Label width="auto" height="30" color="black">RM7</Label>
+				</View>
+			</View>
+		</ScrollView>
+		<View height="50" backgroundColor="#000000" onClick="subscribe">
+			<Label color="white">Subscribe Now</Label>
+		</View>
+	</View>
+</Alloy>

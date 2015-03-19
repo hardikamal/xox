@@ -11,7 +11,7 @@ function Controller() {
     function state(e) {
         console.log("state");
         state = e.row.title;
-        $.stateLabel.text = state;
+        ("iphone" == Ti.Platform.osname || "ipad" == Ti.Platform.osname) && ($.stateLabel.text = state);
     }
     function showPicker() {
         console.log("showPicker");
@@ -89,6 +89,7 @@ function Controller() {
         bottom: "5",
         borderRadius: "15",
         textAlign: "center",
+        color: "black",
         backgroundColor: "#E6E7E9",
         hintText: "Search keywords on area",
         id: "__alloyId123"
