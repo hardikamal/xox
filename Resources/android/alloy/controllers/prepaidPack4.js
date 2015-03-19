@@ -34,62 +34,62 @@ function Controller() {
         id: "prepaidPack4"
     });
     $.__views.prepaidPack4 && $.addTopLevelView($.__views.prepaidPack4);
-    $.__views.__alloyId637 = Alloy.createController("_header", {
-        id: "__alloyId637",
+    $.__views.__alloyId1157 = Alloy.createController("_header", {
+        id: "__alloyId1157",
         __parentSymbol: $.__views.prepaidPack4
     });
-    $.__views.__alloyId637.setParent($.__views.prepaidPack4);
-    $.__views.__alloyId638 = Ti.UI.createView({
+    $.__views.__alloyId1157.setParent($.__views.prepaidPack4);
+    $.__views.__alloyId1158 = Ti.UI.createView({
         layout: "composite",
         height: "50",
         backgroundColor: "#4CC4D2",
-        id: "__alloyId638"
+        id: "__alloyId1158"
     });
-    $.__views.prepaidPack4.add($.__views.__alloyId638);
-    $.__views.__alloyId639 = Ti.UI.createLabel({
+    $.__views.prepaidPack4.add($.__views.__alloyId1158);
+    $.__views.__alloyId1159 = Ti.UI.createLabel({
         text: "XOX PREPAID PACK",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
-        id: "__alloyId639"
+        id: "__alloyId1159"
     });
-    $.__views.__alloyId638.add($.__views.__alloyId639);
-    $.__views.__alloyId640 = Ti.UI.createView({
+    $.__views.__alloyId1158.add($.__views.__alloyId1159);
+    $.__views.__alloyId1160 = Ti.UI.createView({
         layout: "vertical",
         height: "50",
         backgroundColor: "#F2F2F2",
-        id: "__alloyId640"
+        id: "__alloyId1160"
     });
-    $.__views.prepaidPack4.add($.__views.__alloyId640);
-    $.__views.__alloyId641 = Ti.UI.createLabel({
+    $.__views.prepaidPack4.add($.__views.__alloyId1160);
+    $.__views.__alloyId1161 = Ti.UI.createLabel({
         text: "Step 4 of 4",
         backgroundColor: "transparent",
         color: "black",
         left: "20",
-        id: "__alloyId641"
+        id: "__alloyId1161"
     });
-    $.__views.__alloyId640.add($.__views.__alloyId641);
-    $.__views.__alloyId642 = Ti.UI.createLabel({
+    $.__views.__alloyId1160.add($.__views.__alloyId1161);
+    $.__views.__alloyId1162 = Ti.UI.createLabel({
         text: "Complete",
         backgroundColor: "transparent",
         color: "#4CC4D2",
         left: "20",
-        id: "__alloyId642"
+        id: "__alloyId1162"
     });
-    $.__views.__alloyId640.add($.__views.__alloyId642);
+    $.__views.__alloyId1160.add($.__views.__alloyId1162);
     $.__views.scrollView = Ti.UI.createScrollView({
         id: "scrollView",
         layout: "vertical",
         width: "100%"
     });
     $.__views.prepaidPack4.add($.__views.scrollView);
-    $.__views.__alloyId643 = Ti.UI.createView({
+    $.__views.__alloyId1163 = Ti.UI.createView({
         layout: "horizontal",
         width: "90%",
         height: "100",
-        id: "__alloyId643"
+        id: "__alloyId1163"
     });
-    $.__views.scrollView.add($.__views.__alloyId643);
+    $.__views.scrollView.add($.__views.__alloyId1163);
     $.__views.item_title = Ti.UI.createLabel({
         font: {
             fontSize: "15dp"
@@ -101,8 +101,8 @@ function Controller() {
         width: "90%",
         top: "5"
     });
-    $.__views.__alloyId643.add($.__views.item_title);
-    $.__views.__alloyId644 = Ti.UI.createButton({
+    $.__views.__alloyId1163.add($.__views.item_title);
+    $.__views.__alloyId1164 = Ti.UI.createButton({
         title: "Done",
         color: "#44C7D6",
         borderColor: "#44C7D6",
@@ -111,16 +111,16 @@ function Controller() {
         width: "60%",
         borderRadius: "20",
         top: "40",
-        id: "__alloyId644"
+        id: "__alloyId1164"
     });
-    $.__views.scrollView.add($.__views.__alloyId644);
-    done ? $.__views.__alloyId644.addEventListener("click", done) : __defers["$.__views.__alloyId644!click!done"] = true;
+    $.__views.scrollView.add($.__views.__alloyId1164);
+    done ? $.__views.__alloyId1164.addEventListener("click", done) : __defers["$.__views.__alloyId1164!click!done"] = true;
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.scrollView.height = Ti.Platform.displayCaps.platformHeight - 200;
     console.log("android");
     $.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 200;
-    __defers["$.__views.__alloyId644!click!done"] && $.__views.__alloyId644.addEventListener("click", done);
+    __defers["$.__views.__alloyId1164!click!done"] && $.__views.__alloyId1164.addEventListener("click", done);
     _.extend($, exports);
 }
 

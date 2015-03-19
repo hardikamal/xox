@@ -55,66 +55,36 @@ function Controller() {
         id: "seasonPass"
     });
     $.__views.seasonPass && $.addTopLevelView($.__views.seasonPass);
-<<<<<<< HEAD
-    $.__views.__alloyId626 = Alloy.createController("_header", {
-        id: "__alloyId626",
+    $.__views.__alloyId1355 = Alloy.createController("_header", {
+        id: "__alloyId1355",
         __parentSymbol: $.__views.seasonPass
     });
-    $.__views.__alloyId626.setParent($.__views.seasonPass);
-    $.__views.__alloyId627 = Ti.UI.createView({
+    $.__views.__alloyId1355.setParent($.__views.seasonPass);
+    $.__views.__alloyId1356 = Ti.UI.createView({
         layout: "composite",
         height: "50",
         backgroundColor: "#E82630",
-        id: "__alloyId627"
+        id: "__alloyId1356"
     });
-    $.__views.seasonPass.add($.__views.__alloyId627);
-    $.__views.__alloyId628 = Ti.UI.createLabel({
-=======
-    $.__views.__alloyId997 = Alloy.createController("_header", {
-        id: "__alloyId997",
-        __parentSymbol: $.__views.seasonPass
-    });
-    $.__views.__alloyId997.setParent($.__views.seasonPass);
-    $.__views.__alloyId998 = Ti.UI.createView({
-        layout: "composite",
-        height: "50",
-        backgroundColor: "#E82630",
-        id: "__alloyId998"
-    });
-    $.__views.seasonPass.add($.__views.__alloyId998);
-    $.__views.__alloyId999 = Ti.UI.createLabel({
->>>>>>> origin/master
+    $.__views.seasonPass.add($.__views.__alloyId1356);
+    $.__views.__alloyId1357 = Ti.UI.createLabel({
         text: "Season Pass",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
-<<<<<<< HEAD
-        id: "__alloyId628"
+        id: "__alloyId1357"
     });
-    $.__views.__alloyId627.add($.__views.__alloyId628);
-    $.__views.__alloyId629 = Ti.UI.createImageView({
-=======
-        id: "__alloyId999"
-    });
-    $.__views.__alloyId998.add($.__views.__alloyId999);
-    $.__views.__alloyId1000 = Ti.UI.createImageView({
->>>>>>> origin/master
+    $.__views.__alloyId1356.add($.__views.__alloyId1357);
+    $.__views.__alloyId1358 = Ti.UI.createImageView({
         backgroundColor: "transparent",
         width: "30",
         height: "30",
         right: "10",
         image: "/images/close_icon.png",
-<<<<<<< HEAD
-        id: "__alloyId629"
+        id: "__alloyId1358"
     });
-    $.__views.__alloyId627.add($.__views.__alloyId629);
-    back ? $.__views.__alloyId629.addEventListener("click", back) : __defers["$.__views.__alloyId629!click!back"] = true;
-=======
-        id: "__alloyId1000"
-    });
-    $.__views.__alloyId998.add($.__views.__alloyId1000);
-    back ? $.__views.__alloyId1000.addEventListener("click", back) : __defers["$.__views.__alloyId1000!click!back"] = true;
->>>>>>> origin/master
+    $.__views.__alloyId1356.add($.__views.__alloyId1358);
+    back ? $.__views.__alloyId1358.addEventListener("click", back) : __defers["$.__views.__alloyId1358!click!back"] = true;
     $.__views.menu = Ti.UI.createView({
         id: "menu",
         layout: "horizontal",
@@ -134,23 +104,13 @@ function Controller() {
     });
     $.__views.menu.add($.__views.lbl1);
     goSlide ? $.__views.lbl1.addEventListener("touchend", goSlide) : __defers["$.__views.lbl1!touchend!goSlide"] = true;
-<<<<<<< HEAD
-    $.__views.__alloyId630 = Ti.UI.createView({
+    $.__views.__alloyId1359 = Ti.UI.createView({
         backgroundColor: "#E7E7E7",
         height: "100%",
         width: "0.45%",
-        id: "__alloyId630"
+        id: "__alloyId1359"
     });
-    $.__views.menu.add($.__views.__alloyId630);
-=======
-    $.__views.__alloyId1001 = Ti.UI.createView({
-        backgroundColor: "#E7E7E7",
-        height: "100%",
-        width: "0.45%",
-        id: "__alloyId1001"
-    });
-    $.__views.menu.add($.__views.__alloyId1001);
->>>>>>> origin/master
+    $.__views.menu.add($.__views.__alloyId1359);
     $.__views.lbl2 = Ti.UI.createLabel({
         text: "DATA PACKAGE",
         id: "lbl2",
@@ -163,23 +123,13 @@ function Controller() {
     });
     $.__views.menu.add($.__views.lbl2);
     goSlide ? $.__views.lbl2.addEventListener("touchend", goSlide) : __defers["$.__views.lbl2!touchend!goSlide"] = true;
-<<<<<<< HEAD
-    $.__views.__alloyId631 = Ti.UI.createView({
+    $.__views.__alloyId1360 = Ti.UI.createView({
         backgroundColor: "#E7E7E7",
         height: "100%",
         width: "0.45%",
-        id: "__alloyId631"
+        id: "__alloyId1360"
     });
-    $.__views.menu.add($.__views.__alloyId631);
-=======
-    $.__views.__alloyId1002 = Ti.UI.createView({
-        backgroundColor: "#E7E7E7",
-        height: "100%",
-        width: "0.45%",
-        id: "__alloyId1002"
-    });
-    $.__views.menu.add($.__views.__alloyId1002);
->>>>>>> origin/master
+    $.__views.menu.add($.__views.__alloyId1360);
     $.__views.lbl3 = Ti.UI.createLabel({
         text: "COMBO PACKAGE",
         id: "lbl3",
@@ -192,57 +142,30 @@ function Controller() {
     });
     $.__views.menu.add($.__views.lbl3);
     goSlide ? $.__views.lbl3.addEventListener("touchend", goSlide) : __defers["$.__views.lbl3!touchend!goSlide"] = true;
-<<<<<<< HEAD
-    var __alloyId632 = [];
-    $.__views.__alloyId633 = Alloy.createController("seasonPass1", {
-        id: "__alloyId633",
+    var __alloyId1361 = [];
+    $.__views.__alloyId1362 = Alloy.createController("seasonPass1", {
+        id: "__alloyId1362",
         __parentSymbol: __parentSymbol
     });
-    __alloyId632.push($.__views.__alloyId633.getViewEx({
+    __alloyId1361.push($.__views.__alloyId1362.getViewEx({
         recurse: true
     }));
-    $.__views.__alloyId634 = Alloy.createController("seasonPass2", {
-        id: "__alloyId634",
+    $.__views.__alloyId1363 = Alloy.createController("seasonPass2", {
+        id: "__alloyId1363",
         __parentSymbol: __parentSymbol
     });
-    __alloyId632.push($.__views.__alloyId634.getViewEx({
+    __alloyId1361.push($.__views.__alloyId1363.getViewEx({
         recurse: true
     }));
-    $.__views.__alloyId635 = Alloy.createController("seasonPass3", {
-        id: "__alloyId635",
+    $.__views.__alloyId1364 = Alloy.createController("seasonPass3", {
+        id: "__alloyId1364",
         __parentSymbol: __parentSymbol
     });
-    __alloyId632.push($.__views.__alloyId635.getViewEx({
-        recurse: true
-    }));
-    $.__views.scrollableView = Ti.UI.createScrollableView({
-        views: __alloyId632,
-=======
-    var __alloyId1003 = [];
-    $.__views.__alloyId1004 = Alloy.createController("seasonPass1", {
-        id: "__alloyId1004",
-        __parentSymbol: __parentSymbol
-    });
-    __alloyId1003.push($.__views.__alloyId1004.getViewEx({
-        recurse: true
-    }));
-    $.__views.__alloyId1005 = Alloy.createController("seasonPass2", {
-        id: "__alloyId1005",
-        __parentSymbol: __parentSymbol
-    });
-    __alloyId1003.push($.__views.__alloyId1005.getViewEx({
-        recurse: true
-    }));
-    $.__views.__alloyId1006 = Alloy.createController("seasonPass3", {
-        id: "__alloyId1006",
-        __parentSymbol: __parentSymbol
-    });
-    __alloyId1003.push($.__views.__alloyId1006.getViewEx({
+    __alloyId1361.push($.__views.__alloyId1364.getViewEx({
         recurse: true
     }));
     $.__views.scrollableView = Ti.UI.createScrollableView({
-        views: __alloyId1003,
->>>>>>> origin/master
+        views: __alloyId1361,
         id: "scrollableView",
         showPagingControl: "false",
         scrollingEnabled: "false"
@@ -250,11 +173,7 @@ function Controller() {
     $.__views.seasonPass.add($.__views.scrollableView);
     exports.destroy = function() {};
     _.extend($, $.__views);
-<<<<<<< HEAD
-    __defers["$.__views.__alloyId629!click!back"] && $.__views.__alloyId629.addEventListener("click", back);
-=======
-    __defers["$.__views.__alloyId1000!click!back"] && $.__views.__alloyId1000.addEventListener("click", back);
->>>>>>> origin/master
+    __defers["$.__views.__alloyId1358!click!back"] && $.__views.__alloyId1358.addEventListener("click", back);
     __defers["$.__views.lbl1!touchend!goSlide"] && $.__views.lbl1.addEventListener("touchend", goSlide);
     __defers["$.__views.lbl2!touchend!goSlide"] && $.__views.lbl2.addEventListener("touchend", goSlide);
     __defers["$.__views.lbl3!touchend!goSlide"] && $.__views.lbl3.addEventListener("touchend", goSlide);

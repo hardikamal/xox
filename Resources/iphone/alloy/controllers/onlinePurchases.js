@@ -9,7 +9,10 @@ function __processArg(obj, key) {
 
 function Controller() {
     function prepaidPack() {
-        DRAWER.navigation("prepaidPack", 2);
+        DRAWER.navigation("prepaidPack", 1);
+    }
+    function hopOn() {
+        DRAWER.navigation("hopOn", 1);
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "onlinePurchases";
@@ -34,154 +37,80 @@ function Controller() {
         id: "onlinePurchases"
     });
     $.__views.onlinePurchases && $.addTopLevelView($.__views.onlinePurchases);
-<<<<<<< HEAD
-    $.__views.__alloyId354 = Alloy.createController("_header", {
-        id: "__alloyId354",
+    $.__views.__alloyId750 = Alloy.createController("_header", {
+        id: "__alloyId750",
         __parentSymbol: $.__views.onlinePurchases
     });
-    $.__views.__alloyId354.setParent($.__views.onlinePurchases);
-    $.__views.__alloyId355 = Ti.UI.createView({
+    $.__views.__alloyId750.setParent($.__views.onlinePurchases);
+    $.__views.__alloyId751 = Ti.UI.createView({
         height: "20%",
         backgroundColor: "#1C6D83",
-        id: "__alloyId355"
+        id: "__alloyId751"
     });
-    $.__views.onlinePurchases.add($.__views.__alloyId355);
-    $.__views.__alloyId356 = Ti.UI.createLabel({
-=======
-    $.__views.__alloyId565 = Alloy.createController("_header", {
-        id: "__alloyId565",
-        __parentSymbol: $.__views.onlinePurchases
-    });
-    $.__views.__alloyId565.setParent($.__views.onlinePurchases);
-    $.__views.__alloyId566 = Ti.UI.createView({
-        height: "20%",
-        backgroundColor: "#1C6D83",
-        id: "__alloyId566"
-    });
-    $.__views.onlinePurchases.add($.__views.__alloyId566);
-    $.__views.__alloyId567 = Ti.UI.createLabel({
->>>>>>> origin/master
+    $.__views.onlinePurchases.add($.__views.__alloyId751);
+    $.__views.__alloyId752 = Ti.UI.createLabel({
         text: "Online Purchases",
         left: "10",
         top: "10",
         color: "white",
-<<<<<<< HEAD
-        id: "__alloyId356"
+        id: "__alloyId752"
     });
-    $.__views.__alloyId355.add($.__views.__alloyId356);
-    $.__views.__alloyId357 = Ti.UI.createView({
+    $.__views.__alloyId751.add($.__views.__alloyId752);
+    $.__views.__alloyId753 = Ti.UI.createView({
         layout: "vertical",
-        id: "__alloyId357"
+        id: "__alloyId753"
     });
-    $.__views.onlinePurchases.add($.__views.__alloyId357);
-    $.__views.__alloyId358 = Ti.UI.createView({
+    $.__views.onlinePurchases.add($.__views.__alloyId753);
+    $.__views.__alloyId754 = Ti.UI.createView({
         layout: "horizontal",
         height: "20%",
         backgroundColor: "#EB2127",
-        id: "__alloyId358"
+        id: "__alloyId754"
     });
-    $.__views.__alloyId357.add($.__views.__alloyId358);
-    prepaidPack ? $.__views.__alloyId358.addEventListener("click", prepaidPack) : __defers["$.__views.__alloyId358!click!prepaidPack"] = true;
-    $.__views.__alloyId359 = Ti.UI.createImageView({
+    $.__views.__alloyId753.add($.__views.__alloyId754);
+    hopOn ? $.__views.__alloyId754.addEventListener("click", hopOn) : __defers["$.__views.__alloyId754!click!hopOn"] = true;
+    $.__views.__alloyId755 = Ti.UI.createImageView({
         backgroundColor: "#A3161A",
         height: "100%",
         width: "25%",
-        id: "__alloyId359"
+        id: "__alloyId755"
     });
-    $.__views.__alloyId358.add($.__views.__alloyId359);
-    $.__views.__alloyId360 = Ti.UI.createLabel({
-=======
-        id: "__alloyId567"
-    });
-    $.__views.__alloyId566.add($.__views.__alloyId567);
-    $.__views.__alloyId568 = Ti.UI.createView({
-        layout: "vertical",
-        id: "__alloyId568"
-    });
-    $.__views.onlinePurchases.add($.__views.__alloyId568);
-    $.__views.__alloyId569 = Ti.UI.createView({
-        layout: "horizontal",
-        height: "20%",
-        backgroundColor: "#EB2127",
-        id: "__alloyId569"
-    });
-    $.__views.__alloyId568.add($.__views.__alloyId569);
-    prepaidPack ? $.__views.__alloyId569.addEventListener("click", prepaidPack) : __defers["$.__views.__alloyId569!click!prepaidPack"] = true;
-    $.__views.__alloyId570 = Ti.UI.createImageView({
-        backgroundColor: "#A3161A",
-        height: "100%",
-        width: "25%",
-        id: "__alloyId570"
-    });
-    $.__views.__alloyId569.add($.__views.__alloyId570);
-    $.__views.__alloyId571 = Ti.UI.createLabel({
->>>>>>> origin/master
+    $.__views.__alloyId754.add($.__views.__alloyId755);
+    $.__views.__alloyId756 = Ti.UI.createLabel({
         text: "HOP ON",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
-<<<<<<< HEAD
-        id: "__alloyId360"
+        id: "__alloyId756"
     });
-    $.__views.__alloyId358.add($.__views.__alloyId360);
-    $.__views.__alloyId361 = Ti.UI.createView({
+    $.__views.__alloyId754.add($.__views.__alloyId756);
+    $.__views.__alloyId757 = Ti.UI.createView({
         layout: "horizontal",
         height: "20%",
         backgroundColor: "#4CC4D2",
-        id: "__alloyId361"
+        id: "__alloyId757"
     });
-    $.__views.__alloyId357.add($.__views.__alloyId361);
-    prepaidPack ? $.__views.__alloyId361.addEventListener("click", prepaidPack) : __defers["$.__views.__alloyId361!click!prepaidPack"] = true;
-    $.__views.__alloyId362 = Ti.UI.createImageView({
+    $.__views.__alloyId753.add($.__views.__alloyId757);
+    prepaidPack ? $.__views.__alloyId757.addEventListener("click", prepaidPack) : __defers["$.__views.__alloyId757!click!prepaidPack"] = true;
+    $.__views.__alloyId758 = Ti.UI.createImageView({
         backgroundColor: "#358790",
         height: "100%",
         width: "25%",
-        id: "__alloyId362"
+        id: "__alloyId758"
     });
-    $.__views.__alloyId361.add($.__views.__alloyId362);
-    $.__views.__alloyId363 = Ti.UI.createLabel({
-=======
-        id: "__alloyId571"
-    });
-    $.__views.__alloyId569.add($.__views.__alloyId571);
-    $.__views.__alloyId572 = Ti.UI.createView({
-        layout: "horizontal",
-        height: "20%",
-        backgroundColor: "#4CC4D2",
-        id: "__alloyId572"
-    });
-    $.__views.__alloyId568.add($.__views.__alloyId572);
-    prepaidPack ? $.__views.__alloyId572.addEventListener("click", prepaidPack) : __defers["$.__views.__alloyId572!click!prepaidPack"] = true;
-    $.__views.__alloyId573 = Ti.UI.createImageView({
-        backgroundColor: "#358790",
-        height: "100%",
-        width: "25%",
-        id: "__alloyId573"
-    });
-    $.__views.__alloyId572.add($.__views.__alloyId573);
-    $.__views.__alloyId574 = Ti.UI.createLabel({
->>>>>>> origin/master
+    $.__views.__alloyId757.add($.__views.__alloyId758);
+    $.__views.__alloyId759 = Ti.UI.createLabel({
         text: "XOX PREPAID PACK",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
-<<<<<<< HEAD
-        id: "__alloyId363"
+        id: "__alloyId759"
     });
-    $.__views.__alloyId361.add($.__views.__alloyId363);
+    $.__views.__alloyId757.add($.__views.__alloyId759);
     exports.destroy = function() {};
     _.extend($, $.__views);
-    __defers["$.__views.__alloyId358!click!prepaidPack"] && $.__views.__alloyId358.addEventListener("click", prepaidPack);
-    __defers["$.__views.__alloyId361!click!prepaidPack"] && $.__views.__alloyId361.addEventListener("click", prepaidPack);
-=======
-        id: "__alloyId574"
-    });
-    $.__views.__alloyId572.add($.__views.__alloyId574);
-    exports.destroy = function() {};
-    _.extend($, $.__views);
-    __defers["$.__views.__alloyId569!click!prepaidPack"] && $.__views.__alloyId569.addEventListener("click", prepaidPack);
-    __defers["$.__views.__alloyId572!click!prepaidPack"] && $.__views.__alloyId572.addEventListener("click", prepaidPack);
->>>>>>> origin/master
+    __defers["$.__views.__alloyId754!click!hopOn"] && $.__views.__alloyId754.addEventListener("click", hopOn);
+    __defers["$.__views.__alloyId757!click!prepaidPack"] && $.__views.__alloyId757.addEventListener("click", prepaidPack);
     _.extend($, exports);
 }
 

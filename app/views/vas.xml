@@ -30,20 +30,31 @@
 					<Switch id="switch3" onChange="restriction" value="false"/>
 				</View>
 			</View>
-			<View layout="horizontal" top="5" bottom="5" height="50" width="90%" backgroundColor="white">
+			<!--View layout="horizontal" top="5" bottom="5" height="50" width="90%" backgroundColor="white">
 				<View width="70%" height="100%">
 					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >Itemized Billing</Label>
 				</View>
 				<View width="30%" height="100%">
 					<Switch id="switch4" onChange="billing" value="false"/>
 				</View>
-			</View>
+			</View-->
 			<View layout="horizontal" top="5" bottom="5" height="50" width="90%" backgroundColor="white">
 				<View width="70%" height="100%">
 					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >International Direct Dial</Label>
 				</View>
 				<View width="30%" height="100%">
 					<Switch id="switch5" onChange="international" value="false"/>
+				</View>
+			</View>
+			<View layout="horizontal" top="5" bottom="5" height="50" width="90%" backgroundColor="white">
+				<View width="50%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >IVR Language</Label>
+				</View>
+				<View width="30%" height="100%">
+					<Label backgroundColor="transparent" color="#9D9DB9" textAlign="left" left="10" >English</Label>
+				</View>
+				<View width="20%" height="100%">
+					<ImageView id="arrow" image="/images/dropdown_icon.png" width="25" height="15"></ImageView>
 				</View>
 			</View>
 		</ScrollView>

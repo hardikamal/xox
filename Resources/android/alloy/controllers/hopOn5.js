@@ -34,62 +34,62 @@ function Controller() {
         id: "hopOn5"
     });
     $.__views.hopOn5 && $.addTopLevelView($.__views.hopOn5);
-    $.__views.__alloyId355 = Alloy.createController("_header", {
-        id: "__alloyId355",
+    $.__views.__alloyId357 = Alloy.createController("_header", {
+        id: "__alloyId357",
         __parentSymbol: $.__views.hopOn5
     });
-    $.__views.__alloyId355.setParent($.__views.hopOn5);
-    $.__views.__alloyId356 = Ti.UI.createView({
+    $.__views.__alloyId357.setParent($.__views.hopOn5);
+    $.__views.__alloyId358 = Ti.UI.createView({
         layout: "composite",
         height: "50",
         backgroundColor: "red",
-        id: "__alloyId356"
-    });
-    $.__views.hopOn5.add($.__views.__alloyId356);
-    $.__views.__alloyId357 = Ti.UI.createLabel({
-        text: "HOP ON",
-        backgroundColor: "transparent",
-        color: "white",
-        left: "20",
-        id: "__alloyId357"
-    });
-    $.__views.__alloyId356.add($.__views.__alloyId357);
-    $.__views.__alloyId358 = Ti.UI.createView({
-        layout: "vertical",
-        height: "50",
-        backgroundColor: "#F2F2F2",
         id: "__alloyId358"
     });
     $.__views.hopOn5.add($.__views.__alloyId358);
     $.__views.__alloyId359 = Ti.UI.createLabel({
-        text: "Step 5 of 5",
+        text: "HOP ON",
         backgroundColor: "transparent",
-        color: "black",
+        color: "white",
         left: "20",
         id: "__alloyId359"
     });
     $.__views.__alloyId358.add($.__views.__alloyId359);
-    $.__views.__alloyId360 = Ti.UI.createLabel({
+    $.__views.__alloyId360 = Ti.UI.createView({
+        layout: "vertical",
+        height: "50",
+        backgroundColor: "#F2F2F2",
+        id: "__alloyId360"
+    });
+    $.__views.hopOn5.add($.__views.__alloyId360);
+    $.__views.__alloyId361 = Ti.UI.createLabel({
+        text: "Step 5 of 5",
+        backgroundColor: "transparent",
+        color: "black",
+        left: "20",
+        id: "__alloyId361"
+    });
+    $.__views.__alloyId360.add($.__views.__alloyId361);
+    $.__views.__alloyId362 = Ti.UI.createLabel({
         text: "Porting Info",
         backgroundColor: "transparent",
         color: "red",
         left: "20",
-        id: "__alloyId360"
+        id: "__alloyId362"
     });
-    $.__views.__alloyId358.add($.__views.__alloyId360);
+    $.__views.__alloyId360.add($.__views.__alloyId362);
     $.__views.scrollView = Ti.UI.createScrollView({
         id: "scrollView",
         layout: "vertical",
         width: "100%"
     });
     $.__views.hopOn5.add($.__views.scrollView);
-    $.__views.__alloyId361 = Ti.UI.createView({
+    $.__views.__alloyId363 = Ti.UI.createView({
         layout: "horizontal",
         width: "90%",
         height: "100",
-        id: "__alloyId361"
+        id: "__alloyId363"
     });
-    $.__views.scrollView.add($.__views.__alloyId361);
+    $.__views.scrollView.add($.__views.__alloyId363);
     $.__views.item_title = Ti.UI.createLabel({
         font: {
             fontSize: "15dp"
@@ -101,8 +101,8 @@ function Controller() {
         width: "90%",
         top: "5"
     });
-    $.__views.__alloyId361.add($.__views.item_title);
-    $.__views.__alloyId362 = Ti.UI.createButton({
+    $.__views.__alloyId363.add($.__views.item_title);
+    $.__views.__alloyId364 = Ti.UI.createButton({
         title: "Done",
         color: "red",
         borderColor: "red",
@@ -111,16 +111,16 @@ function Controller() {
         width: "60%",
         borderRadius: "20",
         top: "40",
-        id: "__alloyId362"
+        id: "__alloyId364"
     });
-    $.__views.scrollView.add($.__views.__alloyId362);
-    done ? $.__views.__alloyId362.addEventListener("click", done) : __defers["$.__views.__alloyId362!click!done"] = true;
+    $.__views.scrollView.add($.__views.__alloyId364);
+    done ? $.__views.__alloyId364.addEventListener("click", done) : __defers["$.__views.__alloyId364!click!done"] = true;
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.scrollView.height = Ti.Platform.displayCaps.platformHeight - 200;
     console.log("android");
     $.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 200;
-    __defers["$.__views.__alloyId362!click!done"] && $.__views.__alloyId362.addEventListener("click", done);
+    __defers["$.__views.__alloyId364!click!done"] && $.__views.__alloyId364.addEventListener("click", done);
     _.extend($, exports);
 }
 

@@ -1,6 +1,8 @@
+$.arrow.transform = Ti.UI.create2DMatrix().rotate(-90);
+
 function back()
 {
-	DRAWER.navigation("myAccount",2);
+	DRAWER.navigation("myAccount",1);
 }
 
 function forwarding(e)
