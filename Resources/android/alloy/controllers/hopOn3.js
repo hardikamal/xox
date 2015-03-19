@@ -324,9 +324,9 @@ function Controller() {
     $.__views.__alloyId341.add($.__views.__alloyId342);
     exports.destroy = function() {};
     _.extend($, $.__views);
-    $.scrollView.height = Ti.Platform.displayCaps.platformHeight - 470;
+    $.scrollView.height = Ti.Platform.displayCaps.platformHeight - 515;
     console.log("android");
-    $.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 470;
+    $.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 515;
     __defers["$.__views.__alloyId315!click!back"] && $.__views.__alloyId315.addEventListener("click", back);
     __defers["$.__views.__alloyId341!click!proceed"] && $.__views.__alloyId341.addEventListener("click", proceed);
     _.extend($, exports);

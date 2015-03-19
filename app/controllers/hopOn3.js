@@ -1,8 +1,8 @@
-$.scrollView.height = Ti.Platform.displayCaps.platformHeight - 470;
+$.scrollView.height = Ti.Platform.displayCaps.platformHeight - 515;
 
 if(Ti.Platform.osname == "android") {
 	console.log("android");
-	$.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 470;
+	$.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 515;
 }
 
 function back()
