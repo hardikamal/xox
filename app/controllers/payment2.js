@@ -9,7 +9,7 @@ var paymentType;
 
 function back()
 {
-	DRAWER.navigation("payment",1);
+	DRAWER.navigation("myAccount",1);
 }
 
 function proceed()

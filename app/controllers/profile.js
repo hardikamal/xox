@@ -11,3 +11,8 @@ function back()
 {
 	DRAWER.navigation("myAccount",1);
 }
+
+function accountDetails()
+{
+	DRAWER.navigation("accountDetails",1);
+}

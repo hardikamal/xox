@@ -119,3 +119,9 @@
    }
 },
 
+"#account_subtitle" : {
+  font: {
+        fontSize: '15dp'
+   }
+},
+

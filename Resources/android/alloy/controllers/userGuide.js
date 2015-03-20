@@ -56,33 +56,33 @@ function Controller() {
         id: "userGuide"
     });
     $.__views.userGuide && $.addTopLevelView($.__views.userGuide);
-    $.__views.__alloyId1601 = Alloy.createController("_header", {
-        id: "__alloyId1601",
+    $.__views.__alloyId2211 = Alloy.createController("_header", {
+        id: "__alloyId2211",
         __parentSymbol: $.__views.userGuide
     });
-    $.__views.__alloyId1601.setParent($.__views.userGuide);
-    $.__views.__alloyId1602 = Ti.UI.createView({
+    $.__views.__alloyId2211.setParent($.__views.userGuide);
+    $.__views.__alloyId2212 = Ti.UI.createView({
         height: "20%",
         backgroundColor: "#AFCD3F",
-        id: "__alloyId1602"
+        id: "__alloyId2212"
     });
-    $.__views.userGuide.add($.__views.__alloyId1602);
-    $.__views.__alloyId1603 = Ti.UI.createLabel({
+    $.__views.userGuide.add($.__views.__alloyId2212);
+    $.__views.__alloyId2213 = Ti.UI.createLabel({
         text: "Support",
         left: "10",
         top: "10",
         color: "white",
-        id: "__alloyId1603"
+        id: "__alloyId2213"
     });
-    $.__views.__alloyId1602.add($.__views.__alloyId1603);
-    $.__views.__alloyId1604 = Ti.UI.createView({
+    $.__views.__alloyId2212.add($.__views.__alloyId2213);
+    $.__views.__alloyId2214 = Ti.UI.createView({
         layout: "vertical",
         height: "100",
         backgroundColor: "#E6E7E9",
-        id: "__alloyId1604"
+        id: "__alloyId2214"
     });
-    $.__views.userGuide.add($.__views.__alloyId1604);
-    $.__views.__alloyId1605 = Ti.UI.createLabel({
+    $.__views.userGuide.add($.__views.__alloyId2214);
+    $.__views.__alloyId2215 = Ti.UI.createLabel({
         text: "User Guide",
         width: "90%",
         height: "30",
@@ -90,16 +90,16 @@ function Controller() {
         bottom: "5",
         textAlign: "left",
         color: "black",
-        id: "__alloyId1605"
+        id: "__alloyId2215"
     });
-    $.__views.__alloyId1604.add($.__views.__alloyId1605);
-    $.__views.__alloyId1606 = Ti.UI.createView({
+    $.__views.__alloyId2214.add($.__views.__alloyId2215);
+    $.__views.__alloyId2216 = Ti.UI.createView({
         layout: "composite",
         height: "50",
         width: "90%",
-        id: "__alloyId1606"
+        id: "__alloyId2216"
     });
-    $.__views.__alloyId1604.add($.__views.__alloyId1606);
+    $.__views.__alloyId2214.add($.__views.__alloyId2216);
     $.__views.picker = Ti.UI.createPicker({
         id: "picker",
         width: "100%",
@@ -109,45 +109,45 @@ function Controller() {
         backgroundColor: "black",
         visible: "true"
     });
-    $.__views.__alloyId1606.add($.__views.picker);
-    var __alloyId1607 = [];
-    $.__views.__alloyId1608 = Ti.UI.createPickerRow({
+    $.__views.__alloyId2216.add($.__views.picker);
+    var __alloyId2217 = [];
+    $.__views.__alloyId2218 = Ti.UI.createPickerRow({
         title: "All States",
-        id: "__alloyId1608"
+        id: "__alloyId2218"
     });
-    __alloyId1607.push($.__views.__alloyId1608);
-    $.__views.__alloyId1609 = Ti.UI.createPickerRow({
+    __alloyId2217.push($.__views.__alloyId2218);
+    $.__views.__alloyId2219 = Ti.UI.createPickerRow({
         title: "Selangor",
-        id: "__alloyId1609"
+        id: "__alloyId2219"
     });
-    __alloyId1607.push($.__views.__alloyId1609);
-    $.__views.__alloyId1610 = Ti.UI.createPickerRow({
+    __alloyId2217.push($.__views.__alloyId2219);
+    $.__views.__alloyId2220 = Ti.UI.createPickerRow({
         title: "Kuala Lumpur",
-        id: "__alloyId1610"
+        id: "__alloyId2220"
     });
-    __alloyId1607.push($.__views.__alloyId1610);
-    $.__views.__alloyId1611 = Ti.UI.createPickerRow({
+    __alloyId2217.push($.__views.__alloyId2220);
+    $.__views.__alloyId2221 = Ti.UI.createPickerRow({
         title: "Johor",
-        id: "__alloyId1611"
+        id: "__alloyId2221"
     });
-    __alloyId1607.push($.__views.__alloyId1611);
-    $.__views.picker.add(__alloyId1607);
+    __alloyId2217.push($.__views.__alloyId2221);
+    $.__views.picker.add(__alloyId2217);
     guide ? $.__views.picker.addEventListener("change", guide) : __defers["$.__views.picker!change!guide"] = true;
-    $.__views.__alloyId1612 = Ti.UI.createImageView({
+    $.__views.__alloyId2222 = Ti.UI.createImageView({
         image: "/images/dropdown_icon.png",
         width: "15",
         height: "10",
         right: "10",
         top: "20",
-        id: "__alloyId1612"
+        id: "__alloyId2222"
     });
-    $.__views.__alloyId1606.add($.__views.__alloyId1612);
-    $.__views.__alloyId1613 = Ti.UI.createScrollView({
+    $.__views.__alloyId2216.add($.__views.__alloyId2222);
+    $.__views.__alloyId2223 = Ti.UI.createScrollView({
         layout: "vertical",
         backgroundColor: "white",
-        id: "__alloyId1613"
+        id: "__alloyId2223"
     });
-    $.__views.userGuide.add($.__views.__alloyId1613);
+    $.__views.userGuide.add($.__views.__alloyId2223);
     $.__views.label = Ti.UI.createLabel({
         id: "label",
         width: "90%",
@@ -156,7 +156,7 @@ function Controller() {
         textAlign: "left",
         color: "black"
     });
-    $.__views.__alloyId1613.add($.__views.label);
+    $.__views.__alloyId2223.add($.__views.label);
     exports.destroy = function() {};
     _.extend($, $.__views);
     var guide;

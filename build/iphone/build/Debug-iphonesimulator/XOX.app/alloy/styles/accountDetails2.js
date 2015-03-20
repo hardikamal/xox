@@ -1,0 +1,1 @@
+/Users/chrispang/Documents/Chris/Mobile Projects/xox/Resources/iphone/alloy/styles/accountDetails2.js

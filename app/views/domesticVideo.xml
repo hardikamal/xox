@@ -1,0 +1,105 @@
+<Alloy>
+	<View layout="vertical" class="container" backgroundColor="white" fullscreen="true">
+		<Require src="_header" ></Require>
+		<View layout="composite" height="50" backgroundColor="#E91D2F">
+			<Label backgroundColor="transparent" color="white" left="20">Bill Statement</Label>
+			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
+		</View>
+		<View layout="composite" height="40" backgroundColor="#F2F2F2">
+				<Label textAlign="center" color="black" left="10">Domestic Video Calls</Label>
+		</View>
+		<TableView id="table" scrollable="true">
+            <TableViewSection >
+                <TableViewRow height="80" width="100%" layout="horizontal" separatorColor="#000">
+                	<View width="33%" height="100%">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >01/03/2015 12:05:07</Label>
+					</View>
+					<View width="33%" height="100">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >On Net 6017000000</Label>
+					</View>
+					<View width="33%" height="100%">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >9 (sec) RM0.05</Label>
+					</View>
+                </TableViewRow>
+                <TableViewRow height="80" width="100%" layout="horizontal" separatorColor="#000">
+                	<View width="33%" height="100%">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >02/03/2015 12:05:07</Label>
+					</View>
+					<View width="33%" height="100">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >On Net 6017000000</Label>
+					</View>
+					<View width="33%" height="100%">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >9 (sec) RM0.05</Label>
+					</View>
+                </TableViewRow>
+                <TableViewRow height="80" width="100%" layout="horizontal" separatorColor="#000">
+                	<View width="33%" height="100%">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >03/03/2015 12:05:07</Label>
+					</View>
+					<View width="33%" height="100">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >On Net 6017000000</Label>
+					</View>
+					<View width="33%" height="100%">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >9 (sec) RM0.05</Label>
+					</View>
+                </TableViewRow>
+                <TableViewRow height="80" width="100%" layout="horizontal" separatorColor="#000">
+                	<View width="33%" height="100%">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >04/03/2015 12:05:07</Label>
+					</View>
+					<View width="33%" height="100">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >On Net 6017000000</Label>
+					</View>
+					<View width="33%" height="100%">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >9 (sec) RM0.05</Label>
+					</View>
+                </TableViewRow>
+                <TableViewRow height="80" width="100%" layout="horizontal" separatorColor="#000">
+                	<View width="33%" height="100%">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >05/03/2015 12:05:07</Label>
+					</View>
+					<View width="33%" height="100">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >On Net 6017000000</Label>
+					</View>
+					<View width="33%" height="100%">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >9 (sec) RM0.05</Label>
+					</View>
+                </TableViewRow>
+                <TableViewRow height="80" width="100%" layout="horizontal" separatorColor="#000">
+                	<View width="33%" height="100%">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >06/03/2015 12:05:07</Label>
+					</View>
+					<View width="33%" height="100">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >On Net 6017000000</Label>
+					</View>
+					<View width="33%" height="100%">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >9 (sec) RM0.05</Label>
+					</View>
+                </TableViewRow>
+                <TableViewRow height="80" width="100%" layout="horizontal" separatorColor="#000">
+                	<View width="33%" height="100%">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >07/03/2015 12:05:07</Label>
+					</View>
+					<View width="33%" height="100">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >On Net 6017000000</Label>
+					</View>
+					<View width="33%" height="100%">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >9 (sec) RM0.05</Label>
+					</View>
+                </TableViewRow>
+                <TableViewRow height="80" width="100%" layout="horizontal" separatorColor="#000">
+                	<View width="33%" height="100%">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >08/03/2015 12:05:07</Label>
+					</View>
+					<View width="33%" height="100">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >On Net 6017000000</Label>
+					</View>
+					<View width="33%" height="100%">
+						<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >9 (sec) RM0.05</Label>
+					</View>
+                </TableViewRow>
+                
+            </TableViewSection>
+        </TableView>
+	</View>
+</Alloy>

@@ -1,0 +1,101 @@
+<Alloy>
+	<ScrollView layout="vertical" class="container" backgroundColor="white" fullscreen="true">
+		<Require src="_header" ></Require>
+		<View layout="composite" height="50" backgroundColor="#E91D2F">
+			<Label backgroundColor="transparent" color="white" left="20">Bill Statement</Label>
+			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
+		</View>
+		<View layout="composite" height="120" backgroundColor="#F2F2F2">
+			<View platform="ios" id="contentView" layout="horizontal"  height="80" top="10" bottom="10">
+				<Label textAlign="center" color="black" left="10">Prepaid Itemized Statement</Label>
+				<View id="pickerContentView" layout="composite" top="10" width="70%">
+					<Label id="paymentLabel" height="30" width="100%" backgroundColor="transparent" borderRadius="5" borderColor="#F2F2F2" color="black" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="10"></Label>
+					<Picker id="picker" height="40" width="90%" height="Ti.UI.SIZE" top="10" bottom="10" selectionIndicator="true" backgroundColor="#EFEFEF" visible="true">
+						<PickerRow title="Current Month"/>
+                		<PickerRow title="April"/>
+                		<PickerRow title="May"/>
+                		<PickerRow title="June"/>
+                		<PickerRow title="July"/>
+					</Picker>
+				</View>
+			</View>
+			<View platform="android" layout="vertical"  height="80" top="10" bottom="10">
+				<Label textAlign="center" color="black" left="10">Prepaid Itemized Statement</Label>
+				<Picker id="picker" onChange="paymentType" width="90%" top="10" bottom="10" borderRadius="5" selectionIndicator="true" backgroundColor="black" visible="true">
+					<PickerRow title="Current Month"/>
+            		<PickerRow title="April"/>
+            		<PickerRow title="May"/>
+            		<PickerRow title="June"/>
+            		<PickerRow title="July"/>
+				</Picker>
+				<ImageView image="/images/dropdown_icon.png" width="15" height="10" right="10" top="20"></ImageView>
+			</View>
+		</View>
+		<ScrollView id="scrollView" layout="vertical" width="100%" backgroundColor="#F5F5F5">
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white" onClick="domesticVoice">
+				<View width="80%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10"  onClick="domesticVoice">Domestic Voice Call</Label>
+				</View>
+				<View width="20%" height="100%">
+					<ImageView id="arrow" image="/images/dropdown_icon.png" width="25" height="15"  onClick="domesticVoice"></ImageView>
+				</View>
+			</View>
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white" onClick="domesticSMS">
+				<View width="80%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" onClick="domesticSMS">Domestic SMS</Label>
+				</View>
+				<View width="20%" height="100%">
+					<ImageView id="arrow1" image="/images/dropdown_icon.png" width="25" height="15" onClick="domesticSMS"></ImageView>
+				</View>
+			</View>
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white" onClick="domesticVideo">
+				<View width="80%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" onClick="domesticVideo">Domestic Video Call</Label>
+				</View>
+				<View width="20%" height="100%">
+					<ImageView id="arrow2" image="/images/dropdown_icon.png" width="25" height="15" onClick="domesticVideo"></ImageView>
+				</View>
+			</View>
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white" onClick="iddVoice">
+				<View width="80%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" onClick="iddVoice">IDD Voice Call</Label>
+				</View>
+				<View width="20%" height="100%">
+					<ImageView id="arrow3" image="/images/dropdown_icon.png" width="25" height="15" onClick="iddVoice"></ImageView>
+				</View>
+			</View>
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white" onClick="iddSMS">
+				<View width="80%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" onClick="iddSMS">IDD SMS</Label>
+				</View>
+				<View width="20%" height="100%">
+					<ImageView id="arrow4" image="/images/dropdown_icon.png" width="25" height="15" onClick="iddSMS"></ImageView>
+				</View>
+			</View>
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white" onClick="iddVideo">
+				<View width="80%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" onClick="iddVideo">IDD Video Call</Label>
+				</View>
+				<View width="20%" height="100%">
+					<ImageView id="arrow5" image="/images/dropdown_icon.png" width="25" height="15" onClick="iddVideo"></ImageView>
+				</View>
+			</View>
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white" onClick="roamingCalls">
+				<View width="80%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" onClick="roamingCalls">Roaming Call</Label>
+				</View>
+				<View width="20%" height="100%">
+					<ImageView id="arrow6" image="/images/dropdown_icon.png" width="25" height="15" onClick="roamingCalls"></ImageView>
+				</View>
+			</View>
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white" onClick="roamingSMS">
+				<View width="80%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" onClick="roamingSMS">Roaming SMS</Label>
+				</View>
+				<View width="20%" height="100%">
+					<ImageView id="arrow7" image="/images/dropdown_icon.png" width="25" height="15" onClick="roamingSMS"></ImageView>
+				</View>
+			</View>
+		</ScrollView>
+	</ScrollView>
+</Alloy>

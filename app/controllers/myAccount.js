@@ -18,7 +18,7 @@ if(new_event[0].length > 0){
 	
 	var view = Titanium.UI.createView({
 	   width:Ti.UI.FILL,
-	   height:"40%",
+	   height:"30%",
 	   layout:'horizontal'
 	});
 	
@@ -35,7 +35,7 @@ if(new_event[0].length > 0){
 	
 	var view2 = Titanium.UI.createView({
 	   width:Ti.UI.FILL,
-	   height:"40%",
+	   height:"15%",
 	   layout:'horizontal'
 	});
 	
@@ -114,16 +114,43 @@ function report()
 	DRAWER.navigation("report",1);
 }
 
+function orderingHistory()
+{
+	DRAWER.navigation("orderHistory",1);
+}
+
 function editPhoto()
 {
 	console.log("editPhoto");
 	$.photo.zIndex = 2;
 }
 
+function makePayment()
+{
+	console.log("makePayment");
+	$.payment.zIndex = 2;
+}
+
 function close()
 {
 	console.log("close");
 	$.photo.zIndex = 0;
+}
+
+function closepayment()
+{
+	console.log("closepayment");
+	$.payment.zIndex = 0;
+}
+
+function paymentPostpaid()
+{
+	DRAWER.navigation("payment2",1);
+}
+
+function paymentPrepaid()
+{
+	DRAWER.navigation("payment3",1);
 }
 
 function gallery()

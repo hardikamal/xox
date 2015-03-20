@@ -31,263 +31,263 @@ function Controller() {
         backgroundColor: "#FFFFFF"
     });
     $.__views.scrollView && $.addTopLevelView($.__views.scrollView);
-    $.__views.__alloyId1382 = Ti.UI.createView({
+    $.__views.__alloyId1992 = Ti.UI.createView({
         layout: "vertical",
         height: "200",
         width: "90%",
         top: "10",
-        id: "__alloyId1382"
+        id: "__alloyId1992"
     });
-    $.__views.scrollView.add($.__views.__alloyId1382);
-    $.__views.__alloyId1383 = Ti.UI.createView({
+    $.__views.scrollView.add($.__views.__alloyId1992);
+    $.__views.__alloyId1993 = Ti.UI.createView({
         layout: "horizontal",
         height: "50%",
         width: "100%",
         backgroundColor: "#4CC4D2",
-        id: "__alloyId1383"
+        id: "__alloyId1993"
     });
-    $.__views.__alloyId1382.add($.__views.__alloyId1383);
-    $.__views.__alloyId1384 = Ti.UI.createView({
+    $.__views.__alloyId1992.add($.__views.__alloyId1993);
+    $.__views.__alloyId1994 = Ti.UI.createView({
         layout: "composite",
         height: "100%",
         width: "50%",
-        id: "__alloyId1384"
+        id: "__alloyId1994"
     });
-    $.__views.__alloyId1383.add($.__views.__alloyId1384);
-    $.__views.__alloyId1385 = Ti.UI.createView({
+    $.__views.__alloyId1993.add($.__views.__alloyId1994);
+    $.__views.__alloyId1995 = Ti.UI.createView({
         layout: "vertical",
         height: Ti.UI.SIZE,
         width: "100%",
-        id: "__alloyId1385"
+        id: "__alloyId1995"
     });
-    $.__views.__alloyId1384.add($.__views.__alloyId1385);
-    $.__views.__alloyId1386 = Ti.UI.createLabel({
+    $.__views.__alloyId1994.add($.__views.__alloyId1995);
+    $.__views.__alloyId1996 = Ti.UI.createLabel({
         text: "SP V1",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
-        id: "__alloyId1386"
+        id: "__alloyId1996"
     });
-    $.__views.__alloyId1385.add($.__views.__alloyId1386);
-    $.__views.__alloyId1387 = Ti.UI.createLabel({
+    $.__views.__alloyId1995.add($.__views.__alloyId1996);
+    $.__views.__alloyId1997 = Ti.UI.createLabel({
         text: "350 min",
         backgroundColor: "transparent",
         color: "black",
         left: "20",
-        id: "__alloyId1387"
+        id: "__alloyId1997"
     });
-    $.__views.__alloyId1385.add($.__views.__alloyId1387);
-    $.__views.__alloyId1388 = Ti.UI.createView({
+    $.__views.__alloyId1995.add($.__views.__alloyId1997);
+    $.__views.__alloyId1998 = Ti.UI.createView({
         layout: "composite",
         height: Ti.UI.SIZE,
         width: "50%",
-        id: "__alloyId1388"
+        id: "__alloyId1998"
     });
-    $.__views.__alloyId1383.add($.__views.__alloyId1388);
-    $.__views.__alloyId1389 = Ti.UI.createView({
+    $.__views.__alloyId1993.add($.__views.__alloyId1998);
+    $.__views.__alloyId1999 = Ti.UI.createView({
         layout: "horizontal",
         height: Ti.UI.SIZE,
         width: Ti.UI.SIZE,
         backgroundColor: "#1D717A",
         right: "0",
-        id: "__alloyId1389"
+        id: "__alloyId1999"
     });
-    $.__views.__alloyId1388.add($.__views.__alloyId1389);
-    $.__views.__alloyId1390 = Ti.UI.createLabel({
+    $.__views.__alloyId1998.add($.__views.__alloyId1999);
+    $.__views.__alloyId2000 = Ti.UI.createLabel({
         text: "RM",
         backgroundColor: "transparent",
         width: Ti.UI.SIZE,
         color: "white",
         left: "20",
-        id: "__alloyId1390"
+        id: "__alloyId2000"
     });
-    $.__views.__alloyId1389.add($.__views.__alloyId1390);
-    $.__views.__alloyId1391 = Ti.UI.createLabel({
+    $.__views.__alloyId1999.add($.__views.__alloyId2000);
+    $.__views.__alloyId2001 = Ti.UI.createLabel({
         text: "49.90",
         backgroundColor: "transparent",
         width: Ti.UI.SIZE,
         color: "white",
         left: "20",
-        id: "__alloyId1391"
+        id: "__alloyId2001"
     });
-    $.__views.__alloyId1389.add($.__views.__alloyId1391);
-    $.__views.__alloyId1392 = Ti.UI.createView({
+    $.__views.__alloyId1999.add($.__views.__alloyId2001);
+    $.__views.__alloyId2002 = Ti.UI.createView({
         layout: "horizontal",
         height: "20%",
         width: "100%",
         backgroundColor: "#646461",
-        id: "__alloyId1392"
+        id: "__alloyId2002"
     });
-    $.__views.__alloyId1382.add($.__views.__alloyId1392);
-    $.__views.__alloyId1393 = Ti.UI.createLabel({
+    $.__views.__alloyId1992.add($.__views.__alloyId2002);
+    $.__views.__alloyId2003 = Ti.UI.createLabel({
         text: "*FREE 50 SMS",
         backgroundColor: "transparent",
         height: "100%",
         color: "white",
         left: "20",
-        id: "__alloyId1393"
+        id: "__alloyId2003"
     });
-    $.__views.__alloyId1392.add($.__views.__alloyId1393);
-    $.__views.__alloyId1394 = Ti.UI.createView({
+    $.__views.__alloyId2002.add($.__views.__alloyId2003);
+    $.__views.__alloyId2004 = Ti.UI.createView({
         layout: "composite",
         height: "30%",
         width: "100%",
         backgroundColor: "#E6E7E9",
-        id: "__alloyId1394"
+        id: "__alloyId2004"
     });
-    $.__views.__alloyId1382.add($.__views.__alloyId1394);
-    $.__views.__alloyId1395 = Ti.UI.createView({
+    $.__views.__alloyId1992.add($.__views.__alloyId2004);
+    $.__views.__alloyId2005 = Ti.UI.createView({
         layout: "vertical",
         height: Ti.UI.SIZE,
         width: "100%",
-        id: "__alloyId1395"
+        id: "__alloyId2005"
     });
-    $.__views.__alloyId1394.add($.__views.__alloyId1395);
-    $.__views.__alloyId1396 = Ti.UI.createLabel({
+    $.__views.__alloyId2004.add($.__views.__alloyId2005);
+    $.__views.__alloyId2006 = Ti.UI.createLabel({
         text: "To Subscribe:",
         backgroundColor: "transparent",
         color: "#707070",
         left: "20",
-        id: "__alloyId1396"
+        id: "__alloyId2006"
     });
-    $.__views.__alloyId1395.add($.__views.__alloyId1396);
-    $.__views.__alloyId1397 = Ti.UI.createLabel({
+    $.__views.__alloyId2005.add($.__views.__alloyId2006);
+    $.__views.__alloyId2007 = Ti.UI.createLabel({
         text: "Key in SPV1 and send to 23388",
         backgroundColor: "transparent",
         color: "#707070",
         left: "20",
-        id: "__alloyId1397"
+        id: "__alloyId2007"
     });
-    $.__views.__alloyId1395.add($.__views.__alloyId1397);
-    $.__views.__alloyId1398 = Ti.UI.createView({
+    $.__views.__alloyId2005.add($.__views.__alloyId2007);
+    $.__views.__alloyId2008 = Ti.UI.createView({
         layout: "vertical",
         height: "200",
         width: "90%",
         top: "10",
         bottom: "10",
-        id: "__alloyId1398"
+        id: "__alloyId2008"
     });
-    $.__views.scrollView.add($.__views.__alloyId1398);
-    $.__views.__alloyId1399 = Ti.UI.createView({
+    $.__views.scrollView.add($.__views.__alloyId2008);
+    $.__views.__alloyId2009 = Ti.UI.createView({
         layout: "horizontal",
         height: "50%",
         width: "100%",
         backgroundColor: "#4CC4D2",
-        id: "__alloyId1399"
+        id: "__alloyId2009"
     });
-    $.__views.__alloyId1398.add($.__views.__alloyId1399);
-    $.__views.__alloyId1400 = Ti.UI.createView({
+    $.__views.__alloyId2008.add($.__views.__alloyId2009);
+    $.__views.__alloyId2010 = Ti.UI.createView({
         layout: "composite",
         height: "100%",
         width: "50%",
-        id: "__alloyId1400"
+        id: "__alloyId2010"
     });
-    $.__views.__alloyId1399.add($.__views.__alloyId1400);
-    $.__views.__alloyId1401 = Ti.UI.createView({
+    $.__views.__alloyId2009.add($.__views.__alloyId2010);
+    $.__views.__alloyId2011 = Ti.UI.createView({
         layout: "vertical",
         height: Ti.UI.SIZE,
         width: "100%",
-        id: "__alloyId1401"
+        id: "__alloyId2011"
     });
-    $.__views.__alloyId1400.add($.__views.__alloyId1401);
-    $.__views.__alloyId1402 = Ti.UI.createLabel({
+    $.__views.__alloyId2010.add($.__views.__alloyId2011);
+    $.__views.__alloyId2012 = Ti.UI.createLabel({
         text: "SP V2",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
-        id: "__alloyId1402"
+        id: "__alloyId2012"
     });
-    $.__views.__alloyId1401.add($.__views.__alloyId1402);
-    $.__views.__alloyId1403 = Ti.UI.createLabel({
+    $.__views.__alloyId2011.add($.__views.__alloyId2012);
+    $.__views.__alloyId2013 = Ti.UI.createLabel({
         text: "700 min",
         backgroundColor: "transparent",
         color: "black",
         left: "20",
-        id: "__alloyId1403"
+        id: "__alloyId2013"
     });
-    $.__views.__alloyId1401.add($.__views.__alloyId1403);
-    $.__views.__alloyId1404 = Ti.UI.createView({
+    $.__views.__alloyId2011.add($.__views.__alloyId2013);
+    $.__views.__alloyId2014 = Ti.UI.createView({
         layout: "composite",
         height: Ti.UI.SIZE,
         width: "50%",
-        id: "__alloyId1404"
+        id: "__alloyId2014"
     });
-    $.__views.__alloyId1399.add($.__views.__alloyId1404);
-    $.__views.__alloyId1405 = Ti.UI.createView({
+    $.__views.__alloyId2009.add($.__views.__alloyId2014);
+    $.__views.__alloyId2015 = Ti.UI.createView({
         layout: "horizontal",
         height: Ti.UI.SIZE,
         width: Ti.UI.SIZE,
         backgroundColor: "#1D717A",
         right: "0",
-        id: "__alloyId1405"
+        id: "__alloyId2015"
     });
-    $.__views.__alloyId1404.add($.__views.__alloyId1405);
-    $.__views.__alloyId1406 = Ti.UI.createLabel({
+    $.__views.__alloyId2014.add($.__views.__alloyId2015);
+    $.__views.__alloyId2016 = Ti.UI.createLabel({
         text: "RM",
         backgroundColor: "transparent",
         width: Ti.UI.SIZE,
         color: "white",
         left: "20",
-        id: "__alloyId1406"
+        id: "__alloyId2016"
     });
-    $.__views.__alloyId1405.add($.__views.__alloyId1406);
-    $.__views.__alloyId1407 = Ti.UI.createLabel({
+    $.__views.__alloyId2015.add($.__views.__alloyId2016);
+    $.__views.__alloyId2017 = Ti.UI.createLabel({
         text: "79.90",
         backgroundColor: "transparent",
         width: Ti.UI.SIZE,
         color: "white",
         left: "20",
-        id: "__alloyId1407"
+        id: "__alloyId2017"
     });
-    $.__views.__alloyId1405.add($.__views.__alloyId1407);
-    $.__views.__alloyId1408 = Ti.UI.createView({
+    $.__views.__alloyId2015.add($.__views.__alloyId2017);
+    $.__views.__alloyId2018 = Ti.UI.createView({
         layout: "horizontal",
         height: "20%",
         width: "100%",
         backgroundColor: "#646461",
-        id: "__alloyId1408"
+        id: "__alloyId2018"
     });
-    $.__views.__alloyId1398.add($.__views.__alloyId1408);
-    $.__views.__alloyId1409 = Ti.UI.createLabel({
+    $.__views.__alloyId2008.add($.__views.__alloyId2018);
+    $.__views.__alloyId2019 = Ti.UI.createLabel({
         text: "*FREE 100 SMS",
         backgroundColor: "transparent",
         height: "100%",
         color: "white",
         left: "20",
-        id: "__alloyId1409"
+        id: "__alloyId2019"
     });
-    $.__views.__alloyId1408.add($.__views.__alloyId1409);
-    $.__views.__alloyId1410 = Ti.UI.createView({
+    $.__views.__alloyId2018.add($.__views.__alloyId2019);
+    $.__views.__alloyId2020 = Ti.UI.createView({
         layout: "composite",
         height: "30%",
         width: "100%",
         backgroundColor: "#E6E7E9",
-        id: "__alloyId1410"
+        id: "__alloyId2020"
     });
-    $.__views.__alloyId1398.add($.__views.__alloyId1410);
-    $.__views.__alloyId1411 = Ti.UI.createView({
+    $.__views.__alloyId2008.add($.__views.__alloyId2020);
+    $.__views.__alloyId2021 = Ti.UI.createView({
         layout: "vertical",
         height: Ti.UI.SIZE,
         width: "100%",
-        id: "__alloyId1411"
+        id: "__alloyId2021"
     });
-    $.__views.__alloyId1410.add($.__views.__alloyId1411);
-    $.__views.__alloyId1412 = Ti.UI.createLabel({
+    $.__views.__alloyId2020.add($.__views.__alloyId2021);
+    $.__views.__alloyId2022 = Ti.UI.createLabel({
         text: "To Subscribe:",
         backgroundColor: "transparent",
         color: "#707070",
         left: "20",
-        id: "__alloyId1412"
+        id: "__alloyId2022"
     });
-    $.__views.__alloyId1411.add($.__views.__alloyId1412);
-    $.__views.__alloyId1413 = Ti.UI.createLabel({
+    $.__views.__alloyId2021.add($.__views.__alloyId2022);
+    $.__views.__alloyId2023 = Ti.UI.createLabel({
         text: "Key in SPV2 and send to 23388",
         backgroundColor: "transparent",
         color: "#707070",
         left: "20",
-        id: "__alloyId1413"
+        id: "__alloyId2023"
     });
-    $.__views.__alloyId1411.add($.__views.__alloyId1413);
+    $.__views.__alloyId2021.add($.__views.__alloyId2023);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

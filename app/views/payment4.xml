@@ -11,7 +11,7 @@
 			<Label id="account" text="left" left="10%" color="black">Account No : 01X 0000000</Label>
 			<Label id="amount" text="left" left="10%" color="black">Amount(RM) : RM20</Label>
 			<Label id="method" text="left" left="10%" color="black">Payment Method : Credit Card</Label>
-			<Button color="#44C7D6" borderColor="#44C7D6" backgroundColor="white" height="10%" width="60%" borderRadius="20" onClick="done" top="40">Done</Button>
+			<Button color="red" borderColor="red" backgroundColor="white" height="10%" width="60%" borderRadius="20" onClick="done" top="40">Done</Button>
 		</ScrollView>
 	</View>
 </Alloy>
