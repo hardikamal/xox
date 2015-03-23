@@ -73,6 +73,7 @@ var openNewNavWindow = function(target, param) {
 };
 
 var navigation = function(target, skipToggle, param) {
+    Ti.App.fireEvent("clearObject");
     var newWin = openNewNavWindow(target, param);
     nappDrawer.setCenterWindow(newWin);
     1 != skipToggle && nappDrawer.toggleLeftWindow();
@@ -97,6 +98,10 @@ exports.initMenu = function() {
 
 exports.isDrawerOpen = function() {
     return drawerFlag;
+};
+
+exports.closeDrawer = function() {
+    nappDrawer.close();
 };
 
 exports.logout = function() {

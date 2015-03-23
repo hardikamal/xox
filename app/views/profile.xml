@@ -1,0 +1,150 @@
+<Alloy>
+	<View layout="vertical" class="container" backgroundColor="white" fullscreen="true">
+		<Require src="_header" ></Require>
+		<View layout="composite" height="50" backgroundColor="#E82630">
+			<View layout="horizontal" height="50" backgroundColor="#E91D2F">
+				<Label backgroundColor="transparent" height="50" width="45%" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" color="white" onClick="accountDetails">Account Details</Label>
+				<Label backgroundColor="#bf0404"  height="50" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" width="45%" color="white" >My Profile</Label>
+				<ImageView backgroundColor="transparent" width="10%" height="30" top="10" onClick="back" image="/images/close_icon.png"></ImageView>
+			</View></View>
+		<ScrollView id="scrollView" layout="vertical" width="100%" backgroundColor="#F5F5F5">
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white">
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >Address</Label>
+				</View>
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="#9D9DB9" textAlign="left" left="10" >No.8 Jalan Puchong,Selangor...</Label>
+				</View>
+				<View width="20%" height="100%">
+					<Label backgroundColor="transparent" color="red" textAlign="left" >EDIT</Label>
+				</View>
+			</View>
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white">
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >NRIC/Passport/Armed Force ID</Label>
+				</View>
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="#9D9DB9" textAlign="left" left="10" >000000 00 0000</Label>
+				</View>
+				<View width="20%" height="100%">
+					<Label backgroundColor="transparent" color="red" textAlign="left"  >EDIT</Label>
+				</View>
+			</View>
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white">
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >Email Address</Label>
+				</View>
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="#9D9DB9" textAlign="left" left="10" >sample@gmail.com</Label>
+				</View>
+				<View width="20%" height="100%">
+					<Label backgroundColor="transparent" color="red" textAlign="left" >EDIT</Label>
+				</View>
+			</View>
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white">
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >Birthday</Label>
+				</View>
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="#9D9DB9" textAlign="left" left="10" ></Label>
+				</View>
+				<View width="20%" height="100%">
+					<Label backgroundColor="transparent" color="red" textAlign="left">EDIT</Label>
+				</View>
+			</View>
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white">
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >Gender</Label>
+				</View>
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="#9D9DB9" textAlign="left" left="10" ></Label>
+				</View>
+				<View width="20%" height="100%">
+					<Label backgroundColor="transparent" color="red" textAlign="left" >EDIT</Label>
+				</View>
+			</View>
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white">
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >Proessional Group/Job</Label>
+				</View>
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="#9D9DB9" textAlign="left" left="10" ></Label>
+				</View>
+				<View width="20%" height="100%">
+					<Label backgroundColor="transparent" color="red" textAlign="left" >EDIT</Label>
+				</View>
+			</View>
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white">
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >Income Group</Label>
+				</View>
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="#9D9DB9" textAlign="left" left="10" ></Label>
+				</View>
+				<View width="20%" height="100%">
+					<Label backgroundColor="transparent" color="red" textAlign="left" >EDIT</Label>
+				</View>
+			</View>
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white">
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >Interest</Label>
+				</View>
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="#9D9DB9" textAlign="left" left="10" ></Label>
+				</View>
+				<View width="20%" height="100%">
+					<Label backgroundColor="transparent" color="red" textAlign="left" >EDIT</Label>
+				</View>
+			</View>
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white">
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >Marital Status</Label>
+				</View>
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="#9D9DB9" textAlign="left" left="10" ></Label>
+				</View>
+				<View width="20%" height="100%">
+					<Label backgroundColor="transparent" color="red" textAlign="left" >EDIT</Label>
+				</View>
+			</View>
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white">
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >Race</Label>
+				</View>
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="#9D9DB9" textAlign="left" left="10" ></Label>
+				</View>
+				<View width="20%" height="100%">
+					<Label backgroundColor="transparent" color="red" textAlign="left" >EDIT</Label>
+				</View>
+			</View>
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white">
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >Religion</Label>
+				</View>
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="#9D9DB9" textAlign="left" left="10" ></Label>
+				</View>
+				<View width="20%" height="100%">
+					<Label backgroundColor="transparent" color="red" textAlign="left">EDIT</Label>
+				</View>
+			</View>
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white">
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10">Change Password</Label>
+				</View>
+				<View width="40%" height="100%">
+					<Label backgroundColor="transparent" color="#9D9DB9" textAlign="left" ></Label>
+				</View>
+				<View width="20%" height="100%">
+					<ImageView id="arrow" image="/images/dropdown_icon.png" width="25" height="15"></ImageView>
+				</View>
+			</View>
+		</ScrollView>
+		<View layout="horizontal" height="50" backgroundColor="#4CC4D2">
+			<Label color="white" height="100%" width="49.72%" textAlign="center">Submit</Label>
+			<View backgroundColor="white" height="100%" width="0.5%"></View>
+			<Label color="white" height="100%" width="49.72%" textAlign="center">Clear</Label>
+		</View>
+	</View>
+</Alloy>

@@ -55,36 +55,36 @@ function Controller() {
         id: "seasonPass"
     });
     $.__views.seasonPass && $.addTopLevelView($.__views.seasonPass);
-    $.__views.__alloyId1349 = Alloy.createController("_header", {
-        id: "__alloyId1349",
+    $.__views.__alloyId2144 = Alloy.createController("_header", {
+        id: "__alloyId2144",
         __parentSymbol: $.__views.seasonPass
     });
-    $.__views.__alloyId1349.setParent($.__views.seasonPass);
-    $.__views.__alloyId1350 = Ti.UI.createView({
+    $.__views.__alloyId2144.setParent($.__views.seasonPass);
+    $.__views.__alloyId2145 = Ti.UI.createView({
         layout: "composite",
         height: "50",
         backgroundColor: "#E82630",
-        id: "__alloyId1350"
+        id: "__alloyId2145"
     });
-    $.__views.seasonPass.add($.__views.__alloyId1350);
-    $.__views.__alloyId1351 = Ti.UI.createLabel({
+    $.__views.seasonPass.add($.__views.__alloyId2145);
+    $.__views.__alloyId2146 = Ti.UI.createLabel({
         text: "Season Pass",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
-        id: "__alloyId1351"
+        id: "__alloyId2146"
     });
-    $.__views.__alloyId1350.add($.__views.__alloyId1351);
-    $.__views.__alloyId1352 = Ti.UI.createImageView({
+    $.__views.__alloyId2145.add($.__views.__alloyId2146);
+    $.__views.__alloyId2147 = Ti.UI.createImageView({
         backgroundColor: "transparent",
         width: "30",
         height: "30",
         right: "10",
         image: "/images/close_icon.png",
-        id: "__alloyId1352"
+        id: "__alloyId2147"
     });
-    $.__views.__alloyId1350.add($.__views.__alloyId1352);
-    back ? $.__views.__alloyId1352.addEventListener("click", back) : __defers["$.__views.__alloyId1352!click!back"] = true;
+    $.__views.__alloyId2145.add($.__views.__alloyId2147);
+    back ? $.__views.__alloyId2147.addEventListener("click", back) : __defers["$.__views.__alloyId2147!click!back"] = true;
     $.__views.menu = Ti.UI.createView({
         id: "menu",
         layout: "horizontal",
@@ -104,13 +104,13 @@ function Controller() {
     });
     $.__views.menu.add($.__views.lbl1);
     goSlide ? $.__views.lbl1.addEventListener("touchend", goSlide) : __defers["$.__views.lbl1!touchend!goSlide"] = true;
-    $.__views.__alloyId1353 = Ti.UI.createView({
+    $.__views.__alloyId2148 = Ti.UI.createView({
         backgroundColor: "#E7E7E7",
         height: "100%",
         width: "0.45%",
-        id: "__alloyId1353"
+        id: "__alloyId2148"
     });
-    $.__views.menu.add($.__views.__alloyId1353);
+    $.__views.menu.add($.__views.__alloyId2148);
     $.__views.lbl2 = Ti.UI.createLabel({
         text: "DATA PACKAGE",
         id: "lbl2",
@@ -123,13 +123,13 @@ function Controller() {
     });
     $.__views.menu.add($.__views.lbl2);
     goSlide ? $.__views.lbl2.addEventListener("touchend", goSlide) : __defers["$.__views.lbl2!touchend!goSlide"] = true;
-    $.__views.__alloyId1354 = Ti.UI.createView({
+    $.__views.__alloyId2149 = Ti.UI.createView({
         backgroundColor: "#E7E7E7",
         height: "100%",
         width: "0.45%",
-        id: "__alloyId1354"
+        id: "__alloyId2149"
     });
-    $.__views.menu.add($.__views.__alloyId1354);
+    $.__views.menu.add($.__views.__alloyId2149);
     $.__views.lbl3 = Ti.UI.createLabel({
         text: "COMBO PACKAGE",
         id: "lbl3",
@@ -142,30 +142,30 @@ function Controller() {
     });
     $.__views.menu.add($.__views.lbl3);
     goSlide ? $.__views.lbl3.addEventListener("touchend", goSlide) : __defers["$.__views.lbl3!touchend!goSlide"] = true;
-    var __alloyId1355 = [];
-    $.__views.__alloyId1356 = Alloy.createController("seasonPass1", {
-        id: "__alloyId1356",
+    var __alloyId2150 = [];
+    $.__views.__alloyId2151 = Alloy.createController("seasonPass1", {
+        id: "__alloyId2151",
         __parentSymbol: __parentSymbol
     });
-    __alloyId1355.push($.__views.__alloyId1356.getViewEx({
+    __alloyId2150.push($.__views.__alloyId2151.getViewEx({
         recurse: true
     }));
-    $.__views.__alloyId1357 = Alloy.createController("seasonPass2", {
-        id: "__alloyId1357",
+    $.__views.__alloyId2152 = Alloy.createController("seasonPass2", {
+        id: "__alloyId2152",
         __parentSymbol: __parentSymbol
     });
-    __alloyId1355.push($.__views.__alloyId1357.getViewEx({
+    __alloyId2150.push($.__views.__alloyId2152.getViewEx({
         recurse: true
     }));
-    $.__views.__alloyId1358 = Alloy.createController("seasonPass3", {
-        id: "__alloyId1358",
+    $.__views.__alloyId2153 = Alloy.createController("seasonPass3", {
+        id: "__alloyId2153",
         __parentSymbol: __parentSymbol
     });
-    __alloyId1355.push($.__views.__alloyId1358.getViewEx({
+    __alloyId2150.push($.__views.__alloyId2153.getViewEx({
         recurse: true
     }));
     $.__views.scrollableView = Ti.UI.createScrollableView({
-        views: __alloyId1355,
+        views: __alloyId2150,
         id: "scrollableView",
         showPagingControl: "false",
         scrollingEnabled: "false"
@@ -173,7 +173,7 @@ function Controller() {
     $.__views.seasonPass.add($.__views.scrollableView);
     exports.destroy = function() {};
     _.extend($, $.__views);
-    __defers["$.__views.__alloyId1352!click!back"] && $.__views.__alloyId1352.addEventListener("click", back);
+    __defers["$.__views.__alloyId2147!click!back"] && $.__views.__alloyId2147.addEventListener("click", back);
     __defers["$.__views.lbl1!touchend!goSlide"] && $.__views.lbl1.addEventListener("touchend", goSlide);
     __defers["$.__views.lbl2!touchend!goSlide"] && $.__views.lbl2.addEventListener("touchend", goSlide);
     __defers["$.__views.lbl3!touchend!goSlide"] && $.__views.lbl3.addEventListener("touchend", goSlide);

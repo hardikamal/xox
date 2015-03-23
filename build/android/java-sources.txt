@@ -1,0 +1,8 @@
+"/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/android/gen/android/support/v7/appcompat/R.java"
+"/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/android/gen/com/mnc/xox/ApplicationStylesheet.java"
+"/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/android/gen/com/mnc/xox/AssetCryptImpl.java"
+"/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/android/gen/com/mnc/xox/R.java"
+"/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/android/gen/com/mnc/xox/XoxActivity.java"
+"/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/android/gen/com/mnc/xox/XoxAppInfo.java"
+"/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/android/gen/com/mnc/xox/XoxApplication.java"
+"/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/android/gen/ti/modules/titanium/ui/R.java"

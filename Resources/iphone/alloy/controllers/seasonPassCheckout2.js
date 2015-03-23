@@ -85,43 +85,43 @@ function Controller() {
         id: "seasonPassCheckout2"
     });
     $.__views.seasonPassCheckout2 && $.addTopLevelView($.__views.seasonPassCheckout2);
-    $.__views.__alloyId1482 = Alloy.createController("_header", {
-        id: "__alloyId1482",
+    $.__views.__alloyId2277 = Alloy.createController("_header", {
+        id: "__alloyId2277",
         __parentSymbol: $.__views.seasonPassCheckout2
     });
-    $.__views.__alloyId1482.setParent($.__views.seasonPassCheckout2);
-    $.__views.__alloyId1483 = Ti.UI.createView({
+    $.__views.__alloyId2277.setParent($.__views.seasonPassCheckout2);
+    $.__views.__alloyId2278 = Ti.UI.createView({
         layout: "composite",
         height: "50",
         backgroundColor: "#4CC4D2",
-        id: "__alloyId1483"
+        id: "__alloyId2278"
     });
-    $.__views.seasonPassCheckout2.add($.__views.__alloyId1483);
-    $.__views.__alloyId1484 = Ti.UI.createLabel({
+    $.__views.seasonPassCheckout2.add($.__views.__alloyId2278);
+    $.__views.__alloyId2279 = Ti.UI.createLabel({
         text: "Season Pass",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
-        id: "__alloyId1484"
+        id: "__alloyId2279"
     });
-    $.__views.__alloyId1483.add($.__views.__alloyId1484);
-    $.__views.__alloyId1485 = Ti.UI.createImageView({
+    $.__views.__alloyId2278.add($.__views.__alloyId2279);
+    $.__views.__alloyId2280 = Ti.UI.createImageView({
         backgroundColor: "transparent",
         width: "30",
         height: "30",
         right: "10",
         image: "/images/close_icon.png",
-        id: "__alloyId1485"
+        id: "__alloyId2280"
     });
-    $.__views.__alloyId1483.add($.__views.__alloyId1485);
-    back ? $.__views.__alloyId1485.addEventListener("click", back) : __defers["$.__views.__alloyId1485!click!back"] = true;
+    $.__views.__alloyId2278.add($.__views.__alloyId2280);
+    back ? $.__views.__alloyId2280.addEventListener("click", back) : __defers["$.__views.__alloyId2280!click!back"] = true;
     $.__views.contentView = Ti.UI.createView({
         id: "contentView",
         layout: "vertical",
         height: "100"
     });
     $.__views.seasonPassCheckout2.add($.__views.contentView);
-    $.__views.__alloyId1486 = Ti.UI.createLabel({
+    $.__views.__alloyId2281 = Ti.UI.createLabel({
         text: "Choose Your Subscription Method:",
         backgroundColor: "transparent",
         height: "30",
@@ -130,9 +130,9 @@ function Controller() {
         top: "10",
         bottom: "5",
         left: "20",
-        id: "__alloyId1486"
+        id: "__alloyId2281"
     });
-    $.__views.contentView.add($.__views.__alloyId1486);
+    $.__views.contentView.add($.__views.__alloyId2281);
     $.__views.pickerContentView = Ti.UI.createView({
         id: "pickerContentView",
         layout: "composite",
@@ -153,16 +153,16 @@ function Controller() {
     });
     $.__views.pickerContentView.add($.__views.methodLabel);
     showPicker ? $.__views.methodLabel.addEventListener("click", showPicker) : __defers["$.__views.methodLabel!click!showPicker"] = true;
-    $.__views.__alloyId1487 = Ti.UI.createImageView({
+    $.__views.__alloyId2282 = Ti.UI.createImageView({
         image: "/images/dropdown_icon.png",
         width: "15",
         height: "10",
         right: "10",
         top: "20",
-        id: "__alloyId1487"
+        id: "__alloyId2282"
     });
-    $.__views.pickerContentView.add($.__views.__alloyId1487);
-    showPicker ? $.__views.__alloyId1487.addEventListener("click", showPicker) : __defers["$.__views.__alloyId1487!click!showPicker"] = true;
+    $.__views.pickerContentView.add($.__views.__alloyId2282);
+    showPicker ? $.__views.__alloyId2282.addEventListener("click", showPicker) : __defers["$.__views.__alloyId2282!click!showPicker"] = true;
     $.__views.pickerView = Ti.UI.createView({
         id: "pickerView",
         height: "50",
@@ -195,28 +195,28 @@ function Controller() {
         visible: "false"
     });
     $.__views.pickerView.add($.__views.picker);
-    var __alloyId1488 = [];
-    $.__views.__alloyId1489 = Ti.UI.createPickerRow({
+    var __alloyId2283 = [];
+    $.__views.__alloyId2284 = Ti.UI.createPickerRow({
         title: "All States",
-        id: "__alloyId1489"
+        id: "__alloyId2284"
     });
-    __alloyId1488.push($.__views.__alloyId1489);
-    $.__views.__alloyId1490 = Ti.UI.createPickerRow({
+    __alloyId2283.push($.__views.__alloyId2284);
+    $.__views.__alloyId2285 = Ti.UI.createPickerRow({
         title: "Selangor",
-        id: "__alloyId1490"
+        id: "__alloyId2285"
     });
-    __alloyId1488.push($.__views.__alloyId1490);
-    $.__views.__alloyId1491 = Ti.UI.createPickerRow({
+    __alloyId2283.push($.__views.__alloyId2285);
+    $.__views.__alloyId2286 = Ti.UI.createPickerRow({
         title: "Kuala Lumpur",
-        id: "__alloyId1491"
+        id: "__alloyId2286"
     });
-    __alloyId1488.push($.__views.__alloyId1491);
-    $.__views.__alloyId1492 = Ti.UI.createPickerRow({
+    __alloyId2283.push($.__views.__alloyId2286);
+    $.__views.__alloyId2287 = Ti.UI.createPickerRow({
         title: "Johor",
-        id: "__alloyId1492"
+        id: "__alloyId2287"
     });
-    __alloyId1488.push($.__views.__alloyId1492);
-    $.__views.picker.add(__alloyId1488);
+    __alloyId2283.push($.__views.__alloyId2287);
+    $.__views.picker.add(__alloyId2283);
     method ? $.__views.picker.addEventListener("change", method) : __defers["$.__views.picker!change!method"] = true;
     $.__views.scrollView = Ti.UI.createScrollView({
         id: "scrollView",
@@ -224,16 +224,16 @@ function Controller() {
         width: "90%"
     });
     $.__views.seasonPassCheckout2.add($.__views.scrollView);
-    $.__views.__alloyId1493 = Ti.UI.createLabel({
+    $.__views.__alloyId2288 = Ti.UI.createLabel({
         text: "Step 1: Enter XOX Mobile Number.",
         backgroundColor: "transparent",
         height: "30",
         width: "100%",
         color: "gray",
         top: "10",
-        id: "__alloyId1493"
+        id: "__alloyId2288"
     });
-    $.__views.scrollView.add($.__views.__alloyId1493);
+    $.__views.scrollView.add($.__views.__alloyId2288);
     $.__views.mobileNo = Ti.UI.createTextField({
         id: "mobileNo",
         width: "100%",
@@ -245,31 +245,31 @@ function Controller() {
         top: "5"
     });
     $.__views.scrollView.add($.__views.mobileNo);
-    $.__views.__alloyId1494 = Ti.UI.createView({
+    $.__views.__alloyId2289 = Ti.UI.createView({
         width: "100%",
         height: "50",
         backgroundColor: "black",
         top: "5",
-        id: "__alloyId1494"
+        id: "__alloyId2289"
     });
-    $.__views.scrollView.add($.__views.__alloyId1494);
-    tac ? $.__views.__alloyId1494.addEventListener("click", tac) : __defers["$.__views.__alloyId1494!click!tac"] = true;
-    $.__views.__alloyId1495 = Ti.UI.createLabel({
+    $.__views.scrollView.add($.__views.__alloyId2289);
+    tac ? $.__views.__alloyId2289.addEventListener("click", tac) : __defers["$.__views.__alloyId2289!click!tac"] = true;
+    $.__views.__alloyId2290 = Ti.UI.createLabel({
         text: "REQUEST TAC",
         color: "white",
-        id: "__alloyId1495"
+        id: "__alloyId2290"
     });
-    $.__views.__alloyId1494.add($.__views.__alloyId1495);
-    $.__views.__alloyId1496 = Ti.UI.createLabel({
+    $.__views.__alloyId2289.add($.__views.__alloyId2290);
+    $.__views.__alloyId2291 = Ti.UI.createLabel({
         text: "Step 2: Enter TAC Number.",
         backgroundColor: "transparent",
         height: "30",
         width: "100%",
         color: "gray",
         top: "20",
-        id: "__alloyId1496"
+        id: "__alloyId2291"
     });
-    $.__views.scrollView.add($.__views.__alloyId1496);
+    $.__views.scrollView.add($.__views.__alloyId2291);
     $.__views.tac = Ti.UI.createTextField({
         id: "tac",
         width: "100%",
@@ -281,33 +281,33 @@ function Controller() {
         top: "5"
     });
     $.__views.scrollView.add($.__views.tac);
-    $.__views.__alloyId1497 = Ti.UI.createView({
+    $.__views.__alloyId2292 = Ti.UI.createView({
         width: "100%",
         height: "50",
         backgroundColor: "black",
         top: "5",
-        id: "__alloyId1497"
+        id: "__alloyId2292"
     });
-    $.__views.scrollView.add($.__views.__alloyId1497);
-    verify ? $.__views.__alloyId1497.addEventListener("click", verify) : __defers["$.__views.__alloyId1497!click!verify"] = true;
-    $.__views.__alloyId1498 = Ti.UI.createLabel({
+    $.__views.scrollView.add($.__views.__alloyId2292);
+    verify ? $.__views.__alloyId2292.addEventListener("click", verify) : __defers["$.__views.__alloyId2292!click!verify"] = true;
+    $.__views.__alloyId2293 = Ti.UI.createLabel({
         text: "Verify TAC",
         color: "white",
-        id: "__alloyId1498"
+        id: "__alloyId2293"
     });
-    $.__views.__alloyId1497.add($.__views.__alloyId1498);
+    $.__views.__alloyId2292.add($.__views.__alloyId2293);
     exports.destroy = function() {};
     _.extend($, $.__views);
     "android" == Ti.Platform.osname && ($.scrollView.overScrollMode = Titanium.UI.Android.OVER_SCROLL_NEVER);
     var method;
     $.picker.setSelectedRow(0, 0, false);
-    __defers["$.__views.__alloyId1485!click!back"] && $.__views.__alloyId1485.addEventListener("click", back);
+    __defers["$.__views.__alloyId2280!click!back"] && $.__views.__alloyId2280.addEventListener("click", back);
     __defers["$.__views.methodLabel!click!showPicker"] && $.__views.methodLabel.addEventListener("click", showPicker);
-    __defers["$.__views.__alloyId1487!click!showPicker"] && $.__views.__alloyId1487.addEventListener("click", showPicker);
+    __defers["$.__views.__alloyId2282!click!showPicker"] && $.__views.__alloyId2282.addEventListener("click", showPicker);
     __defers["$.__views.done!click!done"] && $.__views.done.addEventListener("click", done);
     __defers["$.__views.picker!change!method"] && $.__views.picker.addEventListener("change", method);
-    __defers["$.__views.__alloyId1494!click!tac"] && $.__views.__alloyId1494.addEventListener("click", tac);
-    __defers["$.__views.__alloyId1497!click!verify"] && $.__views.__alloyId1497.addEventListener("click", verify);
+    __defers["$.__views.__alloyId2289!click!tac"] && $.__views.__alloyId2289.addEventListener("click", tac);
+    __defers["$.__views.__alloyId2292!click!verify"] && $.__views.__alloyId2292.addEventListener("click", verify);
     _.extend($, exports);
 }
 

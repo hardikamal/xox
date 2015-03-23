@@ -38,66 +38,66 @@ function Controller() {
         id: "hopOn3"
     });
     $.__views.hopOn3 && $.addTopLevelView($.__views.hopOn3);
-    $.__views.__alloyId353 = Alloy.createController("_header", {
-        id: "__alloyId353",
+    $.__views.__alloyId588 = Alloy.createController("_header", {
+        id: "__alloyId588",
         __parentSymbol: $.__views.hopOn3
     });
-    $.__views.__alloyId353.setParent($.__views.hopOn3);
-    $.__views.__alloyId354 = Ti.UI.createView({
+    $.__views.__alloyId588.setParent($.__views.hopOn3);
+    $.__views.__alloyId589 = Ti.UI.createView({
         layout: "composite",
         height: "50",
         backgroundColor: "red",
-        id: "__alloyId354"
+        id: "__alloyId589"
     });
-    $.__views.hopOn3.add($.__views.__alloyId354);
-    $.__views.__alloyId355 = Ti.UI.createLabel({
+    $.__views.hopOn3.add($.__views.__alloyId589);
+    $.__views.__alloyId590 = Ti.UI.createLabel({
         text: "HOP ON",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
-        id: "__alloyId355"
+        id: "__alloyId590"
     });
-    $.__views.__alloyId354.add($.__views.__alloyId355);
-    $.__views.__alloyId356 = Ti.UI.createImageView({
+    $.__views.__alloyId589.add($.__views.__alloyId590);
+    $.__views.__alloyId591 = Ti.UI.createImageView({
         backgroundColor: "transparent",
         width: "30",
         height: "30",
         right: "10",
         image: "/images/close_icon.png",
-        id: "__alloyId356"
+        id: "__alloyId591"
     });
-    $.__views.__alloyId354.add($.__views.__alloyId356);
-    back ? $.__views.__alloyId356.addEventListener("click", back) : __defers["$.__views.__alloyId356!click!back"] = true;
-    $.__views.__alloyId357 = Ti.UI.createView({
+    $.__views.__alloyId589.add($.__views.__alloyId591);
+    back ? $.__views.__alloyId591.addEventListener("click", back) : __defers["$.__views.__alloyId591!click!back"] = true;
+    $.__views.__alloyId592 = Ti.UI.createView({
         layout: "vertical",
         height: "50",
         backgroundColor: "#F2F2F2",
-        id: "__alloyId357"
+        id: "__alloyId592"
     });
-    $.__views.hopOn3.add($.__views.__alloyId357);
-    $.__views.__alloyId358 = Ti.UI.createLabel({
+    $.__views.hopOn3.add($.__views.__alloyId592);
+    $.__views.__alloyId593 = Ti.UI.createLabel({
         text: "Step 3 of 5",
         backgroundColor: "transparent",
         color: "black",
         left: "20",
-        id: "__alloyId358"
+        id: "__alloyId593"
     });
-    $.__views.__alloyId357.add($.__views.__alloyId358);
-    $.__views.__alloyId359 = Ti.UI.createLabel({
+    $.__views.__alloyId592.add($.__views.__alloyId593);
+    $.__views.__alloyId594 = Ti.UI.createLabel({
         text: "Porting Info",
         backgroundColor: "transparent",
         color: "red",
         left: "20",
-        id: "__alloyId359"
+        id: "__alloyId594"
     });
-    $.__views.__alloyId357.add($.__views.__alloyId359);
-    $.__views.__alloyId360 = Ti.UI.createView({
+    $.__views.__alloyId592.add($.__views.__alloyId594);
+    $.__views.__alloyId595 = Ti.UI.createView({
         layout: "horizontal",
         height: "30",
         backgroundColor: "#bf0404",
-        id: "__alloyId360"
+        id: "__alloyId595"
     });
-    $.__views.hopOn3.add($.__views.__alloyId360);
+    $.__views.hopOn3.add($.__views.__alloyId595);
     $.__views.prepaid_subtitle = Ti.UI.createLabel({
         font: {
             fontSize: "12dp"
@@ -110,7 +110,7 @@ function Controller() {
         left: "20",
         width: "38%"
     });
-    $.__views.__alloyId360.add($.__views.prepaid_subtitle);
+    $.__views.__alloyId595.add($.__views.prepaid_subtitle);
     $.__views.prepaid_mandatory = Ti.UI.createLabel({
         font: {
             fontSize: "12dp"
@@ -122,52 +122,52 @@ function Controller() {
         width: "50%",
         top: "5"
     });
-    $.__views.__alloyId360.add($.__views.prepaid_mandatory);
-    $.__views.__alloyId361 = Ti.UI.createView({
+    $.__views.__alloyId595.add($.__views.prepaid_mandatory);
+    $.__views.__alloyId596 = Ti.UI.createView({
         layout: "vertical",
         width: "90%",
         height: Ti.UI.SIZE,
-        id: "__alloyId361"
+        id: "__alloyId596"
     });
-    $.__views.hopOn3.add($.__views.__alloyId361);
-    $.__views.__alloyId362 = Ti.UI.createView({
+    $.__views.hopOn3.add($.__views.__alloyId596);
+    $.__views.__alloyId597 = Ti.UI.createView({
         layout: "vertical",
         height: "80",
         bottom: "5",
-        id: "__alloyId362"
+        id: "__alloyId597"
     });
-    $.__views.__alloyId361.add($.__views.__alloyId362);
-    $.__views.__alloyId363 = Ti.UI.createLabel({
+    $.__views.__alloyId596.add($.__views.__alloyId597);
+    $.__views.__alloyId598 = Ti.UI.createLabel({
         text: "Name (as per NRIC/ Armed Force ID/ Passport)*",
         color: "black",
         height: "20",
         left: "0",
-        id: "__alloyId363"
+        id: "__alloyId598"
     });
-    $.__views.__alloyId362.add($.__views.__alloyId363);
-    $.__views.__alloyId364 = Ti.UI.createTextField({
+    $.__views.__alloyId597.add($.__views.__alloyId598);
+    $.__views.__alloyId599 = Ti.UI.createTextField({
         height: "40",
         width: Ti.UI.FILL,
         top: "10",
         borderColor: "#F2F2F2",
-        id: "__alloyId364"
+        id: "__alloyId599"
     });
-    $.__views.__alloyId362.add($.__views.__alloyId364);
+    $.__views.__alloyId597.add($.__views.__alloyId599);
     $.__views.contentView2 = Ti.UI.createView({
         id: "contentView2",
         layout: "vertical",
         height: "80",
         bottom: "5"
     });
-    $.__views.__alloyId361.add($.__views.contentView2);
-    $.__views.__alloyId365 = Ti.UI.createLabel({
+    $.__views.__alloyId596.add($.__views.contentView2);
+    $.__views.__alloyId600 = Ti.UI.createLabel({
         text: "Reg Type*",
         color: "black",
         height: "20",
         left: "0",
-        id: "__alloyId365"
+        id: "__alloyId600"
     });
-    $.__views.contentView2.add($.__views.__alloyId365);
+    $.__views.contentView2.add($.__views.__alloyId600);
     $.__views.picker = Ti.UI.createPicker({
         id: "picker",
         height: Ti.UI.SIZE,
@@ -178,53 +178,53 @@ function Controller() {
         visible: "true"
     });
     $.__views.contentView2.add($.__views.picker);
-    var __alloyId366 = [];
-    $.__views.__alloyId367 = Ti.UI.createPickerRow({
+    var __alloyId601 = [];
+    $.__views.__alloyId602 = Ti.UI.createPickerRow({
         title: "Select an option",
-        id: "__alloyId367"
+        id: "__alloyId602"
     });
-    __alloyId366.push($.__views.__alloyId367);
-    $.__views.__alloyId368 = Ti.UI.createPickerRow({
+    __alloyId601.push($.__views.__alloyId602);
+    $.__views.__alloyId603 = Ti.UI.createPickerRow({
         title: "1",
-        id: "__alloyId368"
+        id: "__alloyId603"
     });
-    __alloyId366.push($.__views.__alloyId368);
-    $.__views.__alloyId369 = Ti.UI.createPickerRow({
+    __alloyId601.push($.__views.__alloyId603);
+    $.__views.__alloyId604 = Ti.UI.createPickerRow({
         title: "2",
-        id: "__alloyId369"
+        id: "__alloyId604"
     });
-    __alloyId366.push($.__views.__alloyId369);
-    $.__views.picker.add(__alloyId366);
-    $.__views.__alloyId370 = Ti.UI.createView({
+    __alloyId601.push($.__views.__alloyId604);
+    $.__views.picker.add(__alloyId601);
+    $.__views.__alloyId605 = Ti.UI.createView({
         layout: "vertical",
         height: "80",
         bottom: "5",
-        id: "__alloyId370"
+        id: "__alloyId605"
     });
-    $.__views.__alloyId361.add($.__views.__alloyId370);
-    $.__views.__alloyId371 = Ti.UI.createLabel({
+    $.__views.__alloyId596.add($.__views.__alloyId605);
+    $.__views.__alloyId606 = Ti.UI.createLabel({
         text: "NRIC No. / Armed Force ID / Passport*",
         color: "black",
         height: "20",
         left: "0",
-        id: "__alloyId371"
+        id: "__alloyId606"
     });
-    $.__views.__alloyId370.add($.__views.__alloyId371);
-    $.__views.__alloyId372 = Ti.UI.createTextField({
+    $.__views.__alloyId605.add($.__views.__alloyId606);
+    $.__views.__alloyId607 = Ti.UI.createTextField({
         height: "40",
         width: Ti.UI.FILL,
         top: "10",
         borderColor: "#F2F2F2",
-        id: "__alloyId372"
+        id: "__alloyId607"
     });
-    $.__views.__alloyId370.add($.__views.__alloyId372);
-    $.__views.__alloyId373 = Ti.UI.createView({
+    $.__views.__alloyId605.add($.__views.__alloyId607);
+    $.__views.__alloyId608 = Ti.UI.createView({
         layout: "horizontal",
         height: "30",
         backgroundColor: "#bf0404",
-        id: "__alloyId373"
+        id: "__alloyId608"
     });
-    $.__views.hopOn3.add($.__views.__alloyId373);
+    $.__views.hopOn3.add($.__views.__alloyId608);
     $.__views.prepaid_subtitle = Ti.UI.createLabel({
         font: {
             fontSize: "12dp"
@@ -237,7 +237,7 @@ function Controller() {
         left: "20",
         width: "100%"
     });
-    $.__views.__alloyId373.add($.__views.prepaid_subtitle);
+    $.__views.__alloyId608.add($.__views.prepaid_subtitle);
     $.__views.scrollView = Ti.UI.createScrollView({
         id: "scrollView",
         layout: "vertical",
@@ -251,14 +251,14 @@ function Controller() {
         bottom: "5"
     });
     $.__views.scrollView.add($.__views.contentView3);
-    $.__views.__alloyId374 = Ti.UI.createLabel({
+    $.__views.__alloyId609 = Ti.UI.createLabel({
         text: "Current Mobile Operator",
         color: "black",
         height: "20",
         left: "0",
-        id: "__alloyId374"
+        id: "__alloyId609"
     });
-    $.__views.contentView3.add($.__views.__alloyId374);
+    $.__views.contentView3.add($.__views.__alloyId609);
     $.__views.picker = Ti.UI.createPicker({
         id: "picker",
         height: Ti.UI.SIZE,
@@ -269,59 +269,59 @@ function Controller() {
         visible: "true"
     });
     $.__views.contentView3.add($.__views.picker);
-    var __alloyId375 = [];
-    $.__views.__alloyId376 = Ti.UI.createPickerRow({
+    var __alloyId610 = [];
+    $.__views.__alloyId611 = Ti.UI.createPickerRow({
         title: "Select an option",
-        id: "__alloyId376"
+        id: "__alloyId611"
     });
-    __alloyId375.push($.__views.__alloyId376);
-    $.__views.__alloyId377 = Ti.UI.createPickerRow({
+    __alloyId610.push($.__views.__alloyId611);
+    $.__views.__alloyId612 = Ti.UI.createPickerRow({
         title: "Digi",
-        id: "__alloyId377"
+        id: "__alloyId612"
     });
-    __alloyId375.push($.__views.__alloyId377);
-    $.__views.__alloyId378 = Ti.UI.createPickerRow({
+    __alloyId610.push($.__views.__alloyId612);
+    $.__views.__alloyId613 = Ti.UI.createPickerRow({
         title: "Maxis",
-        id: "__alloyId378"
+        id: "__alloyId613"
     });
-    __alloyId375.push($.__views.__alloyId378);
-    $.__views.picker.add(__alloyId375);
-    $.__views.__alloyId379 = Ti.UI.createView({
+    __alloyId610.push($.__views.__alloyId613);
+    $.__views.picker.add(__alloyId610);
+    $.__views.__alloyId614 = Ti.UI.createView({
         layout: "vertical",
         height: "80",
         bottom: "5",
-        id: "__alloyId379"
+        id: "__alloyId614"
     });
-    $.__views.scrollView.add($.__views.__alloyId379);
-    $.__views.__alloyId380 = Ti.UI.createLabel({
+    $.__views.scrollView.add($.__views.__alloyId614);
+    $.__views.__alloyId615 = Ti.UI.createLabel({
         text: "MSISDN (e.g 010xxxxxxxx)",
         color: "black",
         height: "20",
         left: "0",
-        id: "__alloyId380"
+        id: "__alloyId615"
     });
-    $.__views.__alloyId379.add($.__views.__alloyId380);
-    $.__views.__alloyId381 = Ti.UI.createTextField({
+    $.__views.__alloyId614.add($.__views.__alloyId615);
+    $.__views.__alloyId616 = Ti.UI.createTextField({
         height: "40",
         width: Ti.UI.FILL,
         top: "10",
         borderColor: "#F2F2F2",
-        id: "__alloyId381"
+        id: "__alloyId616"
     });
-    $.__views.__alloyId379.add($.__views.__alloyId381);
-    $.__views.__alloyId382 = Ti.UI.createView({
+    $.__views.__alloyId614.add($.__views.__alloyId616);
+    $.__views.__alloyId617 = Ti.UI.createView({
         height: "50",
         backgroundColor: "red",
-        id: "__alloyId382"
+        id: "__alloyId617"
     });
-    $.__views.hopOn3.add($.__views.__alloyId382);
-    proceed ? $.__views.__alloyId382.addEventListener("click", proceed) : __defers["$.__views.__alloyId382!click!proceed"] = true;
-    $.__views.__alloyId383 = Ti.UI.createLabel({
+    $.__views.hopOn3.add($.__views.__alloyId617);
+    proceed ? $.__views.__alloyId617.addEventListener("click", proceed) : __defers["$.__views.__alloyId617!click!proceed"] = true;
+    $.__views.__alloyId618 = Ti.UI.createLabel({
         text: "PROCEED",
         color: "white",
-        id: "__alloyId383"
+        id: "__alloyId618"
     });
-    $.__views.__alloyId382.add($.__views.__alloyId383);
+    $.__views.__alloyId617.add($.__views.__alloyId618);
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.scrollView.height = Ti.Platform.displayCaps.platformHeight - 515;
@@ -329,8 +329,8 @@ function Controller() {
         console.log("android");
         $.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 515;
     }
-    __defers["$.__views.__alloyId356!click!back"] && $.__views.__alloyId356.addEventListener("click", back);
-    __defers["$.__views.__alloyId382!click!proceed"] && $.__views.__alloyId382.addEventListener("click", proceed);
+    __defers["$.__views.__alloyId591!click!back"] && $.__views.__alloyId591.addEventListener("click", back);
+    __defers["$.__views.__alloyId617!click!proceed"] && $.__views.__alloyId617.addEventListener("click", proceed);
     _.extend($, exports);
 }
 
