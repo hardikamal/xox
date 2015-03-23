@@ -10,7 +10,7 @@ function back()
 	// console.log("product");
 	// var win = Alloy.createController('product').getView();
 	// win.open();
-	DRAWER.navigation("products",2);
+	DRAWER.navigation("products",1);
 }
 
 function subscribe()

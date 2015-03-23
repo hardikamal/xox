@@ -2,6 +2,9 @@ var args = arguments[0] || {};
 Ti.App.Properties.setString('root',"1");
 var pHeight = Ti.Platform.displayCaps.platformHeight;
 
+$.forgotLine.width = $.forgotText.getWidth();
+$.registerLine.width = $.registerText.getWidth();
+
 if(Ti.Platform.osname == "android") {
 	console.log("android");
 	$.scrollView.overScrollMode = Titanium.UI.Android.OVER_SCROLL_NEVER;
@@ -95,7 +98,17 @@ function register()
 	$.password.value = "";
 	$.password.blur();
 	$.login.zIndex = 0;
-	console.log("to register page");
+	DRAWER.navigation("register",2);
+}
+
+function forgot()
+{
+	$.username.value = "";
+	$.username.blur();
+	$.password.value = "";
+	$.password.blur();
+	$.login.zIndex = 0;
+	DRAWER.navigation("forgot",2);
 }
 
 function close()

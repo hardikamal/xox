@@ -9,7 +9,7 @@ function __processArg(obj, key) {
 
 function Controller() {
     function promoDetail() {
-        DRAWER.navigation("promoDetail", 2);
+        DRAWER.navigation("promoDetail", 1);
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "promo";
@@ -34,8 +34,28 @@ function Controller() {
         id: "promo"
     });
     $.__views.promo && $.addTopLevelView($.__views.promo);
+<<<<<<< HEAD
     $.__views.__alloyId1838 = Alloy.createController("_header", {
         id: "__alloyId1838",
+=======
+<<<<<<< HEAD
+    $.__views.__alloyId2003 = Alloy.createController("_header", {
+        id: "__alloyId2003",
+        __parentSymbol: $.__views.promo
+    });
+    $.__views.__alloyId2003.setParent($.__views.promo);
+    $.__views.__alloyId2004 = Ti.UI.createView({
+        height: "20%",
+        backgroundColor: "#4CC4D2",
+        id: "__alloyId2004"
+    });
+    $.__views.promo.add($.__views.__alloyId2004);
+    $.__views.__alloyId2005 = Ti.UI.createLabel({
+=======
+<<<<<<< Updated upstream
+    $.__views.__alloyId1504 = Alloy.createController("_header", {
+        id: "__alloyId1504",
+>>>>>>> origin/master
         __parentSymbol: $.__views.promo
     });
     $.__views.__alloyId1838.setParent($.__views.promo);
@@ -44,13 +64,104 @@ function Controller() {
         backgroundColor: "#4CC4D2",
         id: "__alloyId1839"
     });
+<<<<<<< HEAD
     $.__views.promo.add($.__views.__alloyId1839);
     $.__views.__alloyId1840 = Ti.UI.createLabel({
+=======
+    $.__views.promo.add($.__views.__alloyId1505);
+    $.__views.__alloyId1506 = Ti.UI.createLabel({
+=======
+    $.__views.__alloyId1307 = Alloy.createController("_header", {
+        id: "__alloyId1307",
+        __parentSymbol: $.__views.promo
+    });
+    $.__views.__alloyId1307.setParent($.__views.promo);
+    $.__views.__alloyId1308 = Ti.UI.createView({
+        height: "20%",
+        backgroundColor: "#4CC4D2",
+        id: "__alloyId1308"
+    });
+    $.__views.promo.add($.__views.__alloyId1308);
+    $.__views.__alloyId1309 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
+>>>>>>> origin/master
+>>>>>>> origin/master
         text: "Promo / News",
         left: "10",
         top: "10",
         color: "white",
+<<<<<<< HEAD
         id: "__alloyId1840"
+=======
+<<<<<<< HEAD
+        id: "__alloyId2005"
+    });
+    $.__views.__alloyId2004.add($.__views.__alloyId2005);
+    $.__views.__alloyId2006 = Ti.UI.createView({
+        layout: "vertical",
+        id: "__alloyId2006"
+    });
+    $.__views.promo.add($.__views.__alloyId2006);
+    $.__views.__alloyId2007 = Ti.UI.createView({
+        height: "20%",
+        backgroundColor: "red",
+        id: "__alloyId2007"
+    });
+    $.__views.__alloyId2006.add($.__views.__alloyId2007);
+    promoDetail ? $.__views.__alloyId2007.addEventListener("click", promoDetail) : __defers["$.__views.__alloyId2007!click!promoDetail"] = true;
+    $.__views.__alloyId2008 = Ti.UI.createView({
+        height: "20%",
+        backgroundColor: "green",
+        id: "__alloyId2008"
+    });
+    $.__views.__alloyId2006.add($.__views.__alloyId2008);
+    promoDetail ? $.__views.__alloyId2008.addEventListener("click", promoDetail) : __defers["$.__views.__alloyId2008!click!promoDetail"] = true;
+    $.__views.__alloyId2009 = Ti.UI.createView({
+        height: "20%",
+        backgroundColor: "yellow",
+        id: "__alloyId2009"
+    });
+    $.__views.__alloyId2006.add($.__views.__alloyId2009);
+    promoDetail ? $.__views.__alloyId2009.addEventListener("click", promoDetail) : __defers["$.__views.__alloyId2009!click!promoDetail"] = true;
+=======
+<<<<<<< Updated upstream
+        id: "__alloyId1506"
+    });
+    $.__views.__alloyId1505.add($.__views.__alloyId1506);
+    $.__views.__alloyId1507 = Ti.UI.createView({
+        layout: "vertical",
+        id: "__alloyId1507"
+    });
+    $.__views.promo.add($.__views.__alloyId1507);
+    $.__views.__alloyId1508 = Ti.UI.createView({
+        height: "20%",
+        backgroundColor: "red",
+        id: "__alloyId1508"
+    });
+    $.__views.__alloyId1507.add($.__views.__alloyId1508);
+    promoDetail ? $.__views.__alloyId1508.addEventListener("click", promoDetail) : __defers["$.__views.__alloyId1508!click!promoDetail"] = true;
+    $.__views.__alloyId1509 = Ti.UI.createView({
+        height: "20%",
+        backgroundColor: "green",
+        id: "__alloyId1509"
+    });
+    $.__views.__alloyId1507.add($.__views.__alloyId1509);
+    promoDetail ? $.__views.__alloyId1509.addEventListener("click", promoDetail) : __defers["$.__views.__alloyId1509!click!promoDetail"] = true;
+    $.__views.__alloyId1510 = Ti.UI.createView({
+        height: "20%",
+        backgroundColor: "yellow",
+        id: "__alloyId1510"
+    });
+    $.__views.__alloyId1507.add($.__views.__alloyId1510);
+    promoDetail ? $.__views.__alloyId1510.addEventListener("click", promoDetail) : __defers["$.__views.__alloyId1510!click!promoDetail"] = true;
+    exports.destroy = function() {};
+    _.extend($, $.__views);
+    __defers["$.__views.__alloyId1508!click!promoDetail"] && $.__views.__alloyId1508.addEventListener("click", promoDetail);
+    __defers["$.__views.__alloyId1509!click!promoDetail"] && $.__views.__alloyId1509.addEventListener("click", promoDetail);
+    __defers["$.__views.__alloyId1510!click!promoDetail"] && $.__views.__alloyId1510.addEventListener("click", promoDetail);
+=======
+        id: "__alloyId1309"
+>>>>>>> origin/master
     });
     $.__views.__alloyId1839.add($.__views.__alloyId1840);
     $.__views.__alloyId1841 = Ti.UI.createView({
@@ -77,8 +188,14 @@ function Controller() {
         backgroundColor: "yellow",
         id: "__alloyId1844"
     });
+<<<<<<< HEAD
     $.__views.__alloyId1841.add($.__views.__alloyId1844);
     promoDetail ? $.__views.__alloyId1844.addEventListener("click", promoDetail) : __defers["$.__views.__alloyId1844!click!promoDetail"] = true;
+=======
+    $.__views.__alloyId1310.add($.__views.__alloyId1313);
+    promoDetail ? $.__views.__alloyId1313.addEventListener("click", promoDetail) : __defers["$.__views.__alloyId1313!click!promoDetail"] = true;
+>>>>>>> origin/master
+>>>>>>> origin/master
     exports.destroy = function() {};
     _.extend($, $.__views);
     var clearObject = function() {
@@ -87,9 +204,22 @@ function Controller() {
         Ti.App.removeEventListener("clearObject", clearObject);
     };
     Ti.App.addEventListener("clearObject", clearObject);
+<<<<<<< HEAD
     __defers["$.__views.__alloyId1842!click!promoDetail"] && $.__views.__alloyId1842.addEventListener("click", promoDetail);
     __defers["$.__views.__alloyId1843!click!promoDetail"] && $.__views.__alloyId1843.addEventListener("click", promoDetail);
     __defers["$.__views.__alloyId1844!click!promoDetail"] && $.__views.__alloyId1844.addEventListener("click", promoDetail);
+=======
+<<<<<<< HEAD
+    __defers["$.__views.__alloyId2007!click!promoDetail"] && $.__views.__alloyId2007.addEventListener("click", promoDetail);
+    __defers["$.__views.__alloyId2008!click!promoDetail"] && $.__views.__alloyId2008.addEventListener("click", promoDetail);
+    __defers["$.__views.__alloyId2009!click!promoDetail"] && $.__views.__alloyId2009.addEventListener("click", promoDetail);
+=======
+    __defers["$.__views.__alloyId1311!click!promoDetail"] && $.__views.__alloyId1311.addEventListener("click", promoDetail);
+    __defers["$.__views.__alloyId1312!click!promoDetail"] && $.__views.__alloyId1312.addEventListener("click", promoDetail);
+    __defers["$.__views.__alloyId1313!click!promoDetail"] && $.__views.__alloyId1313.addEventListener("click", promoDetail);
+>>>>>>> Stashed changes
+>>>>>>> origin/master
+>>>>>>> origin/master
     _.extend($, exports);
 }
 

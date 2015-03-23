@@ -30,8 +30,27 @@ function Controller() {
         id: "notification"
     });
     $.__views.notification && $.addTopLevelView($.__views.notification);
+<<<<<<< HEAD
     $.__views.__alloyId1183 = Alloy.createController("_header", {
         id: "__alloyId1183",
+=======
+<<<<<<< HEAD
+    $.__views.__alloyId1347 = Alloy.createController("_header", {
+        id: "__alloyId1347",
+        __parentSymbol: $.__views.notification
+    });
+    $.__views.__alloyId1347.setParent($.__views.notification);
+    $.__views.__alloyId1348 = Ti.UI.createView({
+        height: "20%",
+        backgroundColor: "#AFCD3F",
+        id: "__alloyId1348"
+    });
+    $.__views.notification.add($.__views.__alloyId1348);
+    $.__views.__alloyId1349 = Ti.UI.createLabel({
+=======
+    $.__views.__alloyId851 = Alloy.createController("_header", {
+        id: "__alloyId851",
+>>>>>>> origin/master
         __parentSymbol: $.__views.notification
     });
     $.__views.__alloyId1183.setParent($.__views.notification);
@@ -40,13 +59,35 @@ function Controller() {
         backgroundColor: "#AFCD3F",
         id: "__alloyId1184"
     });
+<<<<<<< HEAD
     $.__views.notification.add($.__views.__alloyId1184);
     $.__views.__alloyId1185 = Ti.UI.createLabel({
+=======
+    $.__views.notification.add($.__views.__alloyId852);
+    $.__views.__alloyId853 = Ti.UI.createLabel({
+>>>>>>> origin/master
+>>>>>>> origin/master
         text: "Support",
         left: "10",
         top: "10",
         color: "white",
+<<<<<<< HEAD
         id: "__alloyId1185"
+=======
+<<<<<<< HEAD
+        id: "__alloyId1349"
+    });
+    $.__views.__alloyId1348.add($.__views.__alloyId1349);
+    $.__views.__alloyId1350 = Ti.UI.createView({
+        height: "50",
+        backgroundColor: "#E6E7E9",
+        id: "__alloyId1350"
+    });
+    $.__views.notification.add($.__views.__alloyId1350);
+    $.__views.__alloyId1351 = Ti.UI.createLabel({
+=======
+        id: "__alloyId853"
+>>>>>>> origin/master
     });
     $.__views.__alloyId1184.add($.__views.__alloyId1185);
     $.__views.__alloyId1186 = Ti.UI.createView({
@@ -54,14 +95,35 @@ function Controller() {
         backgroundColor: "#E6E7E9",
         id: "__alloyId1186"
     });
+<<<<<<< HEAD
     $.__views.notification.add($.__views.__alloyId1186);
     $.__views.__alloyId1187 = Ti.UI.createLabel({
+=======
+    $.__views.notification.add($.__views.__alloyId854);
+    $.__views.__alloyId855 = Ti.UI.createLabel({
+>>>>>>> origin/master
+>>>>>>> origin/master
         text: "Notification",
         left: "5%",
         height: "50",
         textAlign: "left",
         color: "black",
+<<<<<<< HEAD
         id: "__alloyId1187"
+=======
+<<<<<<< HEAD
+        id: "__alloyId1351"
+    });
+    $.__views.__alloyId1350.add($.__views.__alloyId1351);
+    $.__views.__alloyId1352 = Ti.UI.createScrollView({
+        layout: "vertical",
+        backgroundColor: "white",
+        id: "__alloyId1352"
+    });
+    $.__views.notification.add($.__views.__alloyId1352);
+=======
+        id: "__alloyId855"
+>>>>>>> origin/master
     });
     $.__views.__alloyId1186.add($.__views.__alloyId1187);
     $.__views.__alloyId1188 = Ti.UI.createScrollView({
@@ -69,7 +131,12 @@ function Controller() {
         backgroundColor: "white",
         id: "__alloyId1188"
     });
+<<<<<<< HEAD
     $.__views.notification.add($.__views.__alloyId1188);
+=======
+    $.__views.notification.add($.__views.__alloyId856);
+>>>>>>> origin/master
+>>>>>>> origin/master
     $.__views.title = Ti.UI.createLabel({
         id: "title",
         width: "90%",
@@ -78,7 +145,15 @@ function Controller() {
         textAlign: "left",
         color: "black"
     });
+<<<<<<< HEAD
     $.__views.__alloyId1188.add($.__views.title);
+=======
+<<<<<<< HEAD
+    $.__views.__alloyId1352.add($.__views.title);
+=======
+    $.__views.__alloyId856.add($.__views.title);
+>>>>>>> origin/master
+>>>>>>> origin/master
     $.__views.label = Ti.UI.createLabel({
         id: "label",
         width: "90%",
@@ -87,7 +162,15 @@ function Controller() {
         textAlign: "left",
         color: "black"
     });
+<<<<<<< HEAD
     $.__views.__alloyId1188.add($.__views.label);
+=======
+<<<<<<< HEAD
+    $.__views.__alloyId1352.add($.__views.label);
+=======
+    $.__views.__alloyId856.add($.__views.label);
+>>>>>>> origin/master
+>>>>>>> origin/master
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.title.text = "1.Title";

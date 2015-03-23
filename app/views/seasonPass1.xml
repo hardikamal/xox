@@ -1,52 +1,52 @@
 <Alloy>
 	<ScrollView id="scrollView" layout="vertical" height="100%" scrollType="vertical" backgroundColor="#FFFFFF" >
-	    <View layout="vertical" height="200" width="90%" top="10">
-	    	<View layout="horizontal" height="50%" width="100%" backgroundColor="#4CC4D2">
-	    		<View layout="composite" height="100%" width="50%">
-	    			<View layout="vertical" height="Ti.UI.SIZE" width="100%">
-	    				<Label backgroundColor="transparent" color="white" left="20">SP V1</Label>
-	    				<Label backgroundColor="transparent" color="black" left="20">350 min</Label>
+	    <View layout="vertical" height="200" width="90%" top="10" mod="1" onClick="checkout">
+	    	<View layout="horizontal" height="50%" width="100%" backgroundColor="#4CC4D2" mod="1">
+	    		<View layout="composite" height="100%" width="50%" mod="1">
+	    			<View layout="vertical" height="Ti.UI.SIZE" width="100%" mod="1">
+	    				<Label backgroundColor="transparent" color="white" left="20" mod="1">SP V1</Label>
+	    				<Label backgroundColor="transparent" color="black" left="20" mod="1">350 min</Label>
 	    			</View>
 	    		</View>
-	    		<View layout="composite" height="Ti.UI.SIZE" width="50%">
-	    			<View layout="horizontal" height="Ti.UI.SIZE" width="Ti.UI.SIZE" backgroundColor="#1D717A" right="0">
-	    				<Label backgroundColor="transparent" width="Ti.UI.SIZE" color="white" left="20">RM</Label>
-	    				<Label backgroundColor="transparent" width="Ti.UI.SIZE" color="white" left="20">49.90</Label>
+	    		<View layout="composite" height="Ti.UI.SIZE" width="50%" mod="1">
+	    			<View layout="horizontal" height="Ti.UI.SIZE" width="Ti.UI.SIZE" backgroundColor="#1D717A" right="0" mod="1">
+	    				<Label backgroundColor="transparent" width="Ti.UI.SIZE" color="white" left="20" mod="1">RM</Label>
+	    				<Label backgroundColor="transparent" width="Ti.UI.SIZE" color="white" left="20" mod="1">49.90</Label>
 	    			</View>
 	    		</View>
 	    	</View>
-	    	<View layout="horizontal" height="20%" width="100%" backgroundColor="#646461">
-	    		<Label backgroundColor="transparent" height="100%" color="white" left="20">*FREE 50 SMS</Label>
+	    	<View layout="horizontal" height="20%" width="100%" backgroundColor="#646461" mod="1">
+	    		<Label backgroundColor="transparent" height="100%" color="white" left="20" mod="1">*FREE 50 SMS</Label>
 	    	</View>
-	    	<View layout="composite" height="30%" width="100%" backgroundColor="#E6E7E9">
-	    		<View layout="vertical" height="Ti.UI.SIZE" width="100%">
-	    			<Label backgroundColor="transparent" color="#707070" left="20">To Subscribe:</Label>
-    				<Label backgroundColor="transparent" color="#707070" left="20">Key in SPV1 and send to 23388</Label>
+	    	<View layout="composite" height="30%" width="100%" backgroundColor="#E6E7E9" mod="1">
+	    		<View layout="vertical" height="Ti.UI.SIZE" width="100%" mod="1">
+	    			<Label backgroundColor="transparent" color="#707070" left="20" mod="1">To Subscribe:</Label>
+    				<Label backgroundColor="transparent" color="#707070" left="20" mod="1">Key in SPV1 and send to 23388</Label>
 	    		</View>
 	    	</View>
 	    </View>
-	    <View layout="vertical" height="200" width="90%" top="10" bottom="10">
-	    	<View layout="horizontal" height="50%" width="100%" backgroundColor="#4CC4D2">
-	    		<View layout="composite" height="100%" width="50%">
-	    			<View layout="vertical" height="Ti.UI.SIZE" width="100%">
-	    				<Label backgroundColor="transparent" color="white" left="20">SP V2</Label>
-	    				<Label backgroundColor="transparent" color="black" left="20">700 min</Label>
+	    <View layout="vertical" height="200" width="90%" top="10" bottom="10" mod="2" onClick="checkout">
+	    	<View layout="horizontal" height="50%" width="100%" backgroundColor="#4CC4D2" mod="2">
+	    		<View layout="composite" height="100%" width="50%" mod="2">
+	    			<View layout="vertical" height="Ti.UI.SIZE" width="100%" mod="2">
+	    				<Label backgroundColor="transparent" color="white" left="20" mod="2">SP V2</Label>
+	    				<Label backgroundColor="transparent" color="black" left="20" mod="2">700 min</Label>
 	    			</View>
 	    		</View>
-	    		<View layout="composite" height="Ti.UI.SIZE" width="50%">
-	    			<View layout="horizontal" height="Ti.UI.SIZE" width="Ti.UI.SIZE" backgroundColor="#1D717A" right="0">
-	    				<Label backgroundColor="transparent" width="Ti.UI.SIZE" color="white" left="20">RM</Label>
-	    				<Label backgroundColor="transparent" width="Ti.UI.SIZE" color="white" left="20">79.90</Label>
+	    		<View layout="composite" height="Ti.UI.SIZE" width="50%" mod="2">
+	    			<View layout="horizontal" height="Ti.UI.SIZE" width="Ti.UI.SIZE" backgroundColor="#1D717A" right="0" mod="2">
+	    				<Label backgroundColor="transparent" width="Ti.UI.SIZE" color="white" left="20" mod="2">RM</Label>
+	    				<Label backgroundColor="transparent" width="Ti.UI.SIZE" color="white" left="20" mod="2">79.90</Label>
 	    			</View>
 	    		</View>
 	    	</View>
-	    	<View layout="horizontal" height="20%" width="100%" backgroundColor="#646461">
-	    		<Label backgroundColor="transparent" height="100%" color="white" left="20">*FREE 100 SMS</Label>
+	    	<View layout="horizontal" height="20%" width="100%" backgroundColor="#646461" mod="2">
+	    		<Label backgroundColor="transparent" height="100%" color="white" left="20" mod="2">*FREE 100 SMS</Label>
 	    	</View>
-	    	<View layout="composite" height="30%" width="100%" backgroundColor="#E6E7E9">
-	    		<View layout="vertical" height="Ti.UI.SIZE" width="100%">
-	    			<Label backgroundColor="transparent" color="#707070" left="20">To Subscribe:</Label>
-    				<Label backgroundColor="transparent" color="#707070" left="20">Key in SPV2 and send to 23388</Label>
+	    	<View layout="composite" height="30%" width="100%" backgroundColor="#E6E7E9" mod="2">
+	    		<View layout="vertical" height="Ti.UI.SIZE" width="100%" mod="2">
+	    			<Label backgroundColor="transparent" color="#707070" left="20" mod="2">To Subscribe:</Label>
+    				<Label backgroundColor="transparent" color="#707070" left="20" mod="2">Key in SPV2 and send to 23388</Label>
 	    		</View>
 	    	</View>
 	    </View>

@@ -26,3 +26,13 @@ function myProfile()
 {
 	DRAWER.navigation("profile",1);
 }
+
+function statement()
+{
+	console.log("statement");
+}
+
+function download()
+{
+	console.log("download");
+}

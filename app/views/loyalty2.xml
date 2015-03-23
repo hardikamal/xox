@@ -1,0 +1,34 @@
+<Alloy>
+	<View layout="vertical" class="container" backgroundColor="white" fullscreen="true">
+		<Require src="_header" ></Require>
+		<View layout="composite" height="50" backgroundColor="#E82630">
+			<Label backgroundColor="transparent" color="white" left="20">Loyalty</Label>
+			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
+		</View>
+		<View layout="composite" height="50" backgroundColor="#F5F5F5">
+			<Label backgroundColor="transparent" color="black" left="20">Loyalty Rewards</Label>
+		</View>
+		<ScrollView id="scrollView" layout="vertical" width="100%" backgroundColor="white">
+			<View height="Ti.UI.SIZE" backgroundColor="white">
+				<View layout="vertical" height="Ti.UI.SIZE" width="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="20" >Rewards Package 01</Label>
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="20" >Steps</Label>
+				</View>
+				<View backgroundColor="black" width="90%" height="1" bottom="0"></View>
+			</View>
+			<View height="Ti.UI.SIZE" backgroundColor="white">
+				<View layout="vertical" height="Ti.UI.SIZE" width="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="20" >Rewards Package 02</Label>
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="20" >Steps</Label>
+				</View>
+				<View backgroundColor="black" width="90%" height="1" bottom="0"></View>
+			</View><View height="Ti.UI.SIZE" backgroundColor="white">
+				<View layout="vertical" height="Ti.UI.SIZE" width="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="20" >Rewards Package 03</Label>
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="20" >Steps</Label>
+				</View>
+				<View backgroundColor="black" width="90%" height="1" bottom="0"></View>
+			</View>
+		</ScrollView>
+	</View>
+</Alloy>

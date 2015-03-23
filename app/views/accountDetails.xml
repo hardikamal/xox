@@ -189,9 +189,13 @@
 			</View>
 		</ScrollView>
 		<View layout="horizontal" height="50" backgroundColor="#4CC4D2">
-			<Label color="white" height="100%" width="49.72%" textAlign="center">View Statement</Label>
+			<View height="100%" width="49.72%" backgroundColor="#4CC4D2" onClick="statement">
+				<Label color="white" textAlign="center">View Statement</Label>
+			</View>
 			<View backgroundColor="white" height="100%" width="0.5%"></View>
-			<Label color="white" height="100%" width="49.72%" textAlign="center">Download</Label>
+			<View height="100%" width="49.72%" backgroundColor="#4CC4D2" onClick="download">
+				<Label color="white" textAlign="center">Download</Label>
+			</View>
 		</View>
 	</View>
 </Alloy> -->

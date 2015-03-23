@@ -31,19 +31,63 @@ function Controller() {
         backgroundColor: "#FFFFFF"
     });
     $.__views.scrollView && $.addTopLevelView($.__views.scrollView);
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+    $.__views.__alloyId2213 = Ti.UI.createView({
+=======
     $.__views.__alloyId2024 = Ti.UI.createView({
+>>>>>>> origin/master
         layout: "vertical",
         height: "200",
         width: "90%",
         top: "10",
+<<<<<<< HEAD
+        id: "__alloyId2213"
+    });
+    $.__views.scrollView.add($.__views.__alloyId2213);
+    $.__views.__alloyId2214 = Ti.UI.createView({
+=======
         id: "__alloyId2024"
     });
     $.__views.scrollView.add($.__views.__alloyId2024);
     $.__views.__alloyId2025 = Ti.UI.createView({
+>>>>>>> origin/master
+=======
+    $.__views.__alloyId635 = Ti.UI.createView({
+        layout: "vertical",
+        height: "50%",
+        width: "90%",
+        top: "10",
+        id: "__alloyId635"
+    });
+    $.__views.scrollView.add($.__views.__alloyId635);
+    $.__views.__alloyId636 = Ti.UI.createView({
+>>>>>>> Stashed changes
         layout: "horizontal",
         height: "50%",
         width: "100%",
         backgroundColor: "#4CC4D2",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2214"
+    });
+    $.__views.__alloyId2213.add($.__views.__alloyId2214);
+    $.__views.__alloyId2215 = Ti.UI.createView({
+        layout: "composite",
+        height: "100%",
+        width: "50%",
+        id: "__alloyId2215"
+    });
+    $.__views.__alloyId2214.add($.__views.__alloyId2215);
+    $.__views.__alloyId2216 = Ti.UI.createView({
+        layout: "vertical",
+        height: Ti.UI.SIZE,
+        width: "100%",
+        id: "__alloyId2216"
+    });
+    $.__views.__alloyId2215.add($.__views.__alloyId2216);
+    $.__views.__alloyId2217 = Ti.UI.createLabel({
+=======
         id: "__alloyId2025"
     });
     $.__views.__alloyId2024.add($.__views.__alloyId2025);
@@ -62,18 +106,67 @@ function Controller() {
     });
     $.__views.__alloyId2026.add($.__views.__alloyId2027);
     $.__views.__alloyId2028 = Ti.UI.createLabel({
+>>>>>>> origin/master
+=======
+        id: "__alloyId636"
+    });
+    $.__views.__alloyId635.add($.__views.__alloyId636);
+    $.__views.__alloyId637 = Ti.UI.createView({
+        layout: "composite",
+        height: "100%",
+        width: "50%",
+        id: "__alloyId637"
+    });
+    $.__views.__alloyId636.add($.__views.__alloyId637);
+    $.__views.__alloyId638 = Ti.UI.createView({
+        layout: "vertical",
+        height: Ti.UI.SIZE,
+        width: "100%",
+        id: "__alloyId638"
+    });
+    $.__views.__alloyId637.add($.__views.__alloyId638);
+    $.__views.__alloyId639 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         text: "SP V1",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2217"
+    });
+    $.__views.__alloyId2216.add($.__views.__alloyId2217);
+    $.__views.__alloyId2218 = Ti.UI.createLabel({
+=======
         id: "__alloyId2028"
     });
     $.__views.__alloyId2027.add($.__views.__alloyId2028);
     $.__views.__alloyId2029 = Ti.UI.createLabel({
+>>>>>>> origin/master
+=======
+        id: "__alloyId639"
+    });
+    $.__views.__alloyId638.add($.__views.__alloyId639);
+    $.__views.__alloyId640 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         text: "350 min",
         backgroundColor: "transparent",
         color: "black",
         left: "20",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2218"
+    });
+    $.__views.__alloyId2216.add($.__views.__alloyId2218);
+    $.__views.__alloyId2219 = Ti.UI.createView({
+        layout: "composite",
+        height: Ti.UI.SIZE,
+        width: "50%",
+        id: "__alloyId2219"
+    });
+    $.__views.__alloyId2214.add($.__views.__alloyId2219);
+    $.__views.__alloyId2220 = Ti.UI.createView({
+=======
         id: "__alloyId2029"
     });
     $.__views.__alloyId2027.add($.__views.__alloyId2029);
@@ -85,54 +178,152 @@ function Controller() {
     });
     $.__views.__alloyId2025.add($.__views.__alloyId2030);
     $.__views.__alloyId2031 = Ti.UI.createView({
+>>>>>>> origin/master
+=======
+        id: "__alloyId640"
+    });
+    $.__views.__alloyId638.add($.__views.__alloyId640);
+    $.__views.__alloyId641 = Ti.UI.createView({
+        layout: "composite",
+        height: Ti.UI.SIZE,
+        width: "50%",
+        id: "__alloyId641"
+    });
+    $.__views.__alloyId636.add($.__views.__alloyId641);
+    $.__views.__alloyId642 = Ti.UI.createView({
+>>>>>>> Stashed changes
         layout: "horizontal",
         height: Ti.UI.SIZE,
         width: Ti.UI.SIZE,
         backgroundColor: "#1D717A",
         right: "0",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2220"
+    });
+    $.__views.__alloyId2219.add($.__views.__alloyId2220);
+    $.__views.__alloyId2221 = Ti.UI.createLabel({
+=======
         id: "__alloyId2031"
     });
     $.__views.__alloyId2030.add($.__views.__alloyId2031);
     $.__views.__alloyId2032 = Ti.UI.createLabel({
+>>>>>>> origin/master
+=======
+        id: "__alloyId642"
+    });
+    $.__views.__alloyId641.add($.__views.__alloyId642);
+    $.__views.__alloyId643 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         text: "RM",
         backgroundColor: "transparent",
         width: Ti.UI.SIZE,
         color: "white",
         left: "20",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2221"
+    });
+    $.__views.__alloyId2220.add($.__views.__alloyId2221);
+    $.__views.__alloyId2222 = Ti.UI.createLabel({
+=======
         id: "__alloyId2032"
     });
     $.__views.__alloyId2031.add($.__views.__alloyId2032);
     $.__views.__alloyId2033 = Ti.UI.createLabel({
+>>>>>>> origin/master
+=======
+        id: "__alloyId643"
+    });
+    $.__views.__alloyId642.add($.__views.__alloyId643);
+    $.__views.__alloyId644 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         text: "49.90",
         backgroundColor: "transparent",
         width: Ti.UI.SIZE,
         color: "white",
         left: "20",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2222"
+    });
+    $.__views.__alloyId2220.add($.__views.__alloyId2222);
+    $.__views.__alloyId2223 = Ti.UI.createView({
+=======
         id: "__alloyId2033"
     });
     $.__views.__alloyId2031.add($.__views.__alloyId2033);
     $.__views.__alloyId2034 = Ti.UI.createView({
+>>>>>>> origin/master
+=======
+        id: "__alloyId644"
+    });
+    $.__views.__alloyId642.add($.__views.__alloyId644);
+    $.__views.__alloyId645 = Ti.UI.createView({
+>>>>>>> Stashed changes
         layout: "horizontal",
         height: "20%",
         width: "100%",
         backgroundColor: "#646461",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2223"
+    });
+    $.__views.__alloyId2213.add($.__views.__alloyId2223);
+    $.__views.__alloyId2224 = Ti.UI.createLabel({
+=======
         id: "__alloyId2034"
     });
     $.__views.__alloyId2024.add($.__views.__alloyId2034);
     $.__views.__alloyId2035 = Ti.UI.createLabel({
+>>>>>>> origin/master
+=======
+        id: "__alloyId645"
+    });
+    $.__views.__alloyId635.add($.__views.__alloyId645);
+    $.__views.__alloyId646 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         text: "*FREE 50 SMS",
         backgroundColor: "transparent",
         height: "100%",
         color: "white",
         left: "20",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2224"
+    });
+    $.__views.__alloyId2223.add($.__views.__alloyId2224);
+    $.__views.__alloyId2225 = Ti.UI.createView({
+=======
         id: "__alloyId2035"
     });
     $.__views.__alloyId2034.add($.__views.__alloyId2035);
     $.__views.__alloyId2036 = Ti.UI.createView({
+>>>>>>> origin/master
+=======
+        id: "__alloyId646"
+    });
+    $.__views.__alloyId645.add($.__views.__alloyId646);
+    $.__views.__alloyId647 = Ti.UI.createView({
+>>>>>>> Stashed changes
         layout: "composite",
         height: "30%",
         width: "100%",
         backgroundColor: "#E6E7E9",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2225"
+    });
+    $.__views.__alloyId2213.add($.__views.__alloyId2225);
+    $.__views.__alloyId2226 = Ti.UI.createView({
+        layout: "vertical",
+        height: Ti.UI.SIZE,
+        width: "100%",
+        id: "__alloyId2226"
+    });
+    $.__views.__alloyId2225.add($.__views.__alloyId2226);
+    $.__views.__alloyId2227 = Ti.UI.createLabel({
+=======
         id: "__alloyId2036"
     });
     $.__views.__alloyId2024.add($.__views.__alloyId2036);
@@ -144,35 +335,114 @@ function Controller() {
     });
     $.__views.__alloyId2036.add($.__views.__alloyId2037);
     $.__views.__alloyId2038 = Ti.UI.createLabel({
+>>>>>>> origin/master
+=======
+        id: "__alloyId647"
+    });
+    $.__views.__alloyId635.add($.__views.__alloyId647);
+    $.__views.__alloyId648 = Ti.UI.createView({
+        layout: "vertical",
+        height: Ti.UI.SIZE,
+        width: "100%",
+        id: "__alloyId648"
+    });
+    $.__views.__alloyId647.add($.__views.__alloyId648);
+    $.__views.__alloyId649 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         text: "To Subscribe:",
         backgroundColor: "transparent",
         color: "#707070",
         left: "20",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2227"
+    });
+    $.__views.__alloyId2226.add($.__views.__alloyId2227);
+    $.__views.__alloyId2228 = Ti.UI.createLabel({
+=======
         id: "__alloyId2038"
     });
     $.__views.__alloyId2037.add($.__views.__alloyId2038);
     $.__views.__alloyId2039 = Ti.UI.createLabel({
+>>>>>>> origin/master
+=======
+        id: "__alloyId649"
+    });
+    $.__views.__alloyId648.add($.__views.__alloyId649);
+    $.__views.__alloyId650 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         text: "Key in SPV1 and send to 23388",
         backgroundColor: "transparent",
         color: "#707070",
         left: "20",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2228"
+    });
+    $.__views.__alloyId2226.add($.__views.__alloyId2228);
+    $.__views.__alloyId2229 = Ti.UI.createView({
+=======
         id: "__alloyId2039"
     });
     $.__views.__alloyId2037.add($.__views.__alloyId2039);
     $.__views.__alloyId2040 = Ti.UI.createView({
+>>>>>>> origin/master
         layout: "vertical",
         height: "200",
         width: "90%",
         top: "10",
         bottom: "10",
+<<<<<<< HEAD
+        id: "__alloyId2229"
+    });
+    $.__views.scrollView.add($.__views.__alloyId2229);
+    $.__views.__alloyId2230 = Ti.UI.createView({
+=======
         id: "__alloyId2040"
     });
     $.__views.scrollView.add($.__views.__alloyId2040);
     $.__views.__alloyId2041 = Ti.UI.createView({
+>>>>>>> origin/master
+=======
+        id: "__alloyId650"
+    });
+    $.__views.__alloyId648.add($.__views.__alloyId650);
+    $.__views.__alloyId651 = Ti.UI.createView({
+        layout: "vertical",
+        height: "50%",
+        width: "90%",
+        top: "10",
+        bottom: "10",
+        id: "__alloyId651"
+    });
+    $.__views.scrollView.add($.__views.__alloyId651);
+    $.__views.__alloyId652 = Ti.UI.createView({
+>>>>>>> Stashed changes
         layout: "horizontal",
         height: "50%",
         width: "100%",
         backgroundColor: "#4CC4D2",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2230"
+    });
+    $.__views.__alloyId2229.add($.__views.__alloyId2230);
+    $.__views.__alloyId2231 = Ti.UI.createView({
+        layout: "composite",
+        height: "100%",
+        width: "50%",
+        id: "__alloyId2231"
+    });
+    $.__views.__alloyId2230.add($.__views.__alloyId2231);
+    $.__views.__alloyId2232 = Ti.UI.createView({
+        layout: "vertical",
+        height: Ti.UI.SIZE,
+        width: "100%",
+        id: "__alloyId2232"
+    });
+    $.__views.__alloyId2231.add($.__views.__alloyId2232);
+    $.__views.__alloyId2233 = Ti.UI.createLabel({
+=======
         id: "__alloyId2041"
     });
     $.__views.__alloyId2040.add($.__views.__alloyId2041);
@@ -191,18 +461,67 @@ function Controller() {
     });
     $.__views.__alloyId2042.add($.__views.__alloyId2043);
     $.__views.__alloyId2044 = Ti.UI.createLabel({
+>>>>>>> origin/master
+=======
+        id: "__alloyId652"
+    });
+    $.__views.__alloyId651.add($.__views.__alloyId652);
+    $.__views.__alloyId653 = Ti.UI.createView({
+        layout: "composite",
+        height: "100%",
+        width: "50%",
+        id: "__alloyId653"
+    });
+    $.__views.__alloyId652.add($.__views.__alloyId653);
+    $.__views.__alloyId654 = Ti.UI.createView({
+        layout: "vertical",
+        height: Ti.UI.SIZE,
+        width: "100%",
+        id: "__alloyId654"
+    });
+    $.__views.__alloyId653.add($.__views.__alloyId654);
+    $.__views.__alloyId655 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         text: "SP V2",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2233"
+    });
+    $.__views.__alloyId2232.add($.__views.__alloyId2233);
+    $.__views.__alloyId2234 = Ti.UI.createLabel({
+=======
         id: "__alloyId2044"
     });
     $.__views.__alloyId2043.add($.__views.__alloyId2044);
     $.__views.__alloyId2045 = Ti.UI.createLabel({
+>>>>>>> origin/master
+=======
+        id: "__alloyId655"
+    });
+    $.__views.__alloyId654.add($.__views.__alloyId655);
+    $.__views.__alloyId656 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         text: "700 min",
         backgroundColor: "transparent",
         color: "black",
         left: "20",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2234"
+    });
+    $.__views.__alloyId2232.add($.__views.__alloyId2234);
+    $.__views.__alloyId2235 = Ti.UI.createView({
+        layout: "composite",
+        height: Ti.UI.SIZE,
+        width: "50%",
+        id: "__alloyId2235"
+    });
+    $.__views.__alloyId2230.add($.__views.__alloyId2235);
+    $.__views.__alloyId2236 = Ti.UI.createView({
+=======
         id: "__alloyId2045"
     });
     $.__views.__alloyId2043.add($.__views.__alloyId2045);
@@ -214,54 +533,152 @@ function Controller() {
     });
     $.__views.__alloyId2041.add($.__views.__alloyId2046);
     $.__views.__alloyId2047 = Ti.UI.createView({
+>>>>>>> origin/master
+=======
+        id: "__alloyId656"
+    });
+    $.__views.__alloyId654.add($.__views.__alloyId656);
+    $.__views.__alloyId657 = Ti.UI.createView({
+        layout: "composite",
+        height: Ti.UI.SIZE,
+        width: "50%",
+        id: "__alloyId657"
+    });
+    $.__views.__alloyId652.add($.__views.__alloyId657);
+    $.__views.__alloyId658 = Ti.UI.createView({
+>>>>>>> Stashed changes
         layout: "horizontal",
         height: Ti.UI.SIZE,
         width: Ti.UI.SIZE,
         backgroundColor: "#1D717A",
         right: "0",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2236"
+    });
+    $.__views.__alloyId2235.add($.__views.__alloyId2236);
+    $.__views.__alloyId2237 = Ti.UI.createLabel({
+=======
         id: "__alloyId2047"
     });
     $.__views.__alloyId2046.add($.__views.__alloyId2047);
     $.__views.__alloyId2048 = Ti.UI.createLabel({
+>>>>>>> origin/master
+=======
+        id: "__alloyId658"
+    });
+    $.__views.__alloyId657.add($.__views.__alloyId658);
+    $.__views.__alloyId659 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         text: "RM",
         backgroundColor: "transparent",
         width: Ti.UI.SIZE,
         color: "white",
         left: "20",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2237"
+    });
+    $.__views.__alloyId2236.add($.__views.__alloyId2237);
+    $.__views.__alloyId2238 = Ti.UI.createLabel({
+=======
         id: "__alloyId2048"
     });
     $.__views.__alloyId2047.add($.__views.__alloyId2048);
     $.__views.__alloyId2049 = Ti.UI.createLabel({
+>>>>>>> origin/master
+=======
+        id: "__alloyId659"
+    });
+    $.__views.__alloyId658.add($.__views.__alloyId659);
+    $.__views.__alloyId660 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         text: "79.90",
         backgroundColor: "transparent",
         width: Ti.UI.SIZE,
         color: "white",
         left: "20",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2238"
+    });
+    $.__views.__alloyId2236.add($.__views.__alloyId2238);
+    $.__views.__alloyId2239 = Ti.UI.createView({
+=======
         id: "__alloyId2049"
     });
     $.__views.__alloyId2047.add($.__views.__alloyId2049);
     $.__views.__alloyId2050 = Ti.UI.createView({
+>>>>>>> origin/master
+=======
+        id: "__alloyId660"
+    });
+    $.__views.__alloyId658.add($.__views.__alloyId660);
+    $.__views.__alloyId661 = Ti.UI.createView({
+>>>>>>> Stashed changes
         layout: "horizontal",
         height: "20%",
         width: "100%",
         backgroundColor: "#646461",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2239"
+    });
+    $.__views.__alloyId2229.add($.__views.__alloyId2239);
+    $.__views.__alloyId2240 = Ti.UI.createLabel({
+=======
         id: "__alloyId2050"
     });
     $.__views.__alloyId2040.add($.__views.__alloyId2050);
     $.__views.__alloyId2051 = Ti.UI.createLabel({
+>>>>>>> origin/master
+=======
+        id: "__alloyId661"
+    });
+    $.__views.__alloyId651.add($.__views.__alloyId661);
+    $.__views.__alloyId662 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         text: "*FREE 100 SMS",
         backgroundColor: "transparent",
         height: "100%",
         color: "white",
         left: "20",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2240"
+    });
+    $.__views.__alloyId2239.add($.__views.__alloyId2240);
+    $.__views.__alloyId2241 = Ti.UI.createView({
+=======
         id: "__alloyId2051"
     });
     $.__views.__alloyId2050.add($.__views.__alloyId2051);
     $.__views.__alloyId2052 = Ti.UI.createView({
+>>>>>>> origin/master
+=======
+        id: "__alloyId662"
+    });
+    $.__views.__alloyId661.add($.__views.__alloyId662);
+    $.__views.__alloyId663 = Ti.UI.createView({
+>>>>>>> Stashed changes
         layout: "composite",
         height: "30%",
         width: "100%",
         backgroundColor: "#E6E7E9",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2241"
+    });
+    $.__views.__alloyId2229.add($.__views.__alloyId2241);
+    $.__views.__alloyId2242 = Ti.UI.createView({
+        layout: "vertical",
+        height: Ti.UI.SIZE,
+        width: "100%",
+        id: "__alloyId2242"
+    });
+    $.__views.__alloyId2241.add($.__views.__alloyId2242);
+    $.__views.__alloyId2243 = Ti.UI.createLabel({
+=======
         id: "__alloyId2052"
     });
     $.__views.__alloyId2040.add($.__views.__alloyId2052);
@@ -273,21 +690,61 @@ function Controller() {
     });
     $.__views.__alloyId2052.add($.__views.__alloyId2053);
     $.__views.__alloyId2054 = Ti.UI.createLabel({
+>>>>>>> origin/master
+=======
+        id: "__alloyId663"
+    });
+    $.__views.__alloyId651.add($.__views.__alloyId663);
+    $.__views.__alloyId664 = Ti.UI.createView({
+        layout: "vertical",
+        height: Ti.UI.SIZE,
+        width: "100%",
+        id: "__alloyId664"
+    });
+    $.__views.__alloyId663.add($.__views.__alloyId664);
+    $.__views.__alloyId665 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         text: "To Subscribe:",
         backgroundColor: "transparent",
         color: "#707070",
         left: "20",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2243"
+    });
+    $.__views.__alloyId2242.add($.__views.__alloyId2243);
+    $.__views.__alloyId2244 = Ti.UI.createLabel({
+=======
         id: "__alloyId2054"
     });
     $.__views.__alloyId2053.add($.__views.__alloyId2054);
     $.__views.__alloyId2055 = Ti.UI.createLabel({
+>>>>>>> origin/master
+=======
+        id: "__alloyId665"
+    });
+    $.__views.__alloyId664.add($.__views.__alloyId665);
+    $.__views.__alloyId666 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         text: "Key in SPV2 and send to 23388",
         backgroundColor: "transparent",
         color: "#707070",
         left: "20",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        id: "__alloyId2244"
+    });
+    $.__views.__alloyId2242.add($.__views.__alloyId2244);
+=======
         id: "__alloyId2055"
     });
     $.__views.__alloyId2053.add($.__views.__alloyId2055);
+>>>>>>> origin/master
+=======
+        id: "__alloyId666"
+    });
+    $.__views.__alloyId664.add($.__views.__alloyId666);
+>>>>>>> Stashed changes
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

@@ -25,6 +25,9 @@
 			<TableViewRow height=50>
 				<Label text="Home" class="menuLabel" color="#ffffff" apiName="Button" />
 			</TableViewRow>
+			<TableViewRow height=50>
+				<Label text="New" class="menuLabel" color="#ffffff" apiName="Button" />
+			</TableViewRow>
 		</TableView>
 	</View>
 </Alloy>  

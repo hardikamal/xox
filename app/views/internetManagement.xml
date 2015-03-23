@@ -1,0 +1,48 @@
+<Alloy>
+	<View layout="vertical" class="container" backgroundColor="white" fullscreen="true">
+		<Require src="_header" ></Require>
+		<View layout="composite" height="50" backgroundColor="#E82630">
+			<Label backgroundColor="transparent" color="white" left="20">Mobile Internet Management</Label>
+			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
+		</View>
+		<ScrollView id="scrollView" layout="vertical" width="100%" backgroundColor="white">
+			<View height="50">
+				<Label backgroundColor="transparent" color="black" left="20">Mobile Number : </Label>
+			</View>
+			<View height="1" width="90%" backgroundColor="gray" ></View>
+			<View height="50">
+				<Label backgroundColor="transparent" color="black" left="20">Mobile Internet Plan : </Label>
+			</View>
+			<View height="1" width="90%" backgroundColor="gray" ></View>
+			<View height="50">
+				<Label backgroundColor="transparent" color="black" left="20">Subscription Date : </Label>
+			</View>
+			<View height="1" width="90%" backgroundColor="gray" ></View>
+			<View height="50">
+				<Label backgroundColor="transparent" color="black" left="20">Subscription End Date : </Label>
+			</View>
+			<View height="1" width="90%" backgroundColor="gray" ></View>
+			<View height="50">
+				<Label backgroundColor="transparent" color="black" left="20">Entitled Quota : </Label>
+			</View>
+			<View height="1" width="90%" backgroundColor="gray" ></View>
+			<View height="50">
+				<Label backgroundColor="transparent" color="black" left="20">Balance Quota : </Label>
+			</View>
+			<View height="1" width="90%" backgroundColor="gray" ></View>
+			<View height="50">
+				<Label backgroundColor="transparent" color="black" left="20">Last updated by : </Label>
+			</View>
+			<View height="1" width="90%" backgroundColor="gray" ></View>
+		</ScrollView>
+		<View layout="horizontal" height="50" backgroundColor="#4CC4D2">
+			<View height="100%" width="49.72%" backgroundColor="#4CC4D2" onClick="subscribe">
+				<Label color="white" textAlign="center">Subscribe/Upgrade Plan</Label>
+			</View>
+			<View backgroundColor="white" height="100%" width="0.5%"></View>
+			<View height="100%" width="49.72%" backgroundColor="#4CC4D2" onClick="addOn">
+				<Label color="white" textAlign="center">Add On</Label>
+			</View>
+		</View>
+	</View>
+</Alloy>

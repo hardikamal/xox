@@ -71,6 +71,7 @@ function done(){
 	$.pickerView.setVisible(false);
 	$.done.setVisible(false);
 	$.picker.setVisible(false);
+	DRAWER.navigation("payment2",1);
 }
 
 function showPicker2()

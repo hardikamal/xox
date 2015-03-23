@@ -17,7 +17,7 @@
 				<Label backgroundColor="transparent" color="black" textAlign="left">Thank you for choosing XOX, we may serve you better when you port into XOX service. Kindly read through the below instructions before you proceed with the application.</Label>
 			</View>
 			<View width="90%" height="20">
-				<Label backgroundColor="transparent" color="black" text="left">REGISTRATION</Label>
+				<Label backgroundColor="transparent" color="black" textAlign="left">REGISTRATION</Label>
 			</View>
 			<View bottom="20" width="90%" height="100">
 				<Label backgroundColor="transparent" color="black" textAlign="left">Please ensure all the details you fill in the registration page is correct before you press the “Proceed” button. Each I/C number is allowed a maximum of 10 Mobile Numbers HopOn registration.</Label>

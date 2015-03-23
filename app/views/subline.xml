@@ -6,8 +6,27 @@
 			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
 		</View>
 		<ScrollView id="scrollView" layout="vertical" width="100%" backgroundColor="#E6E7E9">
+			<Label id="empty" color="black">Currently no Subline</Label>
 			<View layout="horizontal" height="20%" backgroundColor="white">
-				<View height="100%" width="70%">
+				<View height="100%" width="55%">
+					<View layout="vertical" height="Ti.UI.SIZE">
+						<Label color="black" left="10" textAlign="left">Mobile Number</Label>
+						<Label color="black" left="10" textAlign="left">011xxxxxxx</Label>
+					</View>
+				</View>
+				<View height="100%" width="15%">
+					<ImageView backgroundColor="transparent" width="30" height="40" image="/images/docedit_icon.png"></ImageView>
+				</View>
+				<View height="100%" width="15%" onClick="setting">
+					<ImageView backgroundColor="transparent" width="40" height="40" image="/images/setting_icon.png"></ImageView>
+				</View>
+				<View height="100%" width="15%">
+					<ImageView backgroundColor="transparent" width="40" height="40" image="/images/setting_icon.png"></ImageView>
+				</View>
+			</View>
+			<View backgroundColor="#F1F1F1" width="90%" height="2"></View>
+			<View layout="horizontal" height="20%" backgroundColor="white">
+				<View height="100%" width="55%">
 					<View layout="vertical" height="Ti.UI.SIZE">
 						<Label color="black" left="10" textAlign="left">Mobile Number</Label>
 						<Label color="black" left="10" textAlign="left">011xxxxxxx</Label>
@@ -19,10 +38,13 @@
 				<View height="100%" width="15%">
 					<ImageView backgroundColor="transparent" width="40" height="40" image="/images/setting_icon.png"></ImageView>
 				</View>
+				<View height="100%" width="15%">
+					<ImageView backgroundColor="transparent" width="40" height="40" image="/images/setting_icon.png"></ImageView>
+				</View>
 			</View>
 			<View backgroundColor="#F1F1F1" width="90%" height="2"></View>
 			<View layout="horizontal" height="20%" backgroundColor="white">
-				<View height="100%" width="70%">
+				<View height="100%" width="55%">
 					<View layout="vertical" height="Ti.UI.SIZE">
 						<Label color="black" left="10" textAlign="left">Mobile Number</Label>
 						<Label color="black" left="10" textAlign="left">011xxxxxxx</Label>
@@ -34,10 +56,13 @@
 				<View height="100%" width="15%">
 					<ImageView backgroundColor="transparent" width="40" height="40" image="/images/setting_icon.png"></ImageView>
 				</View>
+				<View height="100%" width="15%">
+					<ImageView backgroundColor="transparent" width="40" height="40" image="/images/setting_icon.png"></ImageView>
+				</View>
 			</View>
 			<View backgroundColor="#F1F1F1" width="90%" height="2"></View>
 			<View layout="horizontal" height="20%" backgroundColor="white">
-				<View height="100%" width="70%">
+				<View height="100%" width="55%">
 					<View layout="vertical" height="Ti.UI.SIZE">
 						<Label color="black" left="10" textAlign="left">Mobile Number</Label>
 						<Label color="black" left="10" textAlign="left">011xxxxxxx</Label>
@@ -49,10 +74,13 @@
 				<View height="100%" width="15%">
 					<ImageView backgroundColor="transparent" width="40" height="40" image="/images/setting_icon.png"></ImageView>
 				</View>
+				<View height="100%" width="15%">
+					<ImageView backgroundColor="transparent" width="40" height="40" image="/images/setting_icon.png"></ImageView>
+				</View>
 			</View>
 			<View backgroundColor="#F1F1F1" width="90%" height="2"></View>
 			<View layout="horizontal" height="20%" backgroundColor="white">
-				<View height="100%" width="70%">
+				<View height="100%" width="55%">
 					<View layout="vertical" height="Ti.UI.SIZE">
 						<Label color="black" left="10" textAlign="left">Mobile Number</Label>
 						<Label color="black" left="10" textAlign="left">011xxxxxxx</Label>
@@ -64,10 +92,13 @@
 				<View height="100%" width="15%">
 					<ImageView backgroundColor="transparent" width="40" height="40" image="/images/setting_icon.png"></ImageView>
 				</View>
+				<View height="100%" width="15%">
+					<ImageView backgroundColor="transparent" width="40" height="40" image="/images/setting_icon.png"></ImageView>
+				</View>
 			</View>
 			<View backgroundColor="#F1F1F1" width="90%" height="2"></View>
 			<View layout="horizontal" height="20%" backgroundColor="white">
-				<View height="100%" width="70%">
+				<View height="100%" width="55%">
 					<View layout="vertical" height="Ti.UI.SIZE">
 						<Label color="black" left="10" textAlign="left">Mobile Number</Label>
 						<Label color="black" left="10" textAlign="left">011xxxxxxx</Label>
@@ -78,18 +109,6 @@
 				</View>
 				<View height="100%" width="15%">
 					<ImageView backgroundColor="transparent" width="40" height="40" image="/images/setting_icon.png"></ImageView>
-				</View>
-			</View>
-			<View backgroundColor="#F1F1F1" width="90%" height="2"></View>
-			<View layout="horizontal" height="20%" backgroundColor="white">
-				<View height="100%" width="70%">
-					<View layout="vertical" height="Ti.UI.SIZE">
-						<Label color="black" left="10" textAlign="left">Mobile Number</Label>
-						<Label color="black" left="10" textAlign="left">011xxxxxxx</Label>
-					</View>
-				</View>
-				<View height="100%" width="15%">
-					<ImageView backgroundColor="transparent" width="30" height="40" image="/images/docedit_icon.png"></ImageView>
 				</View>
 				<View height="100%" width="15%">
 					<ImageView backgroundColor="transparent" width="40" height="40" image="/images/setting_icon.png"></ImageView>

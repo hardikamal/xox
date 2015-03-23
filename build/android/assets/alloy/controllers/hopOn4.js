@@ -1,1 +1,1 @@
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/Resources/android/alloy/controllers/hopOn4.js
+/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/Resources/android/alloy/controllers/hopOn4.js

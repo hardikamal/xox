@@ -23,4 +23,3 @@ function paymentPrepaid()
 	Ti.App.Properties.setString('amount',e.source.mod); 
 	DRAWER.navigation("payment2",2);
 }*/
-

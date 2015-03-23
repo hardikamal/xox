@@ -18,6 +18,8 @@ if(Ti.Platform.osname == "android") {
 	$.switch13.style = Ti.UI.Android.SWITCH_STYLE_CHECKBOX;
 }
 
+$.picker.setSelectedRow(0,0,false);
+
 var simType;
 
 function back()
