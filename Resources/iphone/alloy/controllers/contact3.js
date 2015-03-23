@@ -82,7 +82,7 @@ function Controller() {
         height: "100"
     });
     $.__views.scrollView.add($.__views.contentView);
-    $.__views.__alloyId166 = Ti.UI.createTextField({
+    $.__views.__alloyId168 = Ti.UI.createTextField({
         width: "90%",
         height: "30",
         top: "10",
@@ -92,9 +92,9 @@ function Controller() {
         color: "black",
         backgroundColor: "#E6E7E9",
         hintText: "Search keywords on area",
-        id: "__alloyId166"
+        id: "__alloyId168"
     });
-    $.__views.contentView.add($.__views.__alloyId166);
+    $.__views.contentView.add($.__views.__alloyId168);
     $.__views.pickerContentView = Ti.UI.createView({
         id: "pickerContentView",
         layout: "composite",
@@ -115,16 +115,16 @@ function Controller() {
     });
     $.__views.pickerContentView.add($.__views.stateLabel);
     showPicker ? $.__views.stateLabel.addEventListener("click", showPicker) : __defers["$.__views.stateLabel!click!showPicker"] = true;
-    $.__views.__alloyId167 = Ti.UI.createImageView({
+    $.__views.__alloyId169 = Ti.UI.createImageView({
         image: "/images/dropdown_icon.png",
         width: "15",
         height: "10",
         right: "10",
         top: "20",
-        id: "__alloyId167"
+        id: "__alloyId169"
     });
-    $.__views.pickerContentView.add($.__views.__alloyId167);
-    showPicker ? $.__views.__alloyId167.addEventListener("click", showPicker) : __defers["$.__views.__alloyId167!click!showPicker"] = true;
+    $.__views.pickerContentView.add($.__views.__alloyId169);
+    showPicker ? $.__views.__alloyId169.addEventListener("click", showPicker) : __defers["$.__views.__alloyId169!click!showPicker"] = true;
     $.__views.pickerView = Ti.UI.createView({
         id: "pickerView",
         height: "50",
@@ -157,392 +157,392 @@ function Controller() {
         visible: "false"
     });
     $.__views.pickerView.add($.__views.picker);
-    var __alloyId168 = [];
-    $.__views.__alloyId169 = Ti.UI.createPickerRow({
-        title: "All States",
-        id: "__alloyId169"
-    });
-    __alloyId168.push($.__views.__alloyId169);
-    $.__views.__alloyId170 = Ti.UI.createPickerRow({
-        title: "Selangor",
-        id: "__alloyId170"
-    });
-    __alloyId168.push($.__views.__alloyId170);
+    var __alloyId170 = [];
     $.__views.__alloyId171 = Ti.UI.createPickerRow({
-        title: "Kuala Lumpur",
+        title: "All States",
         id: "__alloyId171"
     });
-    __alloyId168.push($.__views.__alloyId171);
+    __alloyId170.push($.__views.__alloyId171);
     $.__views.__alloyId172 = Ti.UI.createPickerRow({
-        title: "Johor",
+        title: "Selangor",
         id: "__alloyId172"
     });
-    __alloyId168.push($.__views.__alloyId172);
-    $.__views.picker.add(__alloyId168);
-    state ? $.__views.picker.addEventListener("change", state) : __defers["$.__views.picker!change!state"] = true;
-    var __alloyId173 = [];
-    $.__views.__alloyId174 = Ti.UI.createTableViewRow({
-        layout: "vertical",
-        height: Ti.UI.SIZE,
+    __alloyId170.push($.__views.__alloyId172);
+    $.__views.__alloyId173 = Ti.UI.createPickerRow({
+        title: "Kuala Lumpur",
+        id: "__alloyId173"
+    });
+    __alloyId170.push($.__views.__alloyId173);
+    $.__views.__alloyId174 = Ti.UI.createPickerRow({
+        title: "Johor",
         id: "__alloyId174"
     });
-    __alloyId173.push($.__views.__alloyId174);
-    $.__views.__alloyId175 = Ti.UI.createLabel({
+    __alloyId170.push($.__views.__alloyId174);
+    $.__views.picker.add(__alloyId170);
+    state ? $.__views.picker.addEventListener("change", state) : __defers["$.__views.picker!change!state"] = true;
+    var __alloyId175 = [];
+    $.__views.__alloyId176 = Ti.UI.createTableViewRow({
+        layout: "vertical",
+        height: Ti.UI.SIZE,
+        id: "__alloyId176"
+    });
+    __alloyId175.push($.__views.__alloyId176);
+    $.__views.__alloyId177 = Ti.UI.createLabel({
         text: "Petaling Jaya (Jaya One)",
         textAlign: "left",
         top: "10",
         left: "10",
         color: "black",
-        id: "__alloyId175"
+        id: "__alloyId177"
     });
-    $.__views.__alloyId174.add($.__views.__alloyId175);
-    $.__views.__alloyId176 = Ti.UI.createLabel({
+    $.__views.__alloyId176.add($.__views.__alloyId177);
+    $.__views.__alloyId178 = Ti.UI.createLabel({
         text: "XOX Mobile Sdn Bhd",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId176"
+        id: "__alloyId178"
     });
-    $.__views.__alloyId174.add($.__views.__alloyId176);
-    $.__views.__alloyId177 = Ti.UI.createLabel({
+    $.__views.__alloyId176.add($.__views.__alloyId178);
+    $.__views.__alloyId179 = Ti.UI.createLabel({
         text: "31-3, Block C, Jaya One,72A, Jalan Universiti, 46200 Petaling Jaya, Selangor Darul Ehsan.",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId177"
+        id: "__alloyId179"
     });
-    $.__views.__alloyId174.add($.__views.__alloyId177);
-    $.__views.__alloyId178 = Ti.UI.createLabel({
+    $.__views.__alloyId176.add($.__views.__alloyId179);
+    $.__views.__alloyId180 = Ti.UI.createLabel({
         text: "Contact: 03-7962 8000",
         textAlign: "left",
         bottom: "10",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId178"
+        id: "__alloyId180"
     });
-    $.__views.__alloyId174.add($.__views.__alloyId178);
-    $.__views.__alloyId179 = Ti.UI.createTableViewRow({
+    $.__views.__alloyId176.add($.__views.__alloyId180);
+    $.__views.__alloyId181 = Ti.UI.createTableViewRow({
         layout: "vertical",
         height: Ti.UI.SIZE,
-        id: "__alloyId179"
+        id: "__alloyId181"
     });
-    __alloyId173.push($.__views.__alloyId179);
-    $.__views.__alloyId180 = Ti.UI.createLabel({
+    __alloyId175.push($.__views.__alloyId181);
+    $.__views.__alloyId182 = Ti.UI.createLabel({
         text: "Petaling Jaya (Digital Mall)",
         textAlign: "left",
         top: "10",
         left: "10",
         color: "black",
-        id: "__alloyId180"
+        id: "__alloyId182"
     });
-    $.__views.__alloyId179.add($.__views.__alloyId180);
-    $.__views.__alloyId181 = Ti.UI.createLabel({
+    $.__views.__alloyId181.add($.__views.__alloyId182);
+    $.__views.__alloyId183 = Ti.UI.createLabel({
         text: "XOX Mobile Sdn Bhd",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId181"
+        id: "__alloyId183"
     });
-    $.__views.__alloyId179.add($.__views.__alloyId181);
-    $.__views.__alloyId182 = Ti.UI.createLabel({
+    $.__views.__alloyId181.add($.__views.__alloyId183);
+    $.__views.__alloyId184 = Ti.UI.createLabel({
         text: "Lot G-03A, Ground Floor Digital Mall PJ, No2 Jalan 14/20 Section 14, 46100 Petaling Jaya, Selangor.",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId182"
+        id: "__alloyId184"
     });
-    $.__views.__alloyId179.add($.__views.__alloyId182);
-    $.__views.__alloyId183 = Ti.UI.createLabel({
+    $.__views.__alloyId181.add($.__views.__alloyId184);
+    $.__views.__alloyId185 = Ti.UI.createLabel({
         text: "Contact: 010-831 6363",
         textAlign: "left",
         bottom: "10",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId183"
+        id: "__alloyId185"
     });
-    $.__views.__alloyId179.add($.__views.__alloyId183);
-    $.__views.__alloyId184 = Ti.UI.createTableViewRow({
+    $.__views.__alloyId181.add($.__views.__alloyId185);
+    $.__views.__alloyId186 = Ti.UI.createTableViewRow({
         layout: "vertical",
         height: Ti.UI.SIZE,
-        id: "__alloyId184"
+        id: "__alloyId186"
     });
-    __alloyId173.push($.__views.__alloyId184);
-    $.__views.__alloyId185 = Ti.UI.createLabel({
+    __alloyId175.push($.__views.__alloyId186);
+    $.__views.__alloyId187 = Ti.UI.createLabel({
         text: "KUALA LUMPUR (Plaza Low Yat)",
         textAlign: "left",
         top: "10",
         left: "10",
         color: "black",
-        id: "__alloyId185"
+        id: "__alloyId187"
     });
-    $.__views.__alloyId184.add($.__views.__alloyId185);
-    $.__views.__alloyId186 = Ti.UI.createLabel({
+    $.__views.__alloyId186.add($.__views.__alloyId187);
+    $.__views.__alloyId188 = Ti.UI.createLabel({
         text: "XOX Retails Sdn Bhd",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId186"
+        id: "__alloyId188"
     });
-    $.__views.__alloyId184.add($.__views.__alloyId186);
-    $.__views.__alloyId187 = Ti.UI.createLabel({
+    $.__views.__alloyId186.add($.__views.__alloyId188);
+    $.__views.__alloyId189 = Ti.UI.createLabel({
         text: "Plaza Low Yat, 7 Jalan Bintang, Jalan Bukit Bintang, 55100 Kuala Lumpur.",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId187"
+        id: "__alloyId189"
     });
-    $.__views.__alloyId184.add($.__views.__alloyId187);
-    $.__views.__alloyId188 = Ti.UI.createLabel({
+    $.__views.__alloyId186.add($.__views.__alloyId189);
+    $.__views.__alloyId190 = Ti.UI.createLabel({
         text: "Contact: 010-8666288 / 012-2704222",
         textAlign: "left",
         bottom: "10",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId188"
+        id: "__alloyId190"
     });
-    $.__views.__alloyId184.add($.__views.__alloyId188);
-    $.__views.__alloyId189 = Ti.UI.createTableViewRow({
+    $.__views.__alloyId186.add($.__views.__alloyId190);
+    $.__views.__alloyId191 = Ti.UI.createTableViewRow({
         layout: "vertical",
         height: Ti.UI.SIZE,
-        id: "__alloyId189"
+        id: "__alloyId191"
     });
-    __alloyId173.push($.__views.__alloyId189);
-    $.__views.__alloyId190 = Ti.UI.createLabel({
+    __alloyId175.push($.__views.__alloyId191);
+    $.__views.__alloyId192 = Ti.UI.createLabel({
         text: "KUALA LUMPUR (Kepong)",
         textAlign: "left",
         top: "10",
         left: "10",
         color: "black",
-        id: "__alloyId190"
+        id: "__alloyId192"
     });
-    $.__views.__alloyId189.add($.__views.__alloyId190);
-    $.__views.__alloyId191 = Ti.UI.createLabel({
+    $.__views.__alloyId191.add($.__views.__alloyId192);
+    $.__views.__alloyId193 = Ti.UI.createLabel({
         text: "XOX Mobile Sdn Bhd",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId191"
+        id: "__alloyId193"
     });
-    $.__views.__alloyId189.add($.__views.__alloyId191);
-    $.__views.__alloyId192 = Ti.UI.createLabel({
+    $.__views.__alloyId191.add($.__views.__alloyId193);
+    $.__views.__alloyId194 = Ti.UI.createLabel({
         text: "33, Jalan Metro Perdana Timur 1, Taman Usahawan Kepong, 52100 Kepong, Kuala Lumpur.",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId192"
+        id: "__alloyId194"
     });
-    $.__views.__alloyId189.add($.__views.__alloyId192);
-    $.__views.__alloyId193 = Ti.UI.createLabel({
+    $.__views.__alloyId191.add($.__views.__alloyId194);
+    $.__views.__alloyId195 = Ti.UI.createLabel({
         text: "Contact: 03-62503003",
         textAlign: "left",
         bottom: "10",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId193"
+        id: "__alloyId195"
     });
-    $.__views.__alloyId189.add($.__views.__alloyId193);
-    $.__views.__alloyId194 = Ti.UI.createTableViewRow({
+    $.__views.__alloyId191.add($.__views.__alloyId195);
+    $.__views.__alloyId196 = Ti.UI.createTableViewRow({
         layout: "vertical",
         height: Ti.UI.SIZE,
-        id: "__alloyId194"
+        id: "__alloyId196"
     });
-    __alloyId173.push($.__views.__alloyId194);
-    $.__views.__alloyId195 = Ti.UI.createLabel({
+    __alloyId175.push($.__views.__alloyId196);
+    $.__views.__alloyId197 = Ti.UI.createLabel({
         text: "KUALA LUMPUR (Pudu)",
         textAlign: "left",
         top: "10",
         left: "10",
         color: "black",
-        id: "__alloyId195"
+        id: "__alloyId197"
     });
-    $.__views.__alloyId194.add($.__views.__alloyId195);
-    $.__views.__alloyId196 = Ti.UI.createLabel({
+    $.__views.__alloyId196.add($.__views.__alloyId197);
+    $.__views.__alloyId198 = Ti.UI.createLabel({
         text: "XOX Mobile Sdn Bhd",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId196"
+        id: "__alloyId198"
     });
-    $.__views.__alloyId194.add($.__views.__alloyId196);
-    $.__views.__alloyId197 = Ti.UI.createLabel({
+    $.__views.__alloyId196.add($.__views.__alloyId198);
+    $.__views.__alloyId199 = Ti.UI.createLabel({
         text: "21, Lorong Thambi 2, Off Jalan Changkat Thambi Dollah, Pudu, 55100 Kuala Lumpur.",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId197"
+        id: "__alloyId199"
     });
-    $.__views.__alloyId194.add($.__views.__alloyId197);
-    $.__views.__alloyId198 = Ti.UI.createLabel({
+    $.__views.__alloyId196.add($.__views.__alloyId199);
+    $.__views.__alloyId200 = Ti.UI.createLabel({
         text: "Contact: 03-21458010",
         textAlign: "left",
         bottom: "10",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId198"
+        id: "__alloyId200"
     });
-    $.__views.__alloyId194.add($.__views.__alloyId198);
-    $.__views.__alloyId199 = Ti.UI.createTableViewRow({
+    $.__views.__alloyId196.add($.__views.__alloyId200);
+    $.__views.__alloyId201 = Ti.UI.createTableViewRow({
         layout: "vertical",
         height: Ti.UI.SIZE,
-        id: "__alloyId199"
+        id: "__alloyId201"
     });
-    __alloyId173.push($.__views.__alloyId199);
-    $.__views.__alloyId200 = Ti.UI.createLabel({
+    __alloyId175.push($.__views.__alloyId201);
+    $.__views.__alloyId202 = Ti.UI.createLabel({
         text: "SELANGOR (Puchong)",
         textAlign: "left",
         top: "10",
         left: "10",
         color: "black",
-        id: "__alloyId200"
+        id: "__alloyId202"
     });
-    $.__views.__alloyId199.add($.__views.__alloyId200);
-    $.__views.__alloyId201 = Ti.UI.createLabel({
+    $.__views.__alloyId201.add($.__views.__alloyId202);
+    $.__views.__alloyId203 = Ti.UI.createLabel({
         text: "XOX Mobile Sdn Bhd",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId201"
+        id: "__alloyId203"
     });
-    $.__views.__alloyId199.add($.__views.__alloyId201);
-    $.__views.__alloyId202 = Ti.UI.createLabel({
+    $.__views.__alloyId201.add($.__views.__alloyId203);
+    $.__views.__alloyId204 = Ti.UI.createLabel({
         text: "54-G, Jalan Puteri 1/4, Bandar Puteri, 47100 Puchong, Selangor.",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId202"
+        id: "__alloyId204"
     });
-    $.__views.__alloyId199.add($.__views.__alloyId202);
-    $.__views.__alloyId203 = Ti.UI.createLabel({
+    $.__views.__alloyId201.add($.__views.__alloyId204);
+    $.__views.__alloyId205 = Ti.UI.createLabel({
         text: "Contact: 03-80511568",
         textAlign: "left",
         bottom: "10",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId203"
+        id: "__alloyId205"
     });
-    $.__views.__alloyId199.add($.__views.__alloyId203);
-    $.__views.__alloyId204 = Ti.UI.createTableViewRow({
+    $.__views.__alloyId201.add($.__views.__alloyId205);
+    $.__views.__alloyId206 = Ti.UI.createTableViewRow({
         layout: "vertical",
         height: Ti.UI.SIZE,
-        id: "__alloyId204"
+        id: "__alloyId206"
     });
-    __alloyId173.push($.__views.__alloyId204);
-    $.__views.__alloyId205 = Ti.UI.createLabel({
+    __alloyId175.push($.__views.__alloyId206);
+    $.__views.__alloyId207 = Ti.UI.createLabel({
         text: "PENANG (George Town)",
         textAlign: "left",
         top: "10",
         left: "10",
         color: "black",
-        id: "__alloyId205"
+        id: "__alloyId207"
     });
-    $.__views.__alloyId204.add($.__views.__alloyId205);
-    $.__views.__alloyId206 = Ti.UI.createLabel({
+    $.__views.__alloyId206.add($.__views.__alloyId207);
+    $.__views.__alloyId208 = Ti.UI.createLabel({
         text: "XOX Mobile Sdn Bhd",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId206"
+        id: "__alloyId208"
     });
-    $.__views.__alloyId204.add($.__views.__alloyId206);
-    $.__views.__alloyId207 = Ti.UI.createLabel({
+    $.__views.__alloyId206.add($.__views.__alloyId208);
+    $.__views.__alloyId209 = Ti.UI.createLabel({
         text: "112, Jalan Terengganu, 10460 Georgetown Penang.",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId207"
+        id: "__alloyId209"
     });
-    $.__views.__alloyId204.add($.__views.__alloyId207);
-    $.__views.__alloyId208 = Ti.UI.createLabel({
+    $.__views.__alloyId206.add($.__views.__alloyId209);
+    $.__views.__alloyId210 = Ti.UI.createLabel({
         text: "Contact: 04-282 6388 / 04-281 7188",
         textAlign: "left",
         bottom: "10",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId208"
+        id: "__alloyId210"
     });
-    $.__views.__alloyId204.add($.__views.__alloyId208);
-    $.__views.__alloyId209 = Ti.UI.createTableViewRow({
+    $.__views.__alloyId206.add($.__views.__alloyId210);
+    $.__views.__alloyId211 = Ti.UI.createTableViewRow({
         layout: "vertical",
         height: Ti.UI.SIZE,
-        id: "__alloyId209"
+        id: "__alloyId211"
     });
-    __alloyId173.push($.__views.__alloyId209);
-    $.__views.__alloyId210 = Ti.UI.createLabel({
+    __alloyId175.push($.__views.__alloyId211);
+    $.__views.__alloyId212 = Ti.UI.createLabel({
         text: "PENANG (George Town)",
         textAlign: "left",
         top: "10",
         left: "10",
         color: "black",
-        id: "__alloyId210"
+        id: "__alloyId212"
     });
-    $.__views.__alloyId209.add($.__views.__alloyId210);
-    $.__views.__alloyId211 = Ti.UI.createLabel({
+    $.__views.__alloyId211.add($.__views.__alloyId212);
+    $.__views.__alloyId213 = Ti.UI.createLabel({
         text: "XOX Care Centre",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId211"
+        id: "__alloyId213"
     });
-    $.__views.__alloyId209.add($.__views.__alloyId211);
-    $.__views.__alloyId212 = Ti.UI.createLabel({
+    $.__views.__alloyId211.add($.__views.__alloyId213);
+    $.__views.__alloyId214 = Ti.UI.createLabel({
         text: "Kiosk G-01 Level 1@ ICT Komtar, Unit 01-4.01 Komtar, Jalan Penang 10000 Georgetown Penang.",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId212"
+        id: "__alloyId214"
     });
-    $.__views.__alloyId209.add($.__views.__alloyId212);
-    $.__views.__alloyId213 = Ti.UI.createLabel({
+    $.__views.__alloyId211.add($.__views.__alloyId214);
+    $.__views.__alloyId215 = Ti.UI.createLabel({
         text: "Contact: -",
         textAlign: "left",
         bottom: "10",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId213"
+        id: "__alloyId215"
     });
-    $.__views.__alloyId209.add($.__views.__alloyId213);
-    $.__views.__alloyId214 = Ti.UI.createTableViewRow({
+    $.__views.__alloyId211.add($.__views.__alloyId215);
+    $.__views.__alloyId216 = Ti.UI.createTableViewRow({
         layout: "vertical",
         height: Ti.UI.SIZE,
-        id: "__alloyId214"
+        id: "__alloyId216"
     });
-    __alloyId173.push($.__views.__alloyId214);
-    $.__views.__alloyId215 = Ti.UI.createLabel({
+    __alloyId175.push($.__views.__alloyId216);
+    $.__views.__alloyId217 = Ti.UI.createLabel({
         text: "SARAWAK (Kuching)",
         textAlign: "left",
         top: "10",
         left: "10",
         color: "black",
-        id: "__alloyId215"
+        id: "__alloyId217"
     });
-    $.__views.__alloyId214.add($.__views.__alloyId215);
-    $.__views.__alloyId216 = Ti.UI.createLabel({
+    $.__views.__alloyId216.add($.__views.__alloyId217);
+    $.__views.__alloyId218 = Ti.UI.createLabel({
         text: "XOX Mobile Sdn Bhd",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId216"
+        id: "__alloyId218"
     });
-    $.__views.__alloyId214.add($.__views.__alloyId216);
-    $.__views.__alloyId217 = Ti.UI.createLabel({
+    $.__views.__alloyId216.add($.__views.__alloyId218);
+    $.__views.__alloyId219 = Ti.UI.createLabel({
         text: "1st Floor, Lot 2082, Section 60 KTLD, Jalan Sekama, 93300 Kuching Sarawak.",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId217"
+        id: "__alloyId219"
     });
-    $.__views.__alloyId214.add($.__views.__alloyId217);
-    $.__views.__alloyId218 = Ti.UI.createLabel({
+    $.__views.__alloyId216.add($.__views.__alloyId219);
+    $.__views.__alloyId220 = Ti.UI.createLabel({
         text: "Contact: 082-337010",
         textAlign: "left",
         bottom: "10",
         left: "10",
         color: "#9D9F9E",
-        id: "__alloyId218"
+        id: "__alloyId220"
     });
-    $.__views.__alloyId214.add($.__views.__alloyId218);
+    $.__views.__alloyId216.add($.__views.__alloyId220);
     $.__views.table = Ti.UI.createTableView({
-        data: __alloyId173,
+        data: __alloyId175,
         id: "table",
         height: Ti.UI.SIZE
     });
@@ -553,7 +553,7 @@ function Controller() {
     var state;
     $.picker.setSelectedRow(0, 0, false);
     __defers["$.__views.stateLabel!click!showPicker"] && $.__views.stateLabel.addEventListener("click", showPicker);
-    __defers["$.__views.__alloyId167!click!showPicker"] && $.__views.__alloyId167.addEventListener("click", showPicker);
+    __defers["$.__views.__alloyId169!click!showPicker"] && $.__views.__alloyId169.addEventListener("click", showPicker);
     __defers["$.__views.done!click!done"] && $.__views.done.addEventListener("click", done);
     __defers["$.__views.picker!change!state"] && $.__views.picker.addEventListener("change", state);
     _.extend($, exports);

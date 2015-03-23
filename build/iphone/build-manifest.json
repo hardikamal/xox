@@ -3,11 +3,7 @@
 	"deployType": "development",
 	"iosSdkVersion": "8.2",
 	"deviceFamily": "universal",
-<<<<<<< Updated upstream
-	"iosSdkPath": "/Users/chrispang/Library/Application Support/Titanium/mobilesdk/osx/3.5.0.GA/iphone",
-=======
 	"iosSdkPath": "/Users/george/Library/Application Support/Titanium/mobilesdk/osx/3.5.0.GA/iphone",
->>>>>>> Stashed changes
 	"tiCoreHash": "47658db9e85e6b4af144b3d6070d6de0",
 	"modulesHash": "238afb115a8c0cdc44bf7d65d7c0ebc5",
 	"modulesNativeHash": "50fa4c2fc16f65b6d332fa15bb0de17e",
