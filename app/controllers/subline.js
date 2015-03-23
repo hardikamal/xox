@@ -13,4 +13,10 @@ function back()
 function addNumber()
 {
 	console.log("addNumber");
+	DRAWER.navigation("subline2",1);
+}
+
+function setting()
+{
+	DRAWER.navigation("subline4",1);
 }

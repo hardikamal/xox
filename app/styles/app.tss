@@ -60,4 +60,62 @@
 	 left:30,
 	 width:60,
 },
+"#prepaid_subtitle" : {
+  font: {
+        fontSize: '12dp'
+    }
+},
+"#prepaid_mandatory" : {
+  font: {
+        fontSize: '12dp'
+    }
+},
+"#total_payment" : {
+  font: {
+        fontSize: '15dp'
+   },
+   textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+},
+"#total_price" : {
+  font: {
+        fontSize: '12dp'
+   },
+   textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+},
+
+"#item_title" : {
+  font: {
+        fontSize: '15dp'
+   }
+},
+
+"#desc_title" : {
+  font: {
+        fontSize: '15dp'
+   }
+},
+
+"#cost_title" : {
+  font: {
+        fontSize: '15dp'
+   }
+},
+
+"#item_data" : {
+  font: {
+        fontSize: '12dp'
+   }
+},
+
+"#desc_data" : {
+  font: {
+        fontSize: '12dp'
+   }
+},
+
+"#cost_data" : {
+  font: {
+        fontSize: '12dp'
+   }
+},
 

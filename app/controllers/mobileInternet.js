@@ -7,7 +7,7 @@ if(Ti.Platform.osname == "android") {
 
 function back()
 {
-	DRAWER.navigation("products",2);
+	DRAWER.navigation("products",1);
 }
 
 function subscribe()

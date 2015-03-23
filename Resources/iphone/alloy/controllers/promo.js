@@ -9,7 +9,7 @@ function __processArg(obj, key) {
 
 function Controller() {
     function promoDetail() {
-        DRAWER.navigation("promoDetail", 2);
+        DRAWER.navigation("promoDetail", 1);
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "promo";
@@ -34,56 +34,56 @@ function Controller() {
         id: "promo"
     });
     $.__views.promo && $.addTopLevelView($.__views.promo);
-    $.__views.__alloyId949 = Alloy.createController("_header", {
-        id: "__alloyId949",
+    $.__views.__alloyId1283 = Alloy.createController("_header", {
+        id: "__alloyId1283",
         __parentSymbol: $.__views.promo
     });
-    $.__views.__alloyId949.setParent($.__views.promo);
-    $.__views.__alloyId950 = Ti.UI.createView({
+    $.__views.__alloyId1283.setParent($.__views.promo);
+    $.__views.__alloyId1284 = Ti.UI.createView({
         height: "20%",
         backgroundColor: "#4CC4D2",
-        id: "__alloyId950"
+        id: "__alloyId1284"
     });
-    $.__views.promo.add($.__views.__alloyId950);
-    $.__views.__alloyId951 = Ti.UI.createLabel({
+    $.__views.promo.add($.__views.__alloyId1284);
+    $.__views.__alloyId1285 = Ti.UI.createLabel({
         text: "Promo / News",
         left: "10",
         top: "10",
         color: "white",
-        id: "__alloyId951"
+        id: "__alloyId1285"
     });
-    $.__views.__alloyId950.add($.__views.__alloyId951);
-    $.__views.__alloyId952 = Ti.UI.createView({
+    $.__views.__alloyId1284.add($.__views.__alloyId1285);
+    $.__views.__alloyId1286 = Ti.UI.createView({
         layout: "vertical",
-        id: "__alloyId952"
+        id: "__alloyId1286"
     });
-    $.__views.promo.add($.__views.__alloyId952);
-    $.__views.__alloyId953 = Ti.UI.createView({
+    $.__views.promo.add($.__views.__alloyId1286);
+    $.__views.__alloyId1287 = Ti.UI.createView({
         height: "20%",
         backgroundColor: "red",
-        id: "__alloyId953"
+        id: "__alloyId1287"
     });
-    $.__views.__alloyId952.add($.__views.__alloyId953);
-    promoDetail ? $.__views.__alloyId953.addEventListener("click", promoDetail) : __defers["$.__views.__alloyId953!click!promoDetail"] = true;
-    $.__views.__alloyId954 = Ti.UI.createView({
+    $.__views.__alloyId1286.add($.__views.__alloyId1287);
+    promoDetail ? $.__views.__alloyId1287.addEventListener("click", promoDetail) : __defers["$.__views.__alloyId1287!click!promoDetail"] = true;
+    $.__views.__alloyId1288 = Ti.UI.createView({
         height: "20%",
         backgroundColor: "green",
-        id: "__alloyId954"
+        id: "__alloyId1288"
     });
-    $.__views.__alloyId952.add($.__views.__alloyId954);
-    promoDetail ? $.__views.__alloyId954.addEventListener("click", promoDetail) : __defers["$.__views.__alloyId954!click!promoDetail"] = true;
-    $.__views.__alloyId955 = Ti.UI.createView({
+    $.__views.__alloyId1286.add($.__views.__alloyId1288);
+    promoDetail ? $.__views.__alloyId1288.addEventListener("click", promoDetail) : __defers["$.__views.__alloyId1288!click!promoDetail"] = true;
+    $.__views.__alloyId1289 = Ti.UI.createView({
         height: "20%",
         backgroundColor: "yellow",
-        id: "__alloyId955"
+        id: "__alloyId1289"
     });
-    $.__views.__alloyId952.add($.__views.__alloyId955);
-    promoDetail ? $.__views.__alloyId955.addEventListener("click", promoDetail) : __defers["$.__views.__alloyId955!click!promoDetail"] = true;
+    $.__views.__alloyId1286.add($.__views.__alloyId1289);
+    promoDetail ? $.__views.__alloyId1289.addEventListener("click", promoDetail) : __defers["$.__views.__alloyId1289!click!promoDetail"] = true;
     exports.destroy = function() {};
     _.extend($, $.__views);
-    __defers["$.__views.__alloyId953!click!promoDetail"] && $.__views.__alloyId953.addEventListener("click", promoDetail);
-    __defers["$.__views.__alloyId954!click!promoDetail"] && $.__views.__alloyId954.addEventListener("click", promoDetail);
-    __defers["$.__views.__alloyId955!click!promoDetail"] && $.__views.__alloyId955.addEventListener("click", promoDetail);
+    __defers["$.__views.__alloyId1287!click!promoDetail"] && $.__views.__alloyId1287.addEventListener("click", promoDetail);
+    __defers["$.__views.__alloyId1288!click!promoDetail"] && $.__views.__alloyId1288.addEventListener("click", promoDetail);
+    __defers["$.__views.__alloyId1289!click!promoDetail"] && $.__views.__alloyId1289.addEventListener("click", promoDetail);
     _.extend($, exports);
 }
 

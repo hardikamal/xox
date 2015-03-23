@@ -99,25 +99,25 @@ function Controller() {
         id: "terms"
     });
     $.__views.terms && $.addTopLevelView($.__views.terms);
-    $.__views.__alloyId1213 = Alloy.createController("_header", {
-        id: "__alloyId1213",
+    $.__views.__alloyId1691 = Alloy.createController("_header", {
+        id: "__alloyId1691",
         __parentSymbol: $.__views.terms
     });
-    $.__views.__alloyId1213.setParent($.__views.terms);
-    $.__views.__alloyId1214 = Ti.UI.createView({
+    $.__views.__alloyId1691.setParent($.__views.terms);
+    $.__views.__alloyId1692 = Ti.UI.createView({
         height: "20%",
         backgroundColor: "#AFCD3F",
-        id: "__alloyId1214"
+        id: "__alloyId1692"
     });
-    $.__views.terms.add($.__views.__alloyId1214);
-    $.__views.__alloyId1215 = Ti.UI.createLabel({
+    $.__views.terms.add($.__views.__alloyId1692);
+    $.__views.__alloyId1693 = Ti.UI.createLabel({
         text: "Support",
         left: "10",
         top: "10",
         color: "white",
-        id: "__alloyId1215"
+        id: "__alloyId1693"
     });
-    $.__views.__alloyId1214.add($.__views.__alloyId1215);
+    $.__views.__alloyId1692.add($.__views.__alloyId1693);
     $.__views.contentView = Ti.UI.createView({
         id: "contentView",
         layout: "vertical",
@@ -125,7 +125,7 @@ function Controller() {
         backgroundColor: "#E6E7E9"
     });
     $.__views.terms.add($.__views.contentView);
-    $.__views.__alloyId1216 = Ti.UI.createLabel({
+    $.__views.__alloyId1694 = Ti.UI.createLabel({
         text: "Terms & Conditions",
         width: "90%",
         height: "30",
@@ -133,9 +133,9 @@ function Controller() {
         bottom: "5",
         textAlign: "left",
         color: "black",
-        id: "__alloyId1216"
+        id: "__alloyId1694"
     });
-    $.__views.contentView.add($.__views.__alloyId1216);
+    $.__views.contentView.add($.__views.__alloyId1694);
     $.__views.pickerContentView = Ti.UI.createView({
         id: "pickerContentView",
         layout: "composite",
@@ -156,16 +156,16 @@ function Controller() {
     });
     $.__views.pickerContentView.add($.__views.termLabel);
     showPicker ? $.__views.termLabel.addEventListener("click", showPicker) : __defers["$.__views.termLabel!click!showPicker"] = true;
-    $.__views.__alloyId1217 = Ti.UI.createImageView({
+    $.__views.__alloyId1695 = Ti.UI.createImageView({
         image: "/images/dropdown_icon.png",
         width: "15",
         height: "10",
         right: "10",
         top: "20",
-        id: "__alloyId1217"
+        id: "__alloyId1695"
     });
-    $.__views.pickerContentView.add($.__views.__alloyId1217);
-    showPicker ? $.__views.__alloyId1217.addEventListener("click", showPicker) : __defers["$.__views.__alloyId1217!click!showPicker"] = true;
+    $.__views.pickerContentView.add($.__views.__alloyId1695);
+    showPicker ? $.__views.__alloyId1695.addEventListener("click", showPicker) : __defers["$.__views.__alloyId1695!click!showPicker"] = true;
     $.__views.pickerView = Ti.UI.createView({
         id: "pickerView",
         height: "50",
@@ -198,35 +198,35 @@ function Controller() {
         visible: "false"
     });
     $.__views.pickerView.add($.__views.picker);
-    var __alloyId1218 = [];
-    $.__views.__alloyId1219 = Ti.UI.createPickerRow({
+    var __alloyId1696 = [];
+    $.__views.__alloyId1697 = Ti.UI.createPickerRow({
         title: "All States",
-        id: "__alloyId1219"
+        id: "__alloyId1697"
     });
-    __alloyId1218.push($.__views.__alloyId1219);
-    $.__views.__alloyId1220 = Ti.UI.createPickerRow({
+    __alloyId1696.push($.__views.__alloyId1697);
+    $.__views.__alloyId1698 = Ti.UI.createPickerRow({
         title: "Selangor",
-        id: "__alloyId1220"
+        id: "__alloyId1698"
     });
-    __alloyId1218.push($.__views.__alloyId1220);
-    $.__views.__alloyId1221 = Ti.UI.createPickerRow({
+    __alloyId1696.push($.__views.__alloyId1698);
+    $.__views.__alloyId1699 = Ti.UI.createPickerRow({
         title: "Kuala Lumpur",
-        id: "__alloyId1221"
+        id: "__alloyId1699"
     });
-    __alloyId1218.push($.__views.__alloyId1221);
-    $.__views.__alloyId1222 = Ti.UI.createPickerRow({
+    __alloyId1696.push($.__views.__alloyId1699);
+    $.__views.__alloyId1700 = Ti.UI.createPickerRow({
         title: "Johor",
-        id: "__alloyId1222"
+        id: "__alloyId1700"
     });
-    __alloyId1218.push($.__views.__alloyId1222);
-    $.__views.picker.add(__alloyId1218);
+    __alloyId1696.push($.__views.__alloyId1700);
+    $.__views.picker.add(__alloyId1696);
     terms ? $.__views.picker.addEventListener("change", terms) : __defers["$.__views.picker!change!terms"] = true;
-    $.__views.__alloyId1223 = Ti.UI.createScrollView({
+    $.__views.__alloyId1701 = Ti.UI.createScrollView({
         layout: "vertical",
         backgroundColor: "white",
-        id: "__alloyId1223"
+        id: "__alloyId1701"
     });
-    $.__views.terms.add($.__views.__alloyId1223);
+    $.__views.terms.add($.__views.__alloyId1701);
     $.__views.title = Ti.UI.createLabel({
         id: "title",
         width: "90%",
@@ -235,7 +235,7 @@ function Controller() {
         textAlign: "left",
         color: "black"
     });
-    $.__views.__alloyId1223.add($.__views.title);
+    $.__views.__alloyId1701.add($.__views.title);
     $.__views.label = Ti.UI.createLabel({
         id: "label",
         width: "90%",
@@ -244,13 +244,13 @@ function Controller() {
         textAlign: "left",
         color: "black"
     });
-    $.__views.__alloyId1223.add($.__views.label);
+    $.__views.__alloyId1701.add($.__views.label);
     exports.destroy = function() {};
     _.extend($, $.__views);
     var terms;
     $.picker.setSelectedRow(0, 0, false);
     __defers["$.__views.termLabel!click!showPicker"] && $.__views.termLabel.addEventListener("click", showPicker);
-    __defers["$.__views.__alloyId1217!click!showPicker"] && $.__views.__alloyId1217.addEventListener("click", showPicker);
+    __defers["$.__views.__alloyId1695!click!showPicker"] && $.__views.__alloyId1695.addEventListener("click", showPicker);
     __defers["$.__views.done!click!done"] && $.__views.done.addEventListener("click", done);
     __defers["$.__views.picker!change!terms"] && $.__views.picker.addEventListener("change", terms);
     _.extend($, exports);

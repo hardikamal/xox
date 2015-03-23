@@ -18,6 +18,8 @@ if(Ti.Platform.osname == "android") {
 	$.switch13.style = Ti.UI.Android.SWITCH_STYLE_CHECKBOX;
 }
 
+$.picker.setSelectedRow(0,0,false);
+
 var simType;
 
 function back()
@@ -25,10 +27,8 @@ function back()
 	// console.log("online");
 	// var win = Alloy.createController('online').getView();
 	// win.open();
-	DRAWER.navigation("onlinePurchases",2);
+	DRAWER.navigation("onlinePurchases",1);
 }
-
-$.picker.setSelectedRow(0,0,false);
 
 function showPicker()
 {
@@ -92,6 +92,7 @@ function highSpeed(e)
 
 function next()
 {
+	DRAWER.navigation("prepaidPack2",1);
 	console.log("next");
 }
 

@@ -1,41 +1,41 @@
 function faq()
 {
-	DRAWER.navigation("faq",2); 
+	DRAWER.navigation("faq",1); 
 }
 
 function accDetail()
 {
-	DRAWER.navigation("accountDetails",2);
+	DRAWER.navigation("accountDetails",1);
 }
 
 function payment()
 {
-	DRAWER.navigation("payment",2);
+	DRAWER.navigation("payment",1);
 }
 
 function subline()
 {
-	DRAWER.navigation("subline",2);
+	DRAWER.navigation("subline",1);
 }
 
 function vas()
 {
-	DRAWER.navigation("vas",2);
+	DRAWER.navigation("vas",1);
 }
 
 function seasonPass()
 {
-	DRAWER.navigation("seasonPass",2);
+	DRAWER.navigation("seasonPass",1);
 }
 
 function loyalty()
 {
-	DRAWER.navigation("loyalty",2);
+	DRAWER.navigation("loyalty",1);
 }
 
 function report()
 {
-	DRAWER.navigation("report",2);
+	DRAWER.navigation("report",1);
 }
 
 function editPhoto()

@@ -60,25 +60,25 @@ function Controller() {
         backgroundColor: "white"
     });
     $.__views.win && $.addTopLevelView($.__views.win);
-    $.__views.__alloyId43 = Alloy.createController("_header", {
-        id: "__alloyId43",
+    $.__views.__alloyId45 = Alloy.createController("_header", {
+        id: "__alloyId45",
         __parentSymbol: $.__views.win
     });
-    $.__views.__alloyId43.setParent($.__views.win);
-    $.__views.__alloyId44 = Ti.UI.createView({
+    $.__views.__alloyId45.setParent($.__views.win);
+    $.__views.__alloyId46 = Ti.UI.createView({
         height: "20%",
         backgroundColor: "#836EAF",
-        id: "__alloyId44"
+        id: "__alloyId46"
     });
-    $.__views.win.add($.__views.__alloyId44);
-    $.__views.__alloyId45 = Ti.UI.createLabel({
+    $.__views.win.add($.__views.__alloyId46);
+    $.__views.__alloyId47 = Ti.UI.createLabel({
         text: "Contact us",
         left: "10",
         top: "10",
         color: "white",
-        id: "__alloyId45"
+        id: "__alloyId47"
     });
-    $.__views.__alloyId44.add($.__views.__alloyId45);
+    $.__views.__alloyId46.add($.__views.__alloyId47);
     $.__views.menu = Ti.UI.createView({
         id: "menu",
         layout: "horizontal",
@@ -98,13 +98,13 @@ function Controller() {
     });
     $.__views.menu.add($.__views.lbl1);
     goSlide ? $.__views.lbl1.addEventListener("touchend", goSlide) : __defers["$.__views.lbl1!touchend!goSlide"] = true;
-    $.__views.__alloyId46 = Ti.UI.createView({
+    $.__views.__alloyId48 = Ti.UI.createView({
         backgroundColor: "#4CC4D2",
         height: "100%",
         width: "0.45%",
-        id: "__alloyId46"
+        id: "__alloyId48"
     });
-    $.__views.menu.add($.__views.__alloyId46);
+    $.__views.menu.add($.__views.__alloyId48);
     $.__views.lbl2 = Ti.UI.createLabel({
         text: "Care Center",
         id: "lbl2",
@@ -117,13 +117,13 @@ function Controller() {
     });
     $.__views.menu.add($.__views.lbl2);
     goSlide ? $.__views.lbl2.addEventListener("touchend", goSlide) : __defers["$.__views.lbl2!touchend!goSlide"] = true;
-    $.__views.__alloyId47 = Ti.UI.createView({
+    $.__views.__alloyId49 = Ti.UI.createView({
         backgroundColor: "#4CC4D2",
         height: "100%",
         width: "0.45%",
-        id: "__alloyId47"
+        id: "__alloyId49"
     });
-    $.__views.menu.add($.__views.__alloyId47);
+    $.__views.menu.add($.__views.__alloyId49);
     $.__views.lbl3 = Ti.UI.createLabel({
         text: "XOX Dealers",
         id: "lbl3",
@@ -136,30 +136,30 @@ function Controller() {
     });
     $.__views.menu.add($.__views.lbl3);
     goSlide ? $.__views.lbl3.addEventListener("touchend", goSlide) : __defers["$.__views.lbl3!touchend!goSlide"] = true;
-    var __alloyId48 = [];
-    $.__views.__alloyId49 = Alloy.createController("contact1", {
-        id: "__alloyId49",
-        __parentSymbol: __parentSymbol
-    });
-    __alloyId48.push($.__views.__alloyId49.getViewEx({
-        recurse: true
-    }));
-    $.__views.__alloyId50 = Alloy.createController("contact2", {
-        id: "__alloyId50",
-        __parentSymbol: __parentSymbol
-    });
-    __alloyId48.push($.__views.__alloyId50.getViewEx({
-        recurse: true
-    }));
-    $.__views.__alloyId51 = Alloy.createController("contact3", {
+    var __alloyId50 = [];
+    $.__views.__alloyId51 = Alloy.createController("contact1", {
         id: "__alloyId51",
         __parentSymbol: __parentSymbol
     });
-    __alloyId48.push($.__views.__alloyId51.getViewEx({
+    __alloyId50.push($.__views.__alloyId51.getViewEx({
+        recurse: true
+    }));
+    $.__views.__alloyId52 = Alloy.createController("contact2", {
+        id: "__alloyId52",
+        __parentSymbol: __parentSymbol
+    });
+    __alloyId50.push($.__views.__alloyId52.getViewEx({
+        recurse: true
+    }));
+    $.__views.__alloyId53 = Alloy.createController("contact3", {
+        id: "__alloyId53",
+        __parentSymbol: __parentSymbol
+    });
+    __alloyId50.push($.__views.__alloyId53.getViewEx({
         recurse: true
     }));
     $.__views.scrollableView = Ti.UI.createScrollableView({
-        views: __alloyId48,
+        views: __alloyId50,
         id: "scrollableView",
         showPagingControl: "false",
         scrollingEnabled: "false"

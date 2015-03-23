@@ -11,6 +11,12 @@ function Controller() {
     function back() {
         DRAWER.navigation("myAccount", 2);
     }
+    function statement() {
+        console.log("statement");
+    }
+    function download() {
+        console.log("download");
+    }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "accountDetails";
     if (arguments[0]) {
@@ -294,41 +300,53 @@ function Controller() {
         id: "__alloyId39"
     });
     $.__views.accountDetails.add($.__views.__alloyId39);
-    $.__views.__alloyId40 = Ti.UI.createLabel({
-        text: "View Statement",
-        color: "white",
+    $.__views.__alloyId40 = Ti.UI.createView({
         height: "100%",
         width: "49.72%",
-        textAlign: "center",
+        backgroundColor: "#4CC4D2",
         id: "__alloyId40"
     });
     $.__views.__alloyId39.add($.__views.__alloyId40);
-    $.__views.__alloyId41 = Ti.UI.createView({
+    statement ? $.__views.__alloyId40.addEventListener("click", statement) : __defers["$.__views.__alloyId40!click!statement"] = true;
+    $.__views.__alloyId41 = Ti.UI.createLabel({
+        text: "View Statement",
+        color: "white",
+        textAlign: "center",
+        id: "__alloyId41"
+    });
+    $.__views.__alloyId40.add($.__views.__alloyId41);
+    $.__views.__alloyId42 = Ti.UI.createView({
         backgroundColor: "white",
         height: "100%",
         width: "0.5%",
-        id: "__alloyId41"
-    });
-    $.__views.__alloyId39.add($.__views.__alloyId41);
-    $.__views.__alloyId42 = Ti.UI.createLabel({
-        text: "Download",
-        color: "white",
-        height: "100%",
-        width: "49.72%",
-        textAlign: "center",
         id: "__alloyId42"
     });
     $.__views.__alloyId39.add($.__views.__alloyId42);
+    $.__views.__alloyId43 = Ti.UI.createView({
+        height: "100%",
+        width: "49.72%",
+        backgroundColor: "#4CC4D2",
+        id: "__alloyId43"
+    });
+    $.__views.__alloyId39.add($.__views.__alloyId43);
+    download ? $.__views.__alloyId43.addEventListener("click", download) : __defers["$.__views.__alloyId43!click!download"] = true;
+    $.__views.__alloyId44 = Ti.UI.createLabel({
+        text: "Download",
+        color: "white",
+        textAlign: "center",
+        id: "__alloyId44"
+    });
+    $.__views.__alloyId43.add($.__views.__alloyId44);
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.scrollView.height = Ti.Platform.displayCaps.platformHeight - 150;
-    console.log("scroll height: " + $.scrollView.height);
-    console.log("full height: " + Ti.Platform.displayCaps.platformHeight);
     if ("android" == Ti.Platform.osname) {
         console.log("android");
         $.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 150;
     }
     __defers["$.__views.__alloyId5!click!back"] && $.__views.__alloyId5.addEventListener("click", back);
+    __defers["$.__views.__alloyId40!click!statement"] && $.__views.__alloyId40.addEventListener("click", statement);
+    __defers["$.__views.__alloyId43!click!download"] && $.__views.__alloyId43.addEventListener("click", download);
     _.extend($, exports);
 }
 

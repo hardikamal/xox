@@ -8,3 +8,8 @@ function prepaidPlus()
 {
 	
 }
+
+function back()
+{
+	DRAWER.navigation("myAccount",2);
+}
