@@ -1,268 +1,268 @@
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSToolbar.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSToolbarProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITableViewAction.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiFile.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/main.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/AFItemView.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/AFOpenFlowView.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/AFUIImageReflection.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiSnapBehavior.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneScrollIndicatorStyleProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITextWidgetProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITableViewSectionProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneTableViewStyleProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneTableViewSeparatorStyleProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/AudioStreamer.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/Base64Transcoder.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITextWidget.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiViewController.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/PlausibleDatabase.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/PLSqliteDatabase.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/PLSqlitePreparedStatement.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/PLSqliteResultSet.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/SBJSON.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/KrollBridge.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiAnchorAttachBehavior.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/KrollCallback.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/KrollContext.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/KrollMethod.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/KrollMethodDelegate.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/KrollObject.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/KrollPropertyDelegate.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/KrollTimer.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/YahooModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/XHRBridge.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/WebFont.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/UIModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiViewProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUtils.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIWindowProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiGravityBehavior.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIWindow.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIWebViewProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIViewProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIView.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITextFieldProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITextField.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITextAreaProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITextArea.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITabProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITableViewProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITableView.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITabGroupProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITabGroup.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneSystemIconProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneSystemButtonStyleProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneSystemButtonProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUISwitchProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUISwitch.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneStatusBarProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUISliderProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIRefreshControlProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUISlider.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUISearchBarProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUISearchBar.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneRowAnimationStyleProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneProgressBarStyleProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIProgressBarProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIProgressBar.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIOptionDialogProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUINavBarButton.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUILabelProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUILabel.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIImageViewProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIImageView.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIEmailDialogProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUICanvasViewProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUICanvasView.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIButtonProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIButtonBarProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIButtonBar.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIButton.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneAnimationStyleProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIAlertDialogProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneActivityIndicatorStyleProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIActivityIndicatorProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIActivityIndicator.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiRect.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiPoint.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiMediaVideoPlayerProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiMediaSoundProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiMediaAudioPlayerProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiHost.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiFilesystemFileProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDimension.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDatabaseResultSetProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDatabaseProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSNavWindowProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiRootViewController.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiNetworkHTTPClientProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiContactsPerson.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiComplexValue.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiColor.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiButtonUtil.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiCollisionBehavior.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiBlob.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiBase.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiAppPropertiesProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiAnimation.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiAction.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiPushBehavior.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/Ti2DMatrix.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiPlatformDisplayCaps.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/PlatformModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/OperationQueue.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/NetworkModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/Mimetypes.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/MediaModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/LayoutConstraint.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/ImageLoader.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/GestureModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/FilesystemModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/DatabaseModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/ContactsModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITableViewRowProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/Bridge.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/AppModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/APIModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/AccelerometerModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIScrollableViewProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIScrollableView.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIScrollViewProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIScrollView.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIWebView.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMDocumentProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/GDataXMLNode.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMNodeProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMElementProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDynamicItemBehavior.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMNamedNodeMapProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMNodeListProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMAttrProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/ListenerEntry.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/XMLModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneTableViewScrollPositionProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiMediaAudioRecorderProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/SCListener.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiMediaAudioSession.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIPickerProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIPicker.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIPickerRowProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIPickerColumnProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiAppiOSNotificationCategoryProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/UIImage+Alpha.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/UIImage+Resize.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/UIImage+RoundedCorner.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSTransitionAnimationProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/UtilsModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneTableViewCellSelectionStyleProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIMaskedImageProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSNavWindow.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIMaskedImage.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiNetworkBonjourBrowserProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiNetworkBonjourServiceProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiNetworkTCPSocketProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMTextNodeProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiMediaVideoPlayer.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPadSplitWindowProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPadPopoverProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPadProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPadSplitWindowButtonProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/LauncherButton.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/LauncherItem.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/LauncherView.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIDashboardViewProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIDashboardView.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIDashboardItemProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiGradient.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/ApplicationRouting.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPadSplitWindow.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/Reachability.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TopTiModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiApp.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiErrorController.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiMediaMusicPlayer.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiMediaItem.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiLayoutQueue.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/AsyncSocket.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/AsyncUdpSocket.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiContactsGroup.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/ApplicationMods.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSAdViewProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSAdView.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/Webcolor.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiFilesystemBlobProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIDashboardItem.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/MGSplitCornersView.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/MGSplitDividerView.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/MGSplitViewController.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiStylesheet.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiLocale.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/LocaleModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIClipboardProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiPublicAPI.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiThreading.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/AudioStreamerCUR.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiWindowProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/UIImageExtras.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiViewAttachBehavior.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiAnimatorProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiAppiOSProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiAppiOSBackgroundServiceProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiAppiOSLocalNotificationProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiNetworkSocketTCPProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiBuffer.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/StreamModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiStreamProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/CodecModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiNetworkSocketProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDataStream.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiFilesystemFileStreamProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/KrollCoverage.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/MGSplitView.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSCoverFlowView.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSCoverFlowViewProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TIDOMCharacterDataProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/AnalyticsModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TIDOMDOMImplementationProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TIDOMDocumentTypeProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/NSData+Additions.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/GeolocationModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/ApplicationDefaults.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMCDATANodeProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMCommentProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMPIProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMDocFragProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMNotationProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMEntityProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMEntityRefProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiNetworkCookieProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSTabbedBarProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiAppiOSNotificationActionProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMValidator.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiConsole.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/Ti3DMatrix.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSDocumentViewerProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneAlertDialogStyleProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiBindingEvent.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiBindingRunLoop.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiBindingTiValue.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiExceptionHandler.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/CalendarModule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiCalendarCalendar.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSAttributedStringProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiCalendarAlert.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiCalendarEvent.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiCalendarReminder.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiCalendarRecurrenceRule.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIListItem.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIListItemProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIListSectionProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIListView.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIListViewProxy.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiViewTemplate.o
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiSelectedCellbackgroundView.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSToolbar.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSToolbarProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITableViewAction.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiFile.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/main.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/AFItemView.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/AFOpenFlowView.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/AFUIImageReflection.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiSnapBehavior.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneScrollIndicatorStyleProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITextWidgetProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITableViewSectionProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneTableViewStyleProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneTableViewSeparatorStyleProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/AudioStreamer.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/Base64Transcoder.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITextWidget.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiViewController.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/PlausibleDatabase.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/PLSqliteDatabase.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/PLSqlitePreparedStatement.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/PLSqliteResultSet.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/SBJSON.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/KrollBridge.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiAnchorAttachBehavior.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/KrollCallback.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/KrollContext.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/KrollMethod.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/KrollMethodDelegate.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/KrollObject.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/KrollPropertyDelegate.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/KrollTimer.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/YahooModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/XHRBridge.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/WebFont.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/UIModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiViewProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUtils.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIWindowProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiGravityBehavior.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIWindow.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIWebViewProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIViewProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIView.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITextFieldProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITextField.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITextAreaProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITextArea.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITabProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITableViewProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITableView.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITabGroupProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITabGroup.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneSystemIconProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneSystemButtonStyleProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneSystemButtonProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUISwitchProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUISwitch.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneStatusBarProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUISliderProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIRefreshControlProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUISlider.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUISearchBarProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUISearchBar.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneRowAnimationStyleProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneProgressBarStyleProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIProgressBarProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIProgressBar.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIOptionDialogProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUINavBarButton.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUILabelProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUILabel.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIImageViewProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIImageView.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIEmailDialogProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUICanvasViewProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUICanvasView.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIButtonProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIButtonBarProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIButtonBar.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIButton.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneAnimationStyleProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIAlertDialogProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneActivityIndicatorStyleProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIActivityIndicatorProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIActivityIndicator.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiRect.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiPoint.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiMediaVideoPlayerProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiMediaSoundProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiMediaAudioPlayerProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiHost.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiFilesystemFileProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDimension.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDatabaseResultSetProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDatabaseProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSNavWindowProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiRootViewController.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiNetworkHTTPClientProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiContactsPerson.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiComplexValue.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiColor.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiButtonUtil.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiCollisionBehavior.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiBlob.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiBase.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiAppPropertiesProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiAnimation.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiAction.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiPushBehavior.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/Ti2DMatrix.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiPlatformDisplayCaps.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/PlatformModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/OperationQueue.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/NetworkModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/Mimetypes.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/MediaModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/LayoutConstraint.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/ImageLoader.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/GestureModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/FilesystemModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/DatabaseModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/ContactsModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUITableViewRowProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/Bridge.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/AppModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/APIModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/AccelerometerModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIScrollableViewProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIScrollableView.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIScrollViewProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIScrollView.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIWebView.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMDocumentProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/GDataXMLNode.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMNodeProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMElementProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDynamicItemBehavior.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMNamedNodeMapProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMNodeListProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMAttrProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/ListenerEntry.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/XMLModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneTableViewScrollPositionProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiMediaAudioRecorderProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/SCListener.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiMediaAudioSession.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIPickerProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIPicker.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIPickerRowProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIPickerColumnProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiAppiOSNotificationCategoryProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/UIImage+Alpha.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/UIImage+Resize.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/UIImage+RoundedCorner.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSTransitionAnimationProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/UtilsModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneTableViewCellSelectionStyleProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIMaskedImageProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSNavWindow.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIMaskedImage.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiNetworkBonjourBrowserProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiNetworkBonjourServiceProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiNetworkTCPSocketProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMTextNodeProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiMediaVideoPlayer.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPadSplitWindowProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPadPopoverProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPadProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPadSplitWindowButtonProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/LauncherButton.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/LauncherItem.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/LauncherView.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIDashboardViewProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIDashboardView.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIDashboardItemProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiGradient.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/ApplicationRouting.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPadSplitWindow.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/Reachability.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TopTiModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiApp.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiErrorController.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiMediaMusicPlayer.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiMediaItem.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiLayoutQueue.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/AsyncSocket.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/AsyncUdpSocket.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiContactsGroup.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/ApplicationMods.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSAdViewProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSAdView.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/Webcolor.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiFilesystemBlobProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIDashboardItem.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/MGSplitCornersView.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/MGSplitDividerView.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/MGSplitViewController.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiStylesheet.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiLocale.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/LocaleModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIClipboardProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiPublicAPI.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiThreading.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/AudioStreamerCUR.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiWindowProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/UIImageExtras.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiViewAttachBehavior.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiAnimatorProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiAppiOSProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiAppiOSBackgroundServiceProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiAppiOSLocalNotificationProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiNetworkSocketTCPProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiBuffer.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/StreamModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiStreamProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/CodecModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiNetworkSocketProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDataStream.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiFilesystemFileStreamProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/KrollCoverage.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/MGSplitView.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSCoverFlowView.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSCoverFlowViewProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TIDOMCharacterDataProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/AnalyticsModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TIDOMDOMImplementationProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TIDOMDocumentTypeProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/NSData+Additions.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/GeolocationModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/ApplicationDefaults.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMCDATANodeProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMCommentProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMPIProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMDocFragProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMNotationProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMEntityProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMEntityRefProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiNetworkCookieProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSTabbedBarProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiAppiOSNotificationActionProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiDOMValidator.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiConsole.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/Ti3DMatrix.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSDocumentViewerProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiPhoneAlertDialogStyleProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiBindingEvent.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiBindingRunLoop.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiBindingTiValue.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiExceptionHandler.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/CalendarModule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiCalendarCalendar.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIiOSAttributedStringProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiCalendarAlert.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiCalendarEvent.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiCalendarReminder.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiCalendarRecurrenceRule.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIListItem.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIListItemProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIListSectionProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIListView.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiUIListViewProxy.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiViewTemplate.o
+/Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/build/XOX.build/Debug-iphonesimulator/XOX-universal.build/Objects-normal/x86_64/TiSelectedCellbackgroundView.o

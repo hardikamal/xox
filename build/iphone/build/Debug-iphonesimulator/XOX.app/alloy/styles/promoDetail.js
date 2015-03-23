@@ -1,1 +1,1 @@
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/Resources/iphone/alloy/styles/promoDetail.js
+/Users/george/Documents/Titanium_Studio_Workspace/XOX/Resources/iphone/alloy/styles/promoDetail.js

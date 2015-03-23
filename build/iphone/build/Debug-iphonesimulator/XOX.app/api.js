@@ -1,1 +1,1 @@
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/Resources/iphone/api.js
+/Users/george/Documents/Titanium_Studio_Workspace/XOX/Resources/iphone/api.js

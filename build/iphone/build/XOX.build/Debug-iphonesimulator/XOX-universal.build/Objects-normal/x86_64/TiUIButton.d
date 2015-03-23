@@ -1,13 +1,13 @@
 dependencies: \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiUIButton.m \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiUIButton.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiUIView.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiProxy.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiBase.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiThreading.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiPublicAPI.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiEvaluator.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/KrollContext.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUIButton.m \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUIButton.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUIView.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiProxy.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiBase.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiThreading.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiPublicAPI.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiEvaluator.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollContext.h \
   headers/JavaScriptCore/TiCore.h headers/JavaScriptCore/Ti.h \
   headers/JavaScriptCore/TiBase.h headers/JavaScriptCore/TiContextRef.h \
   headers/JavaScriptCore/TiObjectRef.h \
@@ -15,33 +15,33 @@ dependencies: \
   headers/JavaScriptCore/WebKitAvailability.h \
   headers/JavaScriptCore/TiStringRef.h \
   headers/JavaScriptCore/TiStringRefCF.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/KrollCallback.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/KrollObject.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiBindingRunLoop.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiAnimation.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiPoint.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiDimension.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiColor.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/ListenerEntry.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiModule.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiUtils.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/WebFont.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiFile.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiBuffer.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiBlob.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/LayoutConstraint.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiGradient.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiUIButtonProxy.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiViewProxy.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiRect.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiViewTemplate.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiUINavBarButton.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiToolbarButton.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiToolbar.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/ImageLoader.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/APSHTTPClient/APSHTTPClient.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/APSHTTPClient/APSHTTPRequest.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/APSHTTPClient/APSHTTPResponse.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/APSHTTPClient/APSHTTPPostForm.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/APSHTTPClient/APSHTTPHelper.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiButtonUtil.h
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollCallback.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollObject.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiBindingRunLoop.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiAnimation.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiPoint.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiDimension.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiColor.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/ListenerEntry.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiModule.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUtils.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/WebFont.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiFile.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiBuffer.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiBlob.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/LayoutConstraint.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiGradient.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUIButtonProxy.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiViewProxy.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiRect.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiViewTemplate.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUINavBarButton.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiToolbarButton.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiToolbar.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/ImageLoader.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/APSHTTPClient/APSHTTPClient.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/APSHTTPClient/APSHTTPRequest.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/APSHTTPClient/APSHTTPResponse.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/APSHTTPClient/APSHTTPPostForm.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/APSHTTPClient/APSHTTPHelper.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiButtonUtil.h

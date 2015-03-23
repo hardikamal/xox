@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/KrollPropertyDelegate.m \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/KrollPropertyDelegate.h
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollPropertyDelegate.m \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollPropertyDelegate.h

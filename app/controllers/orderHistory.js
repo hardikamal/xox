@@ -8,3 +8,10 @@ function prepaidPlus()
 {
 	
 }
+
+
+var clearObject = function(){
+	alert("order history clear cache");
+	Ti.App.removeEventListener("clearObject",clearObject);
+};
+Ti.App.addEventListener("clearObject",clearObject);

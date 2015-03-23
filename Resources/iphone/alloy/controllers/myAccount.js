@@ -351,9 +351,15 @@ function Controller() {
         image: "/images/acc_button_01.png",
         id: "__alloyId743"
     });
+<<<<<<< Updated upstream
     $.__views.__alloyId742.add($.__views.__alloyId743);
     profile ? $.__views.__alloyId743.addEventListener("click", profile) : __defers["$.__views.__alloyId743!click!profile"] = true;
     $.__views.__alloyId744 = Ti.UI.createView({
+=======
+    $.__views.__alloyId635.add($.__views.__alloyId636);
+    profile ? $.__views.__alloyId636.addEventListener("click", profile) : __defers["$.__views.__alloyId636!click!profile"] = true;
+    $.__views.__alloyId637 = Ti.UI.createView({
+>>>>>>> Stashed changes
         width: "33%",
         height: Ti.UI.FILL,
         id: "__alloyId744"
@@ -761,9 +767,15 @@ function Controller() {
         image: "/images/acc_button_01.png",
         id: "__alloyId799"
     });
+<<<<<<< Updated upstream
     $.__views.__alloyId798.add($.__views.__alloyId799);
     profile ? $.__views.__alloyId799.addEventListener("click", profile) : __defers["$.__views.__alloyId799!click!profile"] = true;
     $.__views.__alloyId800 = Ti.UI.createView({
+=======
+    $.__views.__alloyId691.add($.__views.__alloyId692);
+    profile ? $.__views.__alloyId692.addEventListener("click", profile) : __defers["$.__views.__alloyId692!click!profile"] = true;
+    $.__views.__alloyId693 = Ti.UI.createView({
+>>>>>>> Stashed changes
         width: "33%",
         height: Ti.UI.FILL,
         id: "__alloyId800"
@@ -812,9 +824,15 @@ function Controller() {
         top: "0",
         id: "__alloyId806"
     });
+<<<<<<< Updated upstream
     $.__views.__alloyId805.add($.__views.__alloyId806);
     profile ? $.__views.__alloyId806.addEventListener("click", profile) : __defers["$.__views.__alloyId806!click!profile"] = true;
     $.__views.__alloyId807 = Ti.UI.createView({
+=======
+    $.__views.__alloyId698.add($.__views.__alloyId699);
+    profile ? $.__views.__alloyId699.addEventListener("click", profile) : __defers["$.__views.__alloyId699!click!profile"] = true;
+    $.__views.__alloyId700 = Ti.UI.createView({
+>>>>>>> Stashed changes
         width: "33%",
         height: Ti.UI.FILL,
         id: "__alloyId807"
@@ -1185,6 +1203,7 @@ function Controller() {
             $.prepaid.add(view2);
         }
     }
+<<<<<<< Updated upstream
     __defers["$.__views.__alloyId710!click!close"] && $.__views.__alloyId710.addEventListener("click", close);
     __defers["$.__views.__alloyId711!click!gallery"] && $.__views.__alloyId711.addEventListener("click", gallery);
     __defers["$.__views.__alloyId716!click!facebook"] && $.__views.__alloyId716.addEventListener("click", facebook);
@@ -1238,6 +1257,61 @@ function Controller() {
     __defers["$.__views.__alloyId846!click!report"] && $.__views.__alloyId846.addEventListener("click", report);
     __defers["$.__views.__alloyId848!click!faq"] && $.__views.__alloyId848.addEventListener("click", faq);
     __defers["$.__views.__alloyId850!click!report"] && $.__views.__alloyId850.addEventListener("click", report);
+=======
+    __defers["$.__views.__alloyId603!click!close"] && $.__views.__alloyId603.addEventListener("click", close);
+    __defers["$.__views.__alloyId604!click!gallery"] && $.__views.__alloyId604.addEventListener("click", gallery);
+    __defers["$.__views.__alloyId609!click!facebook"] && $.__views.__alloyId609.addEventListener("click", facebook);
+    __defers["$.__views.__alloyId621!click!editPhoto"] && $.__views.__alloyId621.addEventListener("click", editPhoto);
+    __defers["$.__views.__alloyId622!click!editPhoto"] && $.__views.__alloyId622.addEventListener("click", editPhoto);
+    __defers["$.__views.__alloyId634!click!accDetail"] && $.__views.__alloyId634.addEventListener("click", accDetail);
+    __defers["$.__views.__alloyId636!click!profile"] && $.__views.__alloyId636.addEventListener("click", profile);
+    __defers["$.__views.__alloyId638!click!payment"] && $.__views.__alloyId638.addEventListener("click", payment);
+    __defers["$.__views.__alloyId641!click!accDetail"] && $.__views.__alloyId641.addEventListener("click", accDetail);
+    __defers["$.__views.__alloyId643!click!profile"] && $.__views.__alloyId643.addEventListener("click", profile);
+    __defers["$.__views.__alloyId645!click!payment"] && $.__views.__alloyId645.addEventListener("click", payment);
+    __defers["$.__views.__alloyId648!click!vas"] && $.__views.__alloyId648.addEventListener("click", vas);
+    __defers["$.__views.__alloyId650!click!subline"] && $.__views.__alloyId650.addEventListener("click", subline);
+    __defers["$.__views.__alloyId652!click!subline"] && $.__views.__alloyId652.addEventListener("click", subline);
+    __defers["$.__views.__alloyId655!click!subline"] && $.__views.__alloyId655.addEventListener("click", subline);
+    __defers["$.__views.__alloyId657!click!subline"] && $.__views.__alloyId657.addEventListener("click", subline);
+    __defers["$.__views.__alloyId659!click!subline"] && $.__views.__alloyId659.addEventListener("click", subline);
+    __defers["$.__views.__alloyId662!click!vas"] && $.__views.__alloyId662.addEventListener("click", vas);
+    __defers["$.__views.__alloyId664!click!loyalty"] && $.__views.__alloyId664.addEventListener("click", loyalty);
+    __defers["$.__views.__alloyId666!click!report"] && $.__views.__alloyId666.addEventListener("click", report);
+    __defers["$.__views.__alloyId669!click!vas"] && $.__views.__alloyId669.addEventListener("click", vas);
+    __defers["$.__views.__alloyId671!click!loyalty"] && $.__views.__alloyId671.addEventListener("click", loyalty);
+    __defers["$.__views.__alloyId673!click!loyalty"] && $.__views.__alloyId673.addEventListener("click", loyalty);
+    __defers["$.__views.__alloyId676!click!report"] && $.__views.__alloyId676.addEventListener("click", report);
+    __defers["$.__views.__alloyId678!click!faq"] && $.__views.__alloyId678.addEventListener("click", faq);
+    __defers["$.__views.__alloyId680!click!report"] && $.__views.__alloyId680.addEventListener("click", report);
+    __defers["$.__views.__alloyId683!click!report"] && $.__views.__alloyId683.addEventListener("click", report);
+    __defers["$.__views.__alloyId685!click!faq"] && $.__views.__alloyId685.addEventListener("click", faq);
+    __defers["$.__views.__alloyId687!click!report"] && $.__views.__alloyId687.addEventListener("click", report);
+    __defers["$.__views.__alloyId690!click!accDetail"] && $.__views.__alloyId690.addEventListener("click", accDetail);
+    __defers["$.__views.__alloyId692!click!profile"] && $.__views.__alloyId692.addEventListener("click", profile);
+    __defers["$.__views.__alloyId694!click!payment"] && $.__views.__alloyId694.addEventListener("click", payment);
+    __defers["$.__views.__alloyId697!click!accDetail"] && $.__views.__alloyId697.addEventListener("click", accDetail);
+    __defers["$.__views.__alloyId699!click!profile"] && $.__views.__alloyId699.addEventListener("click", profile);
+    __defers["$.__views.__alloyId701!click!payment"] && $.__views.__alloyId701.addEventListener("click", payment);
+    __defers["$.__views.__alloyId704!click!vas"] && $.__views.__alloyId704.addEventListener("click", vas);
+    __defers["$.__views.__alloyId706!click!subline"] && $.__views.__alloyId706.addEventListener("click", subline);
+    __defers["$.__views.__alloyId708!click!subline"] && $.__views.__alloyId708.addEventListener("click", subline);
+    __defers["$.__views.__alloyId711!click!subline"] && $.__views.__alloyId711.addEventListener("click", subline);
+    __defers["$.__views.__alloyId713!click!subline"] && $.__views.__alloyId713.addEventListener("click", subline);
+    __defers["$.__views.__alloyId715!click!subline"] && $.__views.__alloyId715.addEventListener("click", subline);
+    __defers["$.__views.__alloyId718!click!vas"] && $.__views.__alloyId718.addEventListener("click", vas);
+    __defers["$.__views.__alloyId720!click!loyalty"] && $.__views.__alloyId720.addEventListener("click", loyalty);
+    __defers["$.__views.__alloyId722!click!report"] && $.__views.__alloyId722.addEventListener("click", report);
+    __defers["$.__views.__alloyId725!click!vas"] && $.__views.__alloyId725.addEventListener("click", vas);
+    __defers["$.__views.__alloyId727!click!loyalty"] && $.__views.__alloyId727.addEventListener("click", loyalty);
+    __defers["$.__views.__alloyId729!click!loyalty"] && $.__views.__alloyId729.addEventListener("click", loyalty);
+    __defers["$.__views.__alloyId732!click!report"] && $.__views.__alloyId732.addEventListener("click", report);
+    __defers["$.__views.__alloyId734!click!faq"] && $.__views.__alloyId734.addEventListener("click", faq);
+    __defers["$.__views.__alloyId736!click!report"] && $.__views.__alloyId736.addEventListener("click", report);
+    __defers["$.__views.__alloyId739!click!report"] && $.__views.__alloyId739.addEventListener("click", report);
+    __defers["$.__views.__alloyId741!click!faq"] && $.__views.__alloyId741.addEventListener("click", faq);
+    __defers["$.__views.__alloyId743!click!report"] && $.__views.__alloyId743.addEventListener("click", report);
+>>>>>>> Stashed changes
     _.extend($, exports);
 }
 

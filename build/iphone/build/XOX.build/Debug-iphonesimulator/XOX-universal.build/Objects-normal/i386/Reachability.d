@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/Reachability.m \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/Reachability.h
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/Reachability.m \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/Reachability.h

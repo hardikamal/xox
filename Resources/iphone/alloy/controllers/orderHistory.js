@@ -288,11 +288,24 @@ function Controller() {
     $.arrow3.transform = Ti.UI.create2DMatrix().rotate(-90);
     $.arrow4.transform = Ti.UI.create2DMatrix().rotate(-90);
     $.arrow5.transform = Ti.UI.create2DMatrix().rotate(-90);
+<<<<<<< Updated upstream
     __defers["$.__views.__alloyId871!click!prepaidPlus"] && $.__views.__alloyId871.addEventListener("click", prepaidPlus);
     __defers["$.__views.__alloyId876!click!prepaidPlus"] && $.__views.__alloyId876.addEventListener("click", prepaidPlus);
     __defers["$.__views.__alloyId881!click!prepaidPlus"] && $.__views.__alloyId881.addEventListener("click", prepaidPlus);
     __defers["$.__views.__alloyId886!click!prepaidPlus"] && $.__views.__alloyId886.addEventListener("click", prepaidPlus);
     __defers["$.__views.__alloyId891!click!prepaidPlus"] && $.__views.__alloyId891.addEventListener("click", prepaidPlus);
+=======
+    var clearObject = function() {
+        alert("order history clear cache");
+        Ti.App.removeEventListener("clearObject", clearObject);
+    };
+    Ti.App.addEventListener("clearObject", clearObject);
+    __defers["$.__views.__alloyId764!click!prepaidPlus"] && $.__views.__alloyId764.addEventListener("click", prepaidPlus);
+    __defers["$.__views.__alloyId769!click!prepaidPlus"] && $.__views.__alloyId769.addEventListener("click", prepaidPlus);
+    __defers["$.__views.__alloyId774!click!prepaidPlus"] && $.__views.__alloyId774.addEventListener("click", prepaidPlus);
+    __defers["$.__views.__alloyId779!click!prepaidPlus"] && $.__views.__alloyId779.addEventListener("click", prepaidPlus);
+    __defers["$.__views.__alloyId784!click!prepaidPlus"] && $.__views.__alloyId784.addEventListener("click", prepaidPlus);
+>>>>>>> Stashed changes
     _.extend($, exports);
 }
 

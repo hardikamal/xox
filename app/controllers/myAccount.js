@@ -1,3 +1,4 @@
+
 var status = "postpaid";
 
 var new_event = [["Season Pass","/images/acc_button_01.png"]];
@@ -163,4 +164,4 @@ function facebook()
 {
 	console.log("facebook");
 	$.photo.zIndex = 0;
-}
+} 

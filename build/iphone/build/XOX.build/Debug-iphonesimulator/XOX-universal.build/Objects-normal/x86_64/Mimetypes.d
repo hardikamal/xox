@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/Mimetypes.m \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/Mimetypes.h
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/Mimetypes.m \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/Mimetypes.h

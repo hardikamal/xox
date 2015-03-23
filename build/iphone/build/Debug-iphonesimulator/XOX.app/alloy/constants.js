@@ -1,1 +1,1 @@
-/Users/chrispang/Documents/Chris/Mobile Projects/xox/Resources/iphone/alloy/constants.js
+/Users/george/Documents/Titanium_Studio_Workspace/XOX/Resources/iphone/alloy/constants.js

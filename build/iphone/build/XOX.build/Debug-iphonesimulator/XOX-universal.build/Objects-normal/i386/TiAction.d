@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiAction.m \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiAction.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiBase.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiThreading.h \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/Classes/TiPublicAPI.h
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiAction.m \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiAction.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiBase.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiThreading.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiPublicAPI.h

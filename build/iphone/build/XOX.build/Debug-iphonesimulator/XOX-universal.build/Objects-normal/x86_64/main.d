@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/chrispang/Documents/Chris/Mobile\ Projects/xox/build/iphone/main.m
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/main.m

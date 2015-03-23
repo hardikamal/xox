@@ -121,7 +121,11 @@ function Controller() {
         backgroundColor: "transparent",
         color: "red",
         textAlign: "left",
+<<<<<<< Updated upstream
         id: "__alloyId1423"
+=======
+        id: "__alloyId1226"
+>>>>>>> Stashed changes
     });
     $.__views.__alloyId1422.add($.__views.__alloyId1423);
     $.__views.__alloyId1424 = Ti.UI.createView({
@@ -174,7 +178,11 @@ function Controller() {
         backgroundColor: "transparent",
         color: "red",
         textAlign: "left",
+<<<<<<< Updated upstream
         id: "__alloyId1430"
+=======
+        id: "__alloyId1233"
+>>>>>>> Stashed changes
     });
     $.__views.__alloyId1429.add($.__views.__alloyId1430);
     $.__views.__alloyId1431 = Ti.UI.createView({
@@ -227,7 +235,11 @@ function Controller() {
         backgroundColor: "transparent",
         color: "red",
         textAlign: "left",
+<<<<<<< Updated upstream
         id: "__alloyId1437"
+=======
+        id: "__alloyId1240"
+>>>>>>> Stashed changes
     });
     $.__views.__alloyId1436.add($.__views.__alloyId1437);
     $.__views.__alloyId1438 = Ti.UI.createView({
@@ -279,7 +291,11 @@ function Controller() {
         backgroundColor: "transparent",
         color: "red",
         textAlign: "left",
+<<<<<<< Updated upstream
         id: "__alloyId1444"
+=======
+        id: "__alloyId1247"
+>>>>>>> Stashed changes
     });
     $.__views.__alloyId1443.add($.__views.__alloyId1444);
     $.__views.__alloyId1445 = Ti.UI.createView({
@@ -331,7 +347,11 @@ function Controller() {
         backgroundColor: "transparent",
         color: "red",
         textAlign: "left",
+<<<<<<< Updated upstream
         id: "__alloyId1451"
+=======
+        id: "__alloyId1254"
+>>>>>>> Stashed changes
     });
     $.__views.__alloyId1450.add($.__views.__alloyId1451);
     $.__views.__alloyId1452 = Ti.UI.createView({
@@ -383,7 +403,11 @@ function Controller() {
         backgroundColor: "transparent",
         color: "red",
         textAlign: "left",
+<<<<<<< Updated upstream
         id: "__alloyId1458"
+=======
+        id: "__alloyId1261"
+>>>>>>> Stashed changes
     });
     $.__views.__alloyId1457.add($.__views.__alloyId1458);
     $.__views.__alloyId1459 = Ti.UI.createView({
@@ -435,7 +459,11 @@ function Controller() {
         backgroundColor: "transparent",
         color: "red",
         textAlign: "left",
+<<<<<<< Updated upstream
         id: "__alloyId1465"
+=======
+        id: "__alloyId1268"
+>>>>>>> Stashed changes
     });
     $.__views.__alloyId1464.add($.__views.__alloyId1465);
     $.__views.__alloyId1466 = Ti.UI.createView({
@@ -487,7 +515,11 @@ function Controller() {
         backgroundColor: "transparent",
         color: "red",
         textAlign: "left",
+<<<<<<< Updated upstream
         id: "__alloyId1472"
+=======
+        id: "__alloyId1275"
+>>>>>>> Stashed changes
     });
     $.__views.__alloyId1471.add($.__views.__alloyId1472);
     $.__views.__alloyId1473 = Ti.UI.createView({
@@ -539,7 +571,11 @@ function Controller() {
         backgroundColor: "transparent",
         color: "red",
         textAlign: "left",
+<<<<<<< Updated upstream
         id: "__alloyId1479"
+=======
+        id: "__alloyId1282"
+>>>>>>> Stashed changes
     });
     $.__views.__alloyId1478.add($.__views.__alloyId1479);
     $.__views.__alloyId1480 = Ti.UI.createView({
@@ -591,7 +627,11 @@ function Controller() {
         backgroundColor: "transparent",
         color: "red",
         textAlign: "left",
+<<<<<<< Updated upstream
         id: "__alloyId1486"
+=======
+        id: "__alloyId1289"
+>>>>>>> Stashed changes
     });
     $.__views.__alloyId1485.add($.__views.__alloyId1486);
     $.__views.__alloyId1487 = Ti.UI.createView({
@@ -643,7 +683,11 @@ function Controller() {
         backgroundColor: "transparent",
         color: "red",
         textAlign: "left",
+<<<<<<< Updated upstream
         id: "__alloyId1493"
+=======
+        id: "__alloyId1296"
+>>>>>>> Stashed changes
     });
     $.__views.__alloyId1492.add($.__views.__alloyId1493);
     $.__views.__alloyId1494 = Ti.UI.createView({
@@ -654,8 +698,13 @@ function Controller() {
         backgroundColor: "white",
         id: "__alloyId1494"
     });
+<<<<<<< Updated upstream
     $.__views.scrollView.add($.__views.__alloyId1494);
     $.__views.__alloyId1495 = Ti.UI.createView({
+=======
+    $.__views.scrollView.add($.__views.__alloyId1297);
+    $.__views.__alloyId1298 = Ti.UI.createView({
+>>>>>>> Stashed changes
         width: "40%",
         height: "100%",
         id: "__alloyId1495"
@@ -736,7 +785,11 @@ function Controller() {
         console.log("android");
         $.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 150;
     }
+<<<<<<< Updated upstream
     __defers["$.__views.__alloyId1416!click!back"] && $.__views.__alloyId1416.addEventListener("click", back);
+=======
+    __defers["$.__views.__alloyId1219!click!back"] && $.__views.__alloyId1219.addEventListener("click", back);
+>>>>>>> Stashed changes
     _.extend($, exports);
 }
 
