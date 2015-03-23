@@ -32,6 +32,7 @@ function Controller() {
         $.password.value = "";
         $.password.blur();
         $.login.zIndex = 0;
+<<<<<<< Updated upstream
         DRAWER.navigation("register", 2);
     }
     function forgot() {
@@ -41,6 +42,9 @@ function Controller() {
         $.password.blur();
         $.login.zIndex = 0;
         DRAWER.navigation("forgot", 2);
+=======
+        console.log("to register page");
+>>>>>>> Stashed changes
     }
     function close() {
         $.username.value = "";
@@ -86,6 +90,7 @@ function Controller() {
         id: "home"
     });
     $.__views.home && $.addTopLevelView($.__views.home);
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     $.__views.__alloyId501 = Alloy.createController("_header", {
         id: "__alloyId501",
@@ -99,6 +104,13 @@ function Controller() {
     });
     $.__views.__alloyId465.setParent($.__views.home);
 >>>>>>> origin/master
+=======
+    $.__views.__alloyId226 = Alloy.createController("_header", {
+        id: "__alloyId226",
+        __parentSymbol: $.__views.home
+    });
+    $.__views.__alloyId226.setParent($.__views.home);
+>>>>>>> Stashed changes
     $.__views.login = Ti.UI.createView({
         id: "login",
         backgroundColor: "black",
@@ -106,6 +118,7 @@ function Controller() {
         top: "50"
     });
     $.__views.home.add($.__views.login);
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     $.__views.__alloyId502 = Ti.UI.createView({
 =======
@@ -138,12 +151,30 @@ function Controller() {
     $.__views.__alloyId466.add($.__views.__alloyId467);
     $.__views.__alloyId468 = Ti.UI.createImageView({
 >>>>>>> origin/master
+=======
+    $.__views.__alloyId227 = Ti.UI.createView({
+        layout: "vertical",
+        width: "90%",
+        height: "50%",
+        backgroundColor: "white",
+        id: "__alloyId227"
+    });
+    $.__views.login.add($.__views.__alloyId227);
+    $.__views.__alloyId228 = Ti.UI.createView({
+        height: "15%",
+        width: Ti.UI.FILL,
+        id: "__alloyId228"
+    });
+    $.__views.__alloyId227.add($.__views.__alloyId228);
+    $.__views.__alloyId229 = Ti.UI.createImageView({
+>>>>>>> Stashed changes
         backgroundColor: "transparent",
         width: "20",
         height: "20",
         right: "10",
         top: "10",
         image: "/images/close_icon.png",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId504"
     });
@@ -179,6 +210,24 @@ function Controller() {
     $.__views.__alloyId469.add($.__views.__alloyId470);
     $.__views.__alloyId471 = Ti.UI.createLabel({
 >>>>>>> origin/master
+=======
+        id: "__alloyId229"
+    });
+    $.__views.__alloyId228.add($.__views.__alloyId229);
+    close ? $.__views.__alloyId229.addEventListener("click", close) : __defers["$.__views.__alloyId229!click!close"] = true;
+    $.__views.__alloyId230 = Ti.UI.createView({
+        height: "25%",
+        width: Ti.UI.FILL,
+        id: "__alloyId230"
+    });
+    $.__views.__alloyId227.add($.__views.__alloyId230);
+    $.__views.__alloyId231 = Ti.UI.createView({
+        layout: "vertical",
+        id: "__alloyId231"
+    });
+    $.__views.__alloyId230.add($.__views.__alloyId231);
+    $.__views.__alloyId232 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         width: Ti.UI.SIZE,
         height: Ti.UI.SIZE,
         color: "black",
@@ -186,6 +235,7 @@ function Controller() {
             fontSize: 14
         },
         text: "Username",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId507"
     });
@@ -195,6 +245,11 @@ function Controller() {
     });
     $.__views.__alloyId470.add($.__views.__alloyId471);
 >>>>>>> origin/master
+=======
+        id: "__alloyId232"
+    });
+    $.__views.__alloyId231.add($.__views.__alloyId232);
+>>>>>>> Stashed changes
     $.__views.username = Ti.UI.createTextField({
         id: "username",
         width: "90%",
@@ -203,6 +258,7 @@ function Controller() {
         backgroundColor: "#E6E7E9",
         textAlign: "center",
         hintText: "someone@example.com",
+<<<<<<< Updated upstream
         color: "black",
         borderRadius: "15"
     });
@@ -235,6 +291,23 @@ function Controller() {
     $.__views.__alloyId472.add($.__views.__alloyId473);
     $.__views.__alloyId474 = Ti.UI.createLabel({
 >>>>>>> origin/master
+=======
+        borderRadius: "15"
+    });
+    $.__views.__alloyId231.add($.__views.username);
+    $.__views.__alloyId233 = Ti.UI.createView({
+        height: "25%",
+        width: Ti.UI.FILL,
+        id: "__alloyId233"
+    });
+    $.__views.__alloyId227.add($.__views.__alloyId233);
+    $.__views.__alloyId234 = Ti.UI.createView({
+        layout: "vertical",
+        id: "__alloyId234"
+    });
+    $.__views.__alloyId233.add($.__views.__alloyId234);
+    $.__views.__alloyId235 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         width: Ti.UI.SIZE,
         height: Ti.UI.SIZE,
         color: "black",
@@ -242,6 +315,7 @@ function Controller() {
             fontSize: 14
         },
         text: "Password",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId510"
     });
@@ -251,6 +325,11 @@ function Controller() {
     });
     $.__views.__alloyId473.add($.__views.__alloyId474);
 >>>>>>> origin/master
+=======
+        id: "__alloyId235"
+    });
+    $.__views.__alloyId234.add($.__views.__alloyId235);
+>>>>>>> Stashed changes
     $.__views.password = Ti.UI.createTextField({
         id: "password",
         width: "90%",
@@ -259,6 +338,7 @@ function Controller() {
         backgroundColor: "#E6E7E9",
         textAlign: "center",
         hintText: "********",
+<<<<<<< Updated upstream
         color: "black",
         passwordMask: "true",
         borderRadius: "15"
@@ -282,11 +362,25 @@ function Controller() {
     $.__views.__alloyId466.add($.__views.__alloyId475);
     $.__views.__alloyId476 = Ti.UI.createButton({
 >>>>>>> origin/master
+=======
+        passwordMask: "true",
+        borderRadius: "15"
+    });
+    $.__views.__alloyId234.add($.__views.password);
+    $.__views.__alloyId236 = Ti.UI.createView({
+        height: "20%",
+        width: Ti.UI.FILL,
+        id: "__alloyId236"
+    });
+    $.__views.__alloyId227.add($.__views.__alloyId236);
+    $.__views.__alloyId237 = Ti.UI.createButton({
+>>>>>>> Stashed changes
         title: "Login",
         color: "#44C7D6",
         borderColor: "#44C7D6",
         height: "80%",
         width: "60%",
+<<<<<<< Updated upstream
         backgroundColor: "white",
         borderRadius: "20",
 <<<<<<< HEAD
@@ -317,11 +411,27 @@ function Controller() {
     $.__views.__alloyId478 = Ti.UI.createLabel({
         width: Ti.UI.SIZE,
 >>>>>>> origin/master
+=======
+        borderRadius: "20",
+        id: "__alloyId237"
+    });
+    $.__views.__alloyId236.add($.__views.__alloyId237);
+    login ? $.__views.__alloyId237.addEventListener("click", login) : __defers["$.__views.__alloyId237!click!login"] = true;
+    $.__views.__alloyId238 = Ti.UI.createView({
+        height: "15%",
+        width: Ti.UI.FILL,
+        id: "__alloyId238"
+    });
+    $.__views.__alloyId227.add($.__views.__alloyId238);
+    $.__views.__alloyId239 = Ti.UI.createLabel({
+        width: Ti.UI.SIZE,
+>>>>>>> Stashed changes
         height: Ti.UI.SIZE,
         color: "#44C7D6",
         font: {
             fontSize: 14
         },
+<<<<<<< Updated upstream
         text: "Forgot Username & Password?",
         id: "forgotText",
         textAlign: "center"
@@ -400,12 +510,21 @@ function Controller() {
 >>>>>>> origin/master
     $.__views.scrollView = Ti.UI.createScrollView({
         id: "scrollView",
+=======
+        text: "Not Registered yet?",
+        id: "__alloyId239"
+    });
+    $.__views.__alloyId238.add($.__views.__alloyId239);
+    register ? $.__views.__alloyId239.addEventListener("click", register) : __defers["$.__views.__alloyId239!click!register"] = true;
+    $.__views.__alloyId240 = Ti.UI.createScrollView({
+>>>>>>> Stashed changes
         layout: "vertical",
         backgroundColor: "black",
         top: "60",
         left: "10",
         right: "10",
         bottom: "10",
+<<<<<<< Updated upstream
         zIndex: "1"
     });
     $.__views.home.add($.__views.scrollView);
@@ -414,11 +533,19 @@ function Controller() {
 =======
     $.__views.__alloyId479 = Ti.UI.createView({
 >>>>>>> origin/master
+=======
+        zIndex: "1",
+        id: "__alloyId240"
+    });
+    $.__views.home.add($.__views.__alloyId240);
+    $.__views.__alloyId241 = Ti.UI.createView({
+>>>>>>> Stashed changes
         width: "100%",
         height: "33%",
         backgroundColor: "red",
         backgroundImage: "/images/button_01.png",
         bottom: "5",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId518"
     });
@@ -432,11 +559,19 @@ function Controller() {
     myAccount ? $.__views.__alloyId479.addEventListener("click", myAccount) : __defers["$.__views.__alloyId479!click!myAccount"] = true;
     $.__views.__alloyId480 = Ti.UI.createView({
 >>>>>>> origin/master
+=======
+        id: "__alloyId241"
+    });
+    $.__views.__alloyId240.add($.__views.__alloyId241);
+    myAccount ? $.__views.__alloyId241.addEventListener("click", myAccount) : __defers["$.__views.__alloyId241!click!myAccount"] = true;
+    $.__views.__alloyId242 = Ti.UI.createView({
+>>>>>>> Stashed changes
         layout: "horizontal",
         height: "33%",
         width: "100%",
         top: "5",
         bottom: "5",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId519"
     });
@@ -448,11 +583,18 @@ function Controller() {
     $.__views.scrollView.add($.__views.__alloyId480);
     $.__views.__alloyId481 = Ti.UI.createView({
 >>>>>>> origin/master
+=======
+        id: "__alloyId242"
+    });
+    $.__views.__alloyId240.add($.__views.__alloyId242);
+    $.__views.__alloyId243 = Ti.UI.createView({
+>>>>>>> Stashed changes
         height: "100%",
         width: "49%",
         right: "5",
         backgroundColor: "blue",
         backgroundImage: "/images/button_02.png",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId520"
     });
@@ -466,11 +608,19 @@ function Controller() {
     promoNews ? $.__views.__alloyId481.addEventListener("click", promoNews) : __defers["$.__views.__alloyId481!click!promoNews"] = true;
     $.__views.__alloyId482 = Ti.UI.createView({
 >>>>>>> origin/master
+=======
+        id: "__alloyId243"
+    });
+    $.__views.__alloyId242.add($.__views.__alloyId243);
+    promoNews ? $.__views.__alloyId243.addEventListener("click", promoNews) : __defers["$.__views.__alloyId243!click!promoNews"] = true;
+    $.__views.__alloyId244 = Ti.UI.createView({
+>>>>>>> Stashed changes
         height: "100%",
         width: "auto",
         left: "5",
         backgroundColor: "orange",
         backgroundImage: "/images/button_03.png",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId521"
     });
@@ -484,10 +634,18 @@ function Controller() {
     product ? $.__views.__alloyId482.addEventListener("click", product) : __defers["$.__views.__alloyId482!click!product"] = true;
     $.__views.__alloyId483 = Ti.UI.createView({
 >>>>>>> origin/master
+=======
+        id: "__alloyId244"
+    });
+    $.__views.__alloyId242.add($.__views.__alloyId244);
+    product ? $.__views.__alloyId244.addEventListener("click", product) : __defers["$.__views.__alloyId244!click!product"] = true;
+    $.__views.__alloyId245 = Ti.UI.createView({
+>>>>>>> Stashed changes
         layout: "horizontal",
         height: "33%",
         width: "100%",
         top: "5",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId522"
     });
@@ -499,11 +657,18 @@ function Controller() {
     $.__views.scrollView.add($.__views.__alloyId483);
     $.__views.__alloyId484 = Ti.UI.createView({
 >>>>>>> origin/master
+=======
+        id: "__alloyId245"
+    });
+    $.__views.__alloyId240.add($.__views.__alloyId245);
+    $.__views.__alloyId246 = Ti.UI.createView({
+>>>>>>> Stashed changes
         height: "100%",
         width: "49%",
         right: "5",
         backgroundColor: "pink",
         backgroundImage: "/images/button_04.png",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId523"
     });
@@ -517,10 +682,18 @@ function Controller() {
     online ? $.__views.__alloyId484.addEventListener("click", online) : __defers["$.__views.__alloyId484!click!online"] = true;
     $.__views.__alloyId485 = Ti.UI.createView({
 >>>>>>> origin/master
+=======
+        id: "__alloyId246"
+    });
+    $.__views.__alloyId245.add($.__views.__alloyId246);
+    online ? $.__views.__alloyId246.addEventListener("click", online) : __defers["$.__views.__alloyId246!click!online"] = true;
+    $.__views.__alloyId247 = Ti.UI.createView({
+>>>>>>> Stashed changes
         layout: "vertical",
         height: "100%",
         width: "auto",
         left: "5",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId524"
     });
@@ -532,11 +705,18 @@ function Controller() {
     $.__views.__alloyId483.add($.__views.__alloyId485);
     $.__views.__alloyId486 = Ti.UI.createView({
 >>>>>>> origin/master
+=======
+        id: "__alloyId247"
+    });
+    $.__views.__alloyId245.add($.__views.__alloyId247);
+    $.__views.__alloyId248 = Ti.UI.createView({
+>>>>>>> Stashed changes
         height: "49%",
         width: "100%",
         bottom: "5",
         backgroundColor: "green",
         backgroundImage: "/images/button_05.png",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId525"
     });
@@ -550,10 +730,18 @@ function Controller() {
     history ? $.__views.__alloyId486.addEventListener("click", history) : __defers["$.__views.__alloyId486!click!history"] = true;
     $.__views.__alloyId487 = Ti.UI.createView({
 >>>>>>> origin/master
+=======
+        id: "__alloyId248"
+    });
+    $.__views.__alloyId247.add($.__views.__alloyId248);
+    history ? $.__views.__alloyId248.addEventListener("click", history) : __defers["$.__views.__alloyId248!click!history"] = true;
+    $.__views.__alloyId249 = Ti.UI.createView({
+>>>>>>> Stashed changes
         layout: "horizontal",
         height: "auto",
         width: "100%",
         top: "5",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId526"
     });
@@ -565,11 +753,18 @@ function Controller() {
     $.__views.__alloyId485.add($.__views.__alloyId487);
     $.__views.__alloyId488 = Ti.UI.createView({
 >>>>>>> origin/master
+=======
+        id: "__alloyId249"
+    });
+    $.__views.__alloyId247.add($.__views.__alloyId249);
+    $.__views.__alloyId250 = Ti.UI.createView({
+>>>>>>> Stashed changes
         height: "100%",
         width: "49%",
         right: "5",
         backgroundColor: "purple",
         backgroundImage: "/images/button_06.png",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId527"
     });
@@ -583,11 +778,19 @@ function Controller() {
     contact ? $.__views.__alloyId488.addEventListener("click", contact) : __defers["$.__views.__alloyId488!click!contact"] = true;
     $.__views.__alloyId489 = Ti.UI.createView({
 >>>>>>> origin/master
+=======
+        id: "__alloyId250"
+    });
+    $.__views.__alloyId249.add($.__views.__alloyId250);
+    contact ? $.__views.__alloyId250.addEventListener("click", contact) : __defers["$.__views.__alloyId250!click!contact"] = true;
+    $.__views.__alloyId251 = Ti.UI.createView({
+>>>>>>> Stashed changes
         height: "100%",
         width: "auto",
         left: "5",
         backgroundColor: "gray",
         backgroundImage: "/images/button_07.png",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId528"
     });
@@ -599,11 +802,18 @@ function Controller() {
     $.__views.__alloyId487.add($.__views.__alloyId489);
     setting ? $.__views.__alloyId489.addEventListener("click", setting) : __defers["$.__views.__alloyId489!click!setting"] = true;
 >>>>>>> origin/master
+=======
+        id: "__alloyId251"
+    });
+    $.__views.__alloyId249.add($.__views.__alloyId251);
+    setting ? $.__views.__alloyId251.addEventListener("click", setting) : __defers["$.__views.__alloyId251!click!setting"] = true;
+>>>>>>> Stashed changes
     exports.destroy = function() {};
     _.extend($, $.__views);
     arguments[0] || {};
     Ti.App.Properties.setString("root", "1");
     Ti.Platform.displayCaps.platformHeight;
+<<<<<<< Updated upstream
     $.forgotLine.width = $.forgotText.getWidth();
     $.registerLine.width = $.registerText.getWidth();
     console.log("android");
@@ -640,6 +850,18 @@ function Controller() {
     __defers["$.__views.__alloyId488!click!contact"] && $.__views.__alloyId488.addEventListener("click", contact);
     __defers["$.__views.__alloyId489!click!setting"] && $.__views.__alloyId489.addEventListener("click", setting);
 >>>>>>> origin/master
+=======
+    __defers["$.__views.__alloyId229!click!close"] && $.__views.__alloyId229.addEventListener("click", close);
+    __defers["$.__views.__alloyId237!click!login"] && $.__views.__alloyId237.addEventListener("click", login);
+    __defers["$.__views.__alloyId239!click!register"] && $.__views.__alloyId239.addEventListener("click", register);
+    __defers["$.__views.__alloyId241!click!myAccount"] && $.__views.__alloyId241.addEventListener("click", myAccount);
+    __defers["$.__views.__alloyId243!click!promoNews"] && $.__views.__alloyId243.addEventListener("click", promoNews);
+    __defers["$.__views.__alloyId244!click!product"] && $.__views.__alloyId244.addEventListener("click", product);
+    __defers["$.__views.__alloyId246!click!online"] && $.__views.__alloyId246.addEventListener("click", online);
+    __defers["$.__views.__alloyId248!click!history"] && $.__views.__alloyId248.addEventListener("click", history);
+    __defers["$.__views.__alloyId250!click!contact"] && $.__views.__alloyId250.addEventListener("click", contact);
+    __defers["$.__views.__alloyId251!click!setting"] && $.__views.__alloyId251.addEventListener("click", setting);
+>>>>>>> Stashed changes
     _.extend($, exports);
 }
 

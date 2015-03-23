@@ -8,6 +8,7 @@ function __processArg(obj, key) {
 }
 
 function Controller() {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
     function login(e) {
@@ -29,6 +30,8 @@ function Controller() {
         console.log("google");
     }
 >>>>>>> origin/master
+=======
+>>>>>>> Stashed changes
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "settings";
     if (arguments[0]) {
@@ -44,6 +47,7 @@ function Controller() {
     }
     var $ = this;
     var exports = {};
+<<<<<<< Updated upstream
     var __defers = {};
     $.__views.win = Ti.UI.createView({
         layout: "vertical",
@@ -449,6 +453,10 @@ function Controller() {
     __defers["$.__views.__alloyId2106!click!twitter"] && $.__views.__alloyId2106.addEventListener("click", twitter);
     __defers["$.__views.__alloyId2110!click!google"] && $.__views.__alloyId2110.addEventListener("click", google);
 >>>>>>> origin/master
+=======
+    exports.destroy = function() {};
+    _.extend($, $.__views);
+>>>>>>> Stashed changes
     _.extend($, exports);
 }
 

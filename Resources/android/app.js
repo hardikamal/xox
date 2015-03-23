@@ -41,8 +41,11 @@ var Alloy = require("alloy"), _ = Alloy._, Backbone = Alloy.Backbone;
 
 Alloy.Globals.menuType = "1";
 
+<<<<<<< Updated upstream
 Alloy.Globals.userPlan;
 
+=======
+>>>>>>> Stashed changes
 var API = require("api");
 
 var DRAWER = require("drawer");

@@ -40,10 +40,13 @@ function Controller() {
 
           case 7:
             DRAWER.navigation("home", 2);
+<<<<<<< Updated upstream
             break;
 
           case 8:
             DRAWER.navigation("familyFriend", 2);
+=======
+>>>>>>> Stashed changes
         }
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
@@ -67,6 +70,7 @@ function Controller() {
         id: "menu"
     });
     $.__views.menu && $.addTopLevelView($.__views.menu);
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     var __alloyId1146 = [];
     $.__views.__alloyId1147 = Ti.UI.createTableViewRow({
@@ -84,6 +88,15 @@ function Controller() {
     __alloyId978.push($.__views.__alloyId979);
     $.__views.__alloyId980 = Ti.UI.createLabel({
 >>>>>>> origin/master
+=======
+    var __alloyId266 = [];
+    $.__views.__alloyId267 = Ti.UI.createTableViewRow({
+        height: "50",
+        id: "__alloyId267"
+    });
+    __alloyId266.push($.__views.__alloyId267);
+    $.__views.__alloyId268 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         width: Ti.UI.FILL,
         left: 20,
         color: "#ffffff",
@@ -94,6 +107,7 @@ function Controller() {
         },
         text: "My Account",
         apiName: "Button",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId1148"
     });
@@ -115,6 +129,17 @@ function Controller() {
     __alloyId978.push($.__views.__alloyId981);
     $.__views.__alloyId982 = Ti.UI.createLabel({
 >>>>>>> origin/master
+=======
+        id: "__alloyId268"
+    });
+    $.__views.__alloyId267.add($.__views.__alloyId268);
+    $.__views.__alloyId269 = Ti.UI.createTableViewRow({
+        height: "50",
+        id: "__alloyId269"
+    });
+    __alloyId266.push($.__views.__alloyId269);
+    $.__views.__alloyId270 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         width: Ti.UI.FILL,
         left: 20,
         color: "#ffffff",
@@ -125,6 +150,7 @@ function Controller() {
         },
         text: "Promo / News",
         apiName: "Button",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId1150"
     });
@@ -146,6 +172,17 @@ function Controller() {
     __alloyId978.push($.__views.__alloyId983);
     $.__views.__alloyId984 = Ti.UI.createLabel({
 >>>>>>> origin/master
+=======
+        id: "__alloyId270"
+    });
+    $.__views.__alloyId269.add($.__views.__alloyId270);
+    $.__views.__alloyId271 = Ti.UI.createTableViewRow({
+        height: "50",
+        id: "__alloyId271"
+    });
+    __alloyId266.push($.__views.__alloyId271);
+    $.__views.__alloyId272 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         width: Ti.UI.FILL,
         left: 20,
         color: "#ffffff",
@@ -156,6 +193,7 @@ function Controller() {
         },
         text: "Products",
         apiName: "Button",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId1152"
     });
@@ -177,6 +215,17 @@ function Controller() {
     __alloyId978.push($.__views.__alloyId985);
     $.__views.__alloyId986 = Ti.UI.createLabel({
 >>>>>>> origin/master
+=======
+        id: "__alloyId272"
+    });
+    $.__views.__alloyId271.add($.__views.__alloyId272);
+    $.__views.__alloyId273 = Ti.UI.createTableViewRow({
+        height: "50",
+        id: "__alloyId273"
+    });
+    __alloyId266.push($.__views.__alloyId273);
+    $.__views.__alloyId274 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         width: Ti.UI.FILL,
         left: 20,
         color: "#ffffff",
@@ -187,6 +236,7 @@ function Controller() {
         },
         text: "Online Purchases",
         apiName: "Button",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId1154"
     });
@@ -208,6 +258,17 @@ function Controller() {
     __alloyId978.push($.__views.__alloyId987);
     $.__views.__alloyId988 = Ti.UI.createLabel({
 >>>>>>> origin/master
+=======
+        id: "__alloyId274"
+    });
+    $.__views.__alloyId273.add($.__views.__alloyId274);
+    $.__views.__alloyId275 = Ti.UI.createTableViewRow({
+        height: "50",
+        id: "__alloyId275"
+    });
+    __alloyId266.push($.__views.__alloyId275);
+    $.__views.__alloyId276 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         width: Ti.UI.FILL,
         left: 20,
         color: "#ffffff",
@@ -218,6 +279,7 @@ function Controller() {
         },
         text: "Ordering History",
         apiName: "Button",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId1156"
     });
@@ -239,6 +301,17 @@ function Controller() {
     __alloyId978.push($.__views.__alloyId989);
     $.__views.__alloyId990 = Ti.UI.createLabel({
 >>>>>>> origin/master
+=======
+        id: "__alloyId276"
+    });
+    $.__views.__alloyId275.add($.__views.__alloyId276);
+    $.__views.__alloyId277 = Ti.UI.createTableViewRow({
+        height: "50",
+        id: "__alloyId277"
+    });
+    __alloyId266.push($.__views.__alloyId277);
+    $.__views.__alloyId278 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         width: Ti.UI.FILL,
         left: 20,
         color: "#ffffff",
@@ -249,6 +322,7 @@ function Controller() {
         },
         text: "Contact",
         apiName: "Button",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId1158"
     });
@@ -270,6 +344,17 @@ function Controller() {
     __alloyId978.push($.__views.__alloyId991);
     $.__views.__alloyId992 = Ti.UI.createLabel({
 >>>>>>> origin/master
+=======
+        id: "__alloyId278"
+    });
+    $.__views.__alloyId277.add($.__views.__alloyId278);
+    $.__views.__alloyId279 = Ti.UI.createTableViewRow({
+        height: "50",
+        id: "__alloyId279"
+    });
+    __alloyId266.push($.__views.__alloyId279);
+    $.__views.__alloyId280 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         width: Ti.UI.FILL,
         left: 20,
         color: "#ffffff",
@@ -280,6 +365,7 @@ function Controller() {
         },
         text: "Settings",
         apiName: "Button",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId1160"
     });
@@ -301,6 +387,17 @@ function Controller() {
     __alloyId978.push($.__views.__alloyId993);
     $.__views.__alloyId994 = Ti.UI.createLabel({
 >>>>>>> origin/master
+=======
+        id: "__alloyId280"
+    });
+    $.__views.__alloyId279.add($.__views.__alloyId280);
+    $.__views.__alloyId281 = Ti.UI.createTableViewRow({
+        height: "50",
+        id: "__alloyId281"
+    });
+    __alloyId266.push($.__views.__alloyId281);
+    $.__views.__alloyId282 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         width: Ti.UI.FILL,
         left: 20,
         color: "#ffffff",
@@ -311,6 +408,7 @@ function Controller() {
         },
         text: "Home",
         apiName: "Button",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId1162"
     });
@@ -341,6 +439,12 @@ function Controller() {
     $.__views.__alloyId993.add($.__views.__alloyId994);
     $.__views.__alloyId977 = Ti.UI.createTableView({
 >>>>>>> origin/master
+=======
+        id: "__alloyId282"
+    });
+    $.__views.__alloyId281.add($.__views.__alloyId282);
+    $.__views.__alloyId265 = Ti.UI.createTableView({
+>>>>>>> Stashed changes
         separatorColor: "#454545",
         backgroundColor: "#262626",
         top: 50,
@@ -348,6 +452,7 @@ function Controller() {
             left: 0,
             right: 0
         },
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         data: __alloyId1146,
         id: "__alloyId1145"
@@ -369,6 +474,17 @@ function Controller() {
     arguments[0] || {};
     __defers["$.__views.__alloyId977!click!navMenu"] && $.__views.__alloyId977.addEventListener("click", navMenu);
 >>>>>>> origin/master
+=======
+        data: __alloyId266,
+        id: "__alloyId265"
+    });
+    $.__views.menu.add($.__views.__alloyId265);
+    navMenu ? $.__views.__alloyId265.addEventListener("click", navMenu) : __defers["$.__views.__alloyId265!click!navMenu"] = true;
+    exports.destroy = function() {};
+    _.extend($, $.__views);
+    arguments[0] || {};
+    __defers["$.__views.__alloyId265!click!navMenu"] && $.__views.__alloyId265.addEventListener("click", navMenu);
+>>>>>>> Stashed changes
     _.extend($, exports);
 }
 

@@ -9,6 +9,7 @@ function __processArg(obj, key) {
 
 function Controller() {
     function back() {
+<<<<<<< Updated upstream
         DRAWER.navigation("myAccount", 1);
     }
     function paymentPostpaid() {
@@ -16,6 +17,13 @@ function Controller() {
     }
     function paymentPrepaid() {
         DRAWER.navigation("payment3", 1);
+=======
+        DRAWER.navigation("myAccount", 2);
+    }
+    function paymentValue(e) {
+        Ti.App.Properties.setString("amount", e.source.mod);
+        DRAWER.navigation("payment2", 2);
+>>>>>>> Stashed changes
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "payment";
@@ -40,6 +48,7 @@ function Controller() {
         id: "payment"
     });
     $.__views.payment && $.addTopLevelView($.__views.payment);
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     $.__views.__alloyId1403 = Alloy.createController("_header", {
         id: "__alloyId1403",
@@ -69,10 +78,26 @@ function Controller() {
     $.__views.payment.add($.__views.__alloyId1233);
     $.__views.__alloyId1234 = Ti.UI.createLabel({
 >>>>>>> origin/master
+=======
+    $.__views.__alloyId394 = Alloy.createController("_header", {
+        id: "__alloyId394",
+        __parentSymbol: $.__views.payment
+    });
+    $.__views.__alloyId394.setParent($.__views.payment);
+    $.__views.__alloyId395 = Ti.UI.createView({
+        layout: "composite",
+        height: "50",
+        backgroundColor: "#E91D2F",
+        id: "__alloyId395"
+    });
+    $.__views.payment.add($.__views.__alloyId395);
+    $.__views.__alloyId396 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         text: "Payment",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId1405"
     });
@@ -84,11 +109,18 @@ function Controller() {
     $.__views.__alloyId1233.add($.__views.__alloyId1234);
     $.__views.__alloyId1235 = Ti.UI.createImageView({
 >>>>>>> origin/master
+=======
+        id: "__alloyId396"
+    });
+    $.__views.__alloyId395.add($.__views.__alloyId396);
+    $.__views.__alloyId397 = Ti.UI.createImageView({
+>>>>>>> Stashed changes
         backgroundColor: "transparent",
         width: "30",
         height: "30",
         right: "10",
         image: "/images/close_icon.png",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId1406"
     });
@@ -100,6 +132,12 @@ function Controller() {
     $.__views.__alloyId1233.add($.__views.__alloyId1235);
     back ? $.__views.__alloyId1235.addEventListener("click", back) : __defers["$.__views.__alloyId1235!click!back"] = true;
 >>>>>>> origin/master
+=======
+        id: "__alloyId397"
+    });
+    $.__views.__alloyId395.add($.__views.__alloyId397);
+    back ? $.__views.__alloyId397.addEventListener("click", back) : __defers["$.__views.__alloyId397!click!back"] = true;
+>>>>>>> Stashed changes
     $.__views.scrollView = Ti.UI.createScrollView({
         id: "scrollView",
         layout: "vertical",
@@ -107,6 +145,7 @@ function Controller() {
         backgroundColor: "white"
     });
     $.__views.payment.add($.__views.scrollView);
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     $.__views.__alloyId1407 = Ti.UI.createView({
 =======
@@ -271,6 +310,146 @@ function Controller() {
     __defers["$.__views.__alloyId1241!click!paymentPrepaid"] && $.__views.__alloyId1241.addEventListener("click", paymentPrepaid);
     __defers["$.__views.__alloyId1243!click!paymentPrepaid"] && $.__views.__alloyId1243.addEventListener("click", paymentPrepaid);
 >>>>>>> origin/master
+=======
+    $.__views.__alloyId398 = Ti.UI.createLabel({
+        text: "Current Balance (RM)",
+        color: "black",
+        top: "20",
+        id: "__alloyId398"
+    });
+    $.__views.scrollView.add($.__views.__alloyId398);
+    $.__views.__alloyId399 = Ti.UI.createLabel({
+        text: "85.05",
+        color: "black",
+        textAlign: "center",
+        id: "__alloyId399"
+    });
+    $.__views.scrollView.add($.__views.__alloyId399);
+    $.__views.__alloyId400 = Ti.UI.createView({
+        backgroundColor: "#F1F1F1",
+        width: "100%",
+        height: "2",
+        top: "10",
+        bottom: "10",
+        id: "__alloyId400"
+    });
+    $.__views.scrollView.add($.__views.__alloyId400);
+    $.__views.__alloyId401 = Ti.UI.createLabel({
+        text: "How much to top up?",
+        color: "black",
+        bottom: "10",
+        id: "__alloyId401"
+    });
+    $.__views.scrollView.add($.__views.__alloyId401);
+    $.__views.__alloyId402 = Ti.UI.createView({
+        layout: "horizontal",
+        height: "20%",
+        width: "90%",
+        id: "__alloyId402"
+    });
+    $.__views.scrollView.add($.__views.__alloyId402);
+    $.__views.__alloyId403 = Ti.UI.createView({
+        backgroundColor: "#4CC4D2",
+        height: "100%",
+        width: "49%",
+        borderRadius: "15",
+        mod: "10",
+        id: "__alloyId403"
+    });
+    $.__views.__alloyId402.add($.__views.__alloyId403);
+    paymentValue ? $.__views.__alloyId403.addEventListener("click", paymentValue) : __defers["$.__views.__alloyId403!click!paymentValue"] = true;
+    $.__views.__alloyId404 = Ti.UI.createLabel({
+        text: "RM 10",
+        color: "white",
+        textAlign: "center",
+        mod: "10",
+        id: "__alloyId404"
+    });
+    $.__views.__alloyId403.add($.__views.__alloyId404);
+    $.__views.__alloyId405 = Ti.UI.createView({
+        backgroundColor: "white",
+        height: "100%",
+        width: "2%",
+        id: "__alloyId405"
+    });
+    $.__views.__alloyId402.add($.__views.__alloyId405);
+    $.__views.__alloyId406 = Ti.UI.createView({
+        backgroundColor: "#4CC4D2",
+        height: "100%",
+        width: "auto",
+        borderRadius: "15",
+        mod: "20",
+        id: "__alloyId406"
+    });
+    $.__views.__alloyId402.add($.__views.__alloyId406);
+    paymentValue ? $.__views.__alloyId406.addEventListener("click", paymentValue) : __defers["$.__views.__alloyId406!click!paymentValue"] = true;
+    $.__views.__alloyId407 = Ti.UI.createLabel({
+        text: "RM 20",
+        color: "white",
+        textAlign: "center",
+        mod: "20",
+        id: "__alloyId407"
+    });
+    $.__views.__alloyId406.add($.__views.__alloyId407);
+    $.__views.__alloyId408 = Ti.UI.createView({
+        layout: "horizontal",
+        height: "20%",
+        width: "90%",
+        top: "10",
+        id: "__alloyId408"
+    });
+    $.__views.scrollView.add($.__views.__alloyId408);
+    $.__views.__alloyId409 = Ti.UI.createView({
+        backgroundColor: "#4CC4D2",
+        height: "100%",
+        width: "49%",
+        borderRadius: "15",
+        mod: "50",
+        id: "__alloyId409"
+    });
+    $.__views.__alloyId408.add($.__views.__alloyId409);
+    paymentValue ? $.__views.__alloyId409.addEventListener("click", paymentValue) : __defers["$.__views.__alloyId409!click!paymentValue"] = true;
+    $.__views.__alloyId410 = Ti.UI.createLabel({
+        text: "RM 50",
+        color: "white",
+        textAlign: "center",
+        mod: "50",
+        id: "__alloyId410"
+    });
+    $.__views.__alloyId409.add($.__views.__alloyId410);
+    $.__views.__alloyId411 = Ti.UI.createView({
+        backgroundColor: "white",
+        height: "100%",
+        width: "2%",
+        id: "__alloyId411"
+    });
+    $.__views.__alloyId408.add($.__views.__alloyId411);
+    $.__views.__alloyId412 = Ti.UI.createView({
+        backgroundColor: "#4CC4D2",
+        height: "100%",
+        width: "auto",
+        borderRadius: "15",
+        mod: "100",
+        id: "__alloyId412"
+    });
+    $.__views.__alloyId408.add($.__views.__alloyId412);
+    paymentValue ? $.__views.__alloyId412.addEventListener("click", paymentValue) : __defers["$.__views.__alloyId412!click!paymentValue"] = true;
+    $.__views.__alloyId413 = Ti.UI.createLabel({
+        text: "RM 100",
+        color: "white",
+        textAlign: "center",
+        mod: "100",
+        id: "__alloyId413"
+    });
+    $.__views.__alloyId412.add($.__views.__alloyId413);
+    exports.destroy = function() {};
+    _.extend($, $.__views);
+    __defers["$.__views.__alloyId397!click!back"] && $.__views.__alloyId397.addEventListener("click", back);
+    __defers["$.__views.__alloyId403!click!paymentValue"] && $.__views.__alloyId403.addEventListener("click", paymentValue);
+    __defers["$.__views.__alloyId406!click!paymentValue"] && $.__views.__alloyId406.addEventListener("click", paymentValue);
+    __defers["$.__views.__alloyId409!click!paymentValue"] && $.__views.__alloyId409.addEventListener("click", paymentValue);
+    __defers["$.__views.__alloyId412!click!paymentValue"] && $.__views.__alloyId412.addEventListener("click", paymentValue);
+>>>>>>> Stashed changes
     _.extend($, exports);
 }
 

@@ -55,6 +55,7 @@ function Controller() {
         id: "seasonPass"
     });
     $.__views.seasonPass && $.addTopLevelView($.__views.seasonPass);
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     $.__views.__alloyId2171 = Alloy.createController("_header", {
         id: "__alloyId2171",
@@ -84,10 +85,26 @@ function Controller() {
     $.__views.seasonPass.add($.__views.__alloyId1983);
     $.__views.__alloyId1984 = Ti.UI.createLabel({
 >>>>>>> origin/master
+=======
+    $.__views.__alloyId593 = Alloy.createController("_header", {
+        id: "__alloyId593",
+        __parentSymbol: $.__views.seasonPass
+    });
+    $.__views.__alloyId593.setParent($.__views.seasonPass);
+    $.__views.__alloyId594 = Ti.UI.createView({
+        layout: "composite",
+        height: "50",
+        backgroundColor: "#E82630",
+        id: "__alloyId594"
+    });
+    $.__views.seasonPass.add($.__views.__alloyId594);
+    $.__views.__alloyId595 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         text: "Season Pass",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId2173"
     });
@@ -99,11 +116,18 @@ function Controller() {
     $.__views.__alloyId1983.add($.__views.__alloyId1984);
     $.__views.__alloyId1985 = Ti.UI.createImageView({
 >>>>>>> origin/master
+=======
+        id: "__alloyId595"
+    });
+    $.__views.__alloyId594.add($.__views.__alloyId595);
+    $.__views.__alloyId596 = Ti.UI.createImageView({
+>>>>>>> Stashed changes
         backgroundColor: "transparent",
         width: "30",
         height: "30",
         right: "10",
         image: "/images/close_icon.png",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId2174"
     });
@@ -115,6 +139,12 @@ function Controller() {
     $.__views.__alloyId1983.add($.__views.__alloyId1985);
     back ? $.__views.__alloyId1985.addEventListener("click", back) : __defers["$.__views.__alloyId1985!click!back"] = true;
 >>>>>>> origin/master
+=======
+        id: "__alloyId596"
+    });
+    $.__views.__alloyId594.add($.__views.__alloyId596);
+    back ? $.__views.__alloyId596.addEventListener("click", back) : __defers["$.__views.__alloyId596!click!back"] = true;
+>>>>>>> Stashed changes
     $.__views.menu = Ti.UI.createView({
         id: "menu",
         layout: "horizontal",
@@ -134,6 +164,7 @@ function Controller() {
     });
     $.__views.menu.add($.__views.lbl1);
     goSlide ? $.__views.lbl1.addEventListener("touchend", goSlide) : __defers["$.__views.lbl1!touchend!goSlide"] = true;
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     $.__views.__alloyId2175 = Ti.UI.createView({
         backgroundColor: "#E7E7E7",
@@ -151,6 +182,15 @@ function Controller() {
     });
     $.__views.menu.add($.__views.__alloyId1986);
 >>>>>>> origin/master
+=======
+    $.__views.__alloyId597 = Ti.UI.createView({
+        backgroundColor: "#E7E7E7",
+        height: "100%",
+        width: "0.45%",
+        id: "__alloyId597"
+    });
+    $.__views.menu.add($.__views.__alloyId597);
+>>>>>>> Stashed changes
     $.__views.lbl2 = Ti.UI.createLabel({
         text: "DATA PACKAGE",
         id: "lbl2",
@@ -163,6 +203,7 @@ function Controller() {
     });
     $.__views.menu.add($.__views.lbl2);
     goSlide ? $.__views.lbl2.addEventListener("touchend", goSlide) : __defers["$.__views.lbl2!touchend!goSlide"] = true;
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     $.__views.__alloyId2176 = Ti.UI.createView({
         backgroundColor: "#E7E7E7",
@@ -180,6 +221,15 @@ function Controller() {
     });
     $.__views.menu.add($.__views.__alloyId1987);
 >>>>>>> origin/master
+=======
+    $.__views.__alloyId598 = Ti.UI.createView({
+        backgroundColor: "#E7E7E7",
+        height: "100%",
+        width: "0.45%",
+        id: "__alloyId598"
+    });
+    $.__views.menu.add($.__views.__alloyId598);
+>>>>>>> Stashed changes
     $.__views.lbl3 = Ti.UI.createLabel({
         text: "COMBO PACKAGE",
         id: "lbl3",
@@ -192,6 +242,7 @@ function Controller() {
     });
     $.__views.menu.add($.__views.lbl3);
     goSlide ? $.__views.lbl3.addEventListener("touchend", goSlide) : __defers["$.__views.lbl3!touchend!goSlide"] = true;
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     var __alloyId2177 = [];
     $.__views.__alloyId2178 = Alloy.createController("seasonPass1", {
@@ -243,6 +294,32 @@ function Controller() {
     $.__views.scrollableView = Ti.UI.createScrollableView({
         views: __alloyId1988,
 >>>>>>> origin/master
+=======
+    var __alloyId599 = [];
+    $.__views.__alloyId600 = Alloy.createController("seasonPass1", {
+        id: "__alloyId600",
+        __parentSymbol: __parentSymbol
+    });
+    __alloyId599.push($.__views.__alloyId600.getViewEx({
+        recurse: true
+    }));
+    $.__views.__alloyId601 = Alloy.createController("seasonPass2", {
+        id: "__alloyId601",
+        __parentSymbol: __parentSymbol
+    });
+    __alloyId599.push($.__views.__alloyId601.getViewEx({
+        recurse: true
+    }));
+    $.__views.__alloyId602 = Alloy.createController("seasonPass3", {
+        id: "__alloyId602",
+        __parentSymbol: __parentSymbol
+    });
+    __alloyId599.push($.__views.__alloyId602.getViewEx({
+        recurse: true
+    }));
+    $.__views.scrollableView = Ti.UI.createScrollableView({
+        views: __alloyId599,
+>>>>>>> Stashed changes
         id: "scrollableView",
         showPagingControl: "false",
         scrollingEnabled: "false"
@@ -250,11 +327,15 @@ function Controller() {
     $.__views.seasonPass.add($.__views.scrollableView);
     exports.destroy = function() {};
     _.extend($, $.__views);
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     __defers["$.__views.__alloyId2174!click!back"] && $.__views.__alloyId2174.addEventListener("click", back);
 =======
     __defers["$.__views.__alloyId1985!click!back"] && $.__views.__alloyId1985.addEventListener("click", back);
 >>>>>>> origin/master
+=======
+    __defers["$.__views.__alloyId596!click!back"] && $.__views.__alloyId596.addEventListener("click", back);
+>>>>>>> Stashed changes
     __defers["$.__views.lbl1!touchend!goSlide"] && $.__views.lbl1.addEventListener("touchend", goSlide);
     __defers["$.__views.lbl2!touchend!goSlide"] && $.__views.lbl2.addEventListener("touchend", goSlide);
     __defers["$.__views.lbl3!touchend!goSlide"] && $.__views.lbl3.addEventListener("touchend", goSlide);

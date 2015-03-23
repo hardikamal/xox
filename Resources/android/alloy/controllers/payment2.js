@@ -9,6 +9,7 @@ function __processArg(obj, key) {
 
 function Controller() {
     function back() {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         DRAWER.navigation("payment", 1);
 =======
@@ -21,6 +22,13 @@ function Controller() {
     function paymentType(e) {
         console.log("paymentType");
         paymentType = e.row.title;
+=======
+        DRAWER.navigation("payment", 2);
+    }
+    function paymentMethod(e) {
+        Ti.App.Properties.setString("method", e.source.mod);
+        DRAWER.navigation("payment3", 2);
+>>>>>>> Stashed changes
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "payment2";
@@ -38,13 +46,18 @@ function Controller() {
     var $ = this;
     var exports = {};
     var __defers = {};
+<<<<<<< Updated upstream
     $.__views.payment2 = Ti.UI.createScrollView({
+=======
+    $.__views.payment2 = Ti.UI.createView({
+>>>>>>> Stashed changes
         backgroundColor: "white",
         layout: "vertical",
         fullscreen: "true",
         id: "payment2"
     });
     $.__views.payment2 && $.addTopLevelView($.__views.payment2);
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     $.__views.__alloyId1415 = Alloy.createController("_header", {
         id: "__alloyId1415",
@@ -74,10 +87,26 @@ function Controller() {
     $.__views.payment2.add($.__views.__alloyId1245);
     $.__views.__alloyId1246 = Ti.UI.createLabel({
 >>>>>>> origin/master
+=======
+    $.__views.__alloyId414 = Alloy.createController("_header", {
+        id: "__alloyId414",
+        __parentSymbol: $.__views.payment2
+    });
+    $.__views.__alloyId414.setParent($.__views.payment2);
+    $.__views.__alloyId415 = Ti.UI.createView({
+        layout: "composite",
+        height: "50",
+        backgroundColor: "#E91D2F",
+        id: "__alloyId415"
+    });
+    $.__views.payment2.add($.__views.__alloyId415);
+    $.__views.__alloyId416 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         text: "Payment",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId1417"
     });
@@ -89,11 +118,18 @@ function Controller() {
     $.__views.__alloyId1245.add($.__views.__alloyId1246);
     $.__views.__alloyId1247 = Ti.UI.createImageView({
 >>>>>>> origin/master
+=======
+        id: "__alloyId416"
+    });
+    $.__views.__alloyId415.add($.__views.__alloyId416);
+    $.__views.__alloyId417 = Ti.UI.createImageView({
+>>>>>>> Stashed changes
         backgroundColor: "transparent",
         width: "30",
         height: "30",
         right: "10",
         image: "/images/close_icon.png",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         id: "__alloyId1418"
     });
@@ -403,6 +439,69 @@ function Controller() {
     __defers["$.__views.picker!change!paymentType"] && $.__views.picker.addEventListener("change", paymentType);
     __defers["$.__views.__alloyId1265!click!proceed"] && $.__views.__alloyId1265.addEventListener("click", proceed);
 >>>>>>> origin/master
+=======
+        id: "__alloyId417"
+    });
+    $.__views.__alloyId415.add($.__views.__alloyId417);
+    back ? $.__views.__alloyId417.addEventListener("click", back) : __defers["$.__views.__alloyId417!click!back"] = true;
+    $.__views.scrollView = Ti.UI.createScrollView({
+        id: "scrollView",
+        layout: "vertical",
+        width: "100%",
+        backgroundColor: "white"
+    });
+    $.__views.payment2.add($.__views.scrollView);
+    $.__views.__alloyId418 = Ti.UI.createLabel({
+        text: "Choose payment method:",
+        color: "black",
+        top: "20",
+        id: "__alloyId418"
+    });
+    $.__views.scrollView.add($.__views.__alloyId418);
+    $.__views.__alloyId419 = Ti.UI.createView({
+        backgroundColor: "#4CC4D2",
+        height: "20%",
+        width: "90%",
+        top: "10",
+        mod: "Online Banking",
+        borderRadius: "15",
+        id: "__alloyId419"
+    });
+    $.__views.scrollView.add($.__views.__alloyId419);
+    paymentMethod ? $.__views.__alloyId419.addEventListener("click", paymentMethod) : __defers["$.__views.__alloyId419!click!paymentMethod"] = true;
+    $.__views.__alloyId420 = Ti.UI.createLabel({
+        text: "Online Banking",
+        color: "white",
+        textAlign: "center",
+        mod: "10",
+        id: "__alloyId420"
+    });
+    $.__views.__alloyId419.add($.__views.__alloyId420);
+    $.__views.__alloyId421 = Ti.UI.createView({
+        backgroundColor: "#4CC4D2",
+        height: "20%",
+        width: "90%",
+        top: "10",
+        mod: "Credit Card",
+        borderRadius: "15",
+        id: "__alloyId421"
+    });
+    $.__views.scrollView.add($.__views.__alloyId421);
+    paymentMethod ? $.__views.__alloyId421.addEventListener("click", paymentMethod) : __defers["$.__views.__alloyId421!click!paymentMethod"] = true;
+    $.__views.__alloyId422 = Ti.UI.createLabel({
+        text: "Credit Card",
+        color: "white",
+        textAlign: "center",
+        mod: "10",
+        id: "__alloyId422"
+    });
+    $.__views.__alloyId421.add($.__views.__alloyId422);
+    exports.destroy = function() {};
+    _.extend($, $.__views);
+    __defers["$.__views.__alloyId417!click!back"] && $.__views.__alloyId417.addEventListener("click", back);
+    __defers["$.__views.__alloyId419!click!paymentMethod"] && $.__views.__alloyId419.addEventListener("click", paymentMethod);
+    __defers["$.__views.__alloyId421!click!paymentMethod"] && $.__views.__alloyId421.addEventListener("click", paymentMethod);
+>>>>>>> Stashed changes
     _.extend($, exports);
 }
 

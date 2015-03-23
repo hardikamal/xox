@@ -60,6 +60,7 @@ function Controller() {
         backgroundColor: "white"
     });
     $.__views.win && $.addTopLevelView($.__views.win);
+<<<<<<< Updated upstream
     $.__views.__alloyId88 = Alloy.createController("_header", {
         id: "__alloyId88",
         __parentSymbol: $.__views.win
@@ -72,13 +73,33 @@ function Controller() {
     });
     $.__views.win.add($.__views.__alloyId89);
     $.__views.__alloyId90 = Ti.UI.createLabel({
+=======
+    $.__views.__alloyId43 = Alloy.createController("_header", {
+        id: "__alloyId43",
+        __parentSymbol: $.__views.win
+    });
+    $.__views.__alloyId43.setParent($.__views.win);
+    $.__views.__alloyId44 = Ti.UI.createView({
+        height: "20%",
+        backgroundColor: "#836EAF",
+        id: "__alloyId44"
+    });
+    $.__views.win.add($.__views.__alloyId44);
+    $.__views.__alloyId45 = Ti.UI.createLabel({
+>>>>>>> Stashed changes
         text: "Contact us",
         left: "10",
         top: "10",
         color: "white",
+<<<<<<< Updated upstream
         id: "__alloyId90"
     });
     $.__views.__alloyId89.add($.__views.__alloyId90);
+=======
+        id: "__alloyId45"
+    });
+    $.__views.__alloyId44.add($.__views.__alloyId45);
+>>>>>>> Stashed changes
     $.__views.menu = Ti.UI.createView({
         id: "menu",
         layout: "horizontal",
@@ -98,6 +119,7 @@ function Controller() {
     });
     $.__views.menu.add($.__views.lbl1);
     goSlide ? $.__views.lbl1.addEventListener("touchend", goSlide) : __defers["$.__views.lbl1!touchend!goSlide"] = true;
+<<<<<<< Updated upstream
     $.__views.__alloyId91 = Ti.UI.createView({
         backgroundColor: "#4CC4D2",
         height: "100%",
@@ -105,6 +127,15 @@ function Controller() {
         id: "__alloyId91"
     });
     $.__views.menu.add($.__views.__alloyId91);
+=======
+    $.__views.__alloyId46 = Ti.UI.createView({
+        backgroundColor: "#4CC4D2",
+        height: "100%",
+        width: "0.45%",
+        id: "__alloyId46"
+    });
+    $.__views.menu.add($.__views.__alloyId46);
+>>>>>>> Stashed changes
     $.__views.lbl2 = Ti.UI.createLabel({
         text: "Care Center",
         id: "lbl2",
@@ -117,6 +148,7 @@ function Controller() {
     });
     $.__views.menu.add($.__views.lbl2);
     goSlide ? $.__views.lbl2.addEventListener("touchend", goSlide) : __defers["$.__views.lbl2!touchend!goSlide"] = true;
+<<<<<<< Updated upstream
     $.__views.__alloyId92 = Ti.UI.createView({
         backgroundColor: "#4CC4D2",
         height: "100%",
@@ -124,6 +156,15 @@ function Controller() {
         id: "__alloyId92"
     });
     $.__views.menu.add($.__views.__alloyId92);
+=======
+    $.__views.__alloyId47 = Ti.UI.createView({
+        backgroundColor: "#4CC4D2",
+        height: "100%",
+        width: "0.45%",
+        id: "__alloyId47"
+    });
+    $.__views.menu.add($.__views.__alloyId47);
+>>>>>>> Stashed changes
     $.__views.lbl3 = Ti.UI.createLabel({
         text: "XOX Dealers",
         id: "lbl3",
@@ -136,6 +177,7 @@ function Controller() {
     });
     $.__views.menu.add($.__views.lbl3);
     goSlide ? $.__views.lbl3.addEventListener("touchend", goSlide) : __defers["$.__views.lbl3!touchend!goSlide"] = true;
+<<<<<<< Updated upstream
     var __alloyId93 = [];
     $.__views.__alloyId94 = Alloy.createController("contact1", {
         id: "__alloyId94",
@@ -160,6 +202,32 @@ function Controller() {
     }));
     $.__views.scrollableView = Ti.UI.createScrollableView({
         views: __alloyId93,
+=======
+    var __alloyId48 = [];
+    $.__views.__alloyId49 = Alloy.createController("contact1", {
+        id: "__alloyId49",
+        __parentSymbol: __parentSymbol
+    });
+    __alloyId48.push($.__views.__alloyId49.getViewEx({
+        recurse: true
+    }));
+    $.__views.__alloyId50 = Alloy.createController("contact2", {
+        id: "__alloyId50",
+        __parentSymbol: __parentSymbol
+    });
+    __alloyId48.push($.__views.__alloyId50.getViewEx({
+        recurse: true
+    }));
+    $.__views.__alloyId51 = Alloy.createController("contact3", {
+        id: "__alloyId51",
+        __parentSymbol: __parentSymbol
+    });
+    __alloyId48.push($.__views.__alloyId51.getViewEx({
+        recurse: true
+    }));
+    $.__views.scrollableView = Ti.UI.createScrollableView({
+        views: __alloyId48,
+>>>>>>> Stashed changes
         id: "scrollableView",
         showPagingControl: "false",
         scrollingEnabled: "false"
