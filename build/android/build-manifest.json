@@ -2,7 +2,7 @@
 	"target": "device",
 	"deployType": "test",
 	"classname": "Xox",
-	"platformPath": "/Users/tankeanmeng/Library/Application Support/Titanium/mobilesdk/osx/3.5.0.GA/android",
+	"platformPath": "/Users/chrispang/Library/Application Support/Titanium/mobilesdk/osx/3.5.0.GA/android",
 	"modulesHash": "238afb115a8c0cdc44bf7d65d7c0ebc5",
 	"modulesManifestHash": "bd5be7e6c2f09fd854d8bf9390dec340",
 	"modulesNativeHash": "39b592ad582de3af3b040981876791cc",
@@ -28,5 +28,5 @@
 	"activitiesHash": "d41d8cd98f00b204e9800998ecf8427e",
 	"servicesHash": "d41d8cd98f00b204e9800998ecf8427e",
 	"jssFilesHash": "d41d8cd98f00b204e9800998ecf8427e",
-	"jarLibHash": "f57188bdd371d8b0d5e4622776d39c07"
+	"jarLibHash": "6a3d78bd62033a8352e769a2ba856595"
 }

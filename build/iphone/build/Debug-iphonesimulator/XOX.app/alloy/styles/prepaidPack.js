@@ -1,1 +1,1 @@
-/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/Resources/iphone/alloy/styles/prepaidPack.js
+/Users/george/Documents/Titanium_Studio_Workspace/XOX/Resources/iphone/alloy/styles/prepaidPack.js

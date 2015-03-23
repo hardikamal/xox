@@ -1,1 +1,1 @@
-/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/Resources/iphone/alloy/controllers/subline.js
+/Users/george/Documents/Titanium_Studio_Workspace/XOX/Resources/iphone/alloy/controllers/subline.js

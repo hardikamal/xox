@@ -38,6 +38,7 @@ function Controller() {
         id: "loyalty"
     });
     $.__views.loyalty && $.addTopLevelView($.__views.loyalty);
+<<<<<<< HEAD
     $.__views.__alloyId1099 = Alloy.createController("_header", {
         id: "__alloyId1099",
         __parentSymbol: $.__views.loyalty
@@ -51,19 +52,42 @@ function Controller() {
     });
     $.__views.loyalty.add($.__views.__alloyId1100);
     $.__views.__alloyId1101 = Ti.UI.createLabel({
+=======
+    $.__views.__alloyId638 = Alloy.createController("_header", {
+        id: "__alloyId638",
+        __parentSymbol: $.__views.loyalty
+    });
+    $.__views.__alloyId638.setParent($.__views.loyalty);
+    $.__views.__alloyId639 = Ti.UI.createView({
+        layout: "composite",
+        height: "50",
+        backgroundColor: "#E82630",
+        id: "__alloyId639"
+    });
+    $.__views.loyalty.add($.__views.__alloyId639);
+    $.__views.__alloyId640 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Loyalty",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
+<<<<<<< HEAD
         id: "__alloyId1101"
     });
     $.__views.__alloyId1100.add($.__views.__alloyId1101);
     $.__views.__alloyId1102 = Ti.UI.createImageView({
+=======
+        id: "__alloyId640"
+    });
+    $.__views.__alloyId639.add($.__views.__alloyId640);
+    $.__views.__alloyId641 = Ti.UI.createImageView({
+>>>>>>> origin/master
         backgroundColor: "transparent",
         width: "30",
         height: "30",
         right: "10",
         image: "/images/close_icon.png",
+<<<<<<< HEAD
         id: "__alloyId1102"
     });
     $.__views.__alloyId1100.add($.__views.__alloyId1102);
@@ -82,18 +106,53 @@ function Controller() {
     });
     $.__views.__alloyId1103.add($.__views.__alloyId1104);
     $.__views.__alloyId1105 = Ti.UI.createLabel({
+=======
+        id: "__alloyId641"
+    });
+    $.__views.__alloyId639.add($.__views.__alloyId641);
+    back ? $.__views.__alloyId641.addEventListener("click", back) : __defers["$.__views.__alloyId641!click!back"] = true;
+    $.__views.scrollView = Ti.UI.createScrollView({
+        id: "scrollView",
+        layout: "vertical",
+        width: "100%",
+        backgroundColor: "#E6E7E9"
+    });
+    $.__views.loyalty.add($.__views.scrollView);
+    $.__views.__alloyId642 = Ti.UI.createView({
+        height: "20%",
+        backgroundColor: "white",
+        id: "__alloyId642"
+    });
+    $.__views.scrollView.add($.__views.__alloyId642);
+    $.__views.__alloyId643 = Ti.UI.createView({
+        layout: "vertical",
+        height: Ti.UI.SIZE,
+        backgroundColor: "white",
+        id: "__alloyId643"
+    });
+    $.__views.__alloyId642.add($.__views.__alloyId643);
+    $.__views.__alloyId644 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Your Loyalty Points",
         backgroundColor: "transparent",
         color: "black",
         textAlign: "center",
+<<<<<<< HEAD
         id: "__alloyId1105"
     });
     $.__views.__alloyId1104.add($.__views.__alloyId1105);
     $.__views.__alloyId1106 = Ti.UI.createLabel({
+=======
+        id: "__alloyId644"
+    });
+    $.__views.__alloyId643.add($.__views.__alloyId644);
+    $.__views.__alloyId645 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "8500",
         backgroundColor: "transparent",
         color: "black",
         textAlign: "center",
+<<<<<<< HEAD
         id: "__alloyId1106"
     });
     $.__views.__alloyId1104.add($.__views.__alloyId1106);
@@ -106,6 +165,18 @@ function Controller() {
     $.__views.loyalty.add($.__views.__alloyId1107);
     $.__views.scrollView = Ti.UI.createScrollView({
         id: "scrollView",
+=======
+        id: "__alloyId645"
+    });
+    $.__views.__alloyId643.add($.__views.__alloyId645);
+    $.__views.__alloyId646 = Ti.UI.createView({
+        height: "50%",
+        backgroundColor: "#4CC4D2",
+        id: "__alloyId646"
+    });
+    $.__views.scrollView.add($.__views.__alloyId646);
+    $.__views.__alloyId647 = Ti.UI.createView({
+>>>>>>> origin/master
         layout: "vertical",
         width: "100%"
     });
@@ -114,6 +185,7 @@ function Controller() {
         text: "Because you deserve it.",
         backgroundColor: "transparent",
         height: Ti.UI.SIZE,
+<<<<<<< HEAD
         color: "black",
         textAlign: "left",
         left: "20",
@@ -146,6 +218,39 @@ function Controller() {
     $.__views.scrollView.add($.__views.__alloyId1110);
     $.__views.__alloyId1111 = Ti.UI.createLabel({
         text: "Prepaid and Hybrid plan subscribers automatically get to enjoy this loyalty program. A total accumulation of 10 loyalty points will award you with 1 free outgoing SMS text message. More presents will be coming soon to more of our different plans so stay tuned!",
+=======
+        width: "90%",
+        backgroundColor: "#4CC4D2",
+        id: "__alloyId647"
+    });
+    $.__views.__alloyId646.add($.__views.__alloyId647);
+    $.__views.__alloyId648 = Ti.UI.createImageView({
+        backgroundColor: "yellow",
+        width: "40",
+        height: "30",
+        image: "/images/close_icon.png",
+        id: "__alloyId648"
+    });
+    $.__views.__alloyId647.add($.__views.__alloyId648);
+    $.__views.__alloyId649 = Ti.UI.createLabel({
+        text: "FREE SMS",
+        backgroundColor: "transparent",
+        color: "white",
+        textAlign: "center",
+        id: "__alloyId649"
+    });
+    $.__views.__alloyId647.add($.__views.__alloyId649);
+    $.__views.__alloyId650 = Ti.UI.createLabel({
+        text: "To redeem free SMS with your Loyalty Points:",
+        backgroundColor: "transparent",
+        color: "white",
+        textAlign: "center",
+        id: "__alloyId650"
+    });
+    $.__views.__alloyId647.add($.__views.__alloyId650);
+    $.__views.sms = Ti.UI.createLabel({
+        id: "sms",
+>>>>>>> origin/master
         backgroundColor: "transparent",
         height: Ti.UI.SIZE,
         color: "black",
@@ -166,6 +271,7 @@ function Controller() {
         color: "white",
         id: "__alloyId1113"
     });
+<<<<<<< HEAD
     $.__views.__alloyId1112.add($.__views.__alloyId1113);
     exports.destroy = function() {};
     _.extend($, $.__views);
@@ -176,6 +282,13 @@ function Controller() {
     }
     __defers["$.__views.__alloyId1102!click!back"] && $.__views.__alloyId1102.addEventListener("click", back);
     __defers["$.__views.__alloyId1112!click!loyalty"] && $.__views.__alloyId1112.addEventListener("click", loyalty);
+=======
+    $.__views.__alloyId647.add($.__views.sms);
+    exports.destroy = function() {};
+    _.extend($, $.__views);
+    $.sms.text = "SMS : Key in LYT< space >RED< space >SMS< space >< SMS Amount > send to 23388";
+    __defers["$.__views.__alloyId641!click!back"] && $.__views.__alloyId641.addEventListener("click", back);
+>>>>>>> origin/master
     _.extend($, exports);
 }
 

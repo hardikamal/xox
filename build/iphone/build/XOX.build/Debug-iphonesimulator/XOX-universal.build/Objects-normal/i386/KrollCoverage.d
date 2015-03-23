@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/KrollCoverage.m
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollCoverage.m

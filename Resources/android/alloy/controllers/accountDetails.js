@@ -16,9 +16,12 @@ function Controller() {
     }
     function myProfile() {
         DRAWER.navigation("profile", 1);
+<<<<<<< HEAD
     }
     function statement() {
         console.log("statement");
+=======
+>>>>>>> origin/master
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "accountDetails";
