@@ -9,7 +9,7 @@ function __processArg(obj, key) {
 
 function Controller() {
     function back() {
-        DRAWER.navigation("myAccount", 2);
+        DRAWER.navigation("myAccount", 1);
     }
     function ff() {
         console.log("ff");

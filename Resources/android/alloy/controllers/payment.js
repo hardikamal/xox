@@ -40,36 +40,36 @@ function Controller() {
         id: "payment"
     });
     $.__views.payment && $.addTopLevelView($.__views.payment);
-    $.__views.__alloyId1410 = Alloy.createController("_header", {
-        id: "__alloyId1410",
+    $.__views.__alloyId1459 = Alloy.createController("_header", {
+        id: "__alloyId1459",
         __parentSymbol: $.__views.payment
     });
-    $.__views.__alloyId1410.setParent($.__views.payment);
-    $.__views.__alloyId1411 = Ti.UI.createView({
+    $.__views.__alloyId1459.setParent($.__views.payment);
+    $.__views.__alloyId1460 = Ti.UI.createView({
         layout: "composite",
         height: "50",
         backgroundColor: "#E91D2F",
-        id: "__alloyId1411"
+        id: "__alloyId1460"
     });
-    $.__views.payment.add($.__views.__alloyId1411);
-    $.__views.__alloyId1412 = Ti.UI.createLabel({
+    $.__views.payment.add($.__views.__alloyId1460);
+    $.__views.__alloyId1461 = Ti.UI.createLabel({
         text: "Payment",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
-        id: "__alloyId1412"
+        id: "__alloyId1461"
     });
-    $.__views.__alloyId1411.add($.__views.__alloyId1412);
-    $.__views.__alloyId1413 = Ti.UI.createImageView({
+    $.__views.__alloyId1460.add($.__views.__alloyId1461);
+    $.__views.__alloyId1462 = Ti.UI.createImageView({
         backgroundColor: "transparent",
         width: "30",
         height: "30",
         right: "10",
         image: "/images/close_icon.png",
-        id: "__alloyId1413"
+        id: "__alloyId1462"
     });
-    $.__views.__alloyId1411.add($.__views.__alloyId1413);
-    back ? $.__views.__alloyId1413.addEventListener("click", back) : __defers["$.__views.__alloyId1413!click!back"] = true;
+    $.__views.__alloyId1460.add($.__views.__alloyId1462);
+    back ? $.__views.__alloyId1462.addEventListener("click", back) : __defers["$.__views.__alloyId1462!click!back"] = true;
     $.__views.scrollView = Ti.UI.createScrollView({
         id: "scrollView",
         layout: "vertical",
@@ -77,95 +77,95 @@ function Controller() {
         backgroundColor: "white"
     });
     $.__views.payment.add($.__views.scrollView);
-    $.__views.__alloyId1414 = Ti.UI.createView({
+    $.__views.__alloyId1463 = Ti.UI.createView({
         layout: "horizontal",
         top: "5",
         bottom: "5",
         height: "50",
         width: "100%",
         backgroundColor: "white",
-        id: "__alloyId1414"
+        id: "__alloyId1463"
     });
-    $.__views.scrollView.add($.__views.__alloyId1414);
-    $.__views.__alloyId1415 = Ti.UI.createView({
+    $.__views.scrollView.add($.__views.__alloyId1463);
+    $.__views.__alloyId1464 = Ti.UI.createView({
         width: "80%",
         height: "100%",
-        id: "__alloyId1415"
+        id: "__alloyId1464"
     });
-    $.__views.__alloyId1414.add($.__views.__alloyId1415);
-    paymentPostpaid ? $.__views.__alloyId1415.addEventListener("click", paymentPostpaid) : __defers["$.__views.__alloyId1415!click!paymentPostpaid"] = true;
-    $.__views.__alloyId1416 = Ti.UI.createLabel({
+    $.__views.__alloyId1463.add($.__views.__alloyId1464);
+    paymentPostpaid ? $.__views.__alloyId1464.addEventListener("click", paymentPostpaid) : __defers["$.__views.__alloyId1464!click!paymentPostpaid"] = true;
+    $.__views.__alloyId1465 = Ti.UI.createLabel({
         text: "Pay Postpaid Bill",
         backgroundColor: "transparent",
         color: "black",
         textAlign: "left",
         left: "10",
-        id: "__alloyId1416"
+        id: "__alloyId1465"
     });
-    $.__views.__alloyId1415.add($.__views.__alloyId1416);
-    $.__views.__alloyId1417 = Ti.UI.createView({
+    $.__views.__alloyId1464.add($.__views.__alloyId1465);
+    $.__views.__alloyId1466 = Ti.UI.createView({
         width: "20%",
         height: "100%",
-        id: "__alloyId1417"
+        id: "__alloyId1466"
     });
-    $.__views.__alloyId1414.add($.__views.__alloyId1417);
-    paymentPostpaid ? $.__views.__alloyId1417.addEventListener("click", paymentPostpaid) : __defers["$.__views.__alloyId1417!click!paymentPostpaid"] = true;
+    $.__views.__alloyId1463.add($.__views.__alloyId1466);
+    paymentPostpaid ? $.__views.__alloyId1466.addEventListener("click", paymentPostpaid) : __defers["$.__views.__alloyId1466!click!paymentPostpaid"] = true;
     $.__views.arrow1 = Ti.UI.createImageView({
         id: "arrow1",
         image: "/images/dropdown_icon.png",
         width: "25",
         height: "15"
     });
-    $.__views.__alloyId1417.add($.__views.arrow1);
-    $.__views.__alloyId1418 = Ti.UI.createView({
+    $.__views.__alloyId1466.add($.__views.arrow1);
+    $.__views.__alloyId1467 = Ti.UI.createView({
         layout: "horizontal",
         top: "5",
         bottom: "5",
         height: "50",
         width: "100%",
         backgroundColor: "white",
-        id: "__alloyId1418"
+        id: "__alloyId1467"
     });
-    $.__views.scrollView.add($.__views.__alloyId1418);
-    $.__views.__alloyId1419 = Ti.UI.createView({
+    $.__views.scrollView.add($.__views.__alloyId1467);
+    $.__views.__alloyId1468 = Ti.UI.createView({
         width: "80%",
         height: "100%",
-        id: "__alloyId1419"
+        id: "__alloyId1468"
     });
-    $.__views.__alloyId1418.add($.__views.__alloyId1419);
-    paymentPrepaid ? $.__views.__alloyId1419.addEventListener("click", paymentPrepaid) : __defers["$.__views.__alloyId1419!click!paymentPrepaid"] = true;
-    $.__views.__alloyId1420 = Ti.UI.createLabel({
+    $.__views.__alloyId1467.add($.__views.__alloyId1468);
+    paymentPrepaid ? $.__views.__alloyId1468.addEventListener("click", paymentPrepaid) : __defers["$.__views.__alloyId1468!click!paymentPrepaid"] = true;
+    $.__views.__alloyId1469 = Ti.UI.createLabel({
         text: "Prepaid Top Up",
         backgroundColor: "transparent",
         color: "black",
         textAlign: "left",
         left: "10",
-        id: "__alloyId1420"
+        id: "__alloyId1469"
     });
-    $.__views.__alloyId1419.add($.__views.__alloyId1420);
-    $.__views.__alloyId1421 = Ti.UI.createView({
+    $.__views.__alloyId1468.add($.__views.__alloyId1469);
+    $.__views.__alloyId1470 = Ti.UI.createView({
         width: "20%",
         height: "100%",
-        id: "__alloyId1421"
+        id: "__alloyId1470"
     });
-    $.__views.__alloyId1418.add($.__views.__alloyId1421);
-    paymentPrepaid ? $.__views.__alloyId1421.addEventListener("click", paymentPrepaid) : __defers["$.__views.__alloyId1421!click!paymentPrepaid"] = true;
+    $.__views.__alloyId1467.add($.__views.__alloyId1470);
+    paymentPrepaid ? $.__views.__alloyId1470.addEventListener("click", paymentPrepaid) : __defers["$.__views.__alloyId1470!click!paymentPrepaid"] = true;
     $.__views.arrow2 = Ti.UI.createImageView({
         id: "arrow2",
         image: "/images/dropdown_icon.png",
         width: "25",
         height: "15"
     });
-    $.__views.__alloyId1421.add($.__views.arrow2);
+    $.__views.__alloyId1470.add($.__views.arrow2);
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.arrow1.transform = Ti.UI.create2DMatrix().rotate(-90);
     $.arrow2.transform = Ti.UI.create2DMatrix().rotate(-90);
-    __defers["$.__views.__alloyId1413!click!back"] && $.__views.__alloyId1413.addEventListener("click", back);
-    __defers["$.__views.__alloyId1415!click!paymentPostpaid"] && $.__views.__alloyId1415.addEventListener("click", paymentPostpaid);
-    __defers["$.__views.__alloyId1417!click!paymentPostpaid"] && $.__views.__alloyId1417.addEventListener("click", paymentPostpaid);
-    __defers["$.__views.__alloyId1419!click!paymentPrepaid"] && $.__views.__alloyId1419.addEventListener("click", paymentPrepaid);
-    __defers["$.__views.__alloyId1421!click!paymentPrepaid"] && $.__views.__alloyId1421.addEventListener("click", paymentPrepaid);
+    __defers["$.__views.__alloyId1462!click!back"] && $.__views.__alloyId1462.addEventListener("click", back);
+    __defers["$.__views.__alloyId1464!click!paymentPostpaid"] && $.__views.__alloyId1464.addEventListener("click", paymentPostpaid);
+    __defers["$.__views.__alloyId1466!click!paymentPostpaid"] && $.__views.__alloyId1466.addEventListener("click", paymentPostpaid);
+    __defers["$.__views.__alloyId1468!click!paymentPrepaid"] && $.__views.__alloyId1468.addEventListener("click", paymentPrepaid);
+    __defers["$.__views.__alloyId1470!click!paymentPrepaid"] && $.__views.__alloyId1470.addEventListener("click", paymentPrepaid);
     _.extend($, exports);
 }
 

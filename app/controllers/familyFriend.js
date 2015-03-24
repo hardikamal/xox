@@ -46,7 +46,7 @@ if(Ti.Platform.osname == "android") {
 
 function back()
 {
-	DRAWER.navigation("myAccount",2);
+	DRAWER.navigation("myAccount",1);
 }
 
 function ff()

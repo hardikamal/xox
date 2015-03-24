@@ -18,5 +18,5 @@ Ti.App.addEventListener("clearObject",clearObject);
 
 function back()
 {
-	DRAWER.navigation("myAccount",2);
+	DRAWER.navigation("myAccount",1);
 }

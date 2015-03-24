@@ -15,7 +15,7 @@
 		</View>
 		<ScrollView id="scrollView" layout="vertical" width="90%">
 			<View platform="ios" id="contentView" layout="horizontal"  height="80" top="10" bottom="10">
-				<Label color="black">Salutation</Label>
+				<Label color="black" width="100%" textAlign="left" >Salutation</Label>
 				<View id="pickerContentView" layout="composite" top="10" width="70%">
 					<Label id="salutationLabel" height="30" width="100%" backgroundColor="transparent" borderRadius="5" borderColor="#F2F2F2" color="black" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="10"></Label>
 					<Picker id="picker" height="40" width="100%" height="Ti.UI.SIZE" top="10" bottom="10" selectionIndicator="true" backgroundColor="#EFEFEF" visible="true">
@@ -26,7 +26,7 @@
 				</View>
 			</View>
 			<View platform="android" layout="vertical"  height="80" top="10" bottom="10">
-				<Label color="black">Salutation</Label>
+				<Label color="black" width="100%" textAlign="left">Salutation</Label>
 				<View layout="horizontal">
 					<View layout="composite">
 						<Picker id="picker" onChange="salutationType" width="100%" top="10" bottom="10" borderRadius="5" selectionIndicator="true" backgroundColor="black" visible="true">
@@ -43,7 +43,7 @@
 				<TextField height="40" width="Ti.UI.FILL" top="10" borderColor="#F2F2F2"></TextField>
 			</View>
 			<View platform="ios" id="contentView2" layout="horizontal"  height="80" top="10" bottom="10">
-				<Label color="black">Reg Type</Label>
+				<Label color="black" width="100%" textAlign="left">Reg Type</Label>
 				<View id="pickerContentView2" layout="composite" top="10" width="70%">
 					<Label id="regTypeLabel2" height="30" width="100%" backgroundColor="transparent" borderRadius="5" borderColor="#F2F2F2" color="black" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="10"></Label>
 					<Picker id="picker2" height="40" width="100%" height="Ti.UI.SIZE" top="10" bottom="10" selectionIndicator="true" backgroundColor="#EFEFEF" visible="true">
@@ -54,7 +54,7 @@
 				</View>
 			</View>
 			<View platform="android" layout="vertical"  height="80" top="10" bottom="10">
-				<Label color="black">Reg Type</Label>
+				<Label color="black" width="100%" textAlign="left">Reg Type</Label>
 				<View layout="horizontal">
 					<View layout="composite">
 						<Picker id="picker2" onChange="regType" width="100%" top="10" bottom="10" borderRadius="5" selectionIndicator="true" backgroundColor="black" visible="true">

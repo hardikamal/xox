@@ -1,6 +1,6 @@
 function back()
 {
-	DRAWER.navigation("myAccount",2);
+	DRAWER.navigation("myAccount",1);
 }
 
 function goSlide(event){
