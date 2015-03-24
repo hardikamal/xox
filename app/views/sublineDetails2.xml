@@ -1,0 +1,40 @@
+<Alloy>
+	<View layout="composite">
+		<ScrollView id="scrollView" layout="vertical" scrollType="vertical" backgroundColor="#FFFFFF" top="0" >
+			<View height="50" backgroundColor="gray">
+				<Label backgroundColor="transparent" height="100%" color="black" left="20">Subline Profile</Label>
+			</View>
+			<View layout="horizontal" height="50">
+				<Label width="45%" left="5%" height="100%" backgroundColor="transparent" color="black">Mobile Number</Label>
+				<Label width="50%" height="100%" backgroundColor="transparent" color="black">011xxxxxxx</Label>
+			</View>
+			<View height="1" width="90%" backgroundColor="gray" ></View>
+			<View layout="horizontal" height="50">
+				<Label width="45%" left="5%" height="100%" backgroundColor="transparent" color="black">Name</Label>
+				<Label width="50%" height="100%" backgroundColor="transparent" color="black">william</Label>
+			</View>
+			<View height="1" width="90%" backgroundColor="gray" ></View>
+			<View layout="horizontal" height="50">
+				<Label width="45%" left="5%" height="100%" backgroundColor="transparent" color="black">Subscription Plan</Label>
+				<Label width="50%" height="100%" backgroundColor="transparent" color="black">ATM Offer</Label>
+			</View>
+			<View height="1" width="90%" backgroundColor="gray" ></View><View layout="horizontal" height="50">
+				<Label width="45%" left="5%" height="100%" backgroundColor="transparent" color="black">Effective Date</Label>
+				<Label width="50%" height="100%" backgroundColor="transparent" color="black">02-Jan-2015</Label>
+			</View>
+			<View height="1" width="90%" backgroundColor="gray" ></View><View layout="horizontal" height="50">
+				<Label width="45%" left="5%" height="100%" backgroundColor="transparent" color="black">Loyalty Point</Label>
+				<Label width="50%" height="100%" backgroundColor="transparent" color="black">000</Label>
+			</View>
+			<View height="1" width="90%" backgroundColor="gray" ></View><View layout="horizontal" height="50">
+				<Label width="45%" left="5%" height="100%" backgroundColor="transparent" color="black">IVR Language</Label>
+				<Label width="50%" height="100%" backgroundColor="transparent" color="black">Chinese</Label>
+			</View>
+			<View height="1" width="90%" backgroundColor="gray" ></View><View layout="horizontal" height="50">
+				<Label width="45%" left="5%" height="100%" backgroundColor="transparent" color="black">Status</Label>
+				<Label width="50%" height="100%" backgroundColor="transparent" color="black">Activated</Label>
+			</View>
+			<View height="1" width="90%" backgroundColor="gray" ></View>
+		</ScrollView>
+	</View>
+</Alloy>

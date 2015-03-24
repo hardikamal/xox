@@ -59,7 +59,7 @@
 		    	<Label backgroundColor="transparent" height="30" top="10" bottom="5" borderRadius="15" textAlign="center" color="black" left="20">Charge-to : </Label>
 		    	<View id="pickerContentView2" layout="composite" height="50" width="90%">
 					<Label id="chargeLabel" height="30" width="100%" backgroundColor="#FCFCFC" borderRadius="15" borderColor="#FCFCFC" color="black" onClick="showPicker2" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="10"></Label>
-					<ImageView image="/images/dropdown_icon.png" width="15" height="10" right="10" top="20" onClick="showPicker"></ImageView>
+					<ImageView image="/images/dropdown_icon.png" width="15" height="10" right="10" top="20" onClick="showPicker2"></ImageView>
 					<View id="pickerView2" height="50" width="100%" visible="false" top="50" backgroundColor="blue">
 						<Button id="done2" height="30" width="100%" backgroundColor="black" color="white" top="0" left="0" onClick="done2" visible="false">Done</Button>
 						<Picker id="picker2" onChange="charge" width="100%" height="Ti.UI.SIZE" top="30" selectionIndicator="true" backgroundColor="#EFEFEF" visible="false">

@@ -5,7 +5,12 @@ if(Ti.Platform.osname == "android") {
 	$.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 200;
 }
 
-function done()
+function close()
+{
+	DRAWER.navigation("onlinePurchases",1);
+}
+
+function download()
 {
 	DRAWER.navigation("onlinePurchases",1);
 }

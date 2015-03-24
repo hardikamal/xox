@@ -1,4 +1,4 @@
-<Alloy>
+<!--<Alloy>
 	<View layout="vertical" class="container" backgroundColor="#E6E7E9" fullscreen="true">
 		<Require src="_header" ></Require>
 		<View height="20%" backgroundColor="#1C6D83">
@@ -14,5 +14,47 @@
 				<Label backgroundColor="transparent" color="white" left="20">XOX PREPAID PACK</Label>
 			</View>
 		</View>
+	</View>
+</Alloy>-->
+<Alloy>
+	<View layout="vertical" class="container" backgroundColor="#E6E7E9" fullscreen="true">
+		<Require src="_header" ></Require>
+		<View height="20%" backgroundColor="#1C6D83">
+			<Label left="10" top="10" color="white">Online Purchases</Label>
+		</View>
+		<ScrollView layout="vertical">
+			<View layout="horizontal" height="30%" width="100%">
+				<View height="100%" width="50%" backgroundColor="red" onClick="panda">
+					<Label color="white" textAlign="center">1600 PANDAS SIM PACK</Label>
+				</View>
+				<View height="100%" width="50%" backgroundColor="blue" onClick="hopOn">
+					<Label color="white" textAlign="center">HOP ON</Label>
+				</View>
+			</View>
+			<View layout="horizontal" height="30%" width="100%">
+				<View height="100%" width="50%" backgroundColor="green" onClick="seasonPass">
+					<Label color="white" textAlign="center">SEASON PASS</Label>
+				</View>
+				<View height="100%" width="50%" backgroundColor="yellow" onClick="topUp">
+					<Label color="white" textAlign="center">TOP UP</Label>
+				</View>
+			</View>
+			<View layout="horizontal" height="30%" width="100%">
+				<View height="100%" width="50%" backgroundColor="red" onClick="penang">
+					<Label color="white" textAlign="center">PENANG PACK UNITED PACK SIGNATURE BASIC</Label>
+				</View>
+				<View height="100%" width="50%" backgroundColor="blue" onClick="premium">
+					<Label color="white" textAlign="center">PREMIUM</Label>
+				</View>
+			</View>
+			<View layout="horizontal" height="30%" width="100%">
+				<View height="100%" width="50%" backgroundColor="green" onClick="switchXOX">
+					<Label color="white" textAlign="center">#1758 SWITCH TO XOX</Label>
+				</View>
+				<View height="100%" width="50%" backgroundColor="yellow" onClick="mobileData">
+					<Label color="white" textAlign="center">HIGH SPEED MOBILE DATA</Label>
+				</View>
+			</View>
+		</ScrollView>
 	</View>
 </Alloy>

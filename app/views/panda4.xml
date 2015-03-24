@@ -1,0 +1,32 @@
+<Alloy>
+	<View layout="vertical" class="container" backgroundColor="white" fullscreen="true">
+		<Require src="_header" ></Require>
+		<View layout="composite" height="50" backgroundColor="#EB2127">
+			<Label backgroundColor="transparent" color="white" left="10">1600 PANDAS SIM PACK</Label>
+			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
+		</View>
+		<View layout="vertical" height="50" backgroundColor="#F2F2F2">
+			<Label backgroundColor="transparent" color="black" left="20">Step 3 of 4</Label>
+			<Label backgroundColor="transparent" color="#4CC4D2" left="20">Payment</Label>
+		</View>
+		<ScrollView id="scrollView" layout="vertical" backgroundColor="white">
+			<View layout="horizontal" height="Ti.UI.SIZE" width="100%">
+				<Label backgroundColor="transparent" width="20%" textAlign="center" color="black" top="0">ITEMS No.</Label>
+				<Label backgroundColor="transparent" width="50%" textAlign="center" color="black" top="0">Mobile Number</Label>
+				<Label backgroundColor="transparent" width="auto" textAlign="center" color="black" top="0">Cost</Label>
+			</View>
+			<View layout="horizontal" height="Ti.UI.SIZE" width="100%">
+				<Label backgroundColor="transparent" width="20%" textAlign="center" color="black" top="0">1</Label>
+				<Label backgroundColor="transparent" width="50%" textAlign="center" color="black" top="0">MNP-0182224567 (Standard Sim)</Label>
+				<Label backgroundColor="transparent" width="auto" textAlign="center" color="black" top="0">RM00.00</Label>
+			</View>
+			<View layout="horizontal" height="50" backgroundColor="gray">
+				<Label backgroundColor="transparent" height="100%" width="70%" textAlign="center" color="black">TOTAL PAYMENT</Label>
+				<Label backgroundColor="transparent" height="100%" width="auto" textAlign="center" color="black">RM00.00</Label>
+			</View>
+		</ScrollView>
+		<View height="50" backgroundColor="#000000" onClick="submit">
+			<Label color="white">SUBMIT</Label>
+		</View>
+	</View>
+</Alloy>

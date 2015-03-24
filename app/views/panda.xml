@@ -1,0 +1,26 @@
+<Alloy>
+	<View layout="vertical" class="container" backgroundColor="white" fullscreen="true">
+		<Require src="_header" ></Require>
+		<View layout="composite" height="50" backgroundColor="#EB2127">
+			<Label backgroundColor="transparent" color="white" left="10">1600 PANDAS SIM PACK</Label>
+			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
+		</View>
+		<ScrollView id="scrollView" layout="vertical" backgroundColor="white" width="90%">
+			<Label backgroundColor="transparent" color="black" textAlign="left" left="0" top="10">XOX Prepaid Plus</Label>
+			<Label backgroundColor="transparent" color="black" textAlign="left" left="0" top="10">1600 PandasRM12</Label>
+			<Label backgroundColor="transparent" color="black" textAlign="left" left="0" top="20">You get:</Label>
+			<Label backgroundColor="transparent" color="black" textAlign="left" left="0">FREE SIM pack with "1600 Pandas" feature to your doorstep.</Label>
+			<Label backgroundColor="transparent" color="black" textAlign="left" left="0">1,800 FREE SMS*</Label>
+			<Label backgroundColor="transparent" color="black" textAlign="left" left="0">RM5 worth of Airtie, to be used for Voice Calls, Video Calls, SMS and Mobile Data Plan.</Label>
+			<Label backgroundColor="transparent" color="black" textAlign="left" left="0" top="20">*150 SMS per month to XOX network over 12 months, value worth RM90.</Label>
+			<Label backgroundColor="transparent" color="black" textAlign="left" left="0" top="20">TOP UP RM30 Bonus Notebook + Pen</Label>
+			<Label backgroundColor="transparent" color="black" textAlign="left" left="0">TOP UP RM50 Bonus Lanyard</Label>
+			<Label backgroundColor="transparent" color="black" textAlign="left" left="0">Limited Time Offer only</Label>
+			<Label backgroundColor="transparent" color="black" textAlign="left" left="0" top="20">*Promotions applicable for online purchases only.</Label>
+			<Label backgroundColor="transparent" color="black" textAlign="left" left="0">Terms & Conditions apply.</Label>
+		</ScrollView>
+		<View height="50" backgroundColor="#000000" onClick="purchase">
+			<Label color="white">Subscribe Now</Label>
+		</View>
+	</View>
+</Alloy>

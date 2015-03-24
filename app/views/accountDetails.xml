@@ -121,9 +121,9 @@
 				</View>
 			</View>
 		</ScrollView>
-		<View layout="horizontal" height="50" backgroundColor="red" onClick="statement">
+		<!-- <View layout="horizontal" height="50" backgroundColor="red" onClick="statement">
 			<Label color="white" height="100%" width="100%" textAlign="center" onClick="statement">View Bil Statement</Label>
-		</View>
+		</View> -->
 	</View>
 </Alloy>
 

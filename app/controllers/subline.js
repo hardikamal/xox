@@ -7,7 +7,7 @@ if(Ti.Platform.osname == "android") {
 
 function back()
 {
-	DRAWER.navigation("myAccount",2);
+	DRAWER.navigation("myAccount",1);
 }
 
 function addNumber()
@@ -19,4 +19,9 @@ function addNumber()
 function setting()
 {
 	DRAWER.navigation("subline4",1);
+}
+
+function sublineDetails()
+{
+	DRAWER.navigation("subline3",1);
 }

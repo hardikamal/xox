@@ -10,7 +10,7 @@
 //
 // Alloy.Globals.someGlobalFunction = function(){};
 Alloy.Globals.menuType = "1";//public
-Alloy.Globals.userPlan;//public
+Alloy.Globals.userPlan = "postpaid";//public
 
 var API = require('api');
 var DRAWER = require('drawer');
@@ -42,6 +42,50 @@ function mysql_real_escape_string (str) {
         }
     });
 }
+
+
+function currentDateTime(){
+	var today = new Date();
+	var dd = today.getDate();
+	var mm = today.getMonth()+1; 
+	var yyyy = today.getFullYear();
+	
+	var hours = today.getHours();
+	var minutes = today.getMinutes();
+	var sec = today.getSeconds();
+	if (minutes < 10){
+		minutes = "0" + minutes
+	} 
+	if (sec < 10){
+		sec = "0" + sec
+	} 
+	if(dd<10) {
+	    dd='0'+dd;
+	} 
+	
+	if(mm<10) {
+	    mm='0'+mm;
+	} 
+	
+	datetime = yyyy+'-'+mm+'-'+dd + " "+ hours+":"+minutes+":"+sec;
+	return datetime ;
+}
+
+function timeFormat(datetime){
+	var timeStamp = datetime.split(" ");  
+	var newFormat;
+	var ampm = "am";
+	var date = timeStamp[0].split("/");  
+	var time = timeStamp[1].split(":");  
+	if(time[0] > 12){
+		ampm = "pm";
+		time[0] = time[0] - 12;
+	}
+	
+	newFormat = date[0]+"/"+date[1]+"/"+date[2] + " "+ time[0]+":"+time[1]+ " "+ ampm;
+	return newFormat;
+}
+
 
 function removeAllChildren(viewObject){
     //copy array of child object references because view's "children" property is live collection of child object references

@@ -10,39 +10,30 @@
 			<Label backgroundColor="transparent" color="red" left="20">Instruction</Label>
 		</View>
 		<ScrollView id="scrollView" layout="vertical" width="90%">
-			<View top="10" bottom="20" height="20" width="90%" textAlign=" Ti.UI.TEXT_ALIGNMENT_LEFT">
-				<Label backgroundColor="transparent" color="black" textAlign=" Ti.UI.TEXT_ALIGNMENT_LEFT">HopOn Details</Label>
+			<View top="10" bottom="20" height="Ti.UI.SIZE" width="100%" textAlign=" Ti.UI.TEXT_ALIGNMENT_LEFT">
+				<Label backgroundColor="transparent" color="black" width="100%" textAlign=" Ti.UI.TEXT_ALIGNMENT_LEFT">Hello there, welcome to XOX HopOn Online!</Label>
 			</View>
-			<View bottom="20" width="90%" height="100">
-				<Label backgroundColor="transparent" color="black" textAlign="left">Thank you for choosing XOX, we may serve you better when you port into XOX service. Kindly read through the below instructions before you proceed with the application.</Label>
+			<View bottom="20" width="100%" height="Ti.UI.SIZE">
+				<Label backgroundColor="transparent" color="black" width="100%" textAlign="left">All you need to do is fill in your information, pay a small fee of RM6 for XOX HopOn online, and we will deliver new SIM card(s) to you within 5 days! What are you waiting for? HopOn today!</Label>
 			</View>
-			<View width="90%" height="20">
-				<Label backgroundColor="transparent" color="black" textAlign="left">REGISTRATION</Label>
+			<View bottom="20" width="100%" height="Ti.UI.SIZE">
+				<Label backgroundColor="transparent" color="black" width="100%" textAlign="left">Read the FAQ to learn more.</Label>
 			</View>
-			<View bottom="20" width="90%" height="100">
-				<Label backgroundColor="transparent" color="black" textAlign="left">Please ensure all the details you fill in the registration page is correct before you press the “Proceed” button. Each I/C number is allowed a maximum of 10 Mobile Numbers HopOn registration.</Label>
-			</View>
-			<View width="90%" height="20">
-				<Label backgroundColor="transparent" color="black" textAlign="left">PAYMENT</Label>
-			</View>
-			<View bottom="20" width="90%" height="60">
-				<Label backgroundColor="transparent" color="black" textAlign="left">XOX will charge a registration fee of Ringgit Malaysia Six (RM6) per number for every online application porting request.</Label>
-			</View>
-			<View width="90%" height="20">
-				<Label backgroundColor="transparent" color="black" textAlign="left">DELIVERY</Label>
-			</View>
-			<View bottom="20" width="90%" height="60">
-				<Label backgroundColor="transparent" color="black" textAlign="left">Upon receiving your application and successful payment, XOX will courier the SIM Card to you within 3-5 working days.</Label>
-			</View>
-			<View width="90%" height="20">
-				<Label backgroundColor="transparent" color="black" textAlign="left">VERIFICATION</Label>
-			</View>
-			<View bottom="10" width="90%" height="100">
-				<Label backgroundColor="transparent" color="black" textAlign="left">While you received the Welcome Letter and SIM Card from XOX, you will need to log on to http://onlinestore.xox.com.my/hopon to verify your details and complete the “Verification” process within 30 days.</Label>
+			<View bottom="20" width="100%" height="Ti.UI.SIZE">
+				<Label backgroundColor="transparent" color="black" width="100%" textAlign="left">Get Free Mobile Internet Data everytime you make an accumalative monthly top up. * or swap your Free Data for Free Calls instead! Just contact us! *FREE data or calls will be updated in your Season Pass subscription on the 15th of every following month.</Label>
 			</View>
 		</ScrollView>
-		<View height="50" backgroundColor="red" onClick="next">
-			<Label color="white">NEXT</Label>
+		<View height="50" backgroundColor="red" onClick="next" bottom="1">
+			<Label color="white">REGISTER NOW</Label>
+		</View>
+		<View height="50" backgroundColor="red" onClick="verification" bottom="1">
+			<Label color="white">VERIFICATION</Label>
+		</View>
+		<View height="50" backgroundColor="red" onClick="status" bottom="1">
+			<Label color="white">STATUS</Label>
+		</View>
+		<View height="50" backgroundColor="red" onClick="submission">
+			<Label color="white">RESUBMISSION</Label>
 		</View>
 	</View>
 </Alloy>

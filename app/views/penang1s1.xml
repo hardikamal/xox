@@ -1,0 +1,112 @@
+<Alloy>
+	<View layout="vertical" class="container" backgroundColor="white" fullscreen="true">
+		<Require src="_header" ></Require>
+		<View layout="composite" height="50" backgroundColor="#EB2127">
+			<Label backgroundColor="transparent" color="white" left="10">PENANG PACK UNITED PACK SIGNATURE BASIC</Label>
+			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
+		</View>
+		<View layout="vertical" height="50" backgroundColor="#F2F2F2">
+			<Label backgroundColor="transparent" color="black" left="20">Step 1 of 4</Label>
+			<Label backgroundColor="transparent" color="#4CC4D2" left="20">Ordering</Label>
+		</View>
+		<ScrollView id="scrollView" layout="vertical" backgroundColor="white" width="90%">
+			<View platform="ios" id="contentView" layout="horizontal" height="50" top="10">
+				<Label color="black" height="50" width="30%" top="0">Sim Type</Label>
+				<View id="pickerContentView" layout="composite" height="50" width="70%">
+					<Label id="simLabel" height="30" width="100%" backgroundColor="transparent" borderRadius="5" borderColor="#F2F2F2" color="black" onClick="showPicker" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="10"></Label>
+					<ImageView image="/images/dropdown_icon.png" width="15" height="10" right="10" top="20" onClick="showPicker"></ImageView>
+					<View id="pickerView" height="50" width="100%" visible="false" top="50">
+						<Button id="done" height="30" width="100%" backgroundColor="black" color="white" top="0" left="0" onClick="done" visible="false">Done</Button>
+						<Picker id="picker" onChange="simType" width="100%" height="Ti.UI.SIZE" top="30" selectionIndicator="true" backgroundColor="#EFEFEF" visible="false">
+							<PickerRow title="Standard SIM"/>
+                			<PickerRow title="Micro SIM"/>
+                			<PickerRow title="Nano SIM"/>
+						</Picker>
+					</View>
+				</View>
+			</View>
+			<View platform="android" layout="horizontal" height="50" top="10">
+				<Label color="black" height="50" width="30%" top="0">Sim Type</Label>
+				<View layout="composite" height="50" width="70%">
+					<Picker id="picker" onChange="simType" width="100%" height="50" borderRadius="5" selectionIndicator="true" backgroundColor="black" visible="true">
+						<PickerRow title="Standard SIM"/>
+	        			<PickerRow title="Micro SIM"/>
+	        			<PickerRow title="Nano SIM"/>
+					</Picker>
+					<ImageView image="/images/dropdown_icon.png" width="15" height="10" right="10" top="20"></ImageView>
+				</View>
+			</View>
+			<Label backgroundColor="transparent" color="black" textAlign="left" left="0" top="10">Number Selection</Label>
+			<View layout="horizontal" height="Ti.UI.SIZE" width="100%">
+				<View layout="horizontal" height="Ti.UI.SIZE">
+					<Switch id="switch1" height="50" value="false"/>
+					<Label color="black" height="50" width="30%" left="5">0103091675</Label>
+					<Switch id="switch2" height="50" value="false"/>
+					<Label color="black" height="50" width="30%" left="5">0103091675</Label>
+				</View>
+			</View>
+			<View layout="horizontal" height="Ti.UI.SIZE" width="100%">
+				<View layout="horizontal" height="Ti.UI.SIZE">
+					<Switch id="switch3" height="50" value="false"/>
+					<Label color="black" height="50" width="30%" left="5">0103091675</Label>
+					<Switch id="switch4" height="50" value="false"/>
+					<Label color="black" height="50" width="30%" left="5">0103091675</Label>
+				</View>
+			</View>				
+			<View layout="horizontal" height="Ti.UI.SIZE" width="100%">
+				<View layout="horizontal" height="Ti.UI.SIZE" >
+					<Switch id="switch5" height="50" value="false"/>
+					<Label color="black" height="50" width="30%" left="5">0103091675</Label>
+					<Switch id="switch6" height="50" value="false"/>
+					<Label color="black" height="50" width="30%" left="5">0103091675</Label>
+				</View>
+			</View>
+			<View layout="horizontal" height="Ti.UI.SIZE" width="100%">
+				<View layout="horizontal" height="Ti.UI.SIZE">
+					<Switch id="switch7" height="50" value="false"/>
+					<Label color="black" height="50" width="30%" left="5">0103091675</Label>
+					<Switch id="switch8" height="50" value="false"/>
+					<Label color="black" height="50" width="30%" left="5">0103091675</Label>
+				</View>
+			</View>
+			<View layout="horizontal" height="Ti.UI.SIZE" width="100%">
+				<View layout="horizontal" height="Ti.UI.SIZE">
+					<Switch id="switch9" height="50" value="false"/>
+					<Label color="black" height="50" width="30%" left="5">0103091675</Label>
+					<Switch id="switch10" height="50" value="false"/>
+					<Label color="black" height="50" width="30%" left="5">0103091675</Label>
+				</View>
+			</View>
+			<Label backgroundColor="transparent" color="black" textAlign="left" left="0" top="10">Top Up Voucher (Optional)*</Label>
+			<View platform="ios" id="contentView2" layout="vertical" height="50">
+		    	<View id="pickerContentView2" layout="composite" height="50" width="100%">
+					<Label id="topUpLabel" height="30" width="99%" backgroundColor="transparent" borderRadius="5" borderColor="#F2F2F2" color="black" onClick="showPicker2" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="10"></Label>
+					<ImageView image="/images/dropdown_icon.png" width="15" height="10" right="10" top="20" onClick="showPicker"></ImageView>
+					<View id="pickerView2" height="50" width="100%" visible="false" top="50" backgroundColor="blue">
+						<Button id="done2" height="30" width="100%" backgroundColor="black" color="white" top="0" left="0" onClick="done2" visible="false">Done</Button>
+						<Picker id="picker2" onChange="topUp" width="100%" height="Ti.UI.SIZE" top="30" selectionIndicator="true" backgroundColor="#EFEFEF" visible="false">
+							<PickerRow title="None"/>
+							<PickerRow title="RM10"/>
+		        			<PickerRow title="RM30"/>
+		        			<PickerRow title="RM50"/>
+						</Picker>
+					</View>
+				</View>
+			</View>
+			<View platform="android" layout="vertical" height="100">
+		    	<View layout="composite" height="50" width="100%">
+		    		<Picker id="picker2" onChange="topUp" width="100%" height="30" borderRadius="15" selectionIndicator="true" backgroundColor="black" visible="true">
+						<PickerRow title="None"/>
+						<PickerRow title="RM10"/>
+		    			<PickerRow title="RM30"/>
+		    			<PickerRow title="RM50"/>
+					</Picker>
+		    		<ImageView image="/images/dropdown_icon.png" width="15" height="10" right="10" top="20"></ImageView>
+				</View>
+			</View>
+		</ScrollView>
+		<View height="50" backgroundColor="#000000" onClick="next">
+			<Label color="white">NEXT</Label>
+		</View>
+	</View>
+</Alloy>

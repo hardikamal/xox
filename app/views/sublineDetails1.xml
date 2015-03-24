@@ -1,0 +1,57 @@
+<Alloy>
+	<View layout="composite">
+		<ScrollView id="scrollView" layout="vertical" scrollType="vertical" backgroundColor="#FFFFFF" top="0" >
+			<View height="50" backgroundColor="gray">
+				<Label backgroundColor="transparent" height="100%" color="black" left="20">Prepaid Account</Label>
+			</View>
+			<View layout="horizontal" height="50">
+				<Label width="45%" left="5%" height="100%" backgroundColor="transparent" color="black">Prepaid Balance (RM)</Label>
+				<Label width="25%" height="100%" backgroundColor="transparent" color="black">13.94</Label>
+				<View layout="horizontal" width="25%">
+					<Label height="100%" backgroundColor="transparent" color="black">Top up</Label>
+					<ImageView id="arrow1" image="/images/dropdown_icon.png" width="25" height="15"></ImageView>
+				</View>
+			</View>
+			<View height="1" width="90%" backgroundColor="gray" ></View>
+			<View layout="horizontal" height="50">
+				<Label width="45%" left="5%" height="100%" backgroundColor="transparent" color="black">Expiry Date</Label>
+				<Label width="50%" height="100%" backgroundColor="transparent" color="black">15-Apr-2015</Label>
+			</View>
+			<View height="1" width="90%" backgroundColor="gray" ></View>
+			<View layout="vertical" height="100">
+				<Label left="5%" height="50" backgroundColor="transparent" color="black">Free SMS</Label>
+				<View layout="horizontal" height="50">
+					<Label width="45%" left="5%" height="100%" backgroundColor="transparent" color="black">Unutilized Free SMS</Label>
+					<Label width="50%" height="100%" backgroundColor="transparent" color="black">2223</Label>
+				</View>
+			</View>
+			<View height="50" backgroundColor="gray">
+				<Label backgroundColor="transparent" height="100%" color="black" left="20">Season Pass Counter</Label>
+			</View>
+			<View layout="horizontal" height="50">
+				<Label width="45%" left="5%" height="100%" backgroundColor="transparent" color="black">Voice (minutes)</Label>
+				<Label width="50%" height="100%" backgroundColor="transparent" color="black">0</Label>
+			</View>
+			<View height="1" width="90%" backgroundColor="gray" ></View>
+			<View layout="horizontal" height="50">
+				<Label width="45%" left="5%" height="100%" backgroundColor="transparent" color="black">SMS</Label>
+				<Label width="50%" height="100%" backgroundColor="transparent" color="black">0</Label>
+			</View>
+			<View height="1" width="90%" backgroundColor="gray" ></View>
+			<View layout="horizontal" height="50">
+				<Label width="45%" left="5%" height="100%" backgroundColor="transparent" color="black">Data</Label>
+				<Label width="50%" height="100%" backgroundColor="transparent" color="black">0</Label>
+			</View>
+			<View height="50" backgroundColor="gray">
+				<Label backgroundColor="transparent" height="100%" color="black" left="20">E-Wallet Account</Label>
+			</View>
+			<View layout="horizontal" height="50">
+				<Label width="45%" left="5%" height="100%" backgroundColor="transparent" color="black">E-Wallet Balance (RM)</Label>
+				<Label width="50%" height="100%" backgroundColor="transparent" color="black">0.00</Label>
+			</View>
+		</ScrollView>
+		<View height="50" backgroundColor="#000000" onClick="download" bottom="0">
+			<Label color="white">Download Statement</Label>
+		</View>
+	</View>
+</Alloy>

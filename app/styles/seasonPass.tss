@@ -1,0 +1,13 @@
+// "Label": {
+	// width: Ti.UI.SIZE,
+	// height: Ti.UI.SIZE,
+	// color: "#000000",
+	// font:{fontSize:14},	
+// },
+
+".login" : {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000000",
+	font:{fontSize:14},	
+},

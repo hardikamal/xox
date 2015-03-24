@@ -1,0 +1,14 @@
+<Alloy>
+	<View layout="composite">
+		<ScrollView id="scrollView" layout="vertical" scrollType="vertical" backgroundColor="#FFFFFF" top="0" >
+		    <Label backgroundColor="transparent" color="black" left="0">XOX Prepaid</Label>
+			<Label backgroundColor="transparent" color="black" left="0">United Pack RM20</Label>
+			<Label backgroundColor="transparent" color="black" left="0">You get:</Label>
+			<Label backgroundColor="transparent" color="black" left="0">FREE SIM pack delivered to your doorstep.\n500MB of Mobile Data Plan\nRM7 worth of Airtime, to be used for Voice Calls, Video Calls, SMS and Mobile Data Plan.</Label>
+			<Label backgroundColor="transparent" color="black" left="0">View Prepaid full features and rates</Label>
+		</ScrollView>
+		<View height="50" backgroundColor="#000000" onClick="purchase" bottom="0">
+			<Label color="white">PURCHASE NOW</Label>
+		</View>
+	</View>
+</Alloy>
