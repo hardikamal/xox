@@ -1,5 +1,6 @@
 dependencies: \
 <<<<<<< HEAD
+<<<<<<< HEAD
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/NSData+Additions.m \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/NSData+Additions.h \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/Base64Transcoder.h
@@ -14,3 +15,8 @@ dependencies: \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/Base64Transcoder.h
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/NSData+Additions.m \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/NSData+Additions.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/Base64Transcoder.h
+>>>>>>> origin/master

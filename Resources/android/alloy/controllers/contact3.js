@@ -86,6 +86,7 @@ function Controller() {
         id: "__alloyId166"
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
     $.__views.scrollView.add($.__views.__alloyId166);
     $.__views.__alloyId167 = Ti.UI.createTextField({
 =======
@@ -109,6 +110,10 @@ function Controller() {
     $.__views.__alloyId167 = Ti.UI.createTextField({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.scrollView.add($.__views.__alloyId166);
+    $.__views.__alloyId167 = Ti.UI.createTextField({
+>>>>>>> origin/master
         width: "90%",
         height: "30",
         top: "10",
@@ -177,6 +182,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         id: "__alloyId176"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     __alloyId175.push($.__views.__alloyId176);
     $.__views.__alloyId177 = Ti.UI.createLabel({
@@ -290,11 +296,16 @@ function Controller() {
     $.__views.__alloyId177 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    __alloyId175.push($.__views.__alloyId176);
+    $.__views.__alloyId177 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Petaling Jaya (Jaya One)",
         textAlign: "left",
         top: "10",
         left: "10",
         color: "black",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId177"
     });
@@ -320,10 +331,17 @@ function Controller() {
     $.__views.__alloyId178 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId177"
+    });
+    $.__views.__alloyId176.add($.__views.__alloyId177);
+    $.__views.__alloyId178 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "XOX Mobile Sdn Bhd",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId178"
     });
@@ -349,10 +367,17 @@ function Controller() {
     $.__views.__alloyId179 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId178"
+    });
+    $.__views.__alloyId176.add($.__views.__alloyId178);
+    $.__views.__alloyId179 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "31-3, Block C, Jaya One,72A, Jalan Universiti, 46200 Petaling Jaya, Selangor Darul Ehsan.",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId179"
     });
@@ -378,11 +403,18 @@ function Controller() {
     $.__views.__alloyId180 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId179"
+    });
+    $.__views.__alloyId176.add($.__views.__alloyId179);
+    $.__views.__alloyId180 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Contact: 03-7962 8000",
         textAlign: "left",
         bottom: "10",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId180"
 =======
@@ -393,6 +425,9 @@ function Controller() {
         id: "__alloyId180"
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId180"
+>>>>>>> origin/master
     });
     $.__views.__alloyId176.add($.__views.__alloyId180);
     $.__views.__alloyId181 = Ti.UI.createTableViewRow({
@@ -400,6 +435,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         id: "__alloyId181"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     __alloyId175.push($.__views.__alloyId181);
     $.__views.__alloyId182 = Ti.UI.createLabel({
@@ -424,11 +460,16 @@ function Controller() {
     $.__views.__alloyId182 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    __alloyId175.push($.__views.__alloyId181);
+    $.__views.__alloyId182 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Petaling Jaya (Digital Mall)",
         textAlign: "left",
         top: "10",
         left: "10",
         color: "black",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId182"
     });
@@ -454,10 +495,17 @@ function Controller() {
     $.__views.__alloyId183 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId182"
+    });
+    $.__views.__alloyId181.add($.__views.__alloyId182);
+    $.__views.__alloyId183 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "XOX Mobile Sdn Bhd",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId183"
     });
@@ -483,10 +531,17 @@ function Controller() {
     $.__views.__alloyId184 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId183"
+    });
+    $.__views.__alloyId181.add($.__views.__alloyId183);
+    $.__views.__alloyId184 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Lot G-03A, Ground Floor Digital Mall PJ, No2 Jalan 14/20 Section 14, 46100 Petaling Jaya, Selangor.",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId184"
     });
@@ -512,11 +567,18 @@ function Controller() {
     $.__views.__alloyId185 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId184"
+    });
+    $.__views.__alloyId181.add($.__views.__alloyId184);
+    $.__views.__alloyId185 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Contact: 010-831 6363",
         textAlign: "left",
         bottom: "10",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId185"
 =======
@@ -527,6 +589,9 @@ function Controller() {
         id: "__alloyId185"
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId185"
+>>>>>>> origin/master
     });
     $.__views.__alloyId181.add($.__views.__alloyId185);
     $.__views.__alloyId186 = Ti.UI.createTableViewRow({
@@ -534,6 +599,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         id: "__alloyId186"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     __alloyId175.push($.__views.__alloyId186);
     $.__views.__alloyId187 = Ti.UI.createLabel({
@@ -558,11 +624,16 @@ function Controller() {
     $.__views.__alloyId187 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    __alloyId175.push($.__views.__alloyId186);
+    $.__views.__alloyId187 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "KUALA LUMPUR (Plaza Low Yat)",
         textAlign: "left",
         top: "10",
         left: "10",
         color: "black",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId187"
     });
@@ -588,10 +659,17 @@ function Controller() {
     $.__views.__alloyId188 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId187"
+    });
+    $.__views.__alloyId186.add($.__views.__alloyId187);
+    $.__views.__alloyId188 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "XOX Retails Sdn Bhd",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId188"
     });
@@ -617,10 +695,17 @@ function Controller() {
     $.__views.__alloyId189 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId188"
+    });
+    $.__views.__alloyId186.add($.__views.__alloyId188);
+    $.__views.__alloyId189 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Plaza Low Yat, 7 Jalan Bintang, Jalan Bukit Bintang, 55100 Kuala Lumpur.",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId189"
     });
@@ -646,11 +731,18 @@ function Controller() {
     $.__views.__alloyId190 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId189"
+    });
+    $.__views.__alloyId186.add($.__views.__alloyId189);
+    $.__views.__alloyId190 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Contact: 010-8666288 / 012-2704222",
         textAlign: "left",
         bottom: "10",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId190"
 =======
@@ -661,6 +753,9 @@ function Controller() {
         id: "__alloyId190"
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId190"
+>>>>>>> origin/master
     });
     $.__views.__alloyId186.add($.__views.__alloyId190);
     $.__views.__alloyId191 = Ti.UI.createTableViewRow({
@@ -668,6 +763,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         id: "__alloyId191"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     __alloyId175.push($.__views.__alloyId191);
     $.__views.__alloyId192 = Ti.UI.createLabel({
@@ -692,11 +788,16 @@ function Controller() {
     $.__views.__alloyId192 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    __alloyId175.push($.__views.__alloyId191);
+    $.__views.__alloyId192 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "KUALA LUMPUR (Kepong)",
         textAlign: "left",
         top: "10",
         left: "10",
         color: "black",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId192"
     });
@@ -722,10 +823,17 @@ function Controller() {
     $.__views.__alloyId193 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId192"
+    });
+    $.__views.__alloyId191.add($.__views.__alloyId192);
+    $.__views.__alloyId193 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "XOX Mobile Sdn Bhd",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId193"
     });
@@ -751,10 +859,17 @@ function Controller() {
     $.__views.__alloyId194 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId193"
+    });
+    $.__views.__alloyId191.add($.__views.__alloyId193);
+    $.__views.__alloyId194 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "33, Jalan Metro Perdana Timur 1, Taman Usahawan Kepong, 52100 Kepong, Kuala Lumpur.",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId194"
     });
@@ -780,11 +895,18 @@ function Controller() {
     $.__views.__alloyId195 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId194"
+    });
+    $.__views.__alloyId191.add($.__views.__alloyId194);
+    $.__views.__alloyId195 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Contact: 03-62503003",
         textAlign: "left",
         bottom: "10",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId195"
 =======
@@ -795,6 +917,9 @@ function Controller() {
         id: "__alloyId195"
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId195"
+>>>>>>> origin/master
     });
     $.__views.__alloyId191.add($.__views.__alloyId195);
     $.__views.__alloyId196 = Ti.UI.createTableViewRow({
@@ -802,6 +927,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         id: "__alloyId196"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     __alloyId175.push($.__views.__alloyId196);
     $.__views.__alloyId197 = Ti.UI.createLabel({
@@ -826,11 +952,16 @@ function Controller() {
     $.__views.__alloyId197 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    __alloyId175.push($.__views.__alloyId196);
+    $.__views.__alloyId197 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "KUALA LUMPUR (Pudu)",
         textAlign: "left",
         top: "10",
         left: "10",
         color: "black",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId197"
     });
@@ -856,10 +987,17 @@ function Controller() {
     $.__views.__alloyId198 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId197"
+    });
+    $.__views.__alloyId196.add($.__views.__alloyId197);
+    $.__views.__alloyId198 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "XOX Mobile Sdn Bhd",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId198"
     });
@@ -885,10 +1023,17 @@ function Controller() {
     $.__views.__alloyId199 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId198"
+    });
+    $.__views.__alloyId196.add($.__views.__alloyId198);
+    $.__views.__alloyId199 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "21, Lorong Thambi 2, Off Jalan Changkat Thambi Dollah, Pudu, 55100 Kuala Lumpur.",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId199"
     });
@@ -914,11 +1059,18 @@ function Controller() {
     $.__views.__alloyId200 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId199"
+    });
+    $.__views.__alloyId196.add($.__views.__alloyId199);
+    $.__views.__alloyId200 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Contact: 03-21458010",
         textAlign: "left",
         bottom: "10",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId200"
 =======
@@ -929,6 +1081,9 @@ function Controller() {
         id: "__alloyId200"
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId200"
+>>>>>>> origin/master
     });
     $.__views.__alloyId196.add($.__views.__alloyId200);
     $.__views.__alloyId201 = Ti.UI.createTableViewRow({
@@ -936,6 +1091,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         id: "__alloyId201"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     __alloyId175.push($.__views.__alloyId201);
     $.__views.__alloyId202 = Ti.UI.createLabel({
@@ -960,11 +1116,16 @@ function Controller() {
     $.__views.__alloyId202 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    __alloyId175.push($.__views.__alloyId201);
+    $.__views.__alloyId202 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "SELANGOR (Puchong)",
         textAlign: "left",
         top: "10",
         left: "10",
         color: "black",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId202"
     });
@@ -990,10 +1151,17 @@ function Controller() {
     $.__views.__alloyId203 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId202"
+    });
+    $.__views.__alloyId201.add($.__views.__alloyId202);
+    $.__views.__alloyId203 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "XOX Mobile Sdn Bhd",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId203"
     });
@@ -1019,10 +1187,17 @@ function Controller() {
     $.__views.__alloyId204 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId203"
+    });
+    $.__views.__alloyId201.add($.__views.__alloyId203);
+    $.__views.__alloyId204 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "54-G, Jalan Puteri 1/4, Bandar Puteri, 47100 Puchong, Selangor.",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId204"
     });
@@ -1048,11 +1223,18 @@ function Controller() {
     $.__views.__alloyId205 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId204"
+    });
+    $.__views.__alloyId201.add($.__views.__alloyId204);
+    $.__views.__alloyId205 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Contact: 03-80511568",
         textAlign: "left",
         bottom: "10",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId205"
 =======
@@ -1063,6 +1245,9 @@ function Controller() {
         id: "__alloyId205"
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId205"
+>>>>>>> origin/master
     });
     $.__views.__alloyId201.add($.__views.__alloyId205);
     $.__views.__alloyId206 = Ti.UI.createTableViewRow({
@@ -1070,6 +1255,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         id: "__alloyId206"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     __alloyId175.push($.__views.__alloyId206);
     $.__views.__alloyId207 = Ti.UI.createLabel({
@@ -1094,11 +1280,16 @@ function Controller() {
     $.__views.__alloyId207 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    __alloyId175.push($.__views.__alloyId206);
+    $.__views.__alloyId207 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "PENANG (George Town)",
         textAlign: "left",
         top: "10",
         left: "10",
         color: "black",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId207"
     });
@@ -1124,10 +1315,17 @@ function Controller() {
     $.__views.__alloyId208 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId207"
+    });
+    $.__views.__alloyId206.add($.__views.__alloyId207);
+    $.__views.__alloyId208 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "XOX Mobile Sdn Bhd",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId208"
     });
@@ -1153,10 +1351,17 @@ function Controller() {
     $.__views.__alloyId209 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId208"
+    });
+    $.__views.__alloyId206.add($.__views.__alloyId208);
+    $.__views.__alloyId209 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "112, Jalan Terengganu, 10460 Georgetown Penang.",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId209"
     });
@@ -1182,11 +1387,18 @@ function Controller() {
     $.__views.__alloyId210 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId209"
+    });
+    $.__views.__alloyId206.add($.__views.__alloyId209);
+    $.__views.__alloyId210 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Contact: 04-282 6388 / 04-281 7188",
         textAlign: "left",
         bottom: "10",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId210"
 =======
@@ -1197,6 +1409,9 @@ function Controller() {
         id: "__alloyId210"
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId210"
+>>>>>>> origin/master
     });
     $.__views.__alloyId206.add($.__views.__alloyId210);
     $.__views.__alloyId211 = Ti.UI.createTableViewRow({
@@ -1204,6 +1419,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         id: "__alloyId211"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     __alloyId175.push($.__views.__alloyId211);
     $.__views.__alloyId212 = Ti.UI.createLabel({
@@ -1228,11 +1444,16 @@ function Controller() {
     $.__views.__alloyId212 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    __alloyId175.push($.__views.__alloyId211);
+    $.__views.__alloyId212 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "PENANG (George Town)",
         textAlign: "left",
         top: "10",
         left: "10",
         color: "black",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId212"
     });
@@ -1258,10 +1479,17 @@ function Controller() {
     $.__views.__alloyId213 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId212"
+    });
+    $.__views.__alloyId211.add($.__views.__alloyId212);
+    $.__views.__alloyId213 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "XOX Care Centre",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId213"
     });
@@ -1287,10 +1515,17 @@ function Controller() {
     $.__views.__alloyId214 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId213"
+    });
+    $.__views.__alloyId211.add($.__views.__alloyId213);
+    $.__views.__alloyId214 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Kiosk G-01 Level 1@ ICT Komtar, Unit 01-4.01 Komtar, Jalan Penang 10000 Georgetown Penang.",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId214"
     });
@@ -1316,11 +1551,18 @@ function Controller() {
     $.__views.__alloyId215 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId214"
+    });
+    $.__views.__alloyId211.add($.__views.__alloyId214);
+    $.__views.__alloyId215 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Contact: -",
         textAlign: "left",
         bottom: "10",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId215"
 =======
@@ -1331,6 +1573,9 @@ function Controller() {
         id: "__alloyId215"
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId215"
+>>>>>>> origin/master
     });
     $.__views.__alloyId211.add($.__views.__alloyId215);
     $.__views.__alloyId216 = Ti.UI.createTableViewRow({
@@ -1338,6 +1583,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         id: "__alloyId216"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     __alloyId175.push($.__views.__alloyId216);
     $.__views.__alloyId217 = Ti.UI.createLabel({
@@ -1362,11 +1608,16 @@ function Controller() {
     $.__views.__alloyId217 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    __alloyId175.push($.__views.__alloyId216);
+    $.__views.__alloyId217 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "SARAWAK (Kuching)",
         textAlign: "left",
         top: "10",
         left: "10",
         color: "black",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId217"
     });
@@ -1392,10 +1643,17 @@ function Controller() {
     $.__views.__alloyId218 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId217"
+    });
+    $.__views.__alloyId216.add($.__views.__alloyId217);
+    $.__views.__alloyId218 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "XOX Mobile Sdn Bhd",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId218"
     });
@@ -1421,10 +1679,17 @@ function Controller() {
     $.__views.__alloyId219 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId218"
+    });
+    $.__views.__alloyId216.add($.__views.__alloyId218);
+    $.__views.__alloyId219 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "1st Floor, Lot 2082, Section 60 KTLD, Jalan Sekama, 93300 Kuching Sarawak.",
         textAlign: "left",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId219"
     });
@@ -1450,11 +1715,18 @@ function Controller() {
     $.__views.__alloyId220 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId219"
+    });
+    $.__views.__alloyId216.add($.__views.__alloyId219);
+    $.__views.__alloyId220 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Contact: 082-337010",
         textAlign: "left",
         bottom: "10",
         left: "10",
         color: "#9D9F9E",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId220"
 =======
@@ -1465,6 +1737,9 @@ function Controller() {
         id: "__alloyId220"
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId220"
+>>>>>>> origin/master
     });
     $.__views.__alloyId216.add($.__views.__alloyId220);
     $.__views.table = Ti.UI.createTableView({

@@ -35,6 +35,9 @@ function Controller() {
     });
     $.__views.payment4 && $.addTopLevelView($.__views.payment4);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
     $.__views.__alloyId1406 = Alloy.createController("_header", {
         id: "__alloyId1406",
         __parentSymbol: $.__views.payment4
@@ -48,6 +51,7 @@ function Controller() {
     });
     $.__views.payment4.add($.__views.__alloyId1407);
     $.__views.__alloyId1408 = Ti.UI.createLabel({
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     $.__views.__alloyId1597 = Alloy.createController("_header", {
@@ -79,10 +83,13 @@ function Controller() {
     $.__views.__alloyId1408 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
         text: "Payment",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1408"
     });
@@ -98,6 +105,11 @@ function Controller() {
     $.__views.__alloyId1407.add($.__views.__alloyId1408);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1408"
+    });
+    $.__views.__alloyId1407.add($.__views.__alloyId1408);
+>>>>>>> origin/master
     $.__views.scrollView = Ti.UI.createScrollView({
         id: "scrollView",
         layout: "vertical",
@@ -105,6 +117,7 @@ function Controller() {
         backgroundColor: "white"
     });
     $.__views.payment4.add($.__views.scrollView);
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1409 = Ti.UI.createLabel({
         text: "Payment Confirmation",
@@ -125,6 +138,8 @@ function Controller() {
     $.__views.scrollView.add($.__views.__alloyId1600);
     $.__views.__alloyId1601 = Ti.UI.createView({
 =======
+=======
+>>>>>>> origin/master
     $.__views.__alloyId1409 = Ti.UI.createLabel({
         text: "Payment Confirmation",
         color: "black",
@@ -133,13 +148,17 @@ function Controller() {
     });
     $.__views.scrollView.add($.__views.__alloyId1409);
     $.__views.__alloyId1410 = Ti.UI.createView({
+<<<<<<< HEAD
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
         backgroundColor: "#F1F1F1",
         width: "90%",
         height: "2",
         top: "10",
         bottom: "10",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1410"
     });
@@ -155,6 +174,11 @@ function Controller() {
     $.__views.scrollView.add($.__views.__alloyId1410);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1410"
+    });
+    $.__views.scrollView.add($.__views.__alloyId1410);
+>>>>>>> origin/master
     $.__views.account = Ti.UI.createLabel({
         text: "Account No : 01X 0000000",
         id: "account",
@@ -177,6 +201,7 @@ function Controller() {
     });
     $.__views.scrollView.add($.__views.method);
 <<<<<<< HEAD
+<<<<<<< HEAD
     $.__views.__alloyId1411 = Ti.UI.createButton({
 =======
 <<<<<<< HEAD
@@ -185,6 +210,9 @@ function Controller() {
     $.__views.__alloyId1411 = Ti.UI.createButton({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1411 = Ti.UI.createButton({
+>>>>>>> origin/master
         title: "Done",
         color: "red",
         borderColor: "red",
@@ -194,6 +222,7 @@ function Controller() {
         borderRadius: "20",
         top: "40",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         id: "__alloyId1602"
@@ -202,18 +231,24 @@ function Controller() {
     done ? $.__views.__alloyId1602.addEventListener("click", done) : __defers["$.__views.__alloyId1602!click!done"] = true;
 =======
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
         id: "__alloyId1411"
     });
     $.__views.scrollView.add($.__views.__alloyId1411);
     done ? $.__views.__alloyId1411.addEventListener("click", done) : __defers["$.__views.__alloyId1411!click!done"] = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.amount.text = "Amount (RM): RM" + Ti.App.Properties.getString("amount");
     $.method.text = "Payment Method: " + Ti.App.Properties.getString("method");
+<<<<<<< HEAD
 <<<<<<< HEAD
     __defers["$.__views.__alloyId1411!click!done"] && $.__views.__alloyId1411.addEventListener("click", done);
 =======
@@ -223,6 +258,9 @@ function Controller() {
     __defers["$.__views.__alloyId1411!click!done"] && $.__views.__alloyId1411.addEventListener("click", done);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    __defers["$.__views.__alloyId1411!click!done"] && $.__views.__alloyId1411.addEventListener("click", done);
+>>>>>>> origin/master
     _.extend($, exports);
 }
 

@@ -38,6 +38,9 @@ function Controller() {
     });
     $.__views.payment3 && $.addTopLevelView($.__views.payment3);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
     $.__views.__alloyId1380 = Alloy.createController("_header", {
         id: "__alloyId1380",
         __parentSymbol: $.__views.payment3
@@ -48,6 +51,7 @@ function Controller() {
         height: "50",
         backgroundColor: "red",
         id: "__alloyId1381"
+<<<<<<< HEAD
     });
     $.__views.payment3.add($.__views.__alloyId1381);
     $.__views.__alloyId1382 = Ti.UI.createLabel({
@@ -82,15 +86,24 @@ function Controller() {
     $.__views.__alloyId1382 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    });
+    $.__views.payment3.add($.__views.__alloyId1381);
+    $.__views.__alloyId1382 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Payment",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
         id: "__alloyId1382"
     });
     $.__views.__alloyId1381.add($.__views.__alloyId1382);
     $.__views.__alloyId1383 = Ti.UI.createImageView({
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         id: "__alloyId1573"
@@ -104,12 +117,17 @@ function Controller() {
     $.__views.__alloyId1383 = Ti.UI.createImageView({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
         backgroundColor: "transparent",
         width: "30",
         height: "30",
         right: "10",
         image: "/images/close_icon.png",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
         id: "__alloyId1383"
     });
     $.__views.__alloyId1381.add($.__views.__alloyId1383);
@@ -122,6 +140,7 @@ function Controller() {
     });
     $.__views.payment3.add($.__views.__alloyId1384);
     $.__views.__alloyId1385 = Ti.UI.createLabel({
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         id: "__alloyId1574"
@@ -151,11 +170,14 @@ function Controller() {
     $.__views.__alloyId1385 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
         text: "Prepaid Top Up",
         backgroundColor: "transparent",
         color: "black",
         top: "15",
         left: "20",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1385"
     });
@@ -171,12 +193,18 @@ function Controller() {
     $.__views.__alloyId1384.add($.__views.__alloyId1385);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1385"
+    });
+    $.__views.__alloyId1384.add($.__views.__alloyId1385);
+>>>>>>> origin/master
     $.__views.scrollView = Ti.UI.createScrollView({
         id: "scrollView",
         layout: "vertical",
         width: "90%"
     });
     $.__views.payment3.add($.__views.scrollView);
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1386 = Ti.UI.createView({
         layout: "vertical",
@@ -197,6 +225,8 @@ function Controller() {
     $.__views.scrollView.add($.__views.__alloyId1577);
     $.__views.__alloyId1578 = Ti.UI.createLabel({
 =======
+=======
+>>>>>>> origin/master
     $.__views.__alloyId1386 = Ti.UI.createView({
         layout: "vertical",
         height: "180",
@@ -205,12 +235,16 @@ function Controller() {
     });
     $.__views.scrollView.add($.__views.__alloyId1386);
     $.__views.__alloyId1387 = Ti.UI.createLabel({
+<<<<<<< HEAD
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
         text: "Mobile Number",
         color: "black",
         top: "20",
         textAlign: "center",
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -242,10 +276,24 @@ function Controller() {
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1387"
+    });
+    $.__views.__alloyId1386.add($.__views.__alloyId1387);
+    $.__views.__alloyId1388 = Ti.UI.createLabel({
+        text: "01X 0000000",
+        color: "black",
+        textAlign: "center",
+        id: "__alloyId1388"
+    });
+    $.__views.__alloyId1386.add($.__views.__alloyId1388);
+    $.__views.__alloyId1389 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Current Balance (RM)",
         color: "black",
         top: "20",
         textAlign: "center",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1389"
     });
@@ -272,6 +320,8 @@ function Controller() {
     $.__views.__alloyId1577.add($.__views.__alloyId1581);
     $.__views.__alloyId1582 = Ti.UI.createView({
 =======
+=======
+>>>>>>> origin/master
         id: "__alloyId1389"
     });
     $.__views.__alloyId1386.add($.__views.__alloyId1389);
@@ -283,12 +333,16 @@ function Controller() {
     });
     $.__views.__alloyId1386.add($.__views.__alloyId1390);
     $.__views.__alloyId1391 = Ti.UI.createView({
+<<<<<<< HEAD
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
         backgroundColor: "#F1F1F1",
         width: "100%",
         height: "2",
         top: "10",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1391"
     });
@@ -304,6 +358,11 @@ function Controller() {
     $.__views.__alloyId1386.add($.__views.__alloyId1391);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1391"
+    });
+    $.__views.__alloyId1386.add($.__views.__alloyId1391);
+>>>>>>> origin/master
     $.__views.contentView2 = Ti.UI.createView({
         id: "contentView2",
         layout: "horizontal",
@@ -311,6 +370,7 @@ function Controller() {
         top: "10"
     });
     $.__views.scrollView.add($.__views.contentView2);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -323,6 +383,8 @@ function Controller() {
     $.__views.contentView2.add($.__views.__alloyId1583);
 =======
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
     $.__views.__alloyId1392 = Ti.UI.createLabel({
         text: "Top Up Amount",
         textAlign: "center",
@@ -331,9 +393,12 @@ function Controller() {
     });
     $.__views.contentView2.add($.__views.__alloyId1392);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
     $.__views.pickerContentView2 = Ti.UI.createView({
         id: "pickerContentView2",
         layout: "composite",
@@ -364,6 +429,9 @@ function Controller() {
     });
     $.__views.pickerContentView2.add($.__views.picker2);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
     var __alloyId1393 = [];
     $.__views.__alloyId1394 = Ti.UI.createPickerRow({
         title: "Amount",
@@ -388,6 +456,7 @@ function Controller() {
     $.__views.__alloyId1398 = Ti.UI.createPickerRow({
         title: "RM100",
         id: "__alloyId1398"
+<<<<<<< HEAD
     });
     __alloyId1393.push($.__views.__alloyId1398);
     $.__views.picker2.add(__alloyId1393);
@@ -450,6 +519,11 @@ function Controller() {
     $.__views.picker2.add(__alloyId1393);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    });
+    __alloyId1393.push($.__views.__alloyId1398);
+    $.__views.picker2.add(__alloyId1393);
+>>>>>>> origin/master
     $.__views.contentView = Ti.UI.createView({
         id: "contentView",
         layout: "horizontal",
@@ -457,6 +531,7 @@ function Controller() {
         top: "10"
     });
     $.__views.scrollView.add($.__views.contentView);
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1399 = Ti.UI.createLabel({
         text: "Payment Method",
@@ -484,6 +559,15 @@ function Controller() {
     $.__views.contentView.add($.__views.__alloyId1399);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1399 = Ti.UI.createLabel({
+        text: "Payment Method",
+        textAlign: "center",
+        color: "black",
+        id: "__alloyId1399"
+    });
+    $.__views.contentView.add($.__views.__alloyId1399);
+>>>>>>> origin/master
     $.__views.pickerContentView = Ti.UI.createView({
         id: "pickerContentView",
         layout: "composite",
@@ -513,6 +597,7 @@ function Controller() {
         visible: "true"
     });
     $.__views.pickerContentView.add($.__views.picker);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -548,6 +633,8 @@ function Controller() {
     $.__views.__alloyId1595.add($.__views.__alloyId1596);
 =======
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
     var __alloyId1400 = [];
     $.__views.__alloyId1401 = Ti.UI.createPickerRow({
         title: "Online Banking",
@@ -579,9 +666,12 @@ function Controller() {
     });
     $.__views.__alloyId1404.add($.__views.__alloyId1405);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.scrollView.height = Ti.Platform.displayCaps.platformHeight - 200;
@@ -589,6 +679,7 @@ function Controller() {
         console.log("android");
         $.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 200;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     __defers["$.__views.__alloyId1383!click!back"] && $.__views.__alloyId1383.addEventListener("click", back);
     __defers["$.__views.__alloyId1404!click!proceed"] && $.__views.__alloyId1404.addEventListener("click", proceed);
@@ -601,6 +692,10 @@ function Controller() {
     __defers["$.__views.__alloyId1404!click!proceed"] && $.__views.__alloyId1404.addEventListener("click", proceed);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    __defers["$.__views.__alloyId1383!click!back"] && $.__views.__alloyId1383.addEventListener("click", back);
+    __defers["$.__views.__alloyId1404!click!proceed"] && $.__views.__alloyId1404.addEventListener("click", proceed);
+>>>>>>> origin/master
     _.extend($, exports);
 }
 

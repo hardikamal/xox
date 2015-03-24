@@ -1,5 +1,6 @@
 dependencies: \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/MGSplitView/MGSplitDividerView.m \
@@ -10,6 +11,8 @@ dependencies: \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/MGSplitView/MGSplitViewController.h
 =======
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/MGSplitView/MGSplitDividerView.m \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiBase.h \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiThreading.h \
@@ -17,6 +20,9 @@ dependencies: \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/MGSplitView/MGSplitDividerView.h \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/MGSplitView/MGSplitViewController.h
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master

@@ -57,6 +57,7 @@ function Controller() {
     });
     $.__views.vas && $.addTopLevelView($.__views.vas);
 <<<<<<< HEAD
+<<<<<<< HEAD
     $.__views.__alloyId2587 = Alloy.createController("_header", {
         id: "__alloyId2587",
 =======
@@ -70,6 +71,10 @@ function Controller() {
         id: "__alloyId2587",
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId2587 = Alloy.createController("_header", {
+        id: "__alloyId2587",
+>>>>>>> origin/master
         __parentSymbol: $.__views.vas
     });
     $.__views.__alloyId2587.setParent($.__views.vas);
@@ -79,6 +84,7 @@ function Controller() {
         backgroundColor: "#E82630",
         id: "__alloyId2588"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.vas.add($.__views.__alloyId2588);
     $.__views.__alloyId2589 = Ti.UI.createLabel({
@@ -121,10 +127,15 @@ function Controller() {
     $.__views.__alloyId2589 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.vas.add($.__views.__alloyId2588);
+    $.__views.__alloyId2589 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "VAS Management",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId2589"
     });
@@ -157,11 +168,18 @@ function Controller() {
     $.__views.__alloyId2590 = Ti.UI.createImageView({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId2589"
+    });
+    $.__views.__alloyId2588.add($.__views.__alloyId2589);
+    $.__views.__alloyId2590 = Ti.UI.createImageView({
+>>>>>>> origin/master
         backgroundColor: "transparent",
         width: "30",
         height: "30",
         right: "10",
         image: "/images/close_icon.png",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId2590"
     });
@@ -194,6 +212,12 @@ function Controller() {
     back ? $.__views.__alloyId2590.addEventListener("click", back) : __defers["$.__views.__alloyId2590!click!back"] = true;
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId2590"
+    });
+    $.__views.__alloyId2588.add($.__views.__alloyId2590);
+    back ? $.__views.__alloyId2590.addEventListener("click", back) : __defers["$.__views.__alloyId2590!click!back"] = true;
+>>>>>>> origin/master
     $.__views.scrollView = Ti.UI.createScrollView({
         id: "scrollView",
         layout: "vertical",
@@ -201,6 +225,7 @@ function Controller() {
         backgroundColor: "#E6E7E9"
     });
     $.__views.vas.add($.__views.scrollView);
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId2591 = Ti.UI.createView({
 =======
@@ -215,6 +240,9 @@ function Controller() {
     $.__views.__alloyId2591 = Ti.UI.createView({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId2591 = Ti.UI.createView({
+>>>>>>> origin/master
         layout: "horizontal",
         top: "5",
         bottom: "5",
@@ -229,6 +257,7 @@ function Controller() {
         height: "100%",
         id: "__alloyId2592"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId2591.add($.__views.__alloyId2592);
     $.__views.__alloyId2593 = Ti.UI.createLabel({
@@ -272,11 +301,16 @@ function Controller() {
     $.__views.__alloyId2593 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId2591.add($.__views.__alloyId2592);
+    $.__views.__alloyId2593 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Call Forwarding",
         backgroundColor: "transparent",
         color: "black",
         textAlign: "left",
         left: "10",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId2593"
 =======
@@ -285,11 +319,15 @@ function Controller() {
 <<<<<<< HEAD
         id: "__alloyId2551"
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId2593"
+>>>>>>> origin/master
     });
     $.__views.__alloyId2592.add($.__views.__alloyId2593);
     $.__views.__alloyId2594 = Ti.UI.createView({
         width: "30%",
         height: "100%",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId2594"
     });
@@ -324,10 +362,16 @@ function Controller() {
     $.__views.__alloyId2591.add($.__views.__alloyId2594);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId2594"
+    });
+    $.__views.__alloyId2591.add($.__views.__alloyId2594);
+>>>>>>> origin/master
     $.__views.switch1 = Ti.UI.createSwitch({
         value: false,
         id: "switch1"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId2594.add($.__views.switch1);
     forwarding ? $.__views.switch1.addEventListener("change", forwarding) : __defers["$.__views.switch1!change!forwarding"] = true;
@@ -345,6 +389,10 @@ function Controller() {
 >>>>>>> origin/master
     forwarding ? $.__views.switch1.addEventListener("change", forwarding) : __defers["$.__views.switch1!change!forwarding"] = true;
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId2594.add($.__views.switch1);
+    forwarding ? $.__views.switch1.addEventListener("change", forwarding) : __defers["$.__views.switch1!change!forwarding"] = true;
+>>>>>>> origin/master
     $.__views.__alloyId2595 = Ti.UI.createView({
         layout: "horizontal",
         top: "5",
@@ -359,6 +407,7 @@ function Controller() {
         width: "70%",
         height: "100%",
         id: "__alloyId2596"
+<<<<<<< HEAD
 <<<<<<< HEAD
     });
     $.__views.__alloyId2595.add($.__views.__alloyId2596);
@@ -395,11 +444,17 @@ function Controller() {
     $.__views.__alloyId2597 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    });
+    $.__views.__alloyId2595.add($.__views.__alloyId2596);
+    $.__views.__alloyId2597 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Caller Line Identification Presentation",
         backgroundColor: "transparent",
         color: "black",
         textAlign: "left",
         left: "10",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId2597"
 =======
@@ -411,6 +466,9 @@ function Controller() {
         id: "__alloyId2597"
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId2597"
+>>>>>>> origin/master
     });
     $.__views.__alloyId2596.add($.__views.__alloyId2597);
     $.__views.__alloyId2598 = Ti.UI.createView({
@@ -418,6 +476,7 @@ function Controller() {
         height: "100%",
         id: "__alloyId2598"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId2595.add($.__views.__alloyId2598);
 =======
@@ -449,10 +508,14 @@ function Controller() {
     $.__views.__alloyId2595.add($.__views.__alloyId2598);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId2595.add($.__views.__alloyId2598);
+>>>>>>> origin/master
     $.__views.switch2 = Ti.UI.createSwitch({
         value: false,
         id: "switch2"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId2598.add($.__views.switch2);
 =======
@@ -464,6 +527,9 @@ function Controller() {
     $.__views.__alloyId2598.add($.__views.switch2);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId2598.add($.__views.switch2);
+>>>>>>> origin/master
     presentation ? $.__views.switch2.addEventListener("change", presentation) : __defers["$.__views.switch2!change!presentation"] = true;
     $.__views.__alloyId2599 = Ti.UI.createView({
         layout: "horizontal",
@@ -479,6 +545,7 @@ function Controller() {
         width: "70%",
         height: "100%",
         id: "__alloyId2600"
+<<<<<<< HEAD
 <<<<<<< HEAD
     });
     $.__views.__alloyId2599.add($.__views.__alloyId2600);
@@ -515,11 +582,17 @@ function Controller() {
     $.__views.__alloyId2601 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    });
+    $.__views.__alloyId2599.add($.__views.__alloyId2600);
+    $.__views.__alloyId2601 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Caller Line Identification Restriction",
         backgroundColor: "transparent",
         color: "black",
         textAlign: "left",
         left: "10",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId2601"
 =======
@@ -531,6 +604,9 @@ function Controller() {
         id: "__alloyId2601"
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId2601"
+>>>>>>> origin/master
     });
     $.__views.__alloyId2600.add($.__views.__alloyId2601);
     $.__views.__alloyId2602 = Ti.UI.createView({
@@ -538,6 +614,7 @@ function Controller() {
         height: "100%",
         id: "__alloyId2602"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId2599.add($.__views.__alloyId2602);
 =======
@@ -569,10 +646,14 @@ function Controller() {
     $.__views.__alloyId2599.add($.__views.__alloyId2602);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId2599.add($.__views.__alloyId2602);
+>>>>>>> origin/master
     $.__views.switch3 = Ti.UI.createSwitch({
         value: false,
         id: "switch3"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId2602.add($.__views.switch3);
 =======
@@ -584,6 +665,9 @@ function Controller() {
     $.__views.__alloyId2602.add($.__views.switch3);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId2602.add($.__views.switch3);
+>>>>>>> origin/master
     restriction ? $.__views.switch3.addEventListener("change", restriction) : __defers["$.__views.switch3!change!restriction"] = true;
     $.__views.__alloyId2603 = Ti.UI.createView({
         layout: "horizontal",
@@ -630,6 +714,7 @@ function Controller() {
         textAlign: "left",
         left: "10",
 <<<<<<< HEAD
+<<<<<<< HEAD
         id: "__alloyId2605"
 =======
 <<<<<<< HEAD
@@ -640,6 +725,9 @@ function Controller() {
         id: "__alloyId2605"
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId2605"
+>>>>>>> origin/master
     });
     $.__views.__alloyId2604.add($.__views.__alloyId2605);
     $.__views.__alloyId2606 = Ti.UI.createView({
@@ -712,6 +800,7 @@ function Controller() {
         textAlign: "left",
         left: "10",
 <<<<<<< HEAD
+<<<<<<< HEAD
         id: "__alloyId2609"
 =======
 <<<<<<< HEAD
@@ -719,6 +808,9 @@ function Controller() {
 <<<<<<< HEAD
         id: "__alloyId2567"
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId2609"
+>>>>>>> origin/master
     });
     $.__views.__alloyId2608.add($.__views.__alloyId2609);
     $.__views.__alloyId2610 = Ti.UI.createView({
@@ -726,6 +818,7 @@ function Controller() {
         height: "100%",
         id: "__alloyId2610"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     $.__views.__alloyId2565.add($.__views.__alloyId2568);
@@ -743,6 +836,8 @@ function Controller() {
         id: "__alloyId2610"
     });
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
     $.__views.__alloyId2607.add($.__views.__alloyId2610);
     $.__views.__alloyId2611 = Ti.UI.createLabel({
         text: "English",
@@ -771,6 +866,7 @@ function Controller() {
     $.arrow.transform = Ti.UI.create2DMatrix().rotate(-90);
     __defers["$.__views.__alloyId2590!click!back"] && $.__views.__alloyId2590.addEventListener("click", back);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     __defers["$.__views.switch1!change!forwarding"] && $.__views.switch1.addEventListener("change", forwarding);
     __defers["$.__views.switch2!change!presentation"] && $.__views.switch2.addEventListener("change", presentation);
@@ -795,6 +891,8 @@ function Controller() {
     _.extend($, $.__views);
     __defers["$.__views.__alloyId770!click!back"] && $.__views.__alloyId770.addEventListener("click", back);
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
     __defers["$.__views.switch1!change!forwarding"] && $.__views.switch1.addEventListener("change", forwarding);
     __defers["$.__views.switch2!change!presentation"] && $.__views.switch2.addEventListener("change", presentation);
     __defers["$.__views.switch3!change!restriction"] && $.__views.switch3.addEventListener("change", restriction);

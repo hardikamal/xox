@@ -72,6 +72,7 @@ var Alloy = require("alloy"), _ = Alloy._, Backbone = Alloy.Backbone;
 Alloy.Globals.menuType = "1";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Alloy.Globals.userPlan = "postpaid";
 =======
 <<<<<<< HEAD
@@ -81,6 +82,9 @@ Alloy.Globals.userPlan;
 Alloy.Globals.userPlan = "postpaid";
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+Alloy.Globals.userPlan = "postpaid";
+>>>>>>> origin/master
 
 =======
 >>>>>>> Stashed changes

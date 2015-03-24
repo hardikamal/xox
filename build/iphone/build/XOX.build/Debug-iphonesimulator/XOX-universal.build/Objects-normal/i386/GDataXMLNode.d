@@ -1,5 +1,6 @@
 dependencies: \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/GDataXMLNode.m \
@@ -29,6 +30,8 @@ dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.1.sdk/usr/include/libxml2/libxml/xpathInternals.h
 =======
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/GDataXMLNode.m \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/GDataXMLNode.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/tree.h \
@@ -55,6 +58,9 @@ dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/xpath.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.2.sdk/usr/include/libxml2/libxml/xpathInternals.h
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master

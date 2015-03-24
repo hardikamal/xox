@@ -419,6 +419,7 @@ function Controller() {
         id: "__alloyId1044"
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
     $.__views.pickerContentView2.add($.__views.__alloyId1044);
     showPicker ? $.__views.__alloyId1044.addEventListener("click", showPicker) : __defers["$.__views.__alloyId1044!click!showPicker"] = true;
 =======
@@ -430,6 +431,10 @@ function Controller() {
     showPicker ? $.__views.__alloyId1044.addEventListener("click", showPicker) : __defers["$.__views.__alloyId1044!click!showPicker"] = true;
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.pickerContentView2.add($.__views.__alloyId1044);
+    showPicker ? $.__views.__alloyId1044.addEventListener("click", showPicker) : __defers["$.__views.__alloyId1044!click!showPicker"] = true;
+>>>>>>> origin/master
     $.__views.pickerView2 = Ti.UI.createView({
         id: "pickerView2",
         height: "50",
@@ -524,6 +529,7 @@ function Controller() {
     __defers["$.__views.picker!change!plan"] && $.__views.picker.addEventListener("change", plan);
     __defers["$.__views.chargeLabel!click!showPicker2"] && $.__views.chargeLabel.addEventListener("click", showPicker2);
 <<<<<<< HEAD
+<<<<<<< HEAD
     __defers["$.__views.__alloyId1044!click!showPicker"] && $.__views.__alloyId1044.addEventListener("click", showPicker);
 =======
 <<<<<<< HEAD
@@ -532,6 +538,9 @@ function Controller() {
     __defers["$.__views.__alloyId1044!click!showPicker"] && $.__views.__alloyId1044.addEventListener("click", showPicker);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    __defers["$.__views.__alloyId1044!click!showPicker"] && $.__views.__alloyId1044.addEventListener("click", showPicker);
+>>>>>>> origin/master
     __defers["$.__views.done2!click!done2"] && $.__views.done2.addEventListener("click", done2);
     __defers["$.__views.picker2!change!charge"] && $.__views.picker2.addEventListener("change", charge);
     __defers["$.__views.__alloyId1051!click!submit"] && $.__views.__alloyId1051.addEventListener("click", submit);

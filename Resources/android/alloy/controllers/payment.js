@@ -49,6 +49,7 @@ function Controller() {
     });
     $.__views.payment && $.addTopLevelView($.__views.payment);
 <<<<<<< HEAD
+<<<<<<< HEAD
     $.__views.__alloyId1459 = Alloy.createController("_header", {
         id: "__alloyId1459",
 =======
@@ -62,6 +63,10 @@ function Controller() {
         id: "__alloyId1459",
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1459 = Alloy.createController("_header", {
+        id: "__alloyId1459",
+>>>>>>> origin/master
         __parentSymbol: $.__views.payment
     });
     $.__views.__alloyId1459.setParent($.__views.payment);
@@ -71,6 +76,7 @@ function Controller() {
         backgroundColor: "#E91D2F",
         id: "__alloyId1460"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.payment.add($.__views.__alloyId1460);
     $.__views.__alloyId1461 = Ti.UI.createLabel({
@@ -113,10 +119,15 @@ function Controller() {
     $.__views.__alloyId1461 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.payment.add($.__views.__alloyId1460);
+    $.__views.__alloyId1461 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Payment",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1461"
     });
@@ -149,11 +160,18 @@ function Controller() {
     $.__views.__alloyId1462 = Ti.UI.createImageView({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1461"
+    });
+    $.__views.__alloyId1460.add($.__views.__alloyId1461);
+    $.__views.__alloyId1462 = Ti.UI.createImageView({
+>>>>>>> origin/master
         backgroundColor: "transparent",
         width: "30",
         height: "30",
         right: "10",
         image: "/images/close_icon.png",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1462"
     });
@@ -186,6 +204,12 @@ function Controller() {
     back ? $.__views.__alloyId1462.addEventListener("click", back) : __defers["$.__views.__alloyId1462!click!back"] = true;
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1462"
+    });
+    $.__views.__alloyId1460.add($.__views.__alloyId1462);
+    back ? $.__views.__alloyId1462.addEventListener("click", back) : __defers["$.__views.__alloyId1462!click!back"] = true;
+>>>>>>> origin/master
     $.__views.scrollView = Ti.UI.createScrollView({
         id: "scrollView",
         layout: "vertical",
@@ -193,6 +217,7 @@ function Controller() {
         backgroundColor: "white"
     });
     $.__views.payment.add($.__views.scrollView);
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1463 = Ti.UI.createView({
 =======
@@ -207,6 +232,9 @@ function Controller() {
     $.__views.__alloyId1463 = Ti.UI.createView({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1463 = Ti.UI.createView({
+>>>>>>> origin/master
         layout: "horizontal",
         top: "5",
         bottom: "5",
@@ -290,6 +318,7 @@ function Controller() {
     _.extend($, $.__views);
     $.arrow1.transform = Ti.UI.create2DMatrix().rotate(-90);
     $.arrow2.transform = Ti.UI.create2DMatrix().rotate(-90);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -448,15 +477,20 @@ function Controller() {
 >>>>>>> Stashed changes
 =======
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
     __defers["$.__views.__alloyId1462!click!back"] && $.__views.__alloyId1462.addEventListener("click", back);
     __defers["$.__views.__alloyId1464!click!paymentPostpaid"] && $.__views.__alloyId1464.addEventListener("click", paymentPostpaid);
     __defers["$.__views.__alloyId1466!click!paymentPostpaid"] && $.__views.__alloyId1466.addEventListener("click", paymentPostpaid);
     __defers["$.__views.__alloyId1468!click!paymentPrepaid"] && $.__views.__alloyId1468.addEventListener("click", paymentPrepaid);
     __defers["$.__views.__alloyId1470!click!paymentPrepaid"] && $.__views.__alloyId1470.addEventListener("click", paymentPrepaid);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
     _.extend($, exports);
 }
 

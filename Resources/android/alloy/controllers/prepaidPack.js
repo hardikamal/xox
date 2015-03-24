@@ -91,6 +91,7 @@ function Controller() {
     });
     $.__views.prepaidPack && $.addTopLevelView($.__views.prepaidPack);
 <<<<<<< HEAD
+<<<<<<< HEAD
     $.__views.__alloyId1775 = Alloy.createController("_header", {
         id: "__alloyId1775",
 =======
@@ -104,6 +105,10 @@ function Controller() {
         id: "__alloyId1775",
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1775 = Alloy.createController("_header", {
+        id: "__alloyId1775",
+>>>>>>> origin/master
         __parentSymbol: $.__views.prepaidPack
     });
     $.__views.__alloyId1775.setParent($.__views.prepaidPack);
@@ -113,6 +118,7 @@ function Controller() {
         backgroundColor: "#4CC4D2",
         id: "__alloyId1776"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.prepaidPack.add($.__views.__alloyId1776);
     $.__views.__alloyId1777 = Ti.UI.createLabel({
@@ -155,10 +161,15 @@ function Controller() {
     $.__views.__alloyId1777 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.prepaidPack.add($.__views.__alloyId1776);
+    $.__views.__alloyId1777 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "XOX PREPAID PACK",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1777"
     });
@@ -191,11 +202,18 @@ function Controller() {
     $.__views.__alloyId1778 = Ti.UI.createImageView({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1777"
+    });
+    $.__views.__alloyId1776.add($.__views.__alloyId1777);
+    $.__views.__alloyId1778 = Ti.UI.createImageView({
+>>>>>>> origin/master
         backgroundColor: "transparent",
         width: "30",
         height: "30",
         right: "10",
         image: "/images/close_icon.png",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1778"
 =======
@@ -207,6 +225,9 @@ function Controller() {
         id: "__alloyId1778"
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1778"
+>>>>>>> origin/master
     });
     $.__views.__alloyId1776.add($.__views.__alloyId1778);
     back ? $.__views.__alloyId1778.addEventListener("click", back) : __defers["$.__views.__alloyId1778!click!back"] = true;
@@ -215,6 +236,7 @@ function Controller() {
         height: "50",
         backgroundColor: "#F2F2F2",
         id: "__alloyId1779"
+<<<<<<< HEAD
     });
 <<<<<<< HEAD
     $.__views.prepaidPack.add($.__views.__alloyId1779);
@@ -251,10 +273,16 @@ function Controller() {
     $.__views.__alloyId1780 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    });
+    $.__views.prepaidPack.add($.__views.__alloyId1779);
+    $.__views.__alloyId1780 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Step 1 of 4",
         backgroundColor: "transparent",
         color: "black",
         left: "20",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1780"
 =======
@@ -266,6 +294,9 @@ function Controller() {
         id: "__alloyId1780"
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1780"
+>>>>>>> origin/master
     });
     $.__views.__alloyId1779.add($.__views.__alloyId1780);
     $.__views.__alloyId1781 = Ti.UI.createLabel({
@@ -274,6 +305,7 @@ function Controller() {
         color: "#4CC4D2",
         left: "20",
         id: "__alloyId1781"
+<<<<<<< HEAD
 <<<<<<< HEAD
     });
     $.__views.__alloyId1779.add($.__views.__alloyId1781);
@@ -299,12 +331,17 @@ function Controller() {
     $.__views.__alloyId1779.add($.__views.__alloyId1781);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    });
+    $.__views.__alloyId1779.add($.__views.__alloyId1781);
+>>>>>>> origin/master
     $.__views.scrollView = Ti.UI.createScrollView({
         id: "scrollView",
         layout: "vertical",
         width: "90%"
     });
     $.__views.prepaidPack.add($.__views.scrollView);
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1782 = Ti.UI.createView({
 =======
@@ -313,11 +350,15 @@ function Controller() {
 <<<<<<< HEAD
     $.__views.__alloyId1723 = Ti.UI.createView({
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1782 = Ti.UI.createView({
+>>>>>>> origin/master
         layout: "horizontal",
         height: "50",
         top: "10",
         id: "__alloyId1782"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.scrollView.add($.__views.__alloyId1782);
     $.__views.__alloyId1783 = Ti.UI.createLabel({
@@ -352,11 +393,16 @@ function Controller() {
     $.__views.__alloyId1783 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.scrollView.add($.__views.__alloyId1782);
+    $.__views.__alloyId1783 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Sim Type",
         color: "black",
         height: "50",
         width: "30%",
         top: "0",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1783"
 =======
@@ -365,6 +411,9 @@ function Controller() {
 <<<<<<< HEAD
         id: "__alloyId1724"
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1783"
+>>>>>>> origin/master
     });
     $.__views.__alloyId1782.add($.__views.__alloyId1783);
     $.__views.__alloyId1784 = Ti.UI.createView({
@@ -373,6 +422,7 @@ function Controller() {
         width: "70%",
         id: "__alloyId1784"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     $.__views.__alloyId1723.add($.__views.__alloyId1725);
@@ -390,6 +440,8 @@ function Controller() {
         id: "__alloyId1784"
     });
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
     $.__views.__alloyId1782.add($.__views.__alloyId1784);
     $.__views.picker = Ti.UI.createPicker({
         id: "picker",
@@ -433,6 +485,7 @@ function Controller() {
         height: "50",
         id: "__alloyId1790"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.scrollView.add($.__views.__alloyId1790);
     $.__views.__alloyId1791 = Ti.UI.createLabel({
@@ -548,10 +601,15 @@ function Controller() {
     $.__views.__alloyId1791 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.scrollView.add($.__views.__alloyId1790);
+    $.__views.__alloyId1791 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Package",
         color: "black",
         height: "50",
         width: "30%",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1791"
 =======
@@ -563,6 +621,9 @@ function Controller() {
         id: "__alloyId1791"
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1791"
+>>>>>>> origin/master
     });
     $.__views.__alloyId1790.add($.__views.__alloyId1791);
     $.__views.__alloyId1792 = Ti.UI.createView({
@@ -571,6 +632,7 @@ function Controller() {
         width: "70%",
         id: "__alloyId1792"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1790.add($.__views.__alloyId1792);
 =======
@@ -604,10 +666,14 @@ function Controller() {
     $.__views.__alloyId1790.add($.__views.__alloyId1792);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1790.add($.__views.__alloyId1792);
+>>>>>>> origin/master
     $.__views.switch1 = Ti.UI.createSwitch({
         value: false,
         id: "switch1"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1792.add($.__views.switch1);
     highSpeed ? $.__views.switch1.addEventListener("change", highSpeed) : __defers["$.__views.switch1!change!highSpeed"] = true;
@@ -635,11 +701,17 @@ function Controller() {
     $.__views.__alloyId1793 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1792.add($.__views.switch1);
+    highSpeed ? $.__views.switch1.addEventListener("change", highSpeed) : __defers["$.__views.switch1!change!highSpeed"] = true;
+    $.__views.__alloyId1793 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Highspeed Internet",
         color: "black",
         height: "50",
         width: "auto",
         left: "10",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1793"
 =======
@@ -651,6 +723,9 @@ function Controller() {
         id: "__alloyId1793"
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1793"
+>>>>>>> origin/master
     });
     $.__views.__alloyId1792.add($.__views.__alloyId1793);
     $.__views.__alloyId1794 = Ti.UI.createView({
@@ -658,6 +733,7 @@ function Controller() {
         height: "130",
         id: "__alloyId1794"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.scrollView.add($.__views.__alloyId1794);
     $.__views.__alloyId1795 = Ti.UI.createLabel({
@@ -694,10 +770,15 @@ function Controller() {
     $.__views.__alloyId1795 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.scrollView.add($.__views.__alloyId1794);
+    $.__views.__alloyId1795 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Top Up Voucher (Optional)*",
         color: "black",
         height: "30",
         left: "0",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1795"
     });
@@ -722,6 +803,9 @@ function Controller() {
 =======
         id: "__alloyId1795"
 >>>>>>> origin/master
+=======
+        id: "__alloyId1795"
+>>>>>>> origin/master
     });
     $.__views.__alloyId1794.add($.__views.__alloyId1795);
     $.__views.__alloyId1796 = Ti.UI.createView({
@@ -735,6 +819,7 @@ function Controller() {
         layout: "horizontal",
         id: "__alloyId1797"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1564.add($.__views.__alloyId1565);
     $.__views.__alloyId1566 = Ti.UI.createView({
@@ -771,11 +856,15 @@ function Controller() {
     $.__views.__alloyId1796.add($.__views.__alloyId1797);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1796.add($.__views.__alloyId1797);
+>>>>>>> origin/master
     $.__views.switch2 = Ti.UI.createSwitch({
         value: false,
         id: "switch2",
         height: "50"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1797.add($.__views.switch2);
     $.__views.__alloyId1798 = Ti.UI.createLabel({
@@ -798,11 +887,16 @@ function Controller() {
     $.__views.__alloyId1798 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1797.add($.__views.switch2);
+    $.__views.__alloyId1798 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "RM10",
         color: "black",
         height: "50",
         width: Ti.UI.SIZE,
         left: "10",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1798"
 =======
@@ -811,11 +905,15 @@ function Controller() {
 <<<<<<< HEAD
         id: "__alloyId1739"
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1798"
+>>>>>>> origin/master
     });
     $.__views.__alloyId1797.add($.__views.__alloyId1798);
     $.__views.__alloyId1799 = Ti.UI.createView({
         width: "50%",
         layout: "horizontal",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1799"
     });
@@ -850,11 +948,17 @@ function Controller() {
     $.__views.__alloyId1796.add($.__views.__alloyId1799);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1799"
+    });
+    $.__views.__alloyId1796.add($.__views.__alloyId1799);
+>>>>>>> origin/master
     $.__views.switch3 = Ti.UI.createSwitch({
         value: false,
         id: "switch3",
         height: "50"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1799.add($.__views.switch3);
     $.__views.__alloyId1800 = Ti.UI.createLabel({
@@ -877,11 +981,16 @@ function Controller() {
     $.__views.__alloyId1800 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1799.add($.__views.switch3);
+    $.__views.__alloyId1800 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "RM30",
         color: "black",
         height: "50",
         width: Ti.UI.SIZE,
         left: "10",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1800"
 =======
@@ -893,6 +1002,9 @@ function Controller() {
         id: "__alloyId1800"
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1800"
+>>>>>>> origin/master
     });
     $.__views.__alloyId1799.add($.__views.__alloyId1800);
     $.__views.__alloyId1801 = Ti.UI.createView({
@@ -905,6 +1017,7 @@ function Controller() {
         width: "50%",
         layout: "horizontal",
         id: "__alloyId1802"
+<<<<<<< HEAD
     });
 <<<<<<< HEAD
     $.__views.__alloyId1801.add($.__views.__alloyId1802);
@@ -939,11 +1052,16 @@ function Controller() {
     $.__views.__alloyId1801.add($.__views.__alloyId1802);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    });
+    $.__views.__alloyId1801.add($.__views.__alloyId1802);
+>>>>>>> origin/master
     $.__views.switch4 = Ti.UI.createSwitch({
         value: false,
         id: "switch4",
         height: "50"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1802.add($.__views.switch4);
     $.__views.__alloyId1803 = Ti.UI.createLabel({
@@ -966,11 +1084,16 @@ function Controller() {
     $.__views.__alloyId1803 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1802.add($.__views.switch4);
+    $.__views.__alloyId1803 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "RM50",
         color: "black",
         height: "50",
         width: Ti.UI.SIZE,
         left: "10",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1803"
 =======
@@ -979,11 +1102,15 @@ function Controller() {
 <<<<<<< HEAD
         id: "__alloyId1744"
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1803"
+>>>>>>> origin/master
     });
     $.__views.__alloyId1802.add($.__views.__alloyId1803);
     $.__views.__alloyId1804 = Ti.UI.createView({
         width: "50%",
         layout: "horizontal",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1804"
     });
@@ -1018,11 +1145,17 @@ function Controller() {
     $.__views.__alloyId1801.add($.__views.__alloyId1804);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1804"
+    });
+    $.__views.__alloyId1801.add($.__views.__alloyId1804);
+>>>>>>> origin/master
     $.__views.switch5 = Ti.UI.createSwitch({
         value: false,
         id: "switch5",
         height: "50"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1804.add($.__views.switch5);
     $.__views.__alloyId1805 = Ti.UI.createLabel({
@@ -1045,11 +1178,16 @@ function Controller() {
     $.__views.__alloyId1805 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1804.add($.__views.switch5);
+    $.__views.__alloyId1805 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "None",
         color: "black",
         height: "50",
         width: Ti.UI.SIZE,
         left: "10",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1805"
 =======
@@ -1099,10 +1237,23 @@ function Controller() {
     $.__views.__alloyId1807 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1805"
+    });
+    $.__views.__alloyId1804.add($.__views.__alloyId1805);
+    $.__views.__alloyId1806 = Ti.UI.createView({
+        layout: "vertical",
+        height: "80",
+        id: "__alloyId1806"
+    });
+    $.__views.scrollView.add($.__views.__alloyId1806);
+    $.__views.__alloyId1807 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Number Selection",
         color: "black",
         height: "30",
         left: "0",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1807"
     });
@@ -1121,6 +1272,10 @@ function Controller() {
 >>>>>>> origin/master
     });
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1807"
+    });
+>>>>>>> origin/master
     $.__views.__alloyId1806.add($.__views.__alloyId1807);
     $.__views.__alloyId1808 = Ti.UI.createTextField({
         height: "30",
@@ -1144,6 +1299,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         id: "__alloyId1810"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1809.add($.__views.__alloyId1810);
 =======
@@ -1195,11 +1351,15 @@ function Controller() {
     $.__views.__alloyId1809.add($.__views.__alloyId1810);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1809.add($.__views.__alloyId1810);
+>>>>>>> origin/master
     $.__views.switch6 = Ti.UI.createSwitch({
         value: false,
         id: "switch6",
         height: "50"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1810.add($.__views.switch6);
     $.__views.__alloyId1811 = Ti.UI.createLabel({
@@ -1218,12 +1378,17 @@ function Controller() {
     $.__views.__alloyId1811 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1810.add($.__views.switch6);
+    $.__views.__alloyId1811 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "0103091675",
         color: "black",
         height: "50",
         width: "30%",
         left: "5",
         id: "__alloyId1811"
+<<<<<<< HEAD
 <<<<<<< HEAD
     });
     $.__views.__alloyId1810.add($.__views.__alloyId1811);
@@ -1254,11 +1419,16 @@ function Controller() {
     $.__views.__alloyId1810.add($.__views.__alloyId1811);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    });
+    $.__views.__alloyId1810.add($.__views.__alloyId1811);
+>>>>>>> origin/master
     $.__views.switch7 = Ti.UI.createSwitch({
         value: false,
         id: "switch7",
         height: "50"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1810.add($.__views.switch7);
     $.__views.__alloyId1812 = Ti.UI.createLabel({
@@ -1277,6 +1447,10 @@ function Controller() {
     $.__views.__alloyId1812 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1810.add($.__views.switch7);
+    $.__views.__alloyId1812 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "0103091675",
         color: "black",
         height: "50",
@@ -1296,6 +1470,7 @@ function Controller() {
         layout: "horizontal",
         height: Ti.UI.SIZE,
         id: "__alloyId1814"
+<<<<<<< HEAD
 <<<<<<< HEAD
     });
     $.__views.__alloyId1813.add($.__views.__alloyId1814);
@@ -1326,11 +1501,16 @@ function Controller() {
     $.__views.__alloyId1813.add($.__views.__alloyId1814);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    });
+    $.__views.__alloyId1813.add($.__views.__alloyId1814);
+>>>>>>> origin/master
     $.__views.switch8 = Ti.UI.createSwitch({
         value: false,
         id: "switch8",
         height: "50"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1814.add($.__views.switch8);
     $.__views.__alloyId1815 = Ti.UI.createLabel({
@@ -1349,6 +1529,10 @@ function Controller() {
     $.__views.__alloyId1815 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1814.add($.__views.switch8);
+    $.__views.__alloyId1815 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "0103091675",
         color: "black",
         height: "50",
@@ -1356,6 +1540,7 @@ function Controller() {
         left: "5",
         id: "__alloyId1815"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1814.add($.__views.__alloyId1815);
 =======
@@ -1388,11 +1573,15 @@ function Controller() {
     $.__views.__alloyId1814.add($.__views.__alloyId1815);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1814.add($.__views.__alloyId1815);
+>>>>>>> origin/master
     $.__views.switch9 = Ti.UI.createSwitch({
         value: false,
         id: "switch9",
         height: "50"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1814.add($.__views.switch9);
     $.__views.__alloyId1816 = Ti.UI.createLabel({
@@ -1411,6 +1600,10 @@ function Controller() {
     $.__views.__alloyId1816 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1814.add($.__views.switch9);
+    $.__views.__alloyId1816 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "0103091675",
         color: "black",
         height: "50",
@@ -1424,6 +1617,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         width: "100%",
         id: "__alloyId1817"
+<<<<<<< HEAD
 <<<<<<< HEAD
     });
     $.__views.scrollView.add($.__views.__alloyId1817);
@@ -1472,11 +1666,22 @@ function Controller() {
     $.__views.__alloyId1817.add($.__views.__alloyId1818);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    });
+    $.__views.scrollView.add($.__views.__alloyId1817);
+    $.__views.__alloyId1818 = Ti.UI.createView({
+        layout: "horizontal",
+        height: Ti.UI.SIZE,
+        id: "__alloyId1818"
+    });
+    $.__views.__alloyId1817.add($.__views.__alloyId1818);
+>>>>>>> origin/master
     $.__views.switch10 = Ti.UI.createSwitch({
         value: false,
         id: "switch10",
         height: "50"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1818.add($.__views.switch10);
     $.__views.__alloyId1819 = Ti.UI.createLabel({
@@ -1495,12 +1700,17 @@ function Controller() {
     $.__views.__alloyId1819 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1818.add($.__views.switch10);
+    $.__views.__alloyId1819 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "0103091675",
         color: "black",
         height: "50",
         width: "30%",
         left: "5",
         id: "__alloyId1819"
+<<<<<<< HEAD
 <<<<<<< HEAD
     });
     $.__views.__alloyId1818.add($.__views.__alloyId1819);
@@ -1531,11 +1741,16 @@ function Controller() {
     $.__views.__alloyId1818.add($.__views.__alloyId1819);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    });
+    $.__views.__alloyId1818.add($.__views.__alloyId1819);
+>>>>>>> origin/master
     $.__views.switch11 = Ti.UI.createSwitch({
         value: false,
         id: "switch11",
         height: "50"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1818.add($.__views.switch11);
     $.__views.__alloyId1820 = Ti.UI.createLabel({
@@ -1554,6 +1769,10 @@ function Controller() {
     $.__views.__alloyId1820 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1818.add($.__views.switch11);
+    $.__views.__alloyId1820 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "0103091675",
         color: "black",
         height: "50",
@@ -1570,6 +1789,7 @@ function Controller() {
     });
     $.__views.scrollView.add($.__views.__alloyId1821);
     $.__views.__alloyId1822 = Ti.UI.createView({
+<<<<<<< HEAD
         layout: "horizontal",
         height: Ti.UI.SIZE,
         id: "__alloyId1822"
@@ -1608,11 +1828,19 @@ function Controller() {
     $.__views.__alloyId1821.add($.__views.__alloyId1822);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        layout: "horizontal",
+        height: Ti.UI.SIZE,
+        id: "__alloyId1822"
+    });
+    $.__views.__alloyId1821.add($.__views.__alloyId1822);
+>>>>>>> origin/master
     $.__views.switch12 = Ti.UI.createSwitch({
         value: false,
         id: "switch12",
         height: "50"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1822.add($.__views.switch12);
     $.__views.__alloyId1823 = Ti.UI.createLabel({
@@ -1631,12 +1859,17 @@ function Controller() {
     $.__views.__alloyId1823 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1822.add($.__views.switch12);
+    $.__views.__alloyId1823 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "0103091675",
         color: "black",
         height: "50",
         width: "30%",
         left: "5",
         id: "__alloyId1823"
+<<<<<<< HEAD
 <<<<<<< HEAD
     });
     $.__views.__alloyId1822.add($.__views.__alloyId1823);
@@ -1667,11 +1900,16 @@ function Controller() {
     $.__views.__alloyId1822.add($.__views.__alloyId1823);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    });
+    $.__views.__alloyId1822.add($.__views.__alloyId1823);
+>>>>>>> origin/master
     $.__views.switch13 = Ti.UI.createSwitch({
         value: false,
         id: "switch13",
         height: "50"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1822.add($.__views.switch13);
     $.__views.__alloyId1824 = Ti.UI.createLabel({
@@ -1690,6 +1928,10 @@ function Controller() {
     $.__views.__alloyId1824 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1822.add($.__views.switch13);
+    $.__views.__alloyId1824 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "0103091675",
         color: "black",
         height: "50",
@@ -1732,6 +1974,7 @@ function Controller() {
     $.picker.setSelectedRow(0, 0, false);
     var simType;
     __defers["$.__views.__alloyId1778!click!back"] && $.__views.__alloyId1778.addEventListener("click", back);
+<<<<<<< HEAD
 <<<<<<< HEAD
     __defers["$.__views.picker!change!simType"] && $.__views.picker.addEventListener("change", simType);
     __defers["$.__views.switch1!change!highSpeed"] && $.__views.switch1.addEventListener("change", highSpeed);
@@ -1783,6 +2026,11 @@ function Controller() {
     __defers["$.__views.__alloyId1825!click!next"] && $.__views.__alloyId1825.addEventListener("click", next);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    __defers["$.__views.picker!change!simType"] && $.__views.picker.addEventListener("change", simType);
+    __defers["$.__views.switch1!change!highSpeed"] && $.__views.switch1.addEventListener("change", highSpeed);
+    __defers["$.__views.__alloyId1825!click!next"] && $.__views.__alloyId1825.addEventListener("click", next);
+>>>>>>> origin/master
     _.extend($, exports);
 }
 

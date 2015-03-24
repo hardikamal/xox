@@ -1,5 +1,6 @@
 dependencies: \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiUIiOSProxy.m \
@@ -12,6 +13,8 @@ dependencies: \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/KrollContext.h \
 =======
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUIiOSProxy.m \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUIiOSProxy.h \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiProxy.h \
@@ -21,9 +24,12 @@ dependencies: \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiEvaluator.h \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollContext.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
   headers/JavaScriptCore/TiCore.h headers/JavaScriptCore/Ti.h \
   headers/JavaScriptCore/TiBase.h headers/JavaScriptCore/TiContextRef.h \
   headers/JavaScriptCore/TiObjectRef.h \
@@ -31,6 +37,7 @@ dependencies: \
   headers/JavaScriptCore/WebKitAvailability.h \
   headers/JavaScriptCore/TiStringRef.h \
   headers/JavaScriptCore/TiStringRefCF.h \
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -81,6 +88,8 @@ dependencies: \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiDynamicItemBehavior.h
 =======
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollCallback.h \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollObject.h \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiBindingRunLoop.h \
@@ -127,6 +136,9 @@ dependencies: \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiCollisionBehavior.h \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiDynamicItemBehavior.h
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master

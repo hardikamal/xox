@@ -1,5 +1,6 @@
 dependencies: \
 <<<<<<< HEAD
+<<<<<<< HEAD
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollMethod.m \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollMethod.h \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollContext.h \
@@ -14,6 +15,11 @@ dependencies: \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollContext.h \
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollMethod.m \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollMethod.h \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollContext.h \
+>>>>>>> origin/master
   headers/JavaScriptCore/TiCore.h headers/JavaScriptCore/Ti.h \
   headers/JavaScriptCore/TiBase.h headers/JavaScriptCore/TiContextRef.h \
   headers/JavaScriptCore/TiObjectRef.h \
@@ -21,6 +27,7 @@ dependencies: \
   headers/JavaScriptCore/WebKitAvailability.h \
   headers/JavaScriptCore/TiStringRef.h \
   headers/JavaScriptCore/TiStringRefCF.h \
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -59,6 +66,8 @@ dependencies: \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiViewTemplate.h
 =======
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiBase.h \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiThreading.h \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiPublicAPI.h \
@@ -93,6 +102,9 @@ dependencies: \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiRect.h \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiViewTemplate.h
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master

@@ -42,6 +42,7 @@ function Controller() {
     });
     $.__views.loyalty && $.addTopLevelView($.__views.loyalty);
 <<<<<<< HEAD
+<<<<<<< HEAD
     $.__views.__alloyId1172 = Alloy.createController("_header", {
         id: "__alloyId1172",
 =======
@@ -55,6 +56,10 @@ function Controller() {
         id: "__alloyId1172",
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1172 = Alloy.createController("_header", {
+        id: "__alloyId1172",
+>>>>>>> origin/master
         __parentSymbol: $.__views.loyalty
     });
     $.__views.__alloyId1172.setParent($.__views.loyalty);
@@ -64,6 +69,7 @@ function Controller() {
         backgroundColor: "#E82630",
         id: "__alloyId1173"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.loyalty.add($.__views.__alloyId1173);
     $.__views.__alloyId1174 = Ti.UI.createLabel({
@@ -106,10 +112,15 @@ function Controller() {
     $.__views.__alloyId1174 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.loyalty.add($.__views.__alloyId1173);
+    $.__views.__alloyId1174 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Loyalty",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1174"
     });
@@ -142,11 +153,18 @@ function Controller() {
     $.__views.__alloyId1175 = Ti.UI.createImageView({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1174"
+    });
+    $.__views.__alloyId1173.add($.__views.__alloyId1174);
+    $.__views.__alloyId1175 = Ti.UI.createImageView({
+>>>>>>> origin/master
         backgroundColor: "transparent",
         width: "30",
         height: "30",
         right: "10",
         image: "/images/close_icon.png",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1175"
 =======
@@ -158,6 +176,9 @@ function Controller() {
         id: "__alloyId1175"
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1175"
+>>>>>>> origin/master
     });
     $.__views.__alloyId1173.add($.__views.__alloyId1175);
     back ? $.__views.__alloyId1175.addEventListener("click", back) : __defers["$.__views.__alloyId1175!click!back"] = true;
@@ -172,6 +193,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         backgroundColor: "#E6E7E9",
         id: "__alloyId1177"
+<<<<<<< HEAD
 <<<<<<< HEAD
     });
     $.__views.__alloyId1176.add($.__views.__alloyId1177);
@@ -231,10 +253,16 @@ function Controller() {
     $.__views.__alloyId1178 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    });
+    $.__views.__alloyId1176.add($.__views.__alloyId1177);
+    $.__views.__alloyId1178 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Your Loyalty Points",
         backgroundColor: "transparent",
         color: "black",
         textAlign: "center",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1178"
     });
@@ -267,10 +295,17 @@ function Controller() {
     $.__views.__alloyId1179 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1178"
+    });
+    $.__views.__alloyId1177.add($.__views.__alloyId1178);
+    $.__views.__alloyId1179 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "8500",
         backgroundColor: "transparent",
         color: "black",
         textAlign: "center",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1179"
 =======
@@ -282,6 +317,9 @@ function Controller() {
         id: "__alloyId1179"
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1179"
+>>>>>>> origin/master
     });
     $.__views.__alloyId1177.add($.__views.__alloyId1179);
     $.__views.__alloyId1180 = Ti.UI.createView({
@@ -431,6 +469,7 @@ function Controller() {
     console.log("android");
     $.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 250;
 <<<<<<< HEAD
+<<<<<<< HEAD
     __defers["$.__views.__alloyId1175!click!back"] && $.__views.__alloyId1175.addEventListener("click", back);
     __defers["$.__views.__alloyId1185!click!loyalty"] && $.__views.__alloyId1185.addEventListener("click", loyalty);
 =======
@@ -465,6 +504,10 @@ function Controller() {
     __defers["$.__views.__alloyId1185!click!loyalty"] && $.__views.__alloyId1185.addEventListener("click", loyalty);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    __defers["$.__views.__alloyId1175!click!back"] && $.__views.__alloyId1175.addEventListener("click", back);
+    __defers["$.__views.__alloyId1185!click!loyalty"] && $.__views.__alloyId1185.addEventListener("click", loyalty);
+>>>>>>> origin/master
     _.extend($, exports);
 }
 

@@ -236,6 +236,7 @@ function Controller() {
     $.switch2.style = Ti.UI.Android.SWITCH_STYLE_CHECKBOX;
     __defers["$.__views.switch2!change!notification"] && $.__views.switch2.addEventListener("change", notification);
 <<<<<<< HEAD
+<<<<<<< HEAD
     __defers["$.__views.__alloyId2377!click!facebook"] && $.__views.__alloyId2377.addEventListener("click", facebook);
     __defers["$.__views.__alloyId2381!click!twitter"] && $.__views.__alloyId2381.addEventListener("click", twitter);
 =======
@@ -253,6 +254,10 @@ function Controller() {
     __defers["$.__views.__alloyId2381!click!twitter"] && $.__views.__alloyId2381.addEventListener("click", twitter);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    __defers["$.__views.__alloyId2377!click!facebook"] && $.__views.__alloyId2377.addEventListener("click", facebook);
+    __defers["$.__views.__alloyId2381!click!twitter"] && $.__views.__alloyId2381.addEventListener("click", twitter);
+>>>>>>> origin/master
     _.extend($, exports);
 }
 

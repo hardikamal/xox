@@ -35,6 +35,9 @@ function Controller() {
     });
     $.__views.promo && $.addTopLevelView($.__views.promo);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
     $.__views.__alloyId1957 = Alloy.createController("_header", {
         id: "__alloyId1957",
         __parentSymbol: $.__views.promo
@@ -47,6 +50,7 @@ function Controller() {
     });
     $.__views.promo.add($.__views.__alloyId1958);
     $.__views.__alloyId1959 = Ti.UI.createLabel({
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     $.__views.__alloyId2184 = Alloy.createController("_header", {
@@ -76,10 +80,13 @@ function Controller() {
     $.__views.__alloyId1959 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
         text: "Promo / News",
         left: "10",
         top: "10",
         color: "white",
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -114,6 +121,8 @@ function Controller() {
     promoDetail ? $.__views.__alloyId2190.addEventListener("click", promoDetail) : __defers["$.__views.__alloyId2190!click!promoDetail"] = true;
 =======
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
         id: "__alloyId1959"
     });
     $.__views.__alloyId1958.add($.__views.__alloyId1959);
@@ -144,15 +153,19 @@ function Controller() {
     $.__views.__alloyId1960.add($.__views.__alloyId1963);
     promoDetail ? $.__views.__alloyId1963.addEventListener("click", promoDetail) : __defers["$.__views.__alloyId1963!click!promoDetail"] = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
     exports.destroy = function() {};
     _.extend($, $.__views);
     var clearObject = function() {
         Ti.App.removeEventListener("clearObject", clearObject);
     };
     Ti.App.addEventListener("clearObject", clearObject);
+<<<<<<< HEAD
 <<<<<<< HEAD
     __defers["$.__views.__alloyId1961!click!promoDetail"] && $.__views.__alloyId1961.addEventListener("click", promoDetail);
     __defers["$.__views.__alloyId1962!click!promoDetail"] && $.__views.__alloyId1962.addEventListener("click", promoDetail);
@@ -168,6 +181,11 @@ function Controller() {
     __defers["$.__views.__alloyId1963!click!promoDetail"] && $.__views.__alloyId1963.addEventListener("click", promoDetail);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    __defers["$.__views.__alloyId1961!click!promoDetail"] && $.__views.__alloyId1961.addEventListener("click", promoDetail);
+    __defers["$.__views.__alloyId1962!click!promoDetail"] && $.__views.__alloyId1962.addEventListener("click", promoDetail);
+    __defers["$.__views.__alloyId1963!click!promoDetail"] && $.__views.__alloyId1963.addEventListener("click", promoDetail);
+>>>>>>> origin/master
     _.extend($, exports);
 }
 

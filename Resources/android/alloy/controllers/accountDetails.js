@@ -18,6 +18,7 @@ function Controller() {
 <<<<<<< HEAD
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     function statement() {
         console.log("statement");
@@ -30,6 +31,8 @@ function Controller() {
 >>>>>>> origin/master
     }
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "accountDetails";
     if (arguments[0]) {
@@ -887,6 +890,7 @@ function Controller() {
     });
     $.__views.__alloyId72.add($.__views.__alloyId73);
 <<<<<<< HEAD
+<<<<<<< HEAD
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.scrollView.height = Ti.Platform.displayCaps.platformHeight - 100;
@@ -955,6 +959,16 @@ function Controller() {
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    exports.destroy = function() {};
+    _.extend($, $.__views);
+    $.scrollView.height = Ti.Platform.displayCaps.platformHeight - 100;
+    console.log("scroll height: " + $.scrollView.height);
+    console.log("full height: " + Ti.Platform.displayCaps.platformHeight);
+    $.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 100;
+    __defers["$.__views.__alloyId6!click!myProfile"] && $.__views.__alloyId6.addEventListener("click", myProfile);
+    __defers["$.__views.__alloyId7!click!back"] && $.__views.__alloyId7.addEventListener("click", back);
+>>>>>>> origin/master
     _.extend($, exports);
 }
 

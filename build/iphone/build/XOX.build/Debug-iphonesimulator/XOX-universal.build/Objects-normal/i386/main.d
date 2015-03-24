@@ -1,5 +1,6 @@
 dependencies: \
 <<<<<<< HEAD
+<<<<<<< HEAD
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/main.m
 =======
 <<<<<<< HEAD
@@ -8,3 +9,6 @@ dependencies: \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/main.m
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/main.m
+>>>>>>> origin/master

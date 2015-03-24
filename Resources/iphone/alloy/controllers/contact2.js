@@ -76,6 +76,7 @@ function Controller() {
     });
     $.__views.scrollView && $.addTopLevelView($.__views.scrollView);
 <<<<<<< HEAD
+<<<<<<< HEAD
     $.__views.careCenterTable = Ti.UI.createTableView({
         id: "careCenterTable",
         width: "100%",
@@ -205,10 +206,16 @@ function Controller() {
     $.__views.__alloyId138 = Ti.UI.createTableViewRow({
         layout: "vertical",
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.careCenterTable = Ti.UI.createTableView({
+        id: "careCenterTable",
+        width: "100%",
+>>>>>>> origin/master
         height: Ti.UI.SIZE,
         separatorColor: "#375540",
         top: "0"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.scrollView.add($.__views.careCenterTable);
 =======
@@ -414,6 +421,9 @@ function Controller() {
     $.__views.scrollView.add($.__views.careCenterTable);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.scrollView.add($.__views.careCenterTable);
+>>>>>>> origin/master
     exports.destroy = function() {};
     _.extend($, $.__views);
     "android" == Ti.Platform.osname && ($.scrollView.overScrollMode = Titanium.UI.Android.OVER_SCROLL_NEVER);

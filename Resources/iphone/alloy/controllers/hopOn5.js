@@ -35,6 +35,7 @@ function Controller() {
     });
     $.__views.hopOn5 && $.addTopLevelView($.__views.hopOn5);
 <<<<<<< HEAD
+<<<<<<< HEAD
     $.__views.__alloyId585 = Alloy.createController("_header", {
         id: "__alloyId585",
 =======
@@ -46,6 +47,10 @@ function Controller() {
         id: "__alloyId585",
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId585 = Alloy.createController("_header", {
+        id: "__alloyId585",
+>>>>>>> origin/master
         __parentSymbol: $.__views.hopOn5
     });
     $.__views.__alloyId585.setParent($.__views.hopOn5);
@@ -55,6 +60,7 @@ function Controller() {
         backgroundColor: "red",
         id: "__alloyId586"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.hopOn5.add($.__views.__alloyId586);
     $.__views.__alloyId587 = Ti.UI.createLabel({
@@ -67,16 +73,24 @@ function Controller() {
     $.__views.__alloyId587 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.hopOn5.add($.__views.__alloyId586);
+    $.__views.__alloyId587 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "HOP ON",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId587"
 =======
 <<<<<<< HEAD
         id: "__alloyId633"
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId587"
+>>>>>>> origin/master
     });
     $.__views.__alloyId586.add($.__views.__alloyId587);
     $.__views.__alloyId588 = Ti.UI.createView({
@@ -85,6 +99,7 @@ function Controller() {
         backgroundColor: "#F2F2F2",
         id: "__alloyId588"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.hopOn5.add($.__views.__alloyId588);
     $.__views.__alloyId589 = Ti.UI.createLabel({
@@ -105,10 +120,15 @@ function Controller() {
     $.__views.__alloyId589 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.hopOn5.add($.__views.__alloyId588);
+    $.__views.__alloyId589 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Step 5 of 5",
         backgroundColor: "transparent",
         color: "black",
         left: "20",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId589"
     });
@@ -127,10 +147,17 @@ function Controller() {
     $.__views.__alloyId590 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId589"
+    });
+    $.__views.__alloyId588.add($.__views.__alloyId589);
+    $.__views.__alloyId590 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Porting Info",
         backgroundColor: "transparent",
         color: "red",
         left: "20",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId590"
     });
@@ -146,12 +173,18 @@ function Controller() {
     $.__views.__alloyId588.add($.__views.__alloyId590);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId590"
+    });
+    $.__views.__alloyId588.add($.__views.__alloyId590);
+>>>>>>> origin/master
     $.__views.scrollView = Ti.UI.createScrollView({
         id: "scrollView",
         layout: "vertical",
         width: "100%"
     });
     $.__views.hopOn5.add($.__views.scrollView);
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId591 = Ti.UI.createView({
 =======
@@ -161,11 +194,15 @@ function Controller() {
     $.__views.__alloyId591 = Ti.UI.createView({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId591 = Ti.UI.createView({
+>>>>>>> origin/master
         layout: "horizontal",
         width: "90%",
         height: "100",
         id: "__alloyId591"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.scrollView.add($.__views.__alloyId591);
 =======
@@ -175,6 +212,9 @@ function Controller() {
     $.__views.scrollView.add($.__views.__alloyId591);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.scrollView.add($.__views.__alloyId591);
+>>>>>>> origin/master
     $.__views.item_title = Ti.UI.createLabel({
         font: {
             fontSize: "15dp"
@@ -187,6 +227,7 @@ function Controller() {
         top: "5"
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
     $.__views.__alloyId591.add($.__views.item_title);
     $.__views.__alloyId592 = Ti.UI.createButton({
 =======
@@ -198,6 +239,10 @@ function Controller() {
     $.__views.__alloyId592 = Ti.UI.createButton({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId591.add($.__views.item_title);
+    $.__views.__alloyId592 = Ti.UI.createButton({
+>>>>>>> origin/master
         title: "Done",
         color: "red",
         borderColor: "red",
@@ -206,6 +251,7 @@ function Controller() {
         width: "60%",
         borderRadius: "20",
         top: "40",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId592"
     });
@@ -224,6 +270,12 @@ function Controller() {
     done ? $.__views.__alloyId592.addEventListener("click", done) : __defers["$.__views.__alloyId592!click!done"] = true;
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId592"
+    });
+    $.__views.scrollView.add($.__views.__alloyId592);
+    done ? $.__views.__alloyId592.addEventListener("click", done) : __defers["$.__views.__alloyId592!click!done"] = true;
+>>>>>>> origin/master
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.scrollView.height = Ti.Platform.displayCaps.platformHeight - 200;
@@ -231,6 +283,7 @@ function Controller() {
         console.log("android");
         $.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 200;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     __defers["$.__views.__alloyId592!click!done"] && $.__views.__alloyId592.addEventListener("click", done);
 =======
@@ -240,6 +293,9 @@ function Controller() {
     __defers["$.__views.__alloyId592!click!done"] && $.__views.__alloyId592.addEventListener("click", done);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    __defers["$.__views.__alloyId592!click!done"] && $.__views.__alloyId592.addEventListener("click", done);
+>>>>>>> origin/master
     _.extend($, exports);
 }
 

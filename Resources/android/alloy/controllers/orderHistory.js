@@ -39,6 +39,7 @@ function Controller() {
     });
     $.__views.orderHistory && $.addTopLevelView($.__views.orderHistory);
 <<<<<<< HEAD
+<<<<<<< HEAD
     $.__views.__alloyId1429 = Alloy.createController("_header", {
         id: "__alloyId1429",
 =======
@@ -52,6 +53,10 @@ function Controller() {
         id: "__alloyId1429",
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1429 = Alloy.createController("_header", {
+        id: "__alloyId1429",
+>>>>>>> origin/master
         __parentSymbol: $.__views.orderHistory
     });
     $.__views.__alloyId1429.setParent($.__views.orderHistory);
@@ -98,6 +103,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         id: "__alloyId1435"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1434.add($.__views.__alloyId1435);
     $.__views.__alloyId1436 = Ti.UI.createLabel({
@@ -191,10 +197,15 @@ function Controller() {
     $.__views.__alloyId1436 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1434.add($.__views.__alloyId1435);
+    $.__views.__alloyId1436 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Ordering Prepaid",
         backgroundColor: "transparent",
         color: "black",
         left: "5%",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1436"
     });
@@ -227,10 +238,17 @@ function Controller() {
     $.__views.__alloyId1437 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1436"
+    });
+    $.__views.__alloyId1435.add($.__views.__alloyId1436);
+    $.__views.__alloyId1437 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "#10125",
         backgroundColor: "transparent",
         color: "#9D9F9E",
         left: "5%",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1437"
     });
@@ -263,10 +281,17 @@ function Controller() {
     $.__views.__alloyId1438 = Ti.UI.createView({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1437"
+    });
+    $.__views.__alloyId1435.add($.__views.__alloyId1437);
+    $.__views.__alloyId1438 = Ti.UI.createView({
+>>>>>>> origin/master
         height: "100%",
         width: Ti.UI.SIZE,
         right: "10",
         backgroundColor: "transparent",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1438"
     });
@@ -294,12 +319,18 @@ function Controller() {
     $.__views.__alloyId1434.add($.__views.__alloyId1438);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1438"
+    });
+    $.__views.__alloyId1434.add($.__views.__alloyId1438);
+>>>>>>> origin/master
     $.__views.arrow1 = Ti.UI.createImageView({
         id: "arrow1",
         image: "/images/dropdown_icon.png",
         width: "25",
         height: "15"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1438.add($.__views.arrow1);
     $.__views.__alloyId1439 = Ti.UI.createView({
@@ -314,10 +345,15 @@ function Controller() {
     $.__views.__alloyId1439 = Ti.UI.createView({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1438.add($.__views.arrow1);
+    $.__views.__alloyId1439 = Ti.UI.createView({
+>>>>>>> origin/master
         layout: "composite",
         height: "20%",
         backgroundColor: "#F4F6F5",
         id: "__alloyId1439"
+<<<<<<< HEAD
 <<<<<<< HEAD
     });
     $.__views.__alloyId1433.add($.__views.__alloyId1439);
@@ -330,6 +366,8 @@ function Controller() {
     $.__views.__alloyId1439.add($.__views.__alloyId1440);
     $.__views.__alloyId1441 = Ti.UI.createLabel({
 =======
+=======
+>>>>>>> origin/master
     });
     $.__views.__alloyId1433.add($.__views.__alloyId1439);
     prepaidPlus ? $.__views.__alloyId1439.addEventListener("click", prepaidPlus) : __defers["$.__views.__alloyId1439!click!prepaidPlus"] = true;
@@ -338,6 +376,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         id: "__alloyId1440"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1206.add($.__views.__alloyId1212);
     prepaidPlus ? $.__views.__alloyId1212.addEventListener("click", prepaidPlus) : __defers["$.__views.__alloyId1212!click!prepaidPlus"] = true;
@@ -372,10 +411,15 @@ function Controller() {
     $.__views.__alloyId1441 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1439.add($.__views.__alloyId1440);
+    $.__views.__alloyId1441 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Ordering Prepaid",
         backgroundColor: "transparent",
         color: "black",
         left: "5%",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1441"
     });
@@ -408,10 +452,17 @@ function Controller() {
     $.__views.__alloyId1442 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1441"
+    });
+    $.__views.__alloyId1440.add($.__views.__alloyId1441);
+    $.__views.__alloyId1442 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "#10125",
         backgroundColor: "transparent",
         color: "#9D9F9E",
         left: "5%",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1442"
     });
@@ -444,10 +495,17 @@ function Controller() {
     $.__views.__alloyId1443 = Ti.UI.createView({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1442"
+    });
+    $.__views.__alloyId1440.add($.__views.__alloyId1442);
+    $.__views.__alloyId1443 = Ti.UI.createView({
+>>>>>>> origin/master
         height: "100%",
         width: Ti.UI.SIZE,
         right: "10",
         backgroundColor: "transparent",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1443"
     });
@@ -475,12 +533,18 @@ function Controller() {
     $.__views.__alloyId1439.add($.__views.__alloyId1443);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1443"
+    });
+    $.__views.__alloyId1439.add($.__views.__alloyId1443);
+>>>>>>> origin/master
     $.__views.arrow2 = Ti.UI.createImageView({
         id: "arrow2",
         image: "/images/dropdown_icon.png",
         width: "25",
         height: "15"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1443.add($.__views.arrow2);
     $.__views.__alloyId1444 = Ti.UI.createView({
@@ -495,6 +559,10 @@ function Controller() {
     $.__views.__alloyId1444 = Ti.UI.createView({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1443.add($.__views.arrow2);
+    $.__views.__alloyId1444 = Ti.UI.createView({
+>>>>>>> origin/master
         layout: "composite",
         height: "20%",
         backgroundColor: "#F4F6F5",
@@ -507,6 +575,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         id: "__alloyId1445"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1444.add($.__views.__alloyId1445);
     $.__views.__alloyId1446 = Ti.UI.createLabel({
@@ -555,10 +624,15 @@ function Controller() {
     $.__views.__alloyId1446 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1444.add($.__views.__alloyId1445);
+    $.__views.__alloyId1446 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Ordering Prepaid",
         backgroundColor: "transparent",
         color: "black",
         left: "5%",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1446"
     });
@@ -591,10 +665,17 @@ function Controller() {
     $.__views.__alloyId1447 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1446"
+    });
+    $.__views.__alloyId1445.add($.__views.__alloyId1446);
+    $.__views.__alloyId1447 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "#10125",
         backgroundColor: "transparent",
         color: "#9D9F9E",
         left: "5%",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1447"
     });
@@ -627,10 +708,17 @@ function Controller() {
     $.__views.__alloyId1448 = Ti.UI.createView({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1447"
+    });
+    $.__views.__alloyId1445.add($.__views.__alloyId1447);
+    $.__views.__alloyId1448 = Ti.UI.createView({
+>>>>>>> origin/master
         height: "100%",
         width: Ti.UI.SIZE,
         right: "10",
         backgroundColor: "transparent",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1448"
     });
@@ -658,12 +746,18 @@ function Controller() {
     $.__views.__alloyId1444.add($.__views.__alloyId1448);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1448"
+    });
+    $.__views.__alloyId1444.add($.__views.__alloyId1448);
+>>>>>>> origin/master
     $.__views.arrow3 = Ti.UI.createImageView({
         id: "arrow3",
         image: "/images/dropdown_icon.png",
         width: "25",
         height: "15"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1448.add($.__views.arrow3);
     $.__views.__alloyId1449 = Ti.UI.createView({
@@ -678,6 +772,10 @@ function Controller() {
     $.__views.__alloyId1449 = Ti.UI.createView({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1448.add($.__views.arrow3);
+    $.__views.__alloyId1449 = Ti.UI.createView({
+>>>>>>> origin/master
         layout: "composite",
         height: "20%",
         backgroundColor: "#F4F6F5",
@@ -690,6 +788,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         id: "__alloyId1450"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1449.add($.__views.__alloyId1450);
     $.__views.__alloyId1451 = Ti.UI.createLabel({
@@ -738,10 +837,15 @@ function Controller() {
     $.__views.__alloyId1451 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1449.add($.__views.__alloyId1450);
+    $.__views.__alloyId1451 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Ordering Prepaid",
         backgroundColor: "transparent",
         color: "black",
         left: "5%",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1451"
     });
@@ -774,10 +878,17 @@ function Controller() {
     $.__views.__alloyId1452 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1451"
+    });
+    $.__views.__alloyId1450.add($.__views.__alloyId1451);
+    $.__views.__alloyId1452 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "#10125",
         backgroundColor: "transparent",
         color: "#9D9F9E",
         left: "5%",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1452"
     });
@@ -810,10 +921,17 @@ function Controller() {
     $.__views.__alloyId1453 = Ti.UI.createView({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1452"
+    });
+    $.__views.__alloyId1450.add($.__views.__alloyId1452);
+    $.__views.__alloyId1453 = Ti.UI.createView({
+>>>>>>> origin/master
         height: "100%",
         width: Ti.UI.SIZE,
         right: "10",
         backgroundColor: "transparent",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1453"
     });
@@ -841,12 +959,18 @@ function Controller() {
     $.__views.__alloyId1449.add($.__views.__alloyId1453);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1453"
+    });
+    $.__views.__alloyId1449.add($.__views.__alloyId1453);
+>>>>>>> origin/master
     $.__views.arrow4 = Ti.UI.createImageView({
         id: "arrow4",
         image: "/images/dropdown_icon.png",
         width: "25",
         height: "15"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1453.add($.__views.arrow4);
     $.__views.__alloyId1454 = Ti.UI.createView({
@@ -857,6 +981,10 @@ function Controller() {
     $.__views.__alloyId1397.add($.__views.arrow4);
     $.__views.__alloyId1398 = Ti.UI.createView({
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1453.add($.__views.arrow4);
+    $.__views.__alloyId1454 = Ti.UI.createView({
+>>>>>>> origin/master
         layout: "composite",
         height: "20%",
         backgroundColor: "#F4F6F5",
@@ -869,6 +997,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         id: "__alloyId1455"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1454.add($.__views.__alloyId1455);
     $.__views.__alloyId1456 = Ti.UI.createLabel({
@@ -921,10 +1050,15 @@ function Controller() {
     $.__views.__alloyId1456 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1454.add($.__views.__alloyId1455);
+    $.__views.__alloyId1456 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Ordering Prepaid",
         backgroundColor: "transparent",
         color: "black",
         left: "5%",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1456"
     });
@@ -957,10 +1091,17 @@ function Controller() {
     $.__views.__alloyId1457 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1456"
+    });
+    $.__views.__alloyId1455.add($.__views.__alloyId1456);
+    $.__views.__alloyId1457 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "#10125",
         backgroundColor: "transparent",
         color: "#9D9F9E",
         left: "5%",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1457"
     });
@@ -993,10 +1134,17 @@ function Controller() {
     $.__views.__alloyId1458 = Ti.UI.createView({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1457"
+    });
+    $.__views.__alloyId1455.add($.__views.__alloyId1457);
+    $.__views.__alloyId1458 = Ti.UI.createView({
+>>>>>>> origin/master
         height: "100%",
         width: Ti.UI.SIZE,
         right: "10",
         backgroundColor: "transparent",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1458"
     });
@@ -1024,12 +1172,18 @@ function Controller() {
     $.__views.__alloyId1454.add($.__views.__alloyId1458);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1458"
+    });
+    $.__views.__alloyId1454.add($.__views.__alloyId1458);
+>>>>>>> origin/master
     $.__views.arrow5 = Ti.UI.createImageView({
         id: "arrow5",
         image: "/images/dropdown_icon.png",
         width: "25",
         height: "15"
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1458.add($.__views.arrow5);
 =======
@@ -1047,6 +1201,9 @@ function Controller() {
     $.__views.__alloyId1458.add($.__views.arrow5);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1458.add($.__views.arrow5);
+>>>>>>> origin/master
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.arrow1.transform = Ti.UI.create2DMatrix().rotate(-90);
@@ -1064,6 +1221,7 @@ function Controller() {
         Ti.App.removeEventListener("clearObject", clearObject);
     };
     Ti.App.addEventListener("clearObject", clearObject);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1089,6 +1247,8 @@ function Controller() {
 >>>>>>> Stashed changes
 =======
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
     __defers["$.__views.__alloyId1432!click!back"] && $.__views.__alloyId1432.addEventListener("click", back);
     __defers["$.__views.__alloyId1434!click!prepaidPlus"] && $.__views.__alloyId1434.addEventListener("click", prepaidPlus);
     __defers["$.__views.__alloyId1439!click!prepaidPlus"] && $.__views.__alloyId1439.addEventListener("click", prepaidPlus);
@@ -1096,9 +1256,12 @@ function Controller() {
     __defers["$.__views.__alloyId1449!click!prepaidPlus"] && $.__views.__alloyId1449.addEventListener("click", prepaidPlus);
     __defers["$.__views.__alloyId1454!click!prepaidPlus"] && $.__views.__alloyId1454.addEventListener("click", prepaidPlus);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
     _.extend($, exports);
 }
 

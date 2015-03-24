@@ -1,5 +1,6 @@
 dependencies: \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/PlausibleDatabase/PlausibleDatabase.m \
@@ -12,6 +13,8 @@ dependencies: \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/PlausibleDatabase/PLSqliteResultSet.h
 =======
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/PlausibleDatabase/PlausibleDatabase.m \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/PlausibleDatabase/PlausibleDatabase.h \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/PlausibleDatabase/PLResultSet.h \
@@ -21,6 +24,9 @@ dependencies: \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/PlausibleDatabase/PLSqlitePreparedStatement.h \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/PlausibleDatabase/PLSqliteResultSet.h
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master

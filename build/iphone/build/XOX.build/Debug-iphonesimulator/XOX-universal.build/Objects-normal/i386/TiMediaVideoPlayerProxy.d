@@ -1,5 +1,6 @@
 dependencies: \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiMediaVideoPlayerProxy.m \
@@ -13,6 +14,8 @@ dependencies: \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/KrollContext.h \
 =======
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiMediaVideoPlayerProxy.m \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiMediaVideoPlayerProxy.h \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiViewProxy.h \
@@ -23,9 +26,12 @@ dependencies: \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiEvaluator.h \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollContext.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
   headers/JavaScriptCore/TiCore.h headers/JavaScriptCore/Ti.h \
   headers/JavaScriptCore/TiBase.h headers/JavaScriptCore/TiContextRef.h \
   headers/JavaScriptCore/TiObjectRef.h \
@@ -33,6 +39,7 @@ dependencies: \
   headers/JavaScriptCore/WebKitAvailability.h \
   headers/JavaScriptCore/TiStringRef.h \
   headers/JavaScriptCore/TiStringRefCF.h \
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -68,6 +75,8 @@ dependencies: \
   /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiControllerProtocols.h
 =======
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollCallback.h \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/KrollObject.h \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiBindingRunLoop.h \
@@ -99,6 +108,9 @@ dependencies: \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiRootViewController.h \
   /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiControllerProtocols.h
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master

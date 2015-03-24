@@ -38,6 +38,9 @@ function Controller() {
     });
     $.__views.register && $.addTopLevelView($.__views.register);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
     $.__views.__alloyId1979 = Alloy.createController("_header", {
         id: "__alloyId1979",
         __parentSymbol: $.__views.register
@@ -51,6 +54,7 @@ function Controller() {
     });
     $.__views.register.add($.__views.__alloyId1980);
     $.__views.__alloyId1981 = Ti.UI.createLabel({
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     $.__views.__alloyId2206 = Alloy.createController("_header", {
@@ -82,10 +86,13 @@ function Controller() {
     $.__views.__alloyId1981 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
         text: "New User Registration",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1981"
     });
@@ -101,6 +108,11 @@ function Controller() {
     $.__views.__alloyId1980.add($.__views.__alloyId1981);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1981"
+    });
+    $.__views.__alloyId1980.add($.__views.__alloyId1981);
+>>>>>>> origin/master
     $.__views.scrollView = Ti.UI.createScrollView({
         id: "scrollView",
         layout: "vertical",
@@ -108,6 +120,7 @@ function Controller() {
         backgroundColor: "white"
     });
     $.__views.register.add($.__views.scrollView);
+<<<<<<< HEAD
 <<<<<<< HEAD
     $.__views.__alloyId1982 = Ti.UI.createLabel({
 =======
@@ -117,11 +130,15 @@ function Controller() {
     $.__views.__alloyId1982 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1982 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "1. Click on the New User Registration link.",
         backgroundColor: "transparent",
         color: "black",
         left: "0",
         top: "10",
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -131,18 +148,24 @@ function Controller() {
     $.__views.__alloyId2210 = Ti.UI.createLabel({
 =======
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
         id: "__alloyId1982"
     });
     $.__views.scrollView.add($.__views.__alloyId1982);
     $.__views.__alloyId1983 = Ti.UI.createLabel({
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
         text: "2. Key in your XinXun mobile number.",
         backgroundColor: "transparent",
         color: "black",
         left: "0",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1983"
     });
@@ -155,16 +178,22 @@ function Controller() {
     $.__views.scrollView.add($.__views.__alloyId2210);
     $.__views.__alloyId2211 = Ti.UI.createLabel({
 =======
+=======
+>>>>>>> origin/master
         id: "__alloyId1983"
     });
     $.__views.scrollView.add($.__views.__alloyId1983);
     $.__views.__alloyId1984 = Ti.UI.createLabel({
+<<<<<<< HEAD
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
         text: "3. You will receive an activation code via SMS to your XinXun mobile number.",
         backgroundColor: "transparent",
         color: "black",
         left: "0",
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -182,10 +211,17 @@ function Controller() {
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1984"
+    });
+    $.__views.scrollView.add($.__views.__alloyId1984);
+    $.__views.__alloyId1985 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "4. Upon receiving your activation code via SMS, key in the code to verify and register your Self Care account.",
         backgroundColor: "transparent",
         color: "black",
         left: "0",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1985"
     });
@@ -198,16 +234,22 @@ function Controller() {
     $.__views.scrollView.add($.__views.__alloyId2212);
     $.__views.__alloyId2213 = Ti.UI.createLabel({
 =======
+=======
+>>>>>>> origin/master
         id: "__alloyId1985"
     });
     $.__views.scrollView.add($.__views.__alloyId1985);
     $.__views.__alloyId1986 = Ti.UI.createLabel({
+<<<<<<< HEAD
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
         text: "5. Fill in your details and clicks submit.",
         backgroundColor: "transparent",
         color: "black",
         left: "0",
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -225,10 +267,17 @@ function Controller() {
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1986"
+    });
+    $.__views.scrollView.add($.__views.__alloyId1986);
+    $.__views.__alloyId1987 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "6. An e-mail will be sent to your e-mail. You are required to click on the link in the e-mail to activate your Self Care account.",
         backgroundColor: "transparent",
         color: "black",
         left: "0",
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -238,18 +287,24 @@ function Controller() {
     $.__views.__alloyId2215 = Ti.UI.createLabel({
 =======
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
         id: "__alloyId1987"
     });
     $.__views.scrollView.add($.__views.__alloyId1987);
     $.__views.__alloyId1988 = Ti.UI.createLabel({
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
         text: "7. You may now access Self Care to start managing your XinXun account",
         backgroundColor: "transparent",
         color: "black",
         left: "0",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1988"
     });
@@ -268,11 +323,18 @@ function Controller() {
     $.__views.__alloyId1989 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1988"
+    });
+    $.__views.scrollView.add($.__views.__alloyId1988);
+    $.__views.__alloyId1989 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Mobile Number",
         backgroundColor: "transparent",
         color: "black",
         left: "0",
         top: "50",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1989"
     });
@@ -288,6 +350,11 @@ function Controller() {
     $.__views.scrollView.add($.__views.__alloyId1989);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1989"
+    });
+    $.__views.scrollView.add($.__views.__alloyId1989);
+>>>>>>> origin/master
     $.__views.mobileNumber = Ti.UI.createTextField({
         id: "mobileNumber",
         width: "100%",
@@ -298,6 +365,7 @@ function Controller() {
     });
     $.__views.scrollView.add($.__views.mobileNumber);
 <<<<<<< HEAD
+<<<<<<< HEAD
     $.__views.__alloyId1990 = Ti.UI.createLabel({
 =======
 <<<<<<< HEAD
@@ -306,10 +374,14 @@ function Controller() {
     $.__views.__alloyId1990 = Ti.UI.createLabel({
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1990 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Example: 60111234567",
         backgroundColor: "transparent",
         color: "black",
         left: "0",
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -362,6 +434,8 @@ function Controller() {
     $.__views.__alloyId2222.add($.__views.__alloyId2223);
 =======
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
         id: "__alloyId1990"
     });
     $.__views.scrollView.add($.__views.__alloyId1990);
@@ -410,13 +484,17 @@ function Controller() {
     });
     $.__views.__alloyId1995.add($.__views.__alloyId1996);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.scrollView.height = Ti.Platform.displayCaps.platformHeight - 150;
     "android" == Ti.Platform.osname && ($.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 150);
+<<<<<<< HEAD
 <<<<<<< HEAD
     __defers["$.__views.__alloyId1992!click!submit"] && $.__views.__alloyId1992.addEventListener("click", submit);
     __defers["$.__views.__alloyId1995!click!back"] && $.__views.__alloyId1995.addEventListener("click", back);
@@ -429,6 +507,10 @@ function Controller() {
     __defers["$.__views.__alloyId1995!click!back"] && $.__views.__alloyId1995.addEventListener("click", back);
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    __defers["$.__views.__alloyId1992!click!submit"] && $.__views.__alloyId1992.addEventListener("click", submit);
+    __defers["$.__views.__alloyId1995!click!back"] && $.__views.__alloyId1995.addEventListener("click", back);
+>>>>>>> origin/master
     _.extend($, exports);
 }
 

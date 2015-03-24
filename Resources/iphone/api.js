@@ -29,12 +29,15 @@ exports.getStore = function() {
     var last_updated = "";
     "" != isUpdate && (last_updated = isUpdate.updated);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     console.log(storeLocatorUrl + "&last_updated=" + last_updated);
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
     var _result = contactServer(storeLocatorUrl + "&last_updated=");
     _result.onload = function() {
         var res = JSON.parse(this.responseText);

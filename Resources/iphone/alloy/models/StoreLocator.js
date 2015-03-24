@@ -45,6 +45,7 @@ exports.definition = {
                 return listArr;
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
             getStoreList: function() {
@@ -52,14 +53,19 @@ exports.definition = {
                 var sql = "SELECT * FROM " + collection.config.adapter.collection_name;
 =======
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
             getStoreList: function(ex) {
                 var collection = this;
                 if ("" == ex) var sql = "SELECT * FROM " + collection.config.adapter.collection_name; else var sql = "SELECT * FROM " + collection.config.adapter.collection_name + " WHERE category='" + ex.category + "' ";
                 console.log(sql);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
                 db = Ti.Database.open(collection.config.adapter.db_name);
                 var res = db.execute(sql);
                 var listArr = [];

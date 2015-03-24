@@ -49,6 +49,9 @@ function Controller() {
     function hopOn() {
         DRAWER.navigation("hopOn", 1);
     }
+    function hopOn() {
+        DRAWER.navigation("hopOn", 1);
+    }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "onlinePurchases";
     if (arguments[0]) {
@@ -72,6 +75,7 @@ function Controller() {
         id: "onlinePurchases"
     });
     $.__views.onlinePurchases && $.addTopLevelView($.__views.onlinePurchases);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -105,10 +109,25 @@ function Controller() {
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+    $.__views.__alloyId1307 = Alloy.createController("_header", {
+        id: "__alloyId1307",
+        __parentSymbol: $.__views.onlinePurchases
+    });
+    $.__views.__alloyId1307.setParent($.__views.onlinePurchases);
+    $.__views.__alloyId1308 = Ti.UI.createView({
+        height: "20%",
+        backgroundColor: "#1C6D83",
+        id: "__alloyId1308"
+    });
+    $.__views.onlinePurchases.add($.__views.__alloyId1308);
+    $.__views.__alloyId1309 = Ti.UI.createLabel({
+>>>>>>> origin/master
         text: "Online Purchases",
         left: "10",
         top: "10",
         color: "white",
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -280,6 +299,8 @@ function Controller() {
     __defers["$.__views.__alloyId1386!click!mobileData"] && $.__views.__alloyId1386.addEventListener("click", mobileData);
 =======
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
         id: "__alloyId1309"
     });
     $.__views.__alloyId1308.add($.__views.__alloyId1309);
@@ -339,9 +360,12 @@ function Controller() {
     __defers["$.__views.__alloyId1311!click!hopOn"] && $.__views.__alloyId1311.addEventListener("click", hopOn);
     __defers["$.__views.__alloyId1314!click!prepaidPack"] && $.__views.__alloyId1314.addEventListener("click", prepaidPack);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
     _.extend($, exports);
 }
 

@@ -56,6 +56,7 @@ function Controller() {
     });
     $.__views.penang && $.addTopLevelView($.__views.penang);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     $.__views.__alloyId1603 = Alloy.createController("_header", {
@@ -81,6 +82,8 @@ function Controller() {
     $.__views.__alloyId1606 = Ti.UI.createImageView({
 =======
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
     $.__views.__alloyId1412 = Alloy.createController("_header", {
         id: "__alloyId1412",
         __parentSymbol: $.__views.penang
@@ -103,14 +106,18 @@ function Controller() {
     $.__views.__alloyId1413.add($.__views.__alloyId1414);
     $.__views.__alloyId1415 = Ti.UI.createImageView({
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
         backgroundColor: "transparent",
         width: "30",
         height: "30",
         right: "10",
         image: "/images/close_icon.png",
+<<<<<<< HEAD
 <<<<<<< HEAD
         id: "__alloyId1415"
     });
@@ -216,6 +223,10 @@ function Controller() {
         id: "__alloyId1415"
     });
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+        id: "__alloyId1415"
+    });
+>>>>>>> origin/master
     $.__views.__alloyId1413.add($.__views.__alloyId1415);
     back ? $.__views.__alloyId1415.addEventListener("click", back) : __defers["$.__views.__alloyId1415!click!back"] = true;
     $.__views.scrollView = Ti.UI.createScrollView({
@@ -483,9 +494,12 @@ function Controller() {
     __defers["$.__views.__alloyId1415!click!back"] && $.__views.__alloyId1415.addEventListener("click", back);
     __defers["$.__views.__alloyId1446!click!subscribe"] && $.__views.__alloyId1446.addEventListener("click", subscribe);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> 24/3/2015 onlinePurchase Subpages
+=======
+>>>>>>> origin/master
     _.extend($, exports);
 }
 
