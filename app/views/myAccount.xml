@@ -8,37 +8,58 @@
 					<ImageView backgroundColor="transparent" width="20" height="20" right="10" onClick="close" image="/images/close_icon.png"></ImageView>
 				</View>
 				<View layout="horizontal" height="35%" backgroundColor="#4CC4D2" onClick="gallery">
-					<View width="Ti.UI.SIZE">
-						<ImageView backgroundColor="#66FFFF" width="32" height="32" left="10" image="/images/gallery_icon.png"></ImageView>
-					</View>
 					<View>
 						<Label color="white" textAlign="left" left="10">Photo Gallery</Label>
 					</View>
 				</View>
 				<View layout="horizontal" height="35%" backgroundColor="#3E6AC3" onClick="facebook">
-					<View width="Ti.UI.SIZE">
-						<ImageView backgroundColor="transparent" width="32" height="32" left="10" image="/images/facebook_icon.png"></ImageView>
-					</View>
 					<View>
 						<Label color="white" textAlign="left" left="10">Connect with Facebook</Label>
 					</View>
 				</View>
 			</View>
 		</View>
-		<View id="payment" backgroundColor="black" zIndex="0" top="50">
-			<View layout="vertical" width="80%" height="40%" backgroundColor="white">
+		<View id="postpaidPayment" backgroundColor="black" zIndex="0" top="50">
+			<View layout="vertical" width="80%" height="35%" backgroundColor="black" borderColor="white" borderWidth="1">
 				<View layout="composite" height="30%">
-					<Label left="10" color="#E6E7E9">Choose an option</Label>
-					<ImageView backgroundColor="transparent" width="20" height="20" right="10" onClick="closepayment" image="/images/close_icon.png"></ImageView>
+					<Label left="10" color="white">Choose an option</Label>
+					<ImageView backgroundColor="transparent" width="20" height="20" right="20" onClick="closepayment" image="/images/close_icon.png"></ImageView>
 				</View>
-				<View layout="horizontal" height="35%" backgroundColor="#4CC4D2" onClick="paymentPostpaid">
-					<View>
-						<Label color="white" textAlign="left" left="10">Pay Postpaid Bill</Label>
+				<View layout="horizontal" height="70%">
+					<View layout="horizontal" width="28%" height="40%" backgroundColor="#3E6AC3" left="15" onClick="paymentPostpaid">
+						<View>
+							<Label color="white" textAlign="left" left="10">Pay Postpaid Bill</Label>
+						</View>
+					</View>
+					<View layout="horizontal" width="28%" height="40%" backgroundColor="#3E6AC3" left="10" onClick="postpaidTopup">
+						<View>
+							<Label color="white" textAlign="left" left="10">Prepaid Top Up</Label>
+						</View>
 					</View>
 				</View>
-				<View layout="horizontal" height="35%" backgroundColor="#3E6AC3" onClick="paymentPrepaid">
-					<View>
-						<Label color="white" textAlign="left" left="10">Prepaid TopUp</Label>
+			</View>
+		</View>
+		<View id="prepaidPayment" backgroundColor="black" zIndex="0" top="50" >
+			<View layout="vertical" width="80%" height="35%" backgroundColor="black" borderColor="white" borderWidth="1">
+				<View layout="composite" height="30%">
+					<Label left="10" color="white">Choose an option</Label>
+					<ImageView backgroundColor="transparent" width="20" height="20" right="20" onClick="closepayment" image="/images/close_icon.png"></ImageView>
+				</View>
+				<View layout="horizontal" height="70%">
+					<View layout="horizontal" width="28%" height="40%" backgroundColor="#3E6AC3" left="15" onClick="prepaidTopup">
+						<View>
+							<Label color="white" textAlign="left" left="10">Top Up</Label>
+						</View>
+					</View>
+					<View layout="horizontal" width="28%" height="40%" backgroundColor="#3E6AC3" left="10" onClick="pinVoucher">
+						<View>
+							<Label color="white" textAlign="left" left="10">Pin Voucher</Label>
+						</View>
+					</View>
+					<View layout="horizontal" width="28%" height="40%" backgroundColor="#3E6AC3" left="10"  right="10" onClick="airtime">
+						<View>
+							<Label color="white" textAlign="left" left="10">AirTime Transfer</Label>
+						</View>
 					</View>
 				</View>
 			</View>
@@ -75,7 +96,7 @@
 						<ImageView width="80" height="80" image="/images/acc_button_01.png" onClick="accDetail" ></ImageView>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
-						<ImageView width="80" height="80" image="/images/acc_button_01.png" onClick="profile" ></ImageView>
+						<ImageView width="80" height="80" image="/images/acc_button_03.png" onClick="billStatement" ></ImageView>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
 						<ImageView width="80" height="80" image="/images/acc_button_03.png" onClick="makePayment" ></ImageView>
@@ -86,10 +107,10 @@
 				</View>
 				<View layout="horizontal" height="15%" width="Ti.UI.FILL">
 					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center" top="0" onClick="accDetail">Postpaid Account Details</Label>
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="accDetail">Account / Profile</Label>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center" top="0" onClick="profile">My Profile</Label>
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="profile">Bill Statement</Label>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
 						<Label color="#41B9C7" textAlign="center" top="0" onClick="makePayment">Payment</Label>
@@ -97,7 +118,7 @@
 				</View>
 				<View layout="horizontal" height="30%" width="Ti.UI.FILL">
 					<View width="33%" height="Ti.UI.FILL">
-						<ImageView width="80" height="80" image="/images/acc_button_05.png" onClick="vas" ></ImageView>
+						<ImageView width="80" height="80" image="/images/acc_button_05.png" onClick="internetManagement" ></ImageView>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
 						<ImageView width="80" height="80" image="/images/acc_button_04.png" onClick="subline" ></ImageView>
@@ -111,19 +132,19 @@
 				</View>
 				<View layout="horizontal" height="15%" width="Ti.UI.FILL">
 					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center" top="0" onClick="subline">Mobile Internet Management</Label>
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="internetManagement">Mobile Internet Management</Label>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
 						<Label color="#41B9C7" textAlign="center" top="0" onClick="subline">Subline Management</Label>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center" top="0" onClick="subline">Friends & Family</Label>
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="familyFriend">Friends & Family</Label>
 					</View>
 				</View>
 				<View layout="horizontal" height="30%" width="Ti.UI.FILL">
-					<View width="33%" height="Ti.UI.FILL">
+					<!-- <View width="33%" height="Ti.UI.FILL">
 						<ImageView width="80" height="80" image="/images/acc_button_05.png" onClick="vas" ></ImageView>
-					</View>
+					</View> -->
 					<!--View width="33%" height="Ti.UI.FILL">
 						<ImageView width="80" height="80" image="/images/acc_button_06.png" onClick="seasonPass" ></ImageView>
 					</View-->
@@ -132,32 +153,6 @@
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
 						<ImageView width="80" height="80" image="/images/acc_button_08.png" onClick="report" ></ImageView>
-					</View>
-					<!--<ImageView width="auto" height="Ti.UI.FILL" image="" ></ImageView>
-					<View width="33%" height="Ti.UI.FILL" backgroundColor="yellow"></View>
-					<View width="33%" height="Ti.UI.FILL" backgroundColor="pink"></View>
-					<View width="auto" height="Ti.UI.FILL" backgroundColor="purple"></View>-->
-				</View>
-				<View layout="horizontal" height="15%" width="Ti.UI.FILL">
-					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center" top="0" onClick="vas">VAS Management</Label>
-					</View>
-					<!--View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center" top="0" onClick="seasonPass">Season Pass</Label>
-					</View-->
-					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center" top="0" onClick="loyalty">Loyalty</Label>
-					</View>
-					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center" top="0" onClick="loyalty">Email Notification</Label>
-					</View>
-				</View>
-				<View layout="horizontal" height="30%" width="Ti.UI.FILL">
-					<View width="33%" height="Ti.UI.FILL">
-						<ImageView width="80" height="80" image="/images/acc_button_08.png" onClick="report" ></ImageView>
-					</View>
-					<View width="33%" height="Ti.UI.FILL">
-						<ImageView width="80" height="80" image="/images/acc_button_09.png" onClick="faq" ></ImageView>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
 						<ImageView width="80" height="80" image="/images/acc_button_08.png" onClick="orderingHistory" ></ImageView>
@@ -168,6 +163,38 @@
 					<View width="auto" height="Ti.UI.FILL" backgroundColor="purple"></View>-->
 				</View>
 				<View layout="horizontal" height="15%" width="Ti.UI.FILL">
+					<!-- <View width="33%" height="Ti.UI.FILL">
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="vas">VAS Management</Label>
+					</View> -->
+					<!--View width="33%" height="Ti.UI.FILL">
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="seasonPass">Season Pass</Label>
+					</View-->
+					<View width="33%" height="Ti.UI.FILL">
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="loyalty">Loyalty</Label>
+					</View>
+					<View width="33%" height="Ti.UI.FILL">
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="loyalty">Email Notification</Label>
+					</View>
+					<View width="33%" height="Ti.UI.FILL">
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="orderingHistory">Ordering History</Label>
+					</View>
+				</View>
+				<!-- <View layout="horizontal" height="30%" width="Ti.UI.FILL">
+					<View width="33%" height="Ti.UI.FILL">
+						<ImageView width="80" height="80" image="/images/acc_button_08.png" onClick="report" ></ImageView>
+					</View>
+					<View width="33%" height="Ti.UI.FILL">
+						<ImageView width="80" height="80" image="/images/acc_button_09.png" onClick="faq" ></ImageView>
+					</View>
+					<View width="33%" height="Ti.UI.FILL">
+						<ImageView width="80" height="80" image="/images/acc_button_08.png" onClick="orderingHistory" ></ImageView>
+					</View> -->
+					<!--<ImageView width="auto" height="Ti.UI.FILL" image="" ></ImageView>
+					<View width="33%" height="Ti.UI.FILL" backgroundColor="yellow"></View>
+					<View width="33%" height="Ti.UI.FILL" backgroundColor="pink"></View>
+					<View width="auto" height="Ti.UI.FILL" backgroundColor="purple"></View>-->
+				<!-- </View>
+				<View layout="horizontal" height="15%" width="Ti.UI.FILL">
 					<View width="33%" height="Ti.UI.FILL">
 						<Label color="#41B9C7" textAlign="center" top="0" onClick="report">Report Case</Label>
 					</View>
@@ -177,7 +204,7 @@
 					<View width="33%" height="Ti.UI.FILL">
 						<Label color="#41B9C7" textAlign="center" top="0" onClick="orderingHistory">Ordering History</Label>
 					</View>
-				</View>
+				</View> -->
 			</ScrollView>
 			<ScrollView id="prepaid" layout="vertical" backgroundColor="white" >
 				<View layout="horizontal" height="30%" width="Ti.UI.FILL">
@@ -185,7 +212,7 @@
 						<ImageView width="80" height="80" image="/images/acc_button_01.png" onClick="accDetail" ></ImageView>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
-						<ImageView width="80" height="80" image="/images/acc_button_01.png" onClick="profile" ></ImageView>
+						<ImageView width="80" height="80" image="/images/acc_button_03.png" onClick="billStatement" ></ImageView>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
 						<ImageView width="80" height="80" image="/images/acc_button_03.png" onClick="makePayment" ></ImageView>
@@ -196,10 +223,10 @@
 				</View>
 				<View layout="horizontal" height="15%" width="Ti.UI.FILL">
 					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center" top="0" onClick="accDetail">Prepaid Account Details</Label>
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="accDetail">Account / Profile</Label>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center" top="0" onClick="profile">My Profile</Label>
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="billStatement">Bill Statement</Label>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
 						<Label color="#41B9C7" textAlign="center" top="0" onClick="makePayment">Payment</Label>
@@ -207,13 +234,13 @@
 				</View>
 				<View layout="horizontal" height="30%" width="Ti.UI.FILL">
 					<View width="33%" height="Ti.UI.FILL">
-						<ImageView width="80" height="80" image="/images/acc_button_05.png" onClick="vas" ></ImageView>
+						<ImageView width="80" height="80" image="/images/acc_button_05.png" onClick="internetManagement" ></ImageView>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
 						<ImageView width="80" height="80" image="/images/acc_button_04.png" onClick="subline" ></ImageView>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
-						<ImageView width="80" height="80" image="/images/acc_button_07.png" onClick="subline" ></ImageView>
+						<ImageView width="80" height="80" image="/images/acc_button_07.png" onClick="familyFriend" ></ImageView>
 					</View>
 					<!--<View width="33%" height="Ti.UI.FILL" backgroundColor="blue"></View>
 					<View width="33%" height="Ti.UI.FILL" backgroundColor="green"></View>
@@ -221,53 +248,24 @@
 				</View>
 				<View layout="horizontal" height="15%" width="Ti.UI.FILL">
 					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center" top="0" onClick="subline">Mobile Internet Management</Label>
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="internetManagement">Mobile Internet Management</Label>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
 						<Label color="#41B9C7" textAlign="center" top="0" onClick="subline">Subline Management</Label>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center" top="0" onClick="subline">Friends & Family</Label>
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="familyFriend">Friends & Family</Label>
 					</View>
 				</View>
 				<View layout="horizontal" height="30%" width="Ti.UI.FILL">
 					<View width="33%" height="Ti.UI.FILL">
-						<ImageView width="80" height="80" image="/images/acc_button_05.png" onClick="vas" ></ImageView>
+						<ImageView width="80" height="80" image="/images/acc_button_05.png" onClick="seasonPass" ></ImageView>
 					</View>
 					<!--View width="33%" height="Ti.UI.FILL">
 						<ImageView width="80" height="80" image="/images/acc_button_06.png" onClick="seasonPass" ></ImageView>
 					</View-->
 					<View width="33%" height="Ti.UI.FILL">
 						<ImageView width="80" height="80" image="/images/acc_button_07.png" onClick="loyalty" ></ImageView>
-					</View>
-					<View width="33%" height="Ti.UI.FILL">
-						<ImageView width="80" height="80" image="/images/acc_button_08.png" onClick="report" ></ImageView>
-					</View>
-					<!--<ImageView width="auto" height="Ti.UI.FILL" image="" ></ImageView>
-					<View width="33%" height="Ti.UI.FILL" backgroundColor="yellow"></View>
-					<View width="33%" height="Ti.UI.FILL" backgroundColor="pink"></View>
-					<View width="auto" height="Ti.UI.FILL" backgroundColor="purple"></View>-->
-				</View>
-				<View layout="horizontal" height="15%" width="Ti.UI.FILL">
-					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center" top="0" onClick="vas">VAS Management</Label>
-					</View>
-					<!--View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center" top="0" onClick="seasonPass">Season Pass</Label>
-					</View-->
-					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center" top="0" onClick="loyalty">Loyalty</Label>
-					</View>
-					<View width="33%" height="Ti.UI.FILL">
-						<Label color="#41B9C7" textAlign="center" top="0" onClick="loyalty">Email Notification</Label>
-					</View>
-				</View>
-				<View layout="horizontal" height="30%" width="Ti.UI.FILL">
-					<View width="33%" height="Ti.UI.FILL">
-						<ImageView width="80" height="80" image="/images/acc_button_08.png" onClick="report" ></ImageView>
-					</View>
-					<View width="33%" height="Ti.UI.FILL">
-						<ImageView width="80" height="80" image="/images/acc_button_09.png" onClick="faq" ></ImageView>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
 						<ImageView width="80" height="80" image="/images/acc_button_08.png" onClick="orderingHistory" ></ImageView>
@@ -279,6 +277,47 @@
 				</View>
 				<View layout="horizontal" height="15%" width="Ti.UI.FILL">
 					<View width="33%" height="Ti.UI.FILL">
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="seasonPass">Season Pass</Label>
+					</View>
+					<!--View width="33%" height="Ti.UI.FILL">
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="seasonPass">Season Pass</Label>
+					</View-->
+					<View width="33%" height="Ti.UI.FILL">
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="loyalty">Loyalty</Label>
+					</View>
+					<View width="33%" height="Ti.UI.FILL">
+						<Label color="#41B9C7" textAlign="center" top="0" onClick="orderingHistory">Ordering History</Label>
+					</View>
+				</View>
+				<View layout="horizontal" height="30%" width="Ti.UI.FILL">
+					<View width="33%" height="Ti.UI.FILL">
+						<ImageView width="80" height="80" image="/images/acc_button_08.png" ></ImageView>
+					</View>
+					<View width="33%" height="Ti.UI.FILL">
+						<ImageView width="80" height="80" image="/images/acc_button_08.png"></ImageView>
+					</View>
+					<!-- <View width="33%" height="Ti.UI.FILL">
+						<ImageView width="80" height="80" image="/images/acc_button_08.png" onClick="report" ></ImageView>
+					</View>
+					<View width="33%" height="Ti.UI.FILL">
+						<ImageView width="80" height="80" image="/images/acc_button_09.png" onClick="faq" ></ImageView>
+					</View>
+					<View width="33%" height="Ti.UI.FILL">
+						<ImageView width="80" height="80" image="/images/acc_button_08.png" onClick="orderingHistory" ></ImageView>
+					</View> -->
+					<!--<ImageView width="auto" height="Ti.UI.FILL" image="" ></ImageView>
+					<View width="33%" height="Ti.UI.FILL" backgroundColor="yellow"></View>
+					<View width="33%" height="Ti.UI.FILL" backgroundColor="pink"></View>
+					<View width="auto" height="Ti.UI.FILL" backgroundColor="purple"></View>-->
+				</View>
+				<View layout="horizontal" height="15%" width="Ti.UI.FILL">
+					<View width="33%" height="Ti.UI.FILL">
+						<Label color="#41B9C7" textAlign="center" top="0">My Ticket</Label>
+					</View>
+					<View width="33%" height="Ti.UI.FILL">
+						<Label color="#41B9C7" textAlign="center" top="0">Email Notification</Label>
+					</View>
+					<!-- <View width="33%" height="Ti.UI.FILL">
 						<Label color="#41B9C7" textAlign="center" top="0" onClick="report">Report Case</Label>
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
@@ -286,7 +325,7 @@
 					</View>
 					<View width="33%" height="Ti.UI.FILL">
 						<Label color="#41B9C7" textAlign="center" top="0" onClick="orderingHistory">Ordering History</Label>
-					</View>
+					</View> -->
 				</View>
 			</ScrollView>
 		</View>

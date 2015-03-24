@@ -18,13 +18,29 @@
 				<Label color="black" height="20" left="0">Name (as per NRIC/ Armed Force ID/ Passport)*</Label>
 				<TextField height="40" width="Ti.UI.FILL" top="10" borderColor="#F2F2F2"></TextField>
 			</View>
-			<View id="contentView2" layout="vertical" height="80" bottom="5">
-				<Label color="black" height="20" left="0">Reg Type*</Label>
-				<Picker id="picker" height="40" width="100%" height="Ti.UI.SIZE" top="10" selectionIndicator="true" backgroundColor="#EFEFEF" visible="true">
-					<PickerRow title="Select an option"/>
-                	<PickerRow title="1"/>
-                	<PickerRow title="2"/>
-				</Picker>
+			<View platform="ios" id="contentView" layout="horizontal"  height="80" top="10" bottom="10">
+				<Label color="black" width="100%" textAlign="left">Reg Type</Label>
+				<View id="pickerContentView" layout="composite" top="10" width="70%">
+					<Label id="regTypeLabel" height="30" width="100%" backgroundColor="transparent" borderRadius="5" borderColor="#F2F2F2" color="black" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="10"></Label>
+					<Picker id="picker" height="40" width="100%" height="Ti.UI.SIZE" top="10" bottom="10" selectionIndicator="true" backgroundColor="#EFEFEF" visible="true">
+						<PickerRow title="Select An Option"/>
+                		<PickerRow title="1"/>
+                		<PickerRow title="2"/>
+					</Picker>
+				</View>
+			</View>
+			<View platform="android" layout="vertical"  height="80" top="10" bottom="10">
+				<Label color="black" width="100%" textAlign="left">Reg Type</Label>
+				<View layout="horizontal">
+					<View layout="composite">
+						<Picker id="picker" onChange="regType" width="100%" top="10" bottom="10" borderRadius="5" selectionIndicator="true" backgroundColor="black" visible="true">
+							<PickerRow title="Select An Option"/>
+                			<PickerRow title="1"/>
+                			<PickerRow title="2"/>
+						</Picker>
+						<ImageView image="/images/dropdown_icon.png" width="15" height="10" right="25" top="25"></ImageView>
+					</View>
+				</View>
 			</View>
 			<View layout="vertical" height="80" bottom="5">
 				<Label color="black" height="20" left="0">NRIC No. / Armed Force ID / Passport*</Label>
@@ -35,13 +51,29 @@
 			<Label id="prepaid_subtitle"  backgroundColor="transparent" color="white" top="5" left="20" width="100%">MOBILE INFO</Label>
 		</View>
 		<ScrollView id="scrollView" layout="vertical" width="90%">
-			<View id="contentView3" layout="vertical" height="80" bottom="5">
-				<Label color="black" height="20" left="0">Current Mobile Operator</Label>
-				<Picker id="picker" height="40" width="100%" height="Ti.UI.SIZE" top="10" selectionIndicator="true" backgroundColor="#EFEFEF" visible="true">
-					<PickerRow title="Select an option"/>
-                	<PickerRow title="Digi"/>
-                	<PickerRow title="Maxis"/>
-				</Picker>
+			<View platform="ios" id="contentView2" layout="horizontal"  height="80" top="10" bottom="10">
+				<Label color="black" width="100%" textAlign="left">Current Mobile Operator</Label>
+				<View id="pickerContentView2" layout="composite" top="10" width="70%">
+					<Label id="operatorLabel" height="30" width="100%" backgroundColor="transparent" borderRadius="5" borderColor="#F2F2F2" color="black" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="10"></Label>
+					<Picker id="picker2" height="40" width="100%" height="Ti.UI.SIZE" top="10" bottom="10" selectionIndicator="true" backgroundColor="#EFEFEF" visible="true">
+						<PickerRow title="Select An Option"/>
+                		<PickerRow title="1"/>
+                		<PickerRow title="2"/>
+					</Picker>
+				</View>
+			</View>
+			<View platform="android" layout="vertical"  height="80" top="10" bottom="10">
+				<Label color="black" width="100%" textAlign="left">Current Mobile Operator</Label>
+				<View layout="horizontal">
+					<View layout="composite">
+						<Picker id="picker2" onChange="operator" width="100%" top="10" bottom="10" borderRadius="5" selectionIndicator="true" backgroundColor="black" visible="true">
+							<PickerRow title="Select An Option"/>
+                			<PickerRow title="1"/>
+                			<PickerRow title="2"/>
+						</Picker>
+						<ImageView image="/images/dropdown_icon.png" width="15" height="10" right="25" top="25"></ImageView>
+					</View>
+				</View>
 			</View>
 			<View layout="vertical" height="80" bottom="5">
 				<Label color="black" height="20" left="0">MSISDN (e.g 010xxxxxxxx)</Label>

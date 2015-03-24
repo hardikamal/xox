@@ -28,6 +28,36 @@ function mysql_real_escape_string(str) {
     });
 }
 
+function currentDateTime() {
+    var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth() + 1;
+    var yyyy = today.getFullYear();
+    var hours = today.getHours();
+    var minutes = today.getMinutes();
+    var sec = today.getSeconds();
+    10 > minutes && (minutes = "0" + minutes);
+    10 > sec && (sec = "0" + sec);
+    10 > dd && (dd = "0" + dd);
+    10 > mm && (mm = "0" + mm);
+    datetime = yyyy + "-" + mm + "-" + dd + " " + hours + ":" + minutes + ":" + sec;
+    return datetime;
+}
+
+function timeFormat(datetime) {
+    var timeStamp = datetime.split(" ");
+    var newFormat;
+    var ampm = "am";
+    var date = timeStamp[0].split("/");
+    var time = timeStamp[1].split(":");
+    if (time[0] > 12) {
+        ampm = "pm";
+        time[0] = time[0] - 12;
+    }
+    newFormat = date[0] + "/" + date[1] + "/" + date[2] + " " + time[0] + ":" + time[1] + " " + ampm;
+    return newFormat;
+}
+
 function removeAllChildren(viewObject) {
     var children = viewObject.children.slice(0);
     for (var i = 0; i < children.length; ++i) viewObject.remove(children[i]);
@@ -41,11 +71,8 @@ var Alloy = require("alloy"), _ = Alloy._, Backbone = Alloy.Backbone;
 
 Alloy.Globals.menuType = "1";
 
-<<<<<<< Updated upstream
-Alloy.Globals.userPlan;
+Alloy.Globals.userPlan = "postpaid";
 
-=======
->>>>>>> Stashed changes
 var API = require("api");
 
 var DRAWER = require("drawer");

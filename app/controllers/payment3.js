@@ -14,7 +14,7 @@ function back()
 
 function proceed()
 {
-	DRAWER.navigation("payment4",1);
+	DRAWER.navigation("payment6",1);
 }
 
 

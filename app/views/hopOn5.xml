@@ -3,16 +3,19 @@
 		<Require src="_header" ></Require>
 		<View layout="composite" height="50" backgroundColor="red">
 			<Label backgroundColor="transparent" color="white" left="20">HOP ON</Label>
+			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="close" image="/images/close_icon.png"></ImageView>
 		</View>
 		<View layout="vertical" height="50" backgroundColor="#F2F2F2">
 			<Label backgroundColor="transparent" color="black" left="20">Step 5 of 5</Label>
-			<Label backgroundColor="transparent" color="red" left="20">Porting Info</Label>
+			<Label backgroundColor="transparent" color="red" left="20">Complete</Label>
 		</View>
 		<ScrollView id="scrollView" layout="vertical" width="100%">
-				<View layout="horizontal" width="90%" height="100">
-					<Label id="item_title" textAlign=" Ti.UI.TEXT_ALIGNMENT_CENTER" height="100" width="90%" top="5" >HopOn Registration done. We will keep you update, Thank you.</Label>
-				</View>
-				<Button color="red" borderColor="red" backgroundColor="white" height="10%" width="60%" borderRadius="20" onClick="done" top="40">Done</Button>
+			<View layout="horizontal" width="90%" height="100">
+				<Label id="item_title" textAlign=" Ti.UI.TEXT_ALIGNMENT_CENTER" height="100" width="90%" top="5" >HopOn Registration done. We will keep you update, Thank you.</Label>
+			</View>
 		</ScrollView>
+		<View height="50" backgroundColor="red" onClick="download">
+			<Label color="white">DOWNLOAD TAX INVOICE</Label>
+		</View>
 	</ScrollView>
 </Alloy>

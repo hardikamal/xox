@@ -1,18 +1,18 @@
-$.arrow.transform = Ti.UI.create2DMatrix().rotate(-90);
-$.arrow1.transform = Ti.UI.create2DMatrix().rotate(-90);
-$.arrow2.transform = Ti.UI.create2DMatrix().rotate(-90);
-$.arrow3.transform = Ti.UI.create2DMatrix().rotate(-90);
-$.arrow4.transform = Ti.UI.create2DMatrix().rotate(-90);
-$.arrow5.transform = Ti.UI.create2DMatrix().rotate(-90);
-$.arrow6.transform = Ti.UI.create2DMatrix().rotate(-90);
-$.arrow7.transform = Ti.UI.create2DMatrix().rotate(-90);
+// $.arrow.transform = Ti.UI.create2DMatrix().rotate(-90);
+// $.arrow1.transform = Ti.UI.create2DMatrix().rotate(-90);
+// $.arrow2.transform = Ti.UI.create2DMatrix().rotate(-90);
+// $.arrow3.transform = Ti.UI.create2DMatrix().rotate(-90);
+// $.arrow4.transform = Ti.UI.create2DMatrix().rotate(-90);
+// $.arrow5.transform = Ti.UI.create2DMatrix().rotate(-90);
+// $.arrow6.transform = Ti.UI.create2DMatrix().rotate(-90);
+// $.arrow7.transform = Ti.UI.create2DMatrix().rotate(-90);
 
 
-$.scrollView.height = Ti.Platform.displayCaps.platformHeight - 220;
-
-if(Ti.Platform.osname == "android") {
-	$.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 220;
-}
+// $.scrollView.height = Ti.Platform.displayCaps.platformHeight - 220;
+// 
+// if(Ti.Platform.osname == "android") {
+	// $.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 220;
+// }
 
 function back()
 {
@@ -74,43 +74,43 @@ function done(){
 	$.picker.setVisible(false);
 }
 
-function domesticVoice(){
-	
-	Alloy.Globals.userPlan = "prepaid";
-	DRAWER.navigation("domesticCallStatement",1);
-}
-
-function domesticVideo(){
-	Alloy.Globals.userPlan = "prepaid";
-	DRAWER.navigation("domesticVideo",1);
-}
-
-function domesticSMS(){
-	Alloy.Globals.userPlan = "prepaid";
-	DRAWER.navigation("domesticSMS",1);
-}
-
-function iddVoice(){
-	Alloy.Globals.userPlan = "prepaid";
-	DRAWER.navigation("iddVoice",1);
-}
-
-function iddVideo(){
-	Alloy.Globals.userPlan = "prepaid";
-	DRAWER.navigation("iddVideo",1);
-}
-
-function iddSMS(){
-	Alloy.Globals.userPlan = "prepaid";
-	DRAWER.navigation("iddSMS",1);
-}
-
-function roamingCalls(){
-	Alloy.Globals.userPlan = "prepaid";
-	DRAWER.navigation("roamingCalls",1);
-}
-
-function roamingSMS(){
-	Alloy.Globals.userPlan = "prepaid";
-	DRAWER.navigation("roamingSMS",1);
-}
+// function domesticVoice(){
+// 	
+	// Alloy.Globals.userPlan = "prepaid";
+	// DRAWER.navigation("domesticCallStatement",1);
+// }
+// 
+// function domesticVideo(){
+	// Alloy.Globals.userPlan = "prepaid";
+	// DRAWER.navigation("domesticVideo",1);
+// }
+// 
+// function domesticSMS(){
+	// Alloy.Globals.userPlan = "prepaid";
+	// DRAWER.navigation("domesticSMS",1);
+// }
+// 
+// function iddVoice(){
+	// Alloy.Globals.userPlan = "prepaid";
+	// DRAWER.navigation("iddVoice",1);
+// }
+// 
+// function iddVideo(){
+	// Alloy.Globals.userPlan = "prepaid";
+	// DRAWER.navigation("iddVideo",1);
+// }
+// 
+// function iddSMS(){
+	// Alloy.Globals.userPlan = "prepaid";
+	// DRAWER.navigation("iddSMS",1);
+// }
+// 
+// function roamingCalls(){
+	// Alloy.Globals.userPlan = "prepaid";
+	// DRAWER.navigation("roamingCalls",1);
+// }
+// 
+// function roamingSMS(){
+	// Alloy.Globals.userPlan = "prepaid";
+	// DRAWER.navigation("roamingSMS",1);
+// }

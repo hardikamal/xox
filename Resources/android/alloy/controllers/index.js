@@ -29,6 +29,7 @@ function Controller() {
     Ti.App.addEventListener("app:refreshMenu", function() {
         DRAWER.initMenu();
     });
+    API.getStore();
     _.extend($, exports);
 }
 
