@@ -21,17 +21,29 @@
 			</View>
 			<View platform="android" layout="vertical" height="80" top="10" bottom="10">
 				<Label textAlign="center" color="black" left="10">Postpaid Itemized Statement</Label>
-				<Picker id="picker" onChange="paymentType" width="90%" top="10" bottom="10" borderRadius="5" selectionIndicator="true" backgroundColor="black" visible="true">
-					<PickerRow title="Current Month"/>
-            		<PickerRow title="April"/>
-            		<PickerRow title="May"/>
-            		<PickerRow title="June"/>
-            		<PickerRow title="July"/>
-				</Picker>
-				<ImageView image="/images/dropdown_icon.png" width="15" height="10" right="10" top="20"></ImageView>
+				<View layout="horizontal">
+					<View layout="composite">
+						<Picker id="picker" onChange="paymentType" width="90%" top="10" bottom="10" borderRadius="5" selectionIndicator="true" backgroundColor="black" visible="true">
+							<PickerRow title="Current Month"/>
+		            		<PickerRow title="April"/>
+		            		<PickerRow title="May"/>
+		            		<PickerRow title="June"/>
+		            		<PickerRow title="July"/>
+						</Picker>
+						<ImageView image="/images/dropdown_icon.png" width="15" height="10" right="25" top="25"></ImageView>
+					</View>
+				</View>
 			</View>
 		</View>
-		<ScrollView id="scrollView" layout="vertical" width="100%" backgroundColor="#F5F5F5">
+		<View layout="vertical" width="100%" height="370" backgroundColor="white">
+			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white">
+				<View layout="vertical" width="100%" height="100%">
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10">For more details on your bill statement</Label>
+					<Label backgroundColor="transparent" color="black" textAlign="left" left="10">kindly log on to https://selfcare.xox.com.my</Label>
+				</View>
+			</View>
+		</View>
+		<!-- <ScrollView id="scrollView" layout="vertical" width="100%" backgroundColor="#F5F5F5">
 			<View layout="horizontal" bottom="1" height="50" width="100%" backgroundColor="white" onClick="domesticVoice">
 				<View width="80%" height="100%">
 					<Label backgroundColor="transparent" color="black" textAlign="left" left="10"  onClick="domesticVoice">Domestic Voice Call</Label>
@@ -96,7 +108,7 @@
 					<ImageView id="arrow7" image="/images/dropdown_icon.png" width="25" height="15" onClick="roamingSMS"></ImageView>
 				</View>
 			</View>
-		</ScrollView>
+		</ScrollView> -->
 		<View height="50" backgroundColor="red" onClick="download">
 			<Label color="white">Download Bill</Label>
 		</View>

@@ -30,86 +30,46 @@ function Controller() {
         id: "notification"
     });
     $.__views.notification && $.addTopLevelView($.__views.notification);
-<<<<<<< HEAD
-    $.__views.__alloyId1357 = Alloy.createController("_header", {
-        id: "__alloyId1357",
+    $.__views.__alloyId1364 = Alloy.createController("_header", {
+        id: "__alloyId1364",
         __parentSymbol: $.__views.notification
     });
-    $.__views.__alloyId1357.setParent($.__views.notification);
-    $.__views.__alloyId1358 = Ti.UI.createView({
+    $.__views.__alloyId1364.setParent($.__views.notification);
+    $.__views.__alloyId1365 = Ti.UI.createView({
         height: "20%",
         backgroundColor: "#AFCD3F",
-        id: "__alloyId1358"
+        id: "__alloyId1365"
     });
-    $.__views.notification.add($.__views.__alloyId1358);
-    $.__views.__alloyId1359 = Ti.UI.createLabel({
-=======
-    $.__views.__alloyId1187 = Alloy.createController("_header", {
-        id: "__alloyId1187",
-        __parentSymbol: $.__views.notification
-    });
-    $.__views.__alloyId1187.setParent($.__views.notification);
-    $.__views.__alloyId1188 = Ti.UI.createView({
-        height: "20%",
-        backgroundColor: "#AFCD3F",
-        id: "__alloyId1188"
-    });
-    $.__views.notification.add($.__views.__alloyId1188);
-    $.__views.__alloyId1189 = Ti.UI.createLabel({
->>>>>>> origin/master
+    $.__views.notification.add($.__views.__alloyId1365);
+    $.__views.__alloyId1366 = Ti.UI.createLabel({
         text: "Support",
         left: "10",
         top: "10",
         color: "white",
-<<<<<<< HEAD
-        id: "__alloyId1359"
+        id: "__alloyId1366"
     });
-    $.__views.__alloyId1358.add($.__views.__alloyId1359);
-    $.__views.__alloyId1360 = Ti.UI.createView({
+    $.__views.__alloyId1365.add($.__views.__alloyId1366);
+    $.__views.__alloyId1367 = Ti.UI.createView({
         height: "50",
         backgroundColor: "#E6E7E9",
-        id: "__alloyId1360"
+        id: "__alloyId1367"
     });
-    $.__views.notification.add($.__views.__alloyId1360);
-    $.__views.__alloyId1361 = Ti.UI.createLabel({
-=======
-        id: "__alloyId1189"
-    });
-    $.__views.__alloyId1188.add($.__views.__alloyId1189);
-    $.__views.__alloyId1190 = Ti.UI.createView({
-        height: "50",
-        backgroundColor: "#E6E7E9",
-        id: "__alloyId1190"
-    });
-    $.__views.notification.add($.__views.__alloyId1190);
-    $.__views.__alloyId1191 = Ti.UI.createLabel({
->>>>>>> origin/master
+    $.__views.notification.add($.__views.__alloyId1367);
+    $.__views.__alloyId1368 = Ti.UI.createLabel({
         text: "Notification",
         left: "5%",
         height: "50",
         textAlign: "left",
         color: "black",
-<<<<<<< HEAD
-        id: "__alloyId1361"
+        id: "__alloyId1368"
     });
-    $.__views.__alloyId1360.add($.__views.__alloyId1361);
-    $.__views.__alloyId1362 = Ti.UI.createScrollView({
+    $.__views.__alloyId1367.add($.__views.__alloyId1368);
+    $.__views.__alloyId1369 = Ti.UI.createScrollView({
         layout: "vertical",
         backgroundColor: "white",
-        id: "__alloyId1362"
+        id: "__alloyId1369"
     });
-    $.__views.notification.add($.__views.__alloyId1362);
-=======
-        id: "__alloyId1191"
-    });
-    $.__views.__alloyId1190.add($.__views.__alloyId1191);
-    $.__views.__alloyId1192 = Ti.UI.createScrollView({
-        layout: "vertical",
-        backgroundColor: "white",
-        id: "__alloyId1192"
-    });
-    $.__views.notification.add($.__views.__alloyId1192);
->>>>>>> origin/master
+    $.__views.notification.add($.__views.__alloyId1369);
     $.__views.title = Ti.UI.createLabel({
         id: "title",
         width: "90%",
@@ -118,11 +78,7 @@ function Controller() {
         textAlign: "left",
         color: "black"
     });
-<<<<<<< HEAD
-    $.__views.__alloyId1362.add($.__views.title);
-=======
-    $.__views.__alloyId1192.add($.__views.title);
->>>>>>> origin/master
+    $.__views.__alloyId1369.add($.__views.title);
     $.__views.label = Ti.UI.createLabel({
         id: "label",
         width: "90%",
@@ -131,11 +87,7 @@ function Controller() {
         textAlign: "left",
         color: "black"
     });
-<<<<<<< HEAD
-    $.__views.__alloyId1362.add($.__views.label);
-=======
-    $.__views.__alloyId1192.add($.__views.label);
->>>>>>> origin/master
+    $.__views.__alloyId1369.add($.__views.label);
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.title.text = "1.Title";

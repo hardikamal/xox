@@ -73,16 +73,10 @@ var openNewNavWindow = function(target, param) {
 };
 
 var navigation = function(target, skipToggle, param) {
-<<<<<<< Updated upstream
     Ti.App.fireEvent("clearObject");
     var newWin = openNewNavWindow(target, param);
     nappDrawer.setCenterWindow(newWin);
     1 != skipToggle && nappDrawer.toggleLeftWindow();
-=======
-    var newWin = openNewNavWindow(target, param);
-    nappDrawer.setCenterWindow(newWin);
-    1 != skipToggle;
->>>>>>> Stashed changes
 };
 
 exports.initDrawer = function() {
@@ -106,13 +100,10 @@ exports.isDrawerOpen = function() {
     return drawerFlag;
 };
 
-<<<<<<< Updated upstream
 exports.closeDrawer = function() {
     nappDrawer.close();
 };
 
-=======
->>>>>>> Stashed changes
 exports.logout = function() {
     refreshMenu();
     navigation("home", 1);

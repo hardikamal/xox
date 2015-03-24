@@ -10,7 +10,7 @@
 //
 // Alloy.Globals.someGlobalFunction = function(){};
 Alloy.Globals.menuType = "1";//public
-Alloy.Globals.userPlan;//public
+Alloy.Globals.userPlan = "postpaid";//public
 
 var API = require('api');
 var DRAWER = require('drawer');

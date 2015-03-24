@@ -1,12 +1,11 @@
 
-var status = "postpaid";
+var status = "prepaid";
 
-var new_event = [["Season Pass","/images/acc_button_01.png"]];
+var new_event = [["New Event","/images/acc_button_01.png"]];
 
-if(status == "postpaid")
+if( status == "postpaid")
 {
 	console.log("postpaid");
-	//$.postpaid.setVisible(true);
 	$.prepaid.height = 0;
 }
 else
@@ -120,6 +119,22 @@ function orderingHistory()
 	DRAWER.navigation("orderHistory",1);
 }
 
+function billStatement()
+{
+	DRAWER.navigation("accountDetails2",1);
+}
+
+function familyFriend()
+{
+	DRAWER.navigation("familyFriend",1);
+}
+
+function internetManagement()
+{
+	DRAWER.navigation("internetManagement",1);
+}
+
+
 function editPhoto()
 {
 	console.log("editPhoto");
@@ -128,8 +143,14 @@ function editPhoto()
 
 function makePayment()
 {
-	console.log("makePayment");
-	$.payment.zIndex = 2;
+	if(status == "postpaid")
+	{
+		$.postpaidPayment.zIndex = 2;
+	}
+	else if(status == "prepaid")
+	{
+		$.prepaidPayment.zIndex = 2;
+	}
 }
 
 function close()
@@ -140,8 +161,14 @@ function close()
 
 function closepayment()
 {
-	console.log("closepayment");
-	$.payment.zIndex = 0;
+	if(status == "postpaid")
+	{
+		$.postpaidPayment.zIndex = 0;
+	}
+	else if(status == "prepaid")
+	{
+		$.prepaidPayment.zIndex = 0;
+	}
 }
 
 function paymentPostpaid()
@@ -149,10 +176,26 @@ function paymentPostpaid()
 	DRAWER.navigation("payment2",1);
 }
 
-function paymentPrepaid()
+function postpaidTopup()
 {
 	DRAWER.navigation("payment3",1);
 }
+
+function prepaidTopup()
+{
+	DRAWER.navigation("payment3",1);
+}
+
+function pinVoucher()
+{
+	DRAWER.navigation("payment4",1);
+}
+
+function airtime()
+{
+	DRAWER.navigation("payment5",1);
+}
+
 
 function gallery()
 {

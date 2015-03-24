@@ -3,7 +3,7 @@ $.arrow2.transform = Ti.UI.create2DMatrix().rotate(-90);
 
 function back()
 {
-	DRAWER.navigation("accountDetails",1);
+	DRAWER.navigation("myAccount",1);
 }
 
 function prepaidStatement()

@@ -9,12 +9,12 @@ var paymentType;
 
 function back()
 {
-	DRAWER.navigation("payment",1);
+	DRAWER.navigation("myAccount",1);
 }
 
 function proceed()
 {
-	DRAWER.navigation("payment4",1);
+	DRAWER.navigation("payment6",1);
 }
 
 

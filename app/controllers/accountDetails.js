@@ -1,4 +1,4 @@
-$.scrollView.height = Ti.Platform.displayCaps.platformHeight - 150;
+$.scrollView.height = Ti.Platform.displayCaps.platformHeight - 100;
 
 console.log("scroll height: "+$.scrollView.height);
 console.log("full height: "+Ti.Platform.displayCaps.platformHeight);
@@ -7,7 +7,7 @@ console.log("full height: "+Ti.Platform.displayCaps.platformHeight);
 //$.arrow2.transform = Ti.UI.create2DMatrix().rotate(-90);
 
 if(Ti.Platform.osname == "android") {
-	$.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 150;
+	$.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 100;
 }
 
 function back()
@@ -16,23 +16,7 @@ function back()
 }
 
 
-function statement()
-{
-	DRAWER.navigation("accountDetails2",1);
-}
-
-
 function myProfile()
 {
 	DRAWER.navigation("profile",1);
-}
-
-function statement()
-{
-	console.log("statement");
-}
-
-function download()
-{
-	console.log("download");
 }
