@@ -34,155 +34,62 @@ function Controller() {
         id: "hopOn5"
     });
     $.__views.hopOn5 && $.addTopLevelView($.__views.hopOn5);
-<<<<<<< HEAD
-    $.__views.__alloyId592 = Alloy.createController("_header", {
-        id: "__alloyId592",
-=======
-<<<<<<< HEAD
-    $.__views.__alloyId631 = Alloy.createController("_header", {
-        id: "__alloyId631",
+    $.__views.__alloyId585 = Alloy.createController("_header", {
+        id: "__alloyId585",
         __parentSymbol: $.__views.hopOn5
     });
-    $.__views.__alloyId631.setParent($.__views.hopOn5);
-    $.__views.__alloyId632 = Ti.UI.createView({
+    $.__views.__alloyId585.setParent($.__views.hopOn5);
+    $.__views.__alloyId586 = Ti.UI.createView({
         layout: "composite",
         height: "50",
         backgroundColor: "red",
-        id: "__alloyId632"
+        id: "__alloyId586"
     });
-    $.__views.hopOn5.add($.__views.__alloyId632);
-    $.__views.__alloyId633 = Ti.UI.createLabel({
-=======
-    $.__views.__alloyId462 = Alloy.createController("_header", {
-        id: "__alloyId462",
->>>>>>> origin/master
-        __parentSymbol: $.__views.hopOn5
-    });
-    $.__views.__alloyId592.setParent($.__views.hopOn5);
-    $.__views.__alloyId593 = Ti.UI.createView({
-        layout: "composite",
-        height: "50",
-        backgroundColor: "red",
-        id: "__alloyId593"
-    });
-<<<<<<< HEAD
-    $.__views.hopOn5.add($.__views.__alloyId593);
-    $.__views.__alloyId594 = Ti.UI.createLabel({
-=======
-    $.__views.hopOn5.add($.__views.__alloyId463);
-    $.__views.__alloyId464 = Ti.UI.createLabel({
->>>>>>> origin/master
->>>>>>> origin/master
+    $.__views.hopOn5.add($.__views.__alloyId586);
+    $.__views.__alloyId587 = Ti.UI.createLabel({
         text: "HOP ON",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
-<<<<<<< HEAD
-        id: "__alloyId594"
-=======
-<<<<<<< HEAD
-        id: "__alloyId633"
+        id: "__alloyId587"
     });
-    $.__views.__alloyId632.add($.__views.__alloyId633);
-    $.__views.__alloyId634 = Ti.UI.createView({
+    $.__views.__alloyId586.add($.__views.__alloyId587);
+    $.__views.__alloyId588 = Ti.UI.createView({
         layout: "vertical",
         height: "50",
         backgroundColor: "#F2F2F2",
-        id: "__alloyId634"
+        id: "__alloyId588"
     });
-    $.__views.hopOn5.add($.__views.__alloyId634);
-    $.__views.__alloyId635 = Ti.UI.createLabel({
-=======
-        id: "__alloyId464"
->>>>>>> origin/master
-    });
-    $.__views.__alloyId593.add($.__views.__alloyId594);
-    $.__views.__alloyId595 = Ti.UI.createView({
-        layout: "vertical",
-        height: "50",
-        backgroundColor: "#F2F2F2",
-        id: "__alloyId595"
-    });
-<<<<<<< HEAD
-    $.__views.hopOn5.add($.__views.__alloyId595);
-    $.__views.__alloyId596 = Ti.UI.createLabel({
-=======
-    $.__views.hopOn5.add($.__views.__alloyId465);
-    $.__views.__alloyId466 = Ti.UI.createLabel({
->>>>>>> origin/master
->>>>>>> origin/master
+    $.__views.hopOn5.add($.__views.__alloyId588);
+    $.__views.__alloyId589 = Ti.UI.createLabel({
         text: "Step 5 of 5",
         backgroundColor: "transparent",
         color: "black",
         left: "20",
-<<<<<<< HEAD
-        id: "__alloyId596"
+        id: "__alloyId589"
     });
-    $.__views.__alloyId595.add($.__views.__alloyId596);
-    $.__views.__alloyId597 = Ti.UI.createLabel({
-=======
-<<<<<<< HEAD
-        id: "__alloyId635"
-    });
-    $.__views.__alloyId634.add($.__views.__alloyId635);
-    $.__views.__alloyId636 = Ti.UI.createLabel({
-=======
-        id: "__alloyId466"
-    });
-    $.__views.__alloyId465.add($.__views.__alloyId466);
-    $.__views.__alloyId467 = Ti.UI.createLabel({
->>>>>>> origin/master
->>>>>>> origin/master
+    $.__views.__alloyId588.add($.__views.__alloyId589);
+    $.__views.__alloyId590 = Ti.UI.createLabel({
         text: "Porting Info",
         backgroundColor: "transparent",
         color: "red",
         left: "20",
-<<<<<<< HEAD
-        id: "__alloyId597"
+        id: "__alloyId590"
     });
-    $.__views.__alloyId595.add($.__views.__alloyId597);
-=======
-<<<<<<< HEAD
-        id: "__alloyId636"
-    });
-    $.__views.__alloyId634.add($.__views.__alloyId636);
-=======
-        id: "__alloyId467"
-    });
-    $.__views.__alloyId465.add($.__views.__alloyId467);
->>>>>>> origin/master
->>>>>>> origin/master
+    $.__views.__alloyId588.add($.__views.__alloyId590);
     $.__views.scrollView = Ti.UI.createScrollView({
         id: "scrollView",
         layout: "vertical",
         width: "100%"
     });
     $.__views.hopOn5.add($.__views.scrollView);
-<<<<<<< HEAD
-    $.__views.__alloyId598 = Ti.UI.createView({
-=======
-<<<<<<< HEAD
-    $.__views.__alloyId637 = Ti.UI.createView({
+    $.__views.__alloyId591 = Ti.UI.createView({
         layout: "horizontal",
         width: "90%",
         height: "100",
-        id: "__alloyId637"
+        id: "__alloyId591"
     });
-    $.__views.scrollView.add($.__views.__alloyId637);
-=======
-    $.__views.__alloyId468 = Ti.UI.createView({
->>>>>>> origin/master
-        layout: "horizontal",
-        width: "90%",
-        height: "100",
-        id: "__alloyId598"
-    });
-<<<<<<< HEAD
-    $.__views.scrollView.add($.__views.__alloyId598);
-=======
-    $.__views.scrollView.add($.__views.__alloyId468);
->>>>>>> origin/master
->>>>>>> origin/master
+    $.__views.scrollView.add($.__views.__alloyId591);
     $.__views.item_title = Ti.UI.createLabel({
         font: {
             fontSize: "15dp"
@@ -194,18 +101,8 @@ function Controller() {
         width: "90%",
         top: "5"
     });
-<<<<<<< HEAD
-    $.__views.__alloyId598.add($.__views.item_title);
-    $.__views.__alloyId599 = Ti.UI.createButton({
-=======
-<<<<<<< HEAD
-    $.__views.__alloyId637.add($.__views.item_title);
-    $.__views.__alloyId638 = Ti.UI.createButton({
-=======
-    $.__views.__alloyId468.add($.__views.item_title);
-    $.__views.__alloyId469 = Ti.UI.createButton({
->>>>>>> origin/master
->>>>>>> origin/master
+    $.__views.__alloyId591.add($.__views.item_title);
+    $.__views.__alloyId592 = Ti.UI.createButton({
         title: "Done",
         color: "red",
         borderColor: "red",
@@ -214,24 +111,10 @@ function Controller() {
         width: "60%",
         borderRadius: "20",
         top: "40",
-<<<<<<< HEAD
-        id: "__alloyId599"
+        id: "__alloyId592"
     });
-    $.__views.scrollView.add($.__views.__alloyId599);
-    done ? $.__views.__alloyId599.addEventListener("click", done) : __defers["$.__views.__alloyId599!click!done"] = true;
-=======
-<<<<<<< HEAD
-        id: "__alloyId638"
-    });
-    $.__views.scrollView.add($.__views.__alloyId638);
-    done ? $.__views.__alloyId638.addEventListener("click", done) : __defers["$.__views.__alloyId638!click!done"] = true;
-=======
-        id: "__alloyId469"
-    });
-    $.__views.scrollView.add($.__views.__alloyId469);
-    done ? $.__views.__alloyId469.addEventListener("click", done) : __defers["$.__views.__alloyId469!click!done"] = true;
->>>>>>> origin/master
->>>>>>> origin/master
+    $.__views.scrollView.add($.__views.__alloyId592);
+    done ? $.__views.__alloyId592.addEventListener("click", done) : __defers["$.__views.__alloyId592!click!done"] = true;
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.scrollView.height = Ti.Platform.displayCaps.platformHeight - 200;
@@ -239,15 +122,7 @@ function Controller() {
         console.log("android");
         $.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 200;
     }
-<<<<<<< HEAD
-    __defers["$.__views.__alloyId599!click!done"] && $.__views.__alloyId599.addEventListener("click", done);
-=======
-<<<<<<< HEAD
-    __defers["$.__views.__alloyId638!click!done"] && $.__views.__alloyId638.addEventListener("click", done);
-=======
-    __defers["$.__views.__alloyId469!click!done"] && $.__views.__alloyId469.addEventListener("click", done);
->>>>>>> origin/master
->>>>>>> origin/master
+    __defers["$.__views.__alloyId592!click!done"] && $.__views.__alloyId592.addEventListener("click", done);
     _.extend($, exports);
 }
 

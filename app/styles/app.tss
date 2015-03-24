@@ -54,11 +54,20 @@
 ".container" : {
 	backgroundColor: "#ffffff"
 },
-"#activityIndicator" : {
-	// style: Ti.UI.iPhone.ActivityIndicatorStyle.BIG,
-	 top:30,
-	 left:30,
-	 width:60,
+".small_text" : {
+	font: {
+        fontSize: '12dp'
+    }
+},
+".medium_text" : {
+	font: {
+        fontSize: '16dp'
+    }
+},
+".big_text" : {
+	font: {
+        fontSize: '22dp'
+    }
 },
 "#prepaid_subtitle" : {
   font: {
@@ -69,6 +78,12 @@
   font: {
         fontSize: '12dp'
     }
+},
+"#activityIndicator" : {
+	// style: Ti.UI.iPhone.ActivityIndicatorStyle.BIG,
+	 top:30,
+	 left:30,
+	 width:60,
 },
 "#total_payment" : {
   font: {

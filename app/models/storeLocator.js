@@ -48,10 +48,15 @@ exports.definition = {
                 return listArr;
 				
 			},
-			getStoreList : function(){
+			getStoreList : function(ex){
 				var collection = this;
-                var sql = "SELECT * FROM " + collection.config.adapter.collection_name ;
-                
+				
+				if(ex == ""){
+					var sql = "SELECT * FROM " + collection.config.adapter.collection_name;
+                }else{
+					var sql = "SELECT * FROM " + collection.config.adapter.collection_name + " WHERE category='"+ex.category+"' " ;
+                }
+                console.log(sql);
                 db = Ti.Database.open(collection.config.adapter.db_name);
                 var res = db.execute(sql);
                 var listArr = []; 

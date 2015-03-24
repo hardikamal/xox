@@ -1,8 +1,0 @@
-"/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/android/gen/android/support/v7/appcompat/R.java"
-"/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/android/gen/com/mnc/xox/ApplicationStylesheet.java"
-"/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/android/gen/com/mnc/xox/AssetCryptImpl.java"
-"/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/android/gen/com/mnc/xox/R.java"
-"/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/android/gen/com/mnc/xox/XoxActivity.java"
-"/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/android/gen/com/mnc/xox/XoxAppInfo.java"
-"/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/android/gen/com/mnc/xox/XoxApplication.java"
-"/Users/chrispang/Documents/Chris/Mobile Projects/xox/build/android/gen/ti/modules/titanium/ui/R.java"

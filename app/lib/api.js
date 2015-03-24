@@ -21,8 +21,7 @@ exports.getStore = function (ex){
 	var last_updated = "";
 	if(isUpdate != ""){
 		last_updated = isUpdate.updated;
-	}
-	console.log(storeLocatorUrl + "&last_updated="+last_updated);
+	} 
 	var _result = contactServer(storeLocatorUrl + "&last_updated="); 
 	_result.onload = function(e) {  
 		var res = JSON.parse(this.responseText); 
@@ -40,9 +39,9 @@ exports.getStore = function (ex){
 };
   
 
-/*********************
+/*****************************
 **** API PRIVATE FUNCTION*****
-**********************/
+******************************/
 function contactServer(url){
 	var client = Ti.Network.createHTTPClient({ 
 	     timeout : 10000  

@@ -1,7 +1,5 @@
 //var menu = [{id: 0, title: "Our Offices", controller: 'contact1'}, {id: 1, title: "Care Centre", controller: 'contact2'},{id: 2, title: "XOX Dealers", controller: 'contact3'}];
-var storeModel = Alloy.createCollection('storeLocator'); 
-var details = storeModel.getStoreList();
-console.log(details);
+
 function goSlide(event){
 	var index = event.source.mod;
 	var arrViews = $.scrollableView.getViews();
