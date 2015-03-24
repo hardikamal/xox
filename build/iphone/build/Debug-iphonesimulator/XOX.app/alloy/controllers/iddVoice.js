@@ -1,1 +1,1 @@
-/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/Resources/iphone/alloy/controllers/iddVoice.js
+/Users/george/Documents/Titanium_Studio_Workspace/XOX/Resources/iphone/alloy/controllers/iddVoice.js

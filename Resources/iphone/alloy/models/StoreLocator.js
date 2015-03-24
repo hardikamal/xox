@@ -1,0 +1,198 @@
+var Alloy = require("alloy"), _ = require("alloy/underscore")._, model, collection;
+
+exports.definition = {
+    config: {
+        columns: {
+            id: "INTEGER",
+            outlet: "TEXT",
+            area: "TEXT",
+            state: "TEXT",
+            address: "TEXT",
+            mobile: "TEXT",
+            latitude: "TEXT",
+            longitude: "TEXT",
+            category: "INTEGER",
+            status: "INTEGER"
+        },
+        adapter: {
+            type: "sql",
+            collection_name: "storeLocator"
+        }
+    },
+    extendModel: function(Model) {
+        _.extend(Model.prototype, {});
+        return Model;
+    },
+    extendCollection: function(Collection) {
+        _.extend(Collection.prototype, {
+            getStoreStateList: function() {
+                var collection = this;
+                var sql = "SELECT distinct(state) FROM " + collection.config.adapter.collection_name + "  order by state";
+                db = Ti.Database.open(collection.config.adapter.db_name);
+                var res = db.execute(sql);
+                var listArr = [];
+                var count = 0;
+                while (res.isValidRow()) {
+                    listArr[count] = {
+                        state: res.fieldByName("state")
+                    };
+                    res.next();
+                    count++;
+                }
+                res.close();
+                db.close();
+                collection.trigger("sync");
+                return listArr;
+            },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            getStoreList: function() {
+                var collection = this;
+                var sql = "SELECT * FROM " + collection.config.adapter.collection_name;
+=======
+>>>>>>> 24/3/2015 onlinePurchase Subpages
+            getStoreList: function(ex) {
+                var collection = this;
+                if ("" == ex) var sql = "SELECT * FROM " + collection.config.adapter.collection_name; else var sql = "SELECT * FROM " + collection.config.adapter.collection_name + " WHERE category='" + ex.category + "' ";
+                console.log(sql);
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
+>>>>>>> 24/3/2015 onlinePurchase Subpages
+                db = Ti.Database.open(collection.config.adapter.db_name);
+                var res = db.execute(sql);
+                var listArr = [];
+                var count = 0;
+                while (res.isValidRow()) {
+                    listArr[count] = {
+                        id: res.fieldByName("id"),
+                        outlet: res.fieldByName("outlet"),
+                        area: res.fieldByName("area"),
+                        state: res.fieldByName("state"),
+                        address: res.fieldByName("address"),
+                        mobile: res.fieldByName("mobile"),
+                        status: res.fieldByName("status"),
+                        latitude: res.fieldByName("latitude"),
+                        longitude: res.fieldByName("longitude"),
+                        category: res.fieldByName("category")
+                    };
+                    res.next();
+                    count++;
+                }
+                res.close();
+                db.close();
+                collection.trigger("sync");
+                return listArr;
+            },
+            getStoreByState: function(state) {
+                var collection = this;
+                var sql = "SELECT * FROM " + collection.config.adapter.collection_name + " WHERE state='" + state + "' ORDER BY outlet";
+                db = Ti.Database.open(collection.config.adapter.db_name);
+                var res = db.execute(sql);
+                var listArr = [];
+                var count = 0;
+                while (res.isValidRow()) {
+                    listArr[count] = {
+                        id: res.fieldByName("id"),
+                        outlet: res.fieldByName("outlet"),
+                        area: res.fieldByName("area"),
+                        state: res.fieldByName("state"),
+                        address: res.fieldByName("address"),
+                        mobile: res.fieldByName("mobile"),
+                        status: res.fieldByName("status"),
+                        latitude: res.fieldByName("latitude"),
+                        longitude: res.fieldByName("longitude"),
+                        category: res.fieldByName("category")
+                    };
+                    res.next();
+                    count++;
+                }
+                res.close();
+                db.close();
+                collection.trigger("sync");
+                return listArr;
+            },
+            getStoreById: function(id) {
+                var collection = this;
+                var sql = "SELECT * FROM " + collection.config.adapter.collection_name + " WHERE id='" + id + "'";
+                db = Ti.Database.open(collection.config.adapter.db_name);
+                var res = db.execute(sql);
+                var arr = [];
+                res.isValidRow() && (arr = {
+                    outlet: res.fieldByName("outlet"),
+                    area: res.fieldByName("area"),
+                    state: res.fieldByName("state"),
+                    address: res.fieldByName("address"),
+                    mobile: res.fieldByName("mobile"),
+                    status: res.fieldByName("status"),
+                    latitude: res.fieldByName("latitude"),
+                    longitude: res.fieldByName("longitude"),
+                    category: res.fieldByName("category")
+                });
+                res.close();
+                db.close();
+                collection.trigger("sync");
+                return arr;
+            },
+            addStores: function(arr) {
+                var collection = this;
+                db = Ti.Database.open(collection.config.adapter.db_name);
+                arr.forEach(function(entry) {
+                    var sql = "SELECT * FROM " + collection.config.adapter.collection_name + " WHERE id=" + entry.id;
+                    var sql_query = "";
+                    var res = db.execute(sql);
+                    sql_query = res.isValidRow() ? "UPDATE " + collection.config.adapter.collection_name + " SET outlet='" + mysql_real_escape_string(entry.name) + "', area='" + entry.area + "',state='" + entry.state + "',address='" + mysql_real_escape_string(entry.address) + "',mobile='" + entry.contact + "',`status`='" + entry.status + "',latitude='" + entry.lat + "',longitude='" + entry.lng + "',category='" + entry.type + "' WHERE id=" + entry.id : "INSERT INTO " + collection.config.adapter.collection_name + "(id, outlet, area, state, address,mobile, status, latitude, longitude, category ) VALUES ('" + entry.id + "', '" + mysql_real_escape_string(entry.name) + "', '" + entry.area + "', '" + entry.state + "', '" + mysql_real_escape_string(entry.address) + "', '" + entry.contact + "', '" + entry.status + "', '" + entry.lat + "', '" + entry.lng + "', '" + entry.type + "')";
+                    db.execute(sql_query);
+                });
+                db.close();
+                collection.trigger("sync");
+            },
+            resetStore: function() {
+                var collection = this;
+                var sql = "DELETE FROM " + collection.config.adapter.collection_name;
+                db = Ti.Database.open(collection.config.adapter.db_name);
+                db.execute(sql);
+                db.close();
+                collection.trigger("sync");
+            },
+            getStoreByName: function(state, query) {
+                var collection = this;
+                var sql = "SELECT * FROM " + collection.config.adapter.collection_name + " WHERE state='" + state + "' AND outlet LIKE '%" + query + "%' ORDER BY outlet";
+                db = Ti.Database.open(collection.config.adapter.db_name);
+                var res = db.execute(sql);
+                var listArr = [];
+                var count = 0;
+                while (res.isValidRow()) {
+                    listArr[count] = {
+                        id: res.fieldByName("id"),
+                        outlet: res.fieldByName("outlet"),
+                        area: res.fieldByName("area"),
+                        state: res.fieldByName("state"),
+                        address: res.fieldByName("address"),
+                        mobile: res.fieldByName("mobile"),
+                        status: res.fieldByName("status"),
+                        latitude: res.fieldByName("latitude"),
+                        longitude: res.fieldByName("longitude"),
+                        category: res.fieldByName("category")
+                    };
+                    res.next();
+                    count++;
+                }
+                res.close();
+                db.close();
+                collection.trigger("sync");
+                return listArr;
+            }
+        });
+        return Collection;
+    }
+};
+
+model = Alloy.M("storeLocator", exports.definition, []);
+
+collection = Alloy.C("storeLocator", exports.definition, model);
+
+exports.Model = model;
+
+exports.Collection = collection;

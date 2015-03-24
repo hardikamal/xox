@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiPublicAPI.m \
-  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiPublicAPI.h
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiPublicAPI.m \
+  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiPublicAPI.h

@@ -99,25 +99,67 @@ function Controller() {
         id: "terms"
     });
     $.__views.terms && $.addTopLevelView($.__views.terms);
-    $.__views.__alloyId2486 = Alloy.createController("_header", {
-        id: "__alloyId2486",
+<<<<<<< HEAD
+    $.__views.__alloyId2440 = Alloy.createController("_header", {
+        id: "__alloyId2440",
         __parentSymbol: $.__views.terms
     });
-    $.__views.__alloyId2486.setParent($.__views.terms);
-    $.__views.__alloyId2487 = Ti.UI.createView({
+    $.__views.__alloyId2440.setParent($.__views.terms);
+    $.__views.__alloyId2441 = Ti.UI.createView({
         height: "20%",
         backgroundColor: "#AFCD3F",
-        id: "__alloyId2487"
+        id: "__alloyId2441"
     });
-    $.__views.terms.add($.__views.__alloyId2487);
-    $.__views.__alloyId2488 = Ti.UI.createLabel({
+    $.__views.terms.add($.__views.__alloyId2441);
+    $.__views.__alloyId2442 = Ti.UI.createLabel({
+=======
+<<<<<<< HEAD
+    $.__views.__alloyId2797 = Alloy.createController("_header", {
+        id: "__alloyId2797",
+        __parentSymbol: $.__views.terms
+    });
+    $.__views.__alloyId2797.setParent($.__views.terms);
+    $.__views.__alloyId2798 = Ti.UI.createView({
+        height: "20%",
+        backgroundColor: "#AFCD3F",
+        id: "__alloyId2798"
+    });
+    $.__views.terms.add($.__views.__alloyId2798);
+    $.__views.__alloyId2799 = Ti.UI.createLabel({
+=======
+    $.__views.__alloyId2440 = Alloy.createController("_header", {
+        id: "__alloyId2440",
+        __parentSymbol: $.__views.terms
+    });
+    $.__views.__alloyId2440.setParent($.__views.terms);
+    $.__views.__alloyId2441 = Ti.UI.createView({
+        height: "20%",
+        backgroundColor: "#AFCD3F",
+        id: "__alloyId2441"
+    });
+    $.__views.terms.add($.__views.__alloyId2441);
+    $.__views.__alloyId2442 = Ti.UI.createLabel({
+>>>>>>> origin/master
+>>>>>>> 24/3/2015 onlinePurchase Subpages
         text: "Support",
         left: "10",
         top: "10",
         color: "white",
-        id: "__alloyId2488"
+<<<<<<< HEAD
+        id: "__alloyId2442"
     });
-    $.__views.__alloyId2487.add($.__views.__alloyId2488);
+    $.__views.__alloyId2441.add($.__views.__alloyId2442);
+=======
+<<<<<<< HEAD
+        id: "__alloyId2799"
+    });
+    $.__views.__alloyId2798.add($.__views.__alloyId2799);
+=======
+        id: "__alloyId2442"
+    });
+    $.__views.__alloyId2441.add($.__views.__alloyId2442);
+>>>>>>> origin/master
+>>>>>>> 24/3/2015 onlinePurchase Subpages
     $.__views.contentView = Ti.UI.createView({
         id: "contentView",
         layout: "vertical",
@@ -125,7 +167,15 @@ function Controller() {
         backgroundColor: "#E6E7E9"
     });
     $.__views.terms.add($.__views.contentView);
-    $.__views.__alloyId2489 = Ti.UI.createLabel({
+<<<<<<< HEAD
+    $.__views.__alloyId2443 = Ti.UI.createLabel({
+=======
+<<<<<<< HEAD
+    $.__views.__alloyId2800 = Ti.UI.createLabel({
+=======
+    $.__views.__alloyId2443 = Ti.UI.createLabel({
+>>>>>>> origin/master
+>>>>>>> 24/3/2015 onlinePurchase Subpages
         text: "Terms & Conditions",
         width: "90%",
         height: "30",
@@ -133,9 +183,21 @@ function Controller() {
         bottom: "5",
         textAlign: "left",
         color: "black",
-        id: "__alloyId2489"
+<<<<<<< HEAD
+        id: "__alloyId2443"
     });
-    $.__views.contentView.add($.__views.__alloyId2489);
+    $.__views.contentView.add($.__views.__alloyId2443);
+=======
+<<<<<<< HEAD
+        id: "__alloyId2800"
+    });
+    $.__views.contentView.add($.__views.__alloyId2800);
+=======
+        id: "__alloyId2443"
+    });
+    $.__views.contentView.add($.__views.__alloyId2443);
+>>>>>>> origin/master
+>>>>>>> 24/3/2015 onlinePurchase Subpages
     $.__views.pickerContentView = Ti.UI.createView({
         id: "pickerContentView",
         layout: "composite",
@@ -156,16 +218,37 @@ function Controller() {
     });
     $.__views.pickerContentView.add($.__views.termLabel);
     showPicker ? $.__views.termLabel.addEventListener("click", showPicker) : __defers["$.__views.termLabel!click!showPicker"] = true;
-    $.__views.__alloyId2490 = Ti.UI.createImageView({
+<<<<<<< HEAD
+    $.__views.__alloyId2444 = Ti.UI.createImageView({
+=======
+<<<<<<< HEAD
+    $.__views.__alloyId2801 = Ti.UI.createImageView({
+=======
+    $.__views.__alloyId2444 = Ti.UI.createImageView({
+>>>>>>> origin/master
+>>>>>>> 24/3/2015 onlinePurchase Subpages
         image: "/images/dropdown_icon.png",
         width: "15",
         height: "10",
         right: "10",
         top: "20",
-        id: "__alloyId2490"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        id: "__alloyId2801"
     });
-    $.__views.pickerContentView.add($.__views.__alloyId2490);
-    showPicker ? $.__views.__alloyId2490.addEventListener("click", showPicker) : __defers["$.__views.__alloyId2490!click!showPicker"] = true;
+    $.__views.pickerContentView.add($.__views.__alloyId2801);
+    showPicker ? $.__views.__alloyId2801.addEventListener("click", showPicker) : __defers["$.__views.__alloyId2801!click!showPicker"] = true;
+=======
+>>>>>>> 24/3/2015 onlinePurchase Subpages
+        id: "__alloyId2444"
+    });
+    $.__views.pickerContentView.add($.__views.__alloyId2444);
+    showPicker ? $.__views.__alloyId2444.addEventListener("click", showPicker) : __defers["$.__views.__alloyId2444!click!showPicker"] = true;
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
+>>>>>>> 24/3/2015 onlinePurchase Subpages
     $.__views.pickerView = Ti.UI.createView({
         id: "pickerView",
         height: "50",
@@ -198,35 +281,73 @@ function Controller() {
         visible: "false"
     });
     $.__views.pickerView.add($.__views.picker);
-    var __alloyId2491 = [];
-    $.__views.__alloyId2492 = Ti.UI.createPickerRow({
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    var __alloyId2802 = [];
+    $.__views.__alloyId2803 = Ti.UI.createPickerRow({
         title: "All States",
-        id: "__alloyId2492"
+        id: "__alloyId2803"
     });
-    __alloyId2491.push($.__views.__alloyId2492);
-    $.__views.__alloyId2493 = Ti.UI.createPickerRow({
+    __alloyId2802.push($.__views.__alloyId2803);
+    $.__views.__alloyId2804 = Ti.UI.createPickerRow({
         title: "Selangor",
-        id: "__alloyId2493"
+        id: "__alloyId2804"
     });
-    __alloyId2491.push($.__views.__alloyId2493);
-    $.__views.__alloyId2494 = Ti.UI.createPickerRow({
+    __alloyId2802.push($.__views.__alloyId2804);
+    $.__views.__alloyId2805 = Ti.UI.createPickerRow({
         title: "Kuala Lumpur",
-        id: "__alloyId2494"
+        id: "__alloyId2805"
     });
-    __alloyId2491.push($.__views.__alloyId2494);
-    $.__views.__alloyId2495 = Ti.UI.createPickerRow({
+    __alloyId2802.push($.__views.__alloyId2805);
+    $.__views.__alloyId2806 = Ti.UI.createPickerRow({
         title: "Johor",
-        id: "__alloyId2495"
+        id: "__alloyId2806"
     });
-    __alloyId2491.push($.__views.__alloyId2495);
-    $.__views.picker.add(__alloyId2491);
+    __alloyId2802.push($.__views.__alloyId2806);
+    $.__views.picker.add(__alloyId2802);
     terms ? $.__views.picker.addEventListener("change", terms) : __defers["$.__views.picker!change!terms"] = true;
-    $.__views.__alloyId2496 = Ti.UI.createScrollView({
+    $.__views.__alloyId2807 = Ti.UI.createScrollView({
         layout: "vertical",
         backgroundColor: "white",
-        id: "__alloyId2496"
+        id: "__alloyId2807"
     });
-    $.__views.terms.add($.__views.__alloyId2496);
+    $.__views.terms.add($.__views.__alloyId2807);
+=======
+>>>>>>> 24/3/2015 onlinePurchase Subpages
+    var __alloyId2445 = [];
+    $.__views.__alloyId2446 = Ti.UI.createPickerRow({
+        title: "All States",
+        id: "__alloyId2446"
+    });
+    __alloyId2445.push($.__views.__alloyId2446);
+    $.__views.__alloyId2447 = Ti.UI.createPickerRow({
+        title: "Selangor",
+        id: "__alloyId2447"
+    });
+    __alloyId2445.push($.__views.__alloyId2447);
+    $.__views.__alloyId2448 = Ti.UI.createPickerRow({
+        title: "Kuala Lumpur",
+        id: "__alloyId2448"
+    });
+    __alloyId2445.push($.__views.__alloyId2448);
+    $.__views.__alloyId2449 = Ti.UI.createPickerRow({
+        title: "Johor",
+        id: "__alloyId2449"
+    });
+    __alloyId2445.push($.__views.__alloyId2449);
+    $.__views.picker.add(__alloyId2445);
+    terms ? $.__views.picker.addEventListener("change", terms) : __defers["$.__views.picker!change!terms"] = true;
+    $.__views.__alloyId2450 = Ti.UI.createScrollView({
+        layout: "vertical",
+        backgroundColor: "white",
+        id: "__alloyId2450"
+    });
+    $.__views.terms.add($.__views.__alloyId2450);
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
+>>>>>>> 24/3/2015 onlinePurchase Subpages
     $.__views.title = Ti.UI.createLabel({
         id: "title",
         width: "90%",
@@ -235,7 +356,15 @@ function Controller() {
         textAlign: "left",
         color: "black"
     });
-    $.__views.__alloyId2496.add($.__views.title);
+<<<<<<< HEAD
+    $.__views.__alloyId2450.add($.__views.title);
+=======
+<<<<<<< HEAD
+    $.__views.__alloyId2807.add($.__views.title);
+=======
+    $.__views.__alloyId2450.add($.__views.title);
+>>>>>>> origin/master
+>>>>>>> 24/3/2015 onlinePurchase Subpages
     $.__views.label = Ti.UI.createLabel({
         id: "label",
         width: "90%",
@@ -244,13 +373,29 @@ function Controller() {
         textAlign: "left",
         color: "black"
     });
-    $.__views.__alloyId2496.add($.__views.label);
+<<<<<<< HEAD
+    $.__views.__alloyId2450.add($.__views.label);
+=======
+<<<<<<< HEAD
+    $.__views.__alloyId2807.add($.__views.label);
+=======
+    $.__views.__alloyId2450.add($.__views.label);
+>>>>>>> origin/master
+>>>>>>> 24/3/2015 onlinePurchase Subpages
     exports.destroy = function() {};
     _.extend($, $.__views);
     var terms;
     $.picker.setSelectedRow(0, 0, false);
     __defers["$.__views.termLabel!click!showPicker"] && $.__views.termLabel.addEventListener("click", showPicker);
-    __defers["$.__views.__alloyId2490!click!showPicker"] && $.__views.__alloyId2490.addEventListener("click", showPicker);
+<<<<<<< HEAD
+    __defers["$.__views.__alloyId2444!click!showPicker"] && $.__views.__alloyId2444.addEventListener("click", showPicker);
+=======
+<<<<<<< HEAD
+    __defers["$.__views.__alloyId2801!click!showPicker"] && $.__views.__alloyId2801.addEventListener("click", showPicker);
+=======
+    __defers["$.__views.__alloyId2444!click!showPicker"] && $.__views.__alloyId2444.addEventListener("click", showPicker);
+>>>>>>> origin/master
+>>>>>>> 24/3/2015 onlinePurchase Subpages
     __defers["$.__views.done!click!done"] && $.__views.done.addEventListener("click", done);
     __defers["$.__views.picker!change!terms"] && $.__views.picker.addEventListener("change", terms);
     _.extend($, exports);

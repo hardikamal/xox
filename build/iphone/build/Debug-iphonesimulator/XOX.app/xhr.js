@@ -1,1 +1,1 @@
-/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/Resources/iphone/xhr.js
+/Users/george/Documents/Titanium_Studio_Workspace/XOX/Resources/iphone/xhr.js

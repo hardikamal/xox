@@ -167,6 +167,9 @@ function Controller() {
     $.__views.win.add($.__views.scrollableView);
     exports.destroy = function() {};
     _.extend($, $.__views);
+    var storeModel = Alloy.createCollection("storeLocator");
+    var details = storeModel.getStoreList();
+    console.log(details);
     __defers["$.__views.lbl1!touchend!goSlide"] && $.__views.lbl1.addEventListener("touchend", goSlide);
     __defers["$.__views.lbl2!touchend!goSlide"] && $.__views.lbl2.addEventListener("touchend", goSlide);
     __defers["$.__views.lbl3!touchend!goSlide"] && $.__views.lbl3.addEventListener("touchend", goSlide);

@@ -1,1 +1,0 @@
-/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/Resources/android/alloy/sync/properties.js
