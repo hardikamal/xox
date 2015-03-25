@@ -1,7 +1,7 @@
 <Alloy>
 	<View layout="vertical" class="container" backgroundColor="white" fullscreen="true">
 		<Require src="_header" ></Require>
-		<View layout="composite" height="50" backgroundColor="#E82630">
+		<View layout="composite" height="50" backgroundColor="#AFCD3F">
 			<Label backgroundColor="transparent" color="white" left="20">FAQs</Label>
 			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
 		</View>

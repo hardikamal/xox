@@ -49,6 +49,22 @@
 					<ImageView id="arrow5" image="/images/dropdown_icon.png" width="25" height="15"></ImageView>
 				</View>
 			</View>
+			<View layout="composite" height="20%" backgroundColor="#F4F6F5" onClick="feedback">
+				<View layout="vertical" height="Ti.UI.SIZE">
+					<Label backgroundColor="transparent" color="black" left="5%">Feedback</Label>
+				</View>
+				<View height="100%" width="Ti.UI.SIZE" right="10" backgroundColor="transparent">
+					<ImageView id="arrow4" image="/images/dropdown_icon.png" width="25" height="15"></ImageView>
+				</View>
+			</View>
+			<!-- <View layout="composite" height="20%" backgroundColor="#F4F6F5" onClick="faq">
+				<View layout="vertical" height="Ti.UI.SIZE">
+					<Label backgroundColor="transparent" color="black" left="5%">FAQ</Label>
+				</View>
+				<View height="100%" width="Ti.UI.SIZE" right="10" backgroundColor="transparent">
+					<ImageView id="arrow5" image="/images/dropdown_icon.png" width="25" height="15"></ImageView>
+				</View>
+			</View> -->
 		</ScrollView>
 	</View>
 </Alloy>

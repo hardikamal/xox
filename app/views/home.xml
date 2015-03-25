@@ -41,7 +41,25 @@
 				</View>
 			</View>
 		</View>
-		<ScrollView id="scrollView" layout="vertical" backgroundColor="black" top="60" left="10" right="10" bottom="10" zIndex="1">
+		<ScrollView id="scrollView" layout="vertical" backgroundColor="black" top="51" bottom="1" left="1" right="1" width="Ti.UI.FILL" height="Ti.UI.FILL" contentHeight="auto" zIndex="1">
+			<View layout="horizontal" height="26%" width="Ti.UI.FILL">
+				<View height="Ti.UI.FILL" width="50%" bottom="1" backgroundColor="red" backgroundImage="/images/button_01.png" onClick="myAccount"></View>
+				<View height="Ti.UI.FILL" width="auto" bottom="1" left="1" backgroundColor="blue" backgroundImage="/images/button_02.png" onClick="promoNews"></View>
+			</View>
+			<View layout="horizontal" height="26%" width="Ti.UI.FILL">
+				<View height="Ti.UI.FILL" width="50%" bottom="1" backgroundColor="orange" backgroundImage="/images/button_03.png" onClick="product"></View>
+				<View height="Ti.UI.FILL" width="auto" bottom="1" left="1" backgroundColor="pink" backgroundImage="/images/button_04.png" onClick="online"></View>
+			</View>
+			<View layout="horizontal" height="26%" width="Ti.UI.FILL">
+				<View height="Ti.UI.FILL" width="50%" bottom="1" backgroundColor="green" ></View>
+				<View height="Ti.UI.FILL" width="auto" bottom="1" left="1" backgroundColor="purple" backgroundImage="/images/button_06.png" onClick="contact"></View>
+			</View>
+			<View layout="horizontal" height="26%" width="Ti.UI.FILL">
+				<View height="Ti.UI.FILL" width="50%" bottom="1" backgroundColor="yellow" onClick="support"></View>
+				<View height="Ti.UI.FILL" width="auto" bottom="1" left="1" backgroundColor="gray" backgroundImage="/images/button_07.png" onClick="setting"></View>
+			</View>
+		</ScrollView> 
+		<!-- <ScrollView id="scrollView" layout="vertical" backgroundColor="black" top="60" left="10" right="10" bottom="10" zIndex="1">
 			<View width="100%" height="33%" backgroundColor="red" backgroundImage="/images/button_01.png" bottom="5" onClick="myAccount"></View>
 			<View layout="horizontal" height="33%" width="100%" top="5" bottom="5">
 				<View height="100%" width="49%" right="5" backgroundColor="blue" backgroundImage="/images/button_02.png" onClick="promoNews"></View>
@@ -57,6 +75,6 @@
 					</View>
 				</View>
 			</View>
-		</ScrollView> 
+		</ScrollView>  -->
 	</View>
 </Alloy>

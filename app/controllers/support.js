@@ -4,11 +4,14 @@ $.arrow3.transform = Ti.UI.create2DMatrix().rotate(-90);
 $.arrow4.transform = Ti.UI.create2DMatrix().rotate(-90);
 $.arrow5.transform = Ti.UI.create2DMatrix().rotate(-90);
 
+<<<<<<< HEAD
 function faq()
 {
 	DRAWER.navigation("faq",1); 
 }
 
+=======
+>>>>>>> origin/master
 function userGuide()
 {
 	DRAWER.navigation("userGuide",1); 
@@ -26,7 +29,17 @@ function notification()
 
 function feedback()
 {
+<<<<<<< HEAD
 	console.log("feedback");
 	DRAWER.navigation("report",1); 
 	//DRAWER.navigation("userGuide",1); 
 }
+=======
+	DRAWER.navigation("feedback",1); 
+}
+
+function faq()
+{
+	DRAWER.navigation("faq",1); 
+}
+>>>>>>> origin/master

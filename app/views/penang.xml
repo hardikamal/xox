@@ -1,4 +1,4 @@
-<!--<Alloy>
+<Alloy>
 	<View layout="vertical" class="container" backgroundColor="#E6E7E9" fullscreen="true">
 		<Require src="_header" ></Require>
 		<View layout="composite" height="50" backgroundColor="#EB2127">
@@ -54,26 +54,4 @@
 			<Label color="white">Subscribe Now</Label>
 		</View>
 	</View>
-</Alloy>-->
-<Alloy>
-	<View layout="vertical" class="container" backgroundColor="white" fullscreen="true">
-		<Require src="_header" ></Require>
-		<View layout="composite" height="50" backgroundColor="#E82630">
-			<Label backgroundColor="transparent" color="white" left="20">PENANG PACK UNITED PACK SIGNATURE BASIC</Label>
-			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
-		</View>
-		<View id="menu" layout="horizontal" height="50" width="100%">
-    		<Label id="lbl1" mod="0" height="100%" width="33%" onTouchend="goSlide" class="menuItem" textAlign="center" backgroundColor="#FFFFFF" color="black">United\nPack</Label>
-    		<View backgroundColor="#E7E7E7" height="100%" width="0.45%"></View>
-    		<Label id="lbl2" mod="1" height="100%" width="33%" onTouchend="goSlide" class="menuItem" textAlign="center" backgroundColor="#F5F5F5" color="black">Signature\nPack</Label>
-    		<View backgroundColor="#E7E7E7" height="100%" width="0.45%"></View>
-    		<Label id="lbl3" mod="2" height="100%" width="33%" onTouchend="goSlide" class="menuItem" textAlign="center" backgroundColor="#F5F5F5" color="black">Penang\nPlan</Label>
-    	</View>
-        <ScrollableView id="scrollableView" showPagingControl="false" scrollingEnabled="false">
-        	<Require src="penang1"/>
-        	<Require src="penang2"/>
-        	<Require src="penang3"/>
-        </ScrollableView>
-	</View>
 </Alloy>
-
