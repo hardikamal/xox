@@ -71,7 +71,7 @@ var Alloy = require("alloy"), _ = Alloy._, Backbone = Alloy.Backbone;
 
 Alloy.Globals.menuType = "1";
 
-Alloy.Globals.userPlan;
+Alloy.Globals.userPlan = "postpaid";
 
 var API = require("api");
 

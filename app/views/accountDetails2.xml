@@ -14,6 +14,7 @@
 					<ImageView id="arrow1" image="/images/dropdown_icon.png" width="25" height="15"></ImageView>
 				</View>
 			</View>
+			<View backgroundColor="#E6E7E9" width="100%" height="1"></View>
 			<View layout="horizontal" top="5" bottom="5" height="50" width="100%" backgroundColor="white">
 				<View width="80%" height="100%" onClick="postpaidStatement">
 					<Label backgroundColor="transparent" color="black" textAlign="left" left="10" >Postpaid Itemized Statement</Label>

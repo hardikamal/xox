@@ -18,7 +18,8 @@ if(new_event[0].length > 0){
 	
 	var view = Titanium.UI.createView({
 	   width:Ti.UI.FILL,
-	   height:"30%",
+	   //height:"30%", new height adjustment for iphone
+	   height:"40%",
 	   layout:'horizontal'
 	});
 	
@@ -35,7 +36,8 @@ if(new_event[0].length > 0){
 	
 	var view2 = Titanium.UI.createView({
 	   width:Ti.UI.FILL,
-	   height:"15%",
+	   //height:"15%", new height adjustment for iphone
+	   height:"20%",
 	   layout:'horizontal'
 	});
 	
@@ -208,3 +210,8 @@ function facebook()
 	console.log("facebook");
 	$.photo.zIndex = 0;
 } 
+
+function logout()
+{
+	console.log("logout");
+}

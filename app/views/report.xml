@@ -2,7 +2,7 @@
 	<View layout="vertical" class="container" backgroundColor="white" fullscreen="true">
 		<Require src="_header" ></Require>
 		<View layout="composite" height="50" backgroundColor="#E82630">
-			<Label backgroundColor="transparent" color="white" left="20">Report Case</Label>
+			<Label backgroundColor="transparent" color="white" left="20">Feedback</Label>
 			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
 		</View>
 		<ScrollView id="scrollView" layout="vertical" width="100%" backgroundColor="#F2F2F2">

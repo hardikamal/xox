@@ -11,14 +11,8 @@ function Controller() {
     function back() {
         DRAWER.navigation("myAccount", 1);
     }
-    function statement() {
-        DRAWER.navigation("accountDetails2", 1);
-    }
     function myProfile() {
         DRAWER.navigation("profile", 1);
-    }
-    function statement() {
-        console.log("statement");
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "accountDetails";
@@ -649,34 +643,14 @@ function Controller() {
         id: "__alloyId73"
     });
     $.__views.__alloyId72.add($.__views.__alloyId73);
-    $.__views.__alloyId74 = Ti.UI.createView({
-        layout: "horizontal",
-        height: "50",
-        backgroundColor: "red",
-        id: "__alloyId74"
-    });
-    $.__views.accountDetails.add($.__views.__alloyId74);
-    statement ? $.__views.__alloyId74.addEventListener("click", statement) : __defers["$.__views.__alloyId74!click!statement"] = true;
-    $.__views.__alloyId75 = Ti.UI.createLabel({
-        text: "View Bil Statement",
-        color: "white",
-        height: "100%",
-        width: "100%",
-        textAlign: "center",
-        id: "__alloyId75"
-    });
-    $.__views.__alloyId74.add($.__views.__alloyId75);
-    statement ? $.__views.__alloyId75.addEventListener("click", statement) : __defers["$.__views.__alloyId75!click!statement"] = true;
     exports.destroy = function() {};
     _.extend($, $.__views);
-    $.scrollView.height = Ti.Platform.displayCaps.platformHeight - 150;
+    $.scrollView.height = Ti.Platform.displayCaps.platformHeight - 100;
     console.log("scroll height: " + $.scrollView.height);
     console.log("full height: " + Ti.Platform.displayCaps.platformHeight);
-    "android" == Ti.Platform.osname && ($.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 150);
+    "android" == Ti.Platform.osname && ($.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 100);
     __defers["$.__views.__alloyId6!click!myProfile"] && $.__views.__alloyId6.addEventListener("click", myProfile);
     __defers["$.__views.__alloyId7!click!back"] && $.__views.__alloyId7.addEventListener("click", back);
-    __defers["$.__views.__alloyId74!click!statement"] && $.__views.__alloyId74.addEventListener("click", statement);
-    __defers["$.__views.__alloyId75!click!statement"] && $.__views.__alloyId75.addEventListener("click", statement);
     _.extend($, exports);
 }
 

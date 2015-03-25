@@ -1,11 +1,11 @@
 <Alloy>
 	<View layout="vertical" class="container" backgroundColor="#E6E7E9" fullscreen="true">
 		<Require src="_header" ></Require>
-		<View height="20%" backgroundColor="#AFCD3F">
-			<Label left="10" top="10" color="white">Support</Label>
+		<View layout="composite" height="50" backgroundColor="#AFCD3F">
+			<Label backgroundColor="transparent" color="white" left="20">User Guide</Label>
+			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
 		</View>
-		<View platform="ios" id="contentView" layout="vertical" height="100" backgroundColor="#E6E7E9">
-			<Label width="90%" height="30" top="10" bottom="5" textAlign="left" color="black" >User Guide</Label>
+		<View platform="ios" id="contentView" layout="vertical" height="50" backgroundColor="#E6E7E9">
 	    	<View id="pickerContentView" layout="composite" height="50" width="90%">
 				<Label id="guideLabel" height="30" width="100%" backgroundColor="#FCFCFC" borderRadius="15" borderColor="#FCFCFC" color="black" onClick="showPicker" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="10"></Label>
 				<ImageView image="/images/dropdown_icon.png" width="15" height="10" right="10" top="20" onClick="showPicker"></ImageView>
@@ -20,8 +20,7 @@
 				</View>
 			</View>
 		</View>
-		<View platform="android" layout="vertical" height="100" backgroundColor="#E6E7E9">
-	    	<Label width="90%" height="30" top="10" bottom="5" textAlign="left" color="black" >User Guide</Label>
+		<View platform="android" layout="vertical" height="50" backgroundColor="#E6E7E9">
 	    	<View layout="composite" height="50" width="90%">
 	    		<Picker id="picker" onChange="guide" width="100%" height="30" borderRadius="15" selectionIndicator="true" backgroundColor="black" visible="true">
 					<PickerRow title="All States"/>

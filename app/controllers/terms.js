@@ -65,7 +65,7 @@ function showPicker()
 		else
 		{
 			console.log("else true");
-			$.contentView.height = 100;
+			$.contentView.height = 50;
 			$.pickerView.height = 50;
 			$.pickerContentView.height  = 50;
 			$.pickerView.setVisible(false);
@@ -78,10 +78,15 @@ function showPicker()
 function done()
 {
 	console.log("done");
-	$.contentView.height = 100;
+	$.contentView.height = 50;
 	$.pickerView.height = 50;
 	$.pickerContentView.height  = 50;
 	$.pickerView.setVisible(false);
 	$.done.setVisible(false);
 	$.picker.setVisible(false);
+}
+
+function back()
+{
+	DRAWER.navigation("support",1);
 }

@@ -1,1 +1,1 @@
-/Users/george/Documents/Titanium_Studio_Workspace/XOX/Resources/iphone/alloy/styles/support.js
+/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/Resources/iphone/alloy/styles/support.js

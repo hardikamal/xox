@@ -5,6 +5,12 @@ if(Ti.Platform.osname == "android") {
 	$.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 150;
 }
 
+if($.scrollView.children.length > 1)
+{
+	$.scrollView.remove($.empty);
+}
+console.log("num of child: "+ $.scrollView.children.length);
+
 function back()
 {
 	DRAWER.navigation("myAccount",1);

@@ -1,0 +1,57 @@
+<Alloy>
+	<View layout="composite" class="container" backgroundColor="white" fullscreen="true">
+		<Require src="_header" ></Require>
+		<View id="login" backgroundColor="black" zIndex="0" top="50">
+			<View layout="vertical" width="90%" height="Ti.UI.SIZE" backgroundColor="white">
+				<View height="50" width="Ti.UI.FILL">
+					<ImageView backgroundColor="transparent" width="20" height="20" right="10" top="10" onClick="close" image="/images/close_icon.png"></ImageView>
+				</View>
+				<View height="50" width="Ti.UI.FILL">
+					<View layout="vertical">
+						<Label class="login" color="black">Username</Label>
+						<TextField id="username" width="90%" height="50%" value="username" backgroundColor="#E6E7E9" textAlign="center" hintText="someone@example.com" color="black" borderRadius="15"></TextField>
+					</View>
+				</View>
+				<View height="50" width="Ti.UI.FILL">
+					<View layout="vertical">
+						<Label class="login" color="black">Password</Label>
+						<TextField id="password" width="90%" height="50%" value="password" backgroundColor="#E6E7E9" textAlign="center" hintText="********" color="black" passwordMask="true" borderRadius="15"></TextField>
+					</View>
+				</View>
+				<View height="50" width="Ti.UI.FILL">
+					<Button color="#44C7D6" borderColor="#44C7D6" height="80%" width="60%" backgroundColor="white" borderRadius="20" onClick="login">Login</Button>
+				</View>
+				<View height="50" layout="vertical" width="Ti.UI.FILL">
+					<Label class="login" id="forgotText" color="#44C7D6" width="205" textAlign="center" onClick="forgot">Forgot Username & Password?</Label>
+					<View id="forgotLine" backgroundColor="#44C7D6" height="1"></View>
+				</View>
+				<View height="50" layout="horizontal" width="Ti.UI.SIZE">
+					<Label class="login" color="black" width="Ti.UI.SIZE" textAlign="center">Not Registered yet?</Label>
+					<View layout="vertical" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+						<Label class="login" id="registerText" color="#44C7D6" width="50" textAlign="center" onClick="register">Sign up</Label>
+						<View id="registerLine" backgroundColor="#44C7D6" height="1"></View>
+					</View>
+					<Label class="login" color="black" width="Ti.UI.SIZE" textAlign="center">now.</Label>
+				</View>
+			</View>
+		</View>
+		<View layout="vertical" top="50" zIndex="1">
+			<View layout="composite" height="50" backgroundColor="#E82630">
+				<Label backgroundColor="transparent" color="white" left="20">Season Pass</Label>
+				<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
+			</View>
+			<View id="menu" layout="horizontal" height="50" width="100%">
+	    		<Label id="lbl1" mod="0" height="100%" width="33%" onTouchend="goSlide" class="menuItem" textAlign="center" backgroundColor="#FFFFFF" color="black">VOICE PACKAGE</Label>
+	    		<View backgroundColor="#E7E7E7" height="100%" width="0.45%"></View>
+	    		<Label id="lbl2" mod="1" height="100%" width="33%" onTouchend="goSlide" class="menuItem" textAlign="center" backgroundColor="#F5F5F5" color="black">DATA PACKAGE</Label>
+	    		<View backgroundColor="#E7E7E7" height="100%" width="0.45%"></View>
+	    		<Label id="lbl3" mod="2" height="100%" width="33%" onTouchend="goSlide" class="menuItem" textAlign="center" backgroundColor="#F5F5F5" color="black">COMBO PACKAGE</Label>
+	    	</View>
+	        <ScrollableView id="scrollableView" showPagingControl="false" scrollingEnabled="false">
+	        	<Require src="seasonPass1"/>
+	        	<Require src="seasonPass2"/>
+	        	<Require src="seasonPass3"/>
+	        </ScrollableView>
+        </View>
+	</View>
+</Alloy>

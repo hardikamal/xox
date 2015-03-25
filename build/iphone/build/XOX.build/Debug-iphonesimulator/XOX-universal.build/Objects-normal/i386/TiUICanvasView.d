@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/george/Documents/Titanium_Studio_Workspace/xox/build/iphone/Classes/TiUICanvasView.m
+  /Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/build/iphone/Classes/TiUICanvasView.m

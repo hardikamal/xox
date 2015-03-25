@@ -1,1 +1,1 @@
-/Users/george/Documents/Titanium_Studio_Workspace/XOX/Resources/iphone/alloy/controllers/BaseController.js
+/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/Resources/iphone/alloy/controllers/BaseController.js

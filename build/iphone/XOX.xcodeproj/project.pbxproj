@@ -30,27 +30,9 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		2412F467115C296300454E5B /* TiMediaVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2412F465115C296300454E5B /* TiMediaVideoPlayer.m */; };
 		242E8E3111BA39FD0046A0D0 /* libTiCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 242E8E3011BA39FD0046A0D0 /* libTiCore.a */; };
-<<<<<<< HEAD
-<<<<<<< HEAD
-		6C3DD25F1B164263A82F52FA /* libdk.napp.drawer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D1477A57D247288DC1A34C /* libdk.napp.drawer.a */; };
+		8B899C4E85724764A6BD94BE /* libdk.napp.drawer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D0600D0095481D8A3E3501 /* libdk.napp.drawer.a */; };
 		242E8E3211BA39FE0046A0D0 /* libTiCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 242E8E3011BA39FD0046A0D0 /* libTiCore.a */; };
-		70C45692D4A648CA82E0298C /* libdk.napp.drawer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D1477A57D247288DC1A34C /* libdk.napp.drawer.a */; };
-=======
-<<<<<<< HEAD
-		5EEB573A4E554F0F81E9625C /* libdk.napp.drawer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E96F494B6B6B4995BD7A1ACE /* libdk.napp.drawer.a */; };
-		242E8E3211BA39FE0046A0D0 /* libTiCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 242E8E3011BA39FD0046A0D0 /* libTiCore.a */; };
-		BE9BECA4BCD440A9948B0F23 /* libdk.napp.drawer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E96F494B6B6B4995BD7A1ACE /* libdk.napp.drawer.a */; };
-=======
-		6C3DD25F1B164263A82F52FA /* libdk.napp.drawer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D1477A57D247288DC1A34C /* libdk.napp.drawer.a */; };
-		242E8E3211BA39FE0046A0D0 /* libTiCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 242E8E3011BA39FD0046A0D0 /* libTiCore.a */; };
-		70C45692D4A648CA82E0298C /* libdk.napp.drawer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D1477A57D247288DC1A34C /* libdk.napp.drawer.a */; };
->>>>>>> origin/master
->>>>>>> 24/3/2015 onlinePurchase Subpages
-=======
-		6C3DD25F1B164263A82F52FA /* libdk.napp.drawer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D1477A57D247288DC1A34C /* libdk.napp.drawer.a */; };
-		242E8E3211BA39FE0046A0D0 /* libTiCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 242E8E3011BA39FD0046A0D0 /* libTiCore.a */; };
-		70C45692D4A648CA82E0298C /* libdk.napp.drawer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D1477A57D247288DC1A34C /* libdk.napp.drawer.a */; };
->>>>>>> origin/master
+		7E89FE9BB6954589A46E9AFF /* libdk.napp.drawer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D0600D0095481D8A3E3501 /* libdk.napp.drawer.a */; };
 		242E967711BAD2F20046A0D0 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 242E967411BAD2F20046A0D0 /* AsyncSocket.m */; };
 		242E967811BAD2F20046A0D0 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 242E967611BAD2F20046A0D0 /* AsyncUdpSocket.m */; };
 		242E967911BAD2F20046A0D0 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 242E967411BAD2F20046A0D0 /* AsyncSocket.m */; };
@@ -908,19 +890,7 @@
 		DABB37B412E8CB280026A6EA /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EB0A57111E1BAE001DC2D1 /* libxml2.dylib */; };
 		DABB37B512E8CB280026A6EA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24597034118FF66300519F79 /* StoreKit.framework */; };
 		DABB37B612E8CB280026A6EA /* libTiCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 242E8E3011BA39FD0046A0D0 /* libTiCore.a */; };
-<<<<<<< HEAD
-<<<<<<< HEAD
-		7AF58098E23142429C09A320 /* libdk.napp.drawer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D1477A57D247288DC1A34C /* libdk.napp.drawer.a */; };
-=======
-<<<<<<< HEAD
-		1DEC6F52A7EF4E1D83720075 /* libdk.napp.drawer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E96F494B6B6B4995BD7A1ACE /* libdk.napp.drawer.a */; };
-=======
-		7AF58098E23142429C09A320 /* libdk.napp.drawer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D1477A57D247288DC1A34C /* libdk.napp.drawer.a */; };
->>>>>>> origin/master
->>>>>>> 24/3/2015 onlinePurchase Subpages
-=======
-		7AF58098E23142429C09A320 /* libdk.napp.drawer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D1477A57D247288DC1A34C /* libdk.napp.drawer.a */; };
->>>>>>> origin/master
+		45225B9BC5AE4D518C404E40 /* libdk.napp.drawer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D0600D0095481D8A3E3501 /* libdk.napp.drawer.a */; };
 		DABB37B712E8CB280026A6EA /* libtiverify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D5C75811E6364F00F097E2 /* libtiverify.a */; };
 		DABDEB08128B5A8F00C85FEA /* AudioStreamerCUR.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9FF582128A1F3600457759 /* AudioStreamerCUR.m */; };
 		DABF3ECF134D210400836137 /* TiBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = DABF3ECE134D210400836137 /* TiBuffer.m */; };
@@ -970,19 +940,7 @@
 		241EAA21118AB3BB0081A5BE /* defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = defines.h; path = Classes/defines.h; sourceTree = SOURCE_ROOT; };
 		241EAEC5118E2BA90081A5BE /* project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = project.xcconfig; sourceTree = "<group>"; };
 		242E8E3011BA39FD0046A0D0 /* libTiCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTiCore.a; path = lib/libTiCore.a; sourceTree = SOURCE_ROOT; };
-<<<<<<< HEAD
-<<<<<<< HEAD
-		D2D1477A57D247288DC1A34C /* libdk.napp.drawer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdk.napp.drawer.a; path = "/Users/george/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1/libdk.napp.drawer.a"; sourceTree = "<absolute>"; };
-=======
-<<<<<<< HEAD
-		E96F494B6B6B4995BD7A1ACE /* libdk.napp.drawer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdk.napp.drawer.a; path = "/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1/libdk.napp.drawer.a"; sourceTree = "<absolute>"; };
-=======
-		D2D1477A57D247288DC1A34C /* libdk.napp.drawer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdk.napp.drawer.a; path = "/Users/george/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1/libdk.napp.drawer.a"; sourceTree = "<absolute>"; };
->>>>>>> origin/master
->>>>>>> 24/3/2015 onlinePurchase Subpages
-=======
-		D2D1477A57D247288DC1A34C /* libdk.napp.drawer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdk.napp.drawer.a; path = "/Users/george/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1/libdk.napp.drawer.a"; sourceTree = "<absolute>"; };
->>>>>>> origin/master
+		F8D0600D0095481D8A3E3501 /* libdk.napp.drawer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdk.napp.drawer.a; path = "/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1/libdk.napp.drawer.a"; sourceTree = "<absolute>"; };
 		242E967311BAD2F20046A0D0 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = Classes/AsyncSocket.h; sourceTree = SOURCE_ROOT; };
 		242E967411BAD2F20046A0D0 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = Classes/AsyncSocket.m; sourceTree = SOURCE_ROOT; };
 		242E967511BAD2F20046A0D0 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncUdpSocket.h; path = Classes/AsyncUdpSocket.h; sourceTree = SOURCE_ROOT; };
@@ -1614,19 +1572,7 @@
 				24EB0A58111E1BAE001DC2D1 /* libxml2.dylib in Frameworks */,
 				24597035118FF66300519F79 /* StoreKit.framework in Frameworks */,
 				242E8E3111BA39FD0046A0D0 /* libTiCore.a in Frameworks */,
-<<<<<<< HEAD
-<<<<<<< HEAD
-				6C3DD25F1B164263A82F52FA /* libdk.napp.drawer.a in Frameworks */,
-=======
-<<<<<<< HEAD
-				5EEB573A4E554F0F81E9625C /* libdk.napp.drawer.a in Frameworks */,
-=======
-				6C3DD25F1B164263A82F52FA /* libdk.napp.drawer.a in Frameworks */,
->>>>>>> origin/master
->>>>>>> 24/3/2015 onlinePurchase Subpages
-=======
-				6C3DD25F1B164263A82F52FA /* libdk.napp.drawer.a in Frameworks */,
->>>>>>> origin/master
+				8B899C4E85724764A6BD94BE /* libdk.napp.drawer.a in Frameworks */,
 				B606EF60190B42FB00663EFC /* libAPSHTTPClient.a in Frameworks */,
 				242EA11611BD956F0046A0D0 /* ExternalAccessory.framework in Frameworks */,
 				24D5C75911E6364F00F097E2 /* libtiverify.a in Frameworks */,
@@ -1668,19 +1614,7 @@
 				24D8E4AB119B9D8A00F8CAA6 /* libxml2.dylib in Frameworks */,
 				24D8E4AC119B9D8A00F8CAA6 /* StoreKit.framework in Frameworks */,
 				242E8E3211BA39FE0046A0D0 /* libTiCore.a in Frameworks */,
-<<<<<<< HEAD
-<<<<<<< HEAD
-				70C45692D4A648CA82E0298C /* libdk.napp.drawer.a in Frameworks */,
-=======
-<<<<<<< HEAD
-				BE9BECA4BCD440A9948B0F23 /* libdk.napp.drawer.a in Frameworks */,
-=======
-				70C45692D4A648CA82E0298C /* libdk.napp.drawer.a in Frameworks */,
->>>>>>> origin/master
->>>>>>> 24/3/2015 onlinePurchase Subpages
-=======
-				70C45692D4A648CA82E0298C /* libdk.napp.drawer.a in Frameworks */,
->>>>>>> origin/master
+				7E89FE9BB6954589A46E9AFF /* libdk.napp.drawer.a in Frameworks */,
 				24D5C75A11E6364F00F097E2 /* libtiverify.a in Frameworks */,
 				DADE76D613D65C6F0079FC75 /* libicucore.dylib in Frameworks */,
 			);
@@ -1721,19 +1655,7 @@
 				DABB37B412E8CB280026A6EA /* libxml2.dylib in Frameworks */,
 				DABB37B512E8CB280026A6EA /* StoreKit.framework in Frameworks */,
 				DABB37B612E8CB280026A6EA /* libTiCore.a in Frameworks */,
-<<<<<<< HEAD
-<<<<<<< HEAD
-				7AF58098E23142429C09A320 /* libdk.napp.drawer.a in Frameworks */,
-=======
-<<<<<<< HEAD
-				1DEC6F52A7EF4E1D83720075 /* libdk.napp.drawer.a in Frameworks */,
-=======
-				7AF58098E23142429C09A320 /* libdk.napp.drawer.a in Frameworks */,
->>>>>>> origin/master
->>>>>>> 24/3/2015 onlinePurchase Subpages
-=======
-				7AF58098E23142429C09A320 /* libdk.napp.drawer.a in Frameworks */,
->>>>>>> origin/master
+				45225B9BC5AE4D518C404E40 /* libdk.napp.drawer.a in Frameworks */,
 				DABB37B712E8CB280026A6EA /* libtiverify.a in Frameworks */,
 				DADE76D713D65C7D0079FC75 /* libicucore.dylib in Frameworks */,
 			);
@@ -2790,19 +2712,7 @@
 				DAA4B2AD134E3DBD00AB6011 /* libti_ios_debugger.a */,
 				24D5C75811E6364F00F097E2 /* libtiverify.a */,
 				242E8E3011BA39FD0046A0D0 /* libTiCore.a */,
-<<<<<<< HEAD
-<<<<<<< HEAD
-				D2D1477A57D247288DC1A34C /* libdk.napp.drawer.a */,
-=======
-<<<<<<< HEAD
-				E96F494B6B6B4995BD7A1ACE /* libdk.napp.drawer.a */,
-=======
-				D2D1477A57D247288DC1A34C /* libdk.napp.drawer.a */,
->>>>>>> origin/master
->>>>>>> 24/3/2015 onlinePurchase Subpages
-=======
-				D2D1477A57D247288DC1A34C /* libdk.napp.drawer.a */,
->>>>>>> origin/master
+				F8D0600D0095481D8A3E3501 /* libdk.napp.drawer.a */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
@@ -4137,7 +4047,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib\"",
-                                        "\"/Users/george/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1\"",
+                                        "\"/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
 				);
@@ -4165,7 +4075,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib\"",
-                                        "\"/Users/george/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1\"",
+                                        "\"/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
 				);
@@ -4190,7 +4100,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib\"",
-                                        "\"/Users/george/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1\"",
+                                        "\"/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
 				);
@@ -4217,7 +4127,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib\"",
-                                        "\"/Users/george/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1\"",
+                                        "\"/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
 				);
@@ -4391,7 +4301,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib\"",
-                                        "\"/Users/george/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1\"",
+                                        "\"/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
 				);
@@ -4420,7 +4330,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib\"",
-                                        "\"/Users/george/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1\"",
+                                        "\"/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
 				);
@@ -4449,7 +4359,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib\"",
-                                        "\"/Users/george/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1\"",
+                                        "\"/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
 				);
@@ -4484,7 +4394,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib\"",
-                                        "\"/Users/george/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1\"",
+                                        "\"/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
 				);
@@ -4517,7 +4427,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib\"",
-                                        "\"/Users/george/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1\"",
+                                        "\"/Users/tankeanmeng/Documents/Titanium_Studio_Workspace/XOX/modules/iphone/dk.napp.drawer/1.2.1\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
 				);

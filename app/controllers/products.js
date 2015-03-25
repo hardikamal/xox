@@ -13,7 +13,7 @@ function prepaid()
 
 function penang()
 {
-	DRAWER.navigation("penang",1);
+	DRAWER.navigation("penang1758",1);
 }
 
 function mobileInternet()

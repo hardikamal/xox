@@ -27,7 +27,7 @@ function navMenu(e){
 			DRAWER.navigation("home",2);
 			break;
 		case 8: 
-			DRAWER.navigation("familyFriend",2);
+			DRAWER.navigation("support",2);
 			break;
 	}
 }
