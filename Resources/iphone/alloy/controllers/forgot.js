@@ -37,26 +37,26 @@ function Controller() {
         id: "forgot"
     });
     $.__views.forgot && $.addTopLevelView($.__views.forgot);
-    $.__views.__alloyId441 = Alloy.createController("_header", {
-        id: "__alloyId441",
+    $.__views.__alloyId505 = Alloy.createController("_header", {
+        id: "__alloyId505",
         __parentSymbol: $.__views.forgot
     });
-    $.__views.__alloyId441.setParent($.__views.forgot);
-    $.__views.__alloyId442 = Ti.UI.createView({
+    $.__views.__alloyId505.setParent($.__views.forgot);
+    $.__views.__alloyId506 = Ti.UI.createView({
         layout: "composite",
         height: "50",
         backgroundColor: "#4CC4D2",
-        id: "__alloyId442"
+        id: "__alloyId506"
     });
-    $.__views.forgot.add($.__views.__alloyId442);
-    $.__views.__alloyId443 = Ti.UI.createLabel({
+    $.__views.forgot.add($.__views.__alloyId506);
+    $.__views.__alloyId507 = Ti.UI.createLabel({
         text: "Forgot Username & Password",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
-        id: "__alloyId443"
+        id: "__alloyId507"
     });
-    $.__views.__alloyId442.add($.__views.__alloyId443);
+    $.__views.__alloyId506.add($.__views.__alloyId507);
     $.__views.scrollView = Ti.UI.createScrollView({
         id: "scrollView",
         layout: "vertical",
@@ -64,24 +64,24 @@ function Controller() {
         backgroundColor: "white"
     });
     $.__views.forgot.add($.__views.scrollView);
-    $.__views.__alloyId444 = Ti.UI.createLabel({
+    $.__views.__alloyId508 = Ti.UI.createLabel({
         text: "Please fill in your email address. We will send you a link to reset your password and username. You may need to check your spam folder or unblock no-reply@xox.com",
         backgroundColor: "transparent",
         color: "black",
         left: "0",
         top: "10",
-        id: "__alloyId444"
+        id: "__alloyId508"
     });
-    $.__views.scrollView.add($.__views.__alloyId444);
-    $.__views.__alloyId445 = Ti.UI.createLabel({
+    $.__views.scrollView.add($.__views.__alloyId508);
+    $.__views.__alloyId509 = Ti.UI.createLabel({
         text: "Username",
         backgroundColor: "transparent",
         color: "black",
         left: "0",
         top: "50",
-        id: "__alloyId445"
+        id: "__alloyId509"
     });
-    $.__views.scrollView.add($.__views.__alloyId445);
+    $.__views.scrollView.add($.__views.__alloyId509);
     $.__views.username = Ti.UI.createTextField({
         id: "username",
         width: "100%",
@@ -91,56 +91,56 @@ function Controller() {
         color: "black"
     });
     $.__views.scrollView.add($.__views.username);
-    $.__views.__alloyId446 = Ti.UI.createView({
+    $.__views.__alloyId510 = Ti.UI.createView({
         layout: "horizontal",
         height: "50",
         backgroundColor: "#4CC4D2",
-        id: "__alloyId446"
+        id: "__alloyId510"
     });
-    $.__views.forgot.add($.__views.__alloyId446);
-    $.__views.__alloyId447 = Ti.UI.createView({
+    $.__views.forgot.add($.__views.__alloyId510);
+    $.__views.__alloyId511 = Ti.UI.createView({
         height: "100%",
         width: "49.72%",
         backgroundColor: "#4CC4D2",
-        id: "__alloyId447"
+        id: "__alloyId511"
     });
-    $.__views.__alloyId446.add($.__views.__alloyId447);
-    submit ? $.__views.__alloyId447.addEventListener("click", submit) : __defers["$.__views.__alloyId447!click!submit"] = true;
-    $.__views.__alloyId448 = Ti.UI.createLabel({
+    $.__views.__alloyId510.add($.__views.__alloyId511);
+    submit ? $.__views.__alloyId511.addEventListener("click", submit) : __defers["$.__views.__alloyId511!click!submit"] = true;
+    $.__views.__alloyId512 = Ti.UI.createLabel({
         text: "Submit",
         color: "white",
         textAlign: "left",
-        id: "__alloyId448"
+        id: "__alloyId512"
     });
-    $.__views.__alloyId447.add($.__views.__alloyId448);
-    $.__views.__alloyId449 = Ti.UI.createView({
+    $.__views.__alloyId511.add($.__views.__alloyId512);
+    $.__views.__alloyId513 = Ti.UI.createView({
         backgroundColor: "white",
         height: "100%",
         width: "0.5%",
-        id: "__alloyId449"
+        id: "__alloyId513"
     });
-    $.__views.__alloyId446.add($.__views.__alloyId449);
-    $.__views.__alloyId450 = Ti.UI.createView({
+    $.__views.__alloyId510.add($.__views.__alloyId513);
+    $.__views.__alloyId514 = Ti.UI.createView({
         height: "100%",
         width: "49.72%",
         backgroundColor: "#4CC4D2",
-        id: "__alloyId450"
+        id: "__alloyId514"
     });
-    $.__views.__alloyId446.add($.__views.__alloyId450);
-    back ? $.__views.__alloyId450.addEventListener("click", back) : __defers["$.__views.__alloyId450!click!back"] = true;
-    $.__views.__alloyId451 = Ti.UI.createLabel({
+    $.__views.__alloyId510.add($.__views.__alloyId514);
+    back ? $.__views.__alloyId514.addEventListener("click", back) : __defers["$.__views.__alloyId514!click!back"] = true;
+    $.__views.__alloyId515 = Ti.UI.createLabel({
         text: "Cancel",
         color: "white",
         textAlign: "left",
-        id: "__alloyId451"
+        id: "__alloyId515"
     });
-    $.__views.__alloyId450.add($.__views.__alloyId451);
+    $.__views.__alloyId514.add($.__views.__alloyId515);
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.scrollView.height = Ti.Platform.displayCaps.platformHeight - 150;
     "android" == Ti.Platform.osname && ($.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 150);
-    __defers["$.__views.__alloyId447!click!submit"] && $.__views.__alloyId447.addEventListener("click", submit);
-    __defers["$.__views.__alloyId450!click!back"] && $.__views.__alloyId450.addEventListener("click", back);
+    __defers["$.__views.__alloyId511!click!submit"] && $.__views.__alloyId511.addEventListener("click", submit);
+    __defers["$.__views.__alloyId514!click!back"] && $.__views.__alloyId514.addEventListener("click", back);
     _.extend($, exports);
 }
 

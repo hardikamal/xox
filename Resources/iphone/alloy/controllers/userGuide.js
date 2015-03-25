@@ -98,36 +98,36 @@ function Controller() {
         id: "userGuide"
     });
     $.__views.userGuide && $.addTopLevelView($.__views.userGuide);
-    $.__views.__alloyId2825 = Alloy.createController("_header", {
-        id: "__alloyId2825",
+    $.__views.__alloyId2889 = Alloy.createController("_header", {
+        id: "__alloyId2889",
         __parentSymbol: $.__views.userGuide
     });
-    $.__views.__alloyId2825.setParent($.__views.userGuide);
-    $.__views.__alloyId2826 = Ti.UI.createView({
+    $.__views.__alloyId2889.setParent($.__views.userGuide);
+    $.__views.__alloyId2890 = Ti.UI.createView({
         layout: "composite",
         height: "50",
         backgroundColor: "#AFCD3F",
-        id: "__alloyId2826"
+        id: "__alloyId2890"
     });
-    $.__views.userGuide.add($.__views.__alloyId2826);
-    $.__views.__alloyId2827 = Ti.UI.createLabel({
+    $.__views.userGuide.add($.__views.__alloyId2890);
+    $.__views.__alloyId2891 = Ti.UI.createLabel({
         text: "User Guide",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
-        id: "__alloyId2827"
+        id: "__alloyId2891"
     });
-    $.__views.__alloyId2826.add($.__views.__alloyId2827);
-    $.__views.__alloyId2828 = Ti.UI.createImageView({
+    $.__views.__alloyId2890.add($.__views.__alloyId2891);
+    $.__views.__alloyId2892 = Ti.UI.createImageView({
         backgroundColor: "transparent",
         width: "30",
         height: "30",
         right: "10",
         image: "/images/close_icon.png",
-        id: "__alloyId2828"
+        id: "__alloyId2892"
     });
-    $.__views.__alloyId2826.add($.__views.__alloyId2828);
-    back ? $.__views.__alloyId2828.addEventListener("click", back) : __defers["$.__views.__alloyId2828!click!back"] = true;
+    $.__views.__alloyId2890.add($.__views.__alloyId2892);
+    back ? $.__views.__alloyId2892.addEventListener("click", back) : __defers["$.__views.__alloyId2892!click!back"] = true;
     $.__views.contentView = Ti.UI.createView({
         id: "contentView",
         layout: "vertical",
@@ -155,16 +155,16 @@ function Controller() {
     });
     $.__views.pickerContentView.add($.__views.guideLabel);
     showPicker ? $.__views.guideLabel.addEventListener("click", showPicker) : __defers["$.__views.guideLabel!click!showPicker"] = true;
-    $.__views.__alloyId2829 = Ti.UI.createImageView({
+    $.__views.__alloyId2893 = Ti.UI.createImageView({
         image: "/images/dropdown_icon.png",
         width: "15",
         height: "10",
         right: "10",
         top: "20",
-        id: "__alloyId2829"
+        id: "__alloyId2893"
     });
-    $.__views.pickerContentView.add($.__views.__alloyId2829);
-    showPicker ? $.__views.__alloyId2829.addEventListener("click", showPicker) : __defers["$.__views.__alloyId2829!click!showPicker"] = true;
+    $.__views.pickerContentView.add($.__views.__alloyId2893);
+    showPicker ? $.__views.__alloyId2893.addEventListener("click", showPicker) : __defers["$.__views.__alloyId2893!click!showPicker"] = true;
     $.__views.pickerView = Ti.UI.createView({
         id: "pickerView",
         height: "50",
@@ -197,35 +197,35 @@ function Controller() {
         visible: "false"
     });
     $.__views.pickerView.add($.__views.picker);
-    var __alloyId2830 = [];
-    $.__views.__alloyId2831 = Ti.UI.createPickerRow({
+    var __alloyId2894 = [];
+    $.__views.__alloyId2895 = Ti.UI.createPickerRow({
         title: "All States",
-        id: "__alloyId2831"
+        id: "__alloyId2895"
     });
-    __alloyId2830.push($.__views.__alloyId2831);
-    $.__views.__alloyId2832 = Ti.UI.createPickerRow({
+    __alloyId2894.push($.__views.__alloyId2895);
+    $.__views.__alloyId2896 = Ti.UI.createPickerRow({
         title: "Selangor",
-        id: "__alloyId2832"
+        id: "__alloyId2896"
     });
-    __alloyId2830.push($.__views.__alloyId2832);
-    $.__views.__alloyId2833 = Ti.UI.createPickerRow({
+    __alloyId2894.push($.__views.__alloyId2896);
+    $.__views.__alloyId2897 = Ti.UI.createPickerRow({
         title: "Kuala Lumpur",
-        id: "__alloyId2833"
+        id: "__alloyId2897"
     });
-    __alloyId2830.push($.__views.__alloyId2833);
-    $.__views.__alloyId2834 = Ti.UI.createPickerRow({
+    __alloyId2894.push($.__views.__alloyId2897);
+    $.__views.__alloyId2898 = Ti.UI.createPickerRow({
         title: "Johor",
-        id: "__alloyId2834"
+        id: "__alloyId2898"
     });
-    __alloyId2830.push($.__views.__alloyId2834);
-    $.__views.picker.add(__alloyId2830);
+    __alloyId2894.push($.__views.__alloyId2898);
+    $.__views.picker.add(__alloyId2894);
     guide ? $.__views.picker.addEventListener("change", guide) : __defers["$.__views.picker!change!guide"] = true;
-    $.__views.__alloyId2835 = Ti.UI.createScrollView({
+    $.__views.__alloyId2899 = Ti.UI.createScrollView({
         layout: "vertical",
         backgroundColor: "white",
-        id: "__alloyId2835"
+        id: "__alloyId2899"
     });
-    $.__views.userGuide.add($.__views.__alloyId2835);
+    $.__views.userGuide.add($.__views.__alloyId2899);
     $.__views.label = Ti.UI.createLabel({
         id: "label",
         width: "90%",
@@ -234,14 +234,14 @@ function Controller() {
         textAlign: "left",
         color: "black"
     });
-    $.__views.__alloyId2835.add($.__views.label);
+    $.__views.__alloyId2899.add($.__views.label);
     exports.destroy = function() {};
     _.extend($, $.__views);
     var guide;
     $.picker.setSelectedRow(0, 0, false);
-    __defers["$.__views.__alloyId2828!click!back"] && $.__views.__alloyId2828.addEventListener("click", back);
+    __defers["$.__views.__alloyId2892!click!back"] && $.__views.__alloyId2892.addEventListener("click", back);
     __defers["$.__views.guideLabel!click!showPicker"] && $.__views.guideLabel.addEventListener("click", showPicker);
-    __defers["$.__views.__alloyId2829!click!showPicker"] && $.__views.__alloyId2829.addEventListener("click", showPicker);
+    __defers["$.__views.__alloyId2893!click!showPicker"] && $.__views.__alloyId2893.addEventListener("click", showPicker);
     __defers["$.__views.done!click!done"] && $.__views.done.addEventListener("click", done);
     __defers["$.__views.picker!change!guide"] && $.__views.picker.addEventListener("change", guide);
     _.extend($, exports);

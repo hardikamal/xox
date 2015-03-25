@@ -41,60 +41,60 @@ function Controller() {
         top: "0"
     });
     $.__views.penang1.add($.__views.scrollView);
-    $.__views.__alloyId1636 = Ti.UI.createLabel({
+    $.__views.__alloyId1701 = Ti.UI.createLabel({
         text: "XOX Prepaid",
         backgroundColor: "transparent",
         color: "black",
         left: "0",
-        id: "__alloyId1636"
+        id: "__alloyId1701"
     });
-    $.__views.scrollView.add($.__views.__alloyId1636);
-    $.__views.__alloyId1637 = Ti.UI.createLabel({
+    $.__views.scrollView.add($.__views.__alloyId1701);
+    $.__views.__alloyId1702 = Ti.UI.createLabel({
         text: "United Pack RM20",
         backgroundColor: "transparent",
         color: "black",
         left: "0",
-        id: "__alloyId1637"
+        id: "__alloyId1702"
     });
-    $.__views.scrollView.add($.__views.__alloyId1637);
-    $.__views.__alloyId1638 = Ti.UI.createLabel({
+    $.__views.scrollView.add($.__views.__alloyId1702);
+    $.__views.__alloyId1703 = Ti.UI.createLabel({
         text: "You get:",
         backgroundColor: "transparent",
         color: "black",
         left: "0",
-        id: "__alloyId1638"
+        id: "__alloyId1703"
     });
-    $.__views.scrollView.add($.__views.__alloyId1638);
-    $.__views.__alloyId1639 = Ti.UI.createLabel({
+    $.__views.scrollView.add($.__views.__alloyId1703);
+    $.__views.__alloyId1704 = Ti.UI.createLabel({
         text: "FREE SIM pack delivered to your doorstep.\n500MB of Mobile Data Plan\nRM7 worth of Airtime, to be used for Voice Calls, Video Calls, SMS and Mobile Data Plan.",
         backgroundColor: "transparent",
         color: "black",
         left: "0",
-        id: "__alloyId1639"
+        id: "__alloyId1704"
     });
-    $.__views.scrollView.add($.__views.__alloyId1639);
-    $.__views.__alloyId1640 = Ti.UI.createLabel({
+    $.__views.scrollView.add($.__views.__alloyId1704);
+    $.__views.__alloyId1705 = Ti.UI.createLabel({
         text: "View Prepaid full features and rates",
         backgroundColor: "transparent",
         color: "black",
         left: "0",
-        id: "__alloyId1640"
+        id: "__alloyId1705"
     });
-    $.__views.scrollView.add($.__views.__alloyId1640);
-    $.__views.__alloyId1641 = Ti.UI.createView({
+    $.__views.scrollView.add($.__views.__alloyId1705);
+    $.__views.__alloyId1706 = Ti.UI.createView({
         height: "50",
         backgroundColor: "#000000",
         bottom: "0",
-        id: "__alloyId1641"
+        id: "__alloyId1706"
     });
-    $.__views.penang1.add($.__views.__alloyId1641);
-    purchase ? $.__views.__alloyId1641.addEventListener("click", purchase) : __defers["$.__views.__alloyId1641!click!purchase"] = true;
-    $.__views.__alloyId1642 = Ti.UI.createLabel({
+    $.__views.penang1.add($.__views.__alloyId1706);
+    purchase ? $.__views.__alloyId1706.addEventListener("click", purchase) : __defers["$.__views.__alloyId1706!click!purchase"] = true;
+    $.__views.__alloyId1707 = Ti.UI.createLabel({
         text: "PURCHASE NOW",
         color: "white",
-        id: "__alloyId1642"
+        id: "__alloyId1707"
     });
-    $.__views.__alloyId1641.add($.__views.__alloyId1642);
+    $.__views.__alloyId1706.add($.__views.__alloyId1707);
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.scrollView.height = Ti.Platform.displayCaps.platformHeight - 50;
@@ -102,7 +102,7 @@ function Controller() {
         console.log("android");
         $.scrollView.height = PixelsToDPUnits(Ti.Platform.displayCaps.platformHeight) - 50;
     }
-    __defers["$.__views.__alloyId1641!click!purchase"] && $.__views.__alloyId1641.addEventListener("click", purchase);
+    __defers["$.__views.__alloyId1706!click!purchase"] && $.__views.__alloyId1706.addEventListener("click", purchase);
     _.extend($, exports);
 }
 

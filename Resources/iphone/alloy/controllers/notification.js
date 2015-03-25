@@ -34,42 +34,42 @@ function Controller() {
         id: "notification"
     });
     $.__views.notification && $.addTopLevelView($.__views.notification);
-    $.__views.__alloyId1354 = Alloy.createController("_header", {
-        id: "__alloyId1354",
+    $.__views.__alloyId1419 = Alloy.createController("_header", {
+        id: "__alloyId1419",
         __parentSymbol: $.__views.notification
     });
-    $.__views.__alloyId1354.setParent($.__views.notification);
-    $.__views.__alloyId1355 = Ti.UI.createView({
+    $.__views.__alloyId1419.setParent($.__views.notification);
+    $.__views.__alloyId1420 = Ti.UI.createView({
         layout: "composite",
         height: "50",
         backgroundColor: "#AFCD3F",
-        id: "__alloyId1355"
+        id: "__alloyId1420"
     });
-    $.__views.notification.add($.__views.__alloyId1355);
-    $.__views.__alloyId1356 = Ti.UI.createLabel({
+    $.__views.notification.add($.__views.__alloyId1420);
+    $.__views.__alloyId1421 = Ti.UI.createLabel({
         text: "Notification",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
-        id: "__alloyId1356"
+        id: "__alloyId1421"
     });
-    $.__views.__alloyId1355.add($.__views.__alloyId1356);
-    $.__views.__alloyId1357 = Ti.UI.createImageView({
+    $.__views.__alloyId1420.add($.__views.__alloyId1421);
+    $.__views.__alloyId1422 = Ti.UI.createImageView({
         backgroundColor: "transparent",
         width: "30",
         height: "30",
         right: "10",
         image: "/images/close_icon.png",
-        id: "__alloyId1357"
+        id: "__alloyId1422"
     });
-    $.__views.__alloyId1355.add($.__views.__alloyId1357);
-    back ? $.__views.__alloyId1357.addEventListener("click", back) : __defers["$.__views.__alloyId1357!click!back"] = true;
-    $.__views.__alloyId1358 = Ti.UI.createScrollView({
+    $.__views.__alloyId1420.add($.__views.__alloyId1422);
+    back ? $.__views.__alloyId1422.addEventListener("click", back) : __defers["$.__views.__alloyId1422!click!back"] = true;
+    $.__views.__alloyId1423 = Ti.UI.createScrollView({
         layout: "vertical",
         backgroundColor: "white",
-        id: "__alloyId1358"
+        id: "__alloyId1423"
     });
-    $.__views.notification.add($.__views.__alloyId1358);
+    $.__views.notification.add($.__views.__alloyId1423);
     $.__views.title = Ti.UI.createLabel({
         id: "title",
         width: "90%",
@@ -78,7 +78,7 @@ function Controller() {
         textAlign: "left",
         color: "black"
     });
-    $.__views.__alloyId1358.add($.__views.title);
+    $.__views.__alloyId1423.add($.__views.title);
     $.__views.label = Ti.UI.createLabel({
         id: "label",
         width: "90%",
@@ -87,12 +87,12 @@ function Controller() {
         textAlign: "left",
         color: "black"
     });
-    $.__views.__alloyId1358.add($.__views.label);
+    $.__views.__alloyId1423.add($.__views.label);
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.title.text = "1.Title";
     $.label.text = "1.You can buy a top-up card from any authorised dealer in the form of:\n1.Top-Up Card / Voucher at any XOX Authorised Dealers\n2..Electronic Code / Top-Up Slip at\n3.Top-Up through XOX Self-Care Portal\n\nTop-up your prepaid account via:\n\nUSSD\na.Top-up your own prepaid account: Key in *132*1*<16-digit Pin Code># and press\nb.Top-up your friend's account: Key in *132*1*< 16-digit Pin Code >*< Mobile Number ># and press\nEXAMPLE: *132*1*< 16-digit Pin Code >*010300XXXX# and press";
-    __defers["$.__views.__alloyId1357!click!back"] && $.__views.__alloyId1357.addEventListener("click", back);
+    __defers["$.__views.__alloyId1422!click!back"] && $.__views.__alloyId1422.addEventListener("click", back);
     _.extend($, exports);
 }
 

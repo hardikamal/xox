@@ -35,266 +35,266 @@ function Controller() {
         id: "orderHistory"
     });
     $.__views.orderHistory && $.addTopLevelView($.__views.orderHistory);
-    $.__views.__alloyId1383 = Alloy.createController("_header", {
-        id: "__alloyId1383",
+    $.__views.__alloyId1448 = Alloy.createController("_header", {
+        id: "__alloyId1448",
         __parentSymbol: $.__views.orderHistory
     });
-    $.__views.__alloyId1383.setParent($.__views.orderHistory);
-    $.__views.__alloyId1384 = Ti.UI.createView({
+    $.__views.__alloyId1448.setParent($.__views.orderHistory);
+    $.__views.__alloyId1449 = Ti.UI.createView({
         layout: "composite",
         height: "50",
         backgroundColor: "#AFCD3F",
-        id: "__alloyId1384"
+        id: "__alloyId1449"
     });
-    $.__views.orderHistory.add($.__views.__alloyId1384);
-    $.__views.__alloyId1385 = Ti.UI.createLabel({
-        text: "Ordering History",
+    $.__views.orderHistory.add($.__views.__alloyId1449);
+    $.__views.__alloyId1450 = Ti.UI.createLabel({
+        text: "Friends & Family",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
-        id: "__alloyId1385"
+        id: "__alloyId1450"
     });
-    $.__views.__alloyId1384.add($.__views.__alloyId1385);
-    $.__views.__alloyId1386 = Ti.UI.createImageView({
+    $.__views.__alloyId1449.add($.__views.__alloyId1450);
+    $.__views.__alloyId1451 = Ti.UI.createImageView({
         backgroundColor: "transparent",
         width: "30",
         height: "30",
         right: "10",
         image: "/images/close_icon.png",
-        id: "__alloyId1386"
+        id: "__alloyId1451"
     });
-    $.__views.__alloyId1384.add($.__views.__alloyId1386);
-    back ? $.__views.__alloyId1386.addEventListener("click", back) : __defers["$.__views.__alloyId1386!click!back"] = true;
-    $.__views.__alloyId1387 = Ti.UI.createScrollView({
+    $.__views.__alloyId1449.add($.__views.__alloyId1451);
+    back ? $.__views.__alloyId1451.addEventListener("click", back) : __defers["$.__views.__alloyId1451!click!back"] = true;
+    $.__views.__alloyId1452 = Ti.UI.createScrollView({
         layout: "vertical",
-        id: "__alloyId1387"
+        id: "__alloyId1452"
     });
-    $.__views.orderHistory.add($.__views.__alloyId1387);
-    $.__views.__alloyId1388 = Ti.UI.createView({
+    $.__views.orderHistory.add($.__views.__alloyId1452);
+    $.__views.__alloyId1453 = Ti.UI.createView({
         layout: "composite",
         height: "20%",
         backgroundColor: "#F4F6F5",
-        id: "__alloyId1388"
+        id: "__alloyId1453"
     });
-    $.__views.__alloyId1387.add($.__views.__alloyId1388);
-    prepaidPlus ? $.__views.__alloyId1388.addEventListener("click", prepaidPlus) : __defers["$.__views.__alloyId1388!click!prepaidPlus"] = true;
-    $.__views.__alloyId1389 = Ti.UI.createView({
+    $.__views.__alloyId1452.add($.__views.__alloyId1453);
+    prepaidPlus ? $.__views.__alloyId1453.addEventListener("click", prepaidPlus) : __defers["$.__views.__alloyId1453!click!prepaidPlus"] = true;
+    $.__views.__alloyId1454 = Ti.UI.createView({
         layout: "vertical",
         height: Ti.UI.SIZE,
-        id: "__alloyId1389"
+        id: "__alloyId1454"
     });
-    $.__views.__alloyId1388.add($.__views.__alloyId1389);
-    $.__views.__alloyId1390 = Ti.UI.createLabel({
+    $.__views.__alloyId1453.add($.__views.__alloyId1454);
+    $.__views.__alloyId1455 = Ti.UI.createLabel({
         text: "Ordering Prepaid",
         backgroundColor: "transparent",
         color: "black",
         left: "5%",
-        id: "__alloyId1390"
+        id: "__alloyId1455"
     });
-    $.__views.__alloyId1389.add($.__views.__alloyId1390);
-    $.__views.__alloyId1391 = Ti.UI.createLabel({
+    $.__views.__alloyId1454.add($.__views.__alloyId1455);
+    $.__views.__alloyId1456 = Ti.UI.createLabel({
         text: "#10125",
         backgroundColor: "transparent",
         color: "#9D9F9E",
         left: "5%",
-        id: "__alloyId1391"
+        id: "__alloyId1456"
     });
-    $.__views.__alloyId1389.add($.__views.__alloyId1391);
-    $.__views.__alloyId1392 = Ti.UI.createView({
+    $.__views.__alloyId1454.add($.__views.__alloyId1456);
+    $.__views.__alloyId1457 = Ti.UI.createView({
         height: "100%",
         width: Ti.UI.SIZE,
         right: "10",
         backgroundColor: "transparent",
-        id: "__alloyId1392"
+        id: "__alloyId1457"
     });
-    $.__views.__alloyId1388.add($.__views.__alloyId1392);
+    $.__views.__alloyId1453.add($.__views.__alloyId1457);
     $.__views.arrow1 = Ti.UI.createImageView({
         id: "arrow1",
         image: "/images/dropdown_icon.png",
         width: "25",
         height: "15"
     });
-    $.__views.__alloyId1392.add($.__views.arrow1);
-    $.__views.__alloyId1393 = Ti.UI.createView({
+    $.__views.__alloyId1457.add($.__views.arrow1);
+    $.__views.__alloyId1458 = Ti.UI.createView({
         layout: "composite",
         height: "20%",
         backgroundColor: "#F4F6F5",
-        id: "__alloyId1393"
+        id: "__alloyId1458"
     });
-    $.__views.__alloyId1387.add($.__views.__alloyId1393);
-    prepaidPlus ? $.__views.__alloyId1393.addEventListener("click", prepaidPlus) : __defers["$.__views.__alloyId1393!click!prepaidPlus"] = true;
-    $.__views.__alloyId1394 = Ti.UI.createView({
+    $.__views.__alloyId1452.add($.__views.__alloyId1458);
+    prepaidPlus ? $.__views.__alloyId1458.addEventListener("click", prepaidPlus) : __defers["$.__views.__alloyId1458!click!prepaidPlus"] = true;
+    $.__views.__alloyId1459 = Ti.UI.createView({
         layout: "vertical",
         height: Ti.UI.SIZE,
-        id: "__alloyId1394"
+        id: "__alloyId1459"
     });
-    $.__views.__alloyId1393.add($.__views.__alloyId1394);
-    $.__views.__alloyId1395 = Ti.UI.createLabel({
+    $.__views.__alloyId1458.add($.__views.__alloyId1459);
+    $.__views.__alloyId1460 = Ti.UI.createLabel({
         text: "Ordering Prepaid",
         backgroundColor: "transparent",
         color: "black",
         left: "5%",
-        id: "__alloyId1395"
+        id: "__alloyId1460"
     });
-    $.__views.__alloyId1394.add($.__views.__alloyId1395);
-    $.__views.__alloyId1396 = Ti.UI.createLabel({
+    $.__views.__alloyId1459.add($.__views.__alloyId1460);
+    $.__views.__alloyId1461 = Ti.UI.createLabel({
         text: "#10125",
         backgroundColor: "transparent",
         color: "#9D9F9E",
         left: "5%",
-        id: "__alloyId1396"
+        id: "__alloyId1461"
     });
-    $.__views.__alloyId1394.add($.__views.__alloyId1396);
-    $.__views.__alloyId1397 = Ti.UI.createView({
+    $.__views.__alloyId1459.add($.__views.__alloyId1461);
+    $.__views.__alloyId1462 = Ti.UI.createView({
         height: "100%",
         width: Ti.UI.SIZE,
         right: "10",
         backgroundColor: "transparent",
-        id: "__alloyId1397"
+        id: "__alloyId1462"
     });
-    $.__views.__alloyId1393.add($.__views.__alloyId1397);
+    $.__views.__alloyId1458.add($.__views.__alloyId1462);
     $.__views.arrow2 = Ti.UI.createImageView({
         id: "arrow2",
         image: "/images/dropdown_icon.png",
         width: "25",
         height: "15"
     });
-    $.__views.__alloyId1397.add($.__views.arrow2);
-    $.__views.__alloyId1398 = Ti.UI.createView({
+    $.__views.__alloyId1462.add($.__views.arrow2);
+    $.__views.__alloyId1463 = Ti.UI.createView({
         layout: "composite",
         height: "20%",
         backgroundColor: "#F4F6F5",
-        id: "__alloyId1398"
+        id: "__alloyId1463"
     });
-    $.__views.__alloyId1387.add($.__views.__alloyId1398);
-    prepaidPlus ? $.__views.__alloyId1398.addEventListener("click", prepaidPlus) : __defers["$.__views.__alloyId1398!click!prepaidPlus"] = true;
-    $.__views.__alloyId1399 = Ti.UI.createView({
+    $.__views.__alloyId1452.add($.__views.__alloyId1463);
+    prepaidPlus ? $.__views.__alloyId1463.addEventListener("click", prepaidPlus) : __defers["$.__views.__alloyId1463!click!prepaidPlus"] = true;
+    $.__views.__alloyId1464 = Ti.UI.createView({
         layout: "vertical",
         height: Ti.UI.SIZE,
-        id: "__alloyId1399"
+        id: "__alloyId1464"
     });
-    $.__views.__alloyId1398.add($.__views.__alloyId1399);
-    $.__views.__alloyId1400 = Ti.UI.createLabel({
+    $.__views.__alloyId1463.add($.__views.__alloyId1464);
+    $.__views.__alloyId1465 = Ti.UI.createLabel({
         text: "Ordering Prepaid",
         backgroundColor: "transparent",
         color: "black",
         left: "5%",
-        id: "__alloyId1400"
+        id: "__alloyId1465"
     });
-    $.__views.__alloyId1399.add($.__views.__alloyId1400);
-    $.__views.__alloyId1401 = Ti.UI.createLabel({
+    $.__views.__alloyId1464.add($.__views.__alloyId1465);
+    $.__views.__alloyId1466 = Ti.UI.createLabel({
         text: "#10125",
         backgroundColor: "transparent",
         color: "#9D9F9E",
         left: "5%",
-        id: "__alloyId1401"
+        id: "__alloyId1466"
     });
-    $.__views.__alloyId1399.add($.__views.__alloyId1401);
-    $.__views.__alloyId1402 = Ti.UI.createView({
+    $.__views.__alloyId1464.add($.__views.__alloyId1466);
+    $.__views.__alloyId1467 = Ti.UI.createView({
         height: "100%",
         width: Ti.UI.SIZE,
         right: "10",
         backgroundColor: "transparent",
-        id: "__alloyId1402"
+        id: "__alloyId1467"
     });
-    $.__views.__alloyId1398.add($.__views.__alloyId1402);
+    $.__views.__alloyId1463.add($.__views.__alloyId1467);
     $.__views.arrow3 = Ti.UI.createImageView({
         id: "arrow3",
         image: "/images/dropdown_icon.png",
         width: "25",
         height: "15"
     });
-    $.__views.__alloyId1402.add($.__views.arrow3);
-    $.__views.__alloyId1403 = Ti.UI.createView({
+    $.__views.__alloyId1467.add($.__views.arrow3);
+    $.__views.__alloyId1468 = Ti.UI.createView({
         layout: "composite",
         height: "20%",
         backgroundColor: "#F4F6F5",
-        id: "__alloyId1403"
+        id: "__alloyId1468"
     });
-    $.__views.__alloyId1387.add($.__views.__alloyId1403);
-    prepaidPlus ? $.__views.__alloyId1403.addEventListener("click", prepaidPlus) : __defers["$.__views.__alloyId1403!click!prepaidPlus"] = true;
-    $.__views.__alloyId1404 = Ti.UI.createView({
+    $.__views.__alloyId1452.add($.__views.__alloyId1468);
+    prepaidPlus ? $.__views.__alloyId1468.addEventListener("click", prepaidPlus) : __defers["$.__views.__alloyId1468!click!prepaidPlus"] = true;
+    $.__views.__alloyId1469 = Ti.UI.createView({
         layout: "vertical",
         height: Ti.UI.SIZE,
-        id: "__alloyId1404"
+        id: "__alloyId1469"
     });
-    $.__views.__alloyId1403.add($.__views.__alloyId1404);
-    $.__views.__alloyId1405 = Ti.UI.createLabel({
+    $.__views.__alloyId1468.add($.__views.__alloyId1469);
+    $.__views.__alloyId1470 = Ti.UI.createLabel({
         text: "Ordering Prepaid",
         backgroundColor: "transparent",
         color: "black",
         left: "5%",
-        id: "__alloyId1405"
+        id: "__alloyId1470"
     });
-    $.__views.__alloyId1404.add($.__views.__alloyId1405);
-    $.__views.__alloyId1406 = Ti.UI.createLabel({
+    $.__views.__alloyId1469.add($.__views.__alloyId1470);
+    $.__views.__alloyId1471 = Ti.UI.createLabel({
         text: "#10125",
         backgroundColor: "transparent",
         color: "#9D9F9E",
         left: "5%",
-        id: "__alloyId1406"
+        id: "__alloyId1471"
     });
-    $.__views.__alloyId1404.add($.__views.__alloyId1406);
-    $.__views.__alloyId1407 = Ti.UI.createView({
+    $.__views.__alloyId1469.add($.__views.__alloyId1471);
+    $.__views.__alloyId1472 = Ti.UI.createView({
         height: "100%",
         width: Ti.UI.SIZE,
         right: "10",
         backgroundColor: "transparent",
-        id: "__alloyId1407"
+        id: "__alloyId1472"
     });
-    $.__views.__alloyId1403.add($.__views.__alloyId1407);
+    $.__views.__alloyId1468.add($.__views.__alloyId1472);
     $.__views.arrow4 = Ti.UI.createImageView({
         id: "arrow4",
         image: "/images/dropdown_icon.png",
         width: "25",
         height: "15"
     });
-    $.__views.__alloyId1407.add($.__views.arrow4);
-    $.__views.__alloyId1408 = Ti.UI.createView({
+    $.__views.__alloyId1472.add($.__views.arrow4);
+    $.__views.__alloyId1473 = Ti.UI.createView({
         layout: "composite",
         height: "20%",
         backgroundColor: "#F4F6F5",
-        id: "__alloyId1408"
+        id: "__alloyId1473"
     });
-    $.__views.__alloyId1387.add($.__views.__alloyId1408);
-    prepaidPlus ? $.__views.__alloyId1408.addEventListener("click", prepaidPlus) : __defers["$.__views.__alloyId1408!click!prepaidPlus"] = true;
-    $.__views.__alloyId1409 = Ti.UI.createView({
+    $.__views.__alloyId1452.add($.__views.__alloyId1473);
+    prepaidPlus ? $.__views.__alloyId1473.addEventListener("click", prepaidPlus) : __defers["$.__views.__alloyId1473!click!prepaidPlus"] = true;
+    $.__views.__alloyId1474 = Ti.UI.createView({
         layout: "vertical",
         height: Ti.UI.SIZE,
-        id: "__alloyId1409"
+        id: "__alloyId1474"
     });
-    $.__views.__alloyId1408.add($.__views.__alloyId1409);
-    $.__views.__alloyId1410 = Ti.UI.createLabel({
+    $.__views.__alloyId1473.add($.__views.__alloyId1474);
+    $.__views.__alloyId1475 = Ti.UI.createLabel({
         text: "Ordering Prepaid",
         backgroundColor: "transparent",
         color: "black",
         left: "5%",
-        id: "__alloyId1410"
+        id: "__alloyId1475"
     });
-    $.__views.__alloyId1409.add($.__views.__alloyId1410);
-    $.__views.__alloyId1411 = Ti.UI.createLabel({
+    $.__views.__alloyId1474.add($.__views.__alloyId1475);
+    $.__views.__alloyId1476 = Ti.UI.createLabel({
         text: "#10125",
         backgroundColor: "transparent",
         color: "#9D9F9E",
         left: "5%",
-        id: "__alloyId1411"
+        id: "__alloyId1476"
     });
-    $.__views.__alloyId1409.add($.__views.__alloyId1411);
-    $.__views.__alloyId1412 = Ti.UI.createView({
+    $.__views.__alloyId1474.add($.__views.__alloyId1476);
+    $.__views.__alloyId1477 = Ti.UI.createView({
         height: "100%",
         width: Ti.UI.SIZE,
         right: "10",
         backgroundColor: "transparent",
-        id: "__alloyId1412"
+        id: "__alloyId1477"
     });
-    $.__views.__alloyId1408.add($.__views.__alloyId1412);
+    $.__views.__alloyId1473.add($.__views.__alloyId1477);
     $.__views.arrow5 = Ti.UI.createImageView({
         id: "arrow5",
         image: "/images/dropdown_icon.png",
         width: "25",
         height: "15"
     });
-    $.__views.__alloyId1412.add($.__views.arrow5);
+    $.__views.__alloyId1477.add($.__views.arrow5);
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.arrow1.transform = Ti.UI.create2DMatrix().rotate(-90);
@@ -307,12 +307,12 @@ function Controller() {
         Ti.App.removeEventListener("clearObject", clearObject);
     };
     Ti.App.addEventListener("clearObject", clearObject);
-    __defers["$.__views.__alloyId1386!click!back"] && $.__views.__alloyId1386.addEventListener("click", back);
-    __defers["$.__views.__alloyId1388!click!prepaidPlus"] && $.__views.__alloyId1388.addEventListener("click", prepaidPlus);
-    __defers["$.__views.__alloyId1393!click!prepaidPlus"] && $.__views.__alloyId1393.addEventListener("click", prepaidPlus);
-    __defers["$.__views.__alloyId1398!click!prepaidPlus"] && $.__views.__alloyId1398.addEventListener("click", prepaidPlus);
-    __defers["$.__views.__alloyId1403!click!prepaidPlus"] && $.__views.__alloyId1403.addEventListener("click", prepaidPlus);
-    __defers["$.__views.__alloyId1408!click!prepaidPlus"] && $.__views.__alloyId1408.addEventListener("click", prepaidPlus);
+    __defers["$.__views.__alloyId1451!click!back"] && $.__views.__alloyId1451.addEventListener("click", back);
+    __defers["$.__views.__alloyId1453!click!prepaidPlus"] && $.__views.__alloyId1453.addEventListener("click", prepaidPlus);
+    __defers["$.__views.__alloyId1458!click!prepaidPlus"] && $.__views.__alloyId1458.addEventListener("click", prepaidPlus);
+    __defers["$.__views.__alloyId1463!click!prepaidPlus"] && $.__views.__alloyId1463.addEventListener("click", prepaidPlus);
+    __defers["$.__views.__alloyId1468!click!prepaidPlus"] && $.__views.__alloyId1468.addEventListener("click", prepaidPlus);
+    __defers["$.__views.__alloyId1473!click!prepaidPlus"] && $.__views.__alloyId1473.addEventListener("click", prepaidPlus);
     _.extend($, exports);
 }
 

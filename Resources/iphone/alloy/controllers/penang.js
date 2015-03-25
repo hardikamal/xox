@@ -55,36 +55,36 @@ function Controller() {
         id: "penang"
     });
     $.__views.penang && $.addTopLevelView($.__views.penang);
-    $.__views.__alloyId1626 = Alloy.createController("_header", {
-        id: "__alloyId1626",
+    $.__views.__alloyId1691 = Alloy.createController("_header", {
+        id: "__alloyId1691",
         __parentSymbol: $.__views.penang
     });
-    $.__views.__alloyId1626.setParent($.__views.penang);
-    $.__views.__alloyId1627 = Ti.UI.createView({
+    $.__views.__alloyId1691.setParent($.__views.penang);
+    $.__views.__alloyId1692 = Ti.UI.createView({
         layout: "composite",
         height: "50",
         backgroundColor: "#E82630",
-        id: "__alloyId1627"
+        id: "__alloyId1692"
     });
-    $.__views.penang.add($.__views.__alloyId1627);
-    $.__views.__alloyId1628 = Ti.UI.createLabel({
+    $.__views.penang.add($.__views.__alloyId1692);
+    $.__views.__alloyId1693 = Ti.UI.createLabel({
         text: "PENANG PACK UNITED PACK SIGNATURE BASIC",
         backgroundColor: "transparent",
         color: "white",
         left: "20",
-        id: "__alloyId1628"
+        id: "__alloyId1693"
     });
-    $.__views.__alloyId1627.add($.__views.__alloyId1628);
-    $.__views.__alloyId1629 = Ti.UI.createImageView({
+    $.__views.__alloyId1692.add($.__views.__alloyId1693);
+    $.__views.__alloyId1694 = Ti.UI.createImageView({
         backgroundColor: "transparent",
         width: "30",
         height: "30",
         right: "10",
         image: "/images/close_icon.png",
-        id: "__alloyId1629"
+        id: "__alloyId1694"
     });
-    $.__views.__alloyId1627.add($.__views.__alloyId1629);
-    back ? $.__views.__alloyId1629.addEventListener("click", back) : __defers["$.__views.__alloyId1629!click!back"] = true;
+    $.__views.__alloyId1692.add($.__views.__alloyId1694);
+    back ? $.__views.__alloyId1694.addEventListener("click", back) : __defers["$.__views.__alloyId1694!click!back"] = true;
     $.__views.menu = Ti.UI.createView({
         id: "menu",
         layout: "horizontal",
@@ -104,13 +104,13 @@ function Controller() {
     });
     $.__views.menu.add($.__views.lbl1);
     goSlide ? $.__views.lbl1.addEventListener("touchend", goSlide) : __defers["$.__views.lbl1!touchend!goSlide"] = true;
-    $.__views.__alloyId1630 = Ti.UI.createView({
+    $.__views.__alloyId1695 = Ti.UI.createView({
         backgroundColor: "#E7E7E7",
         height: "100%",
         width: "0.45%",
-        id: "__alloyId1630"
+        id: "__alloyId1695"
     });
-    $.__views.menu.add($.__views.__alloyId1630);
+    $.__views.menu.add($.__views.__alloyId1695);
     $.__views.lbl2 = Ti.UI.createLabel({
         text: "Signature\nPack",
         id: "lbl2",
@@ -123,13 +123,13 @@ function Controller() {
     });
     $.__views.menu.add($.__views.lbl2);
     goSlide ? $.__views.lbl2.addEventListener("touchend", goSlide) : __defers["$.__views.lbl2!touchend!goSlide"] = true;
-    $.__views.__alloyId1631 = Ti.UI.createView({
+    $.__views.__alloyId1696 = Ti.UI.createView({
         backgroundColor: "#E7E7E7",
         height: "100%",
         width: "0.45%",
-        id: "__alloyId1631"
+        id: "__alloyId1696"
     });
-    $.__views.menu.add($.__views.__alloyId1631);
+    $.__views.menu.add($.__views.__alloyId1696);
     $.__views.lbl3 = Ti.UI.createLabel({
         text: "Penang\nPlan",
         id: "lbl3",
@@ -142,30 +142,30 @@ function Controller() {
     });
     $.__views.menu.add($.__views.lbl3);
     goSlide ? $.__views.lbl3.addEventListener("touchend", goSlide) : __defers["$.__views.lbl3!touchend!goSlide"] = true;
-    var __alloyId1632 = [];
-    $.__views.__alloyId1633 = Alloy.createController("penang1", {
-        id: "__alloyId1633",
+    var __alloyId1697 = [];
+    $.__views.__alloyId1698 = Alloy.createController("penang1", {
+        id: "__alloyId1698",
         __parentSymbol: __parentSymbol
     });
-    __alloyId1632.push($.__views.__alloyId1633.getViewEx({
+    __alloyId1697.push($.__views.__alloyId1698.getViewEx({
         recurse: true
     }));
-    $.__views.__alloyId1634 = Alloy.createController("penang2", {
-        id: "__alloyId1634",
+    $.__views.__alloyId1699 = Alloy.createController("penang2", {
+        id: "__alloyId1699",
         __parentSymbol: __parentSymbol
     });
-    __alloyId1632.push($.__views.__alloyId1634.getViewEx({
+    __alloyId1697.push($.__views.__alloyId1699.getViewEx({
         recurse: true
     }));
-    $.__views.__alloyId1635 = Alloy.createController("penang3", {
-        id: "__alloyId1635",
+    $.__views.__alloyId1700 = Alloy.createController("penang3", {
+        id: "__alloyId1700",
         __parentSymbol: __parentSymbol
     });
-    __alloyId1632.push($.__views.__alloyId1635.getViewEx({
+    __alloyId1697.push($.__views.__alloyId1700.getViewEx({
         recurse: true
     }));
     $.__views.scrollableView = Ti.UI.createScrollableView({
-        views: __alloyId1632,
+        views: __alloyId1697,
         id: "scrollableView",
         showPagingControl: "false",
         scrollingEnabled: "false"
@@ -173,7 +173,7 @@ function Controller() {
     $.__views.penang.add($.__views.scrollableView);
     exports.destroy = function() {};
     _.extend($, $.__views);
-    __defers["$.__views.__alloyId1629!click!back"] && $.__views.__alloyId1629.addEventListener("click", back);
+    __defers["$.__views.__alloyId1694!click!back"] && $.__views.__alloyId1694.addEventListener("click", back);
     __defers["$.__views.lbl1!touchend!goSlide"] && $.__views.lbl1.addEventListener("touchend", goSlide);
     __defers["$.__views.lbl2!touchend!goSlide"] && $.__views.lbl2.addEventListener("touchend", goSlide);
     __defers["$.__views.lbl3!touchend!goSlide"] && $.__views.lbl3.addEventListener("touchend", goSlide);
