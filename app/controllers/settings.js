@@ -1,6 +1,6 @@
 $.arrow1.transform = Ti.UI.create2DMatrix().rotate(-90);
 $.arrow2.transform = Ti.UI.create2DMatrix().rotate(-90);
-//$.arrow3.transform = Ti.UI.create2DMatrix().rotate(-90);
+$.arrow3.transform = Ti.UI.create2DMatrix().rotate(-90);
 
 if(Ti.Platform.osname == "android") {
 	console.log("android");

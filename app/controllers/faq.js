@@ -1,6 +1,6 @@
 function back()
 {
-	DRAWER.navigation("myAccount",2);
+	DRAWER.navigation("support",1);
 }
 
 function row1()

@@ -7,16 +7,10 @@ if(Ti.Platform.osname == "android") {
 
 function back()
 {
-	DRAWER.navigation("myAccount",1);
+	DRAWER.navigation("products",1);
 }
 
-function addNumber()
+function subscribe()
 {
-	console.log("addNumber");
-	DRAWER.navigation("subline2",1);
-}
-
-function setting()
-{
-	DRAWER.navigation("subline4",1);
+	console.log("subscribe");
 }

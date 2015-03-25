@@ -6,8 +6,8 @@ $.forgotLine.width = $.forgotText.getWidth();
 $.registerLine.width = $.registerText.getWidth();
 
 if(Ti.Platform.osname == "android") {
-	console.log("android");
-	$.scrollView.overScrollMode = Titanium.UI.Android.OVER_SCROLL_NEVER;
+	//console.log("android");
+	//$.scrollView.overScrollMode = Titanium.UI.Android.OVER_SCROLL_NEVER;
 
 	var first = true;
 	$.username.addEventListener('focus', function f(e){
@@ -48,7 +48,7 @@ function promoNews()
 	// console.log("promoNews");
 	// var win = Alloy.createController('promoNews').getView();
     // win.open();
-    DRAWER.navigation("promo",2); 
+    DRAWER.navigation("promo",1); 
 }
 
 function product()
@@ -56,7 +56,7 @@ function product()
 	// console.log("product");
 	// var win = Alloy.createController('product').getView();
     // win.open();
-    DRAWER.navigation("products",2); 
+    DRAWER.navigation("products",1); 
 }
 
 function online()
@@ -64,7 +64,7 @@ function online()
 	// console.log("online");
 	// var win = Alloy.createController('online').getView();
     // win.open();
-    DRAWER.navigation("onlinePurchases",2);
+    DRAWER.navigation("onlinePurchases",1);
 }
 
 function history()
@@ -72,7 +72,7 @@ function history()
 	// console.log("history");
 	// var win = Alloy.createController('history').getView();
     // win.open();
-    DRAWER.navigation("orderHistory",2);
+    DRAWER.navigation("orderHistory",1);
 }
 
 function contact()
@@ -80,7 +80,7 @@ function contact()
 	// console.log("contact");
 	// var win = Alloy.createController('contact').getView();
     // win.open();
-    DRAWER.navigation("contact",2);
+    DRAWER.navigation("contact",1);
 }
 
 function setting()
@@ -88,7 +88,15 @@ function setting()
 	// console.log("setting");
 	// var win = Alloy.createController('setting').getView();
     // win.open();
-    DRAWER.navigation("settings",2);
+    DRAWER.navigation("settings",1);
+}
+
+function support()
+{
+	// console.log("setting");
+	// var win = Alloy.createController('setting').getView();
+    // win.open();
+    DRAWER.navigation("support",1);
 }
 
 function register()
@@ -98,7 +106,7 @@ function register()
 	$.password.value = "";
 	$.password.blur();
 	$.login.zIndex = 0;
-	DRAWER.navigation("register",2);
+	DRAWER.navigation("register",1);
 }
 
 function forgot()
@@ -108,7 +116,7 @@ function forgot()
 	$.password.value = "";
 	$.password.blur();
 	$.login.zIndex = 0;
-	DRAWER.navigation("forgot",2);
+	DRAWER.navigation("forgot",1);
 }
 
 function close()
@@ -150,6 +158,6 @@ function login()
 		console.log("login");
 		// var win = Alloy.createController('member').getView();
     	// win.open();   
-    	DRAWER.navigation("myAccount",2);
+    	DRAWER.navigation("myAccount",1);
 	}
 }

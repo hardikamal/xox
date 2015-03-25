@@ -1,17 +1,14 @@
 <Alloy>
 	<View layout="vertical" class="container" backgroundColor="#E6E7E9" fullscreen="true">
 		<Require src="_header" ></Require>
-		<!--<View layout="composite" height="20%" backgroundColor="#EB2127">
+		<View layout="composite" height="20%" backgroundColor="#EB2127">
 			<View layout="horizontal" left="0">
 				<View backgroundColor="#A3161A" height="100%" width="30%">
 					<ImageView image="/images/products_01.png" height="32" width="50"></ImageView>
 				</View>
+				<!--<ImageView backgroundColor="#A3161A" height="100%" width="30%"></ImageView>-->
 				<Label backgroundColor="transparent" color="white" left="20">PREPAID PLUS</Label>
 			</View>
-			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
-	</View>-->
-		<View layout="composite" height="50" backgroundColor="#EB2127">
-			<Label backgroundColor="transparent" color="white" left="10">PREPAID PLUS</Label>
 			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
 		</View>
 		<ScrollView id="scrollView" layout="vertical" backgroundColor="#E6E7E9" width="90%">

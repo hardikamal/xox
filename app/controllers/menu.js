@@ -14,19 +14,22 @@ function navMenu(e){
 		case 3:   
 			DRAWER.navigation("onlinePurchases",2);
 			break; 
-	 	case 4: 
-	 		DRAWER.navigation("orderHistory",2);
-			break;
+	 	// case 4: 
+	 		// DRAWER.navigation("orderHistory",2);
+			//break;
 		case 5: 
 			DRAWER.navigation("contact",2);
 			break;
 		case 6: 
-			DRAWER.navigation("settings",2);
+			DRAWER.navigation("support",2);
 			break;
 		case 7: 
-			DRAWER.navigation("home",2);
+			DRAWER.navigation("settings",2);
 			break;
 		case 8: 
+			DRAWER.navigation("home",2);
+			break;
+		case 9: 
 			DRAWER.navigation("familyFriend",2);
 			break;
 	}

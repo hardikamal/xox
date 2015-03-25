@@ -7,8 +7,8 @@ function promoDetail() {
 
 
 var clearObject = function(){
-	// alert("Promo clear cache");
-	// DRAWER.closeDrawer();
+	alert("Promo clear cache");
+	DRAWER.closeDrawer();
 	Ti.App.removeEventListener("clearObject",clearObject);
 };
 Ti.App.addEventListener("clearObject",clearObject);

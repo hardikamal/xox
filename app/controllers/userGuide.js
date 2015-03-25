@@ -81,3 +81,8 @@ function done()
 	$.done.setVisible(false);
 	$.picker.setVisible(false);
 }
+
+function back()
+{
+	DRAWER.navigation("support",1);
+}

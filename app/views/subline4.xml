@@ -10,8 +10,8 @@
 				<Label width="40%" height="50" color="black" left="20">MSISDN</Label>
 				<Label width="auto" height="50" color="black">011xxxxxxx</Label>
 			</View>
-			<View backgroundColor="#F1F1F1" width="90%" left="5%" height="2" bottom="10"></View>
-			<Label color="gray" bottom="20" left="20">No Mobile Internet Plan available.</Label>
+			<View backgroundColor="#F1F1F1" width="90%" left="5%" height="2"></View>
+			<Label width="100%" color="gray" bottom="20" left="20">No Mobile Internet Plan available.</Label>
 			<View platform="ios" id="contentView" layout="vertical" height="100">
 		    	<Label backgroundColor="transparent" height="30" top="10" bottom="5" borderRadius="15" textAlign="center" color="black" left="20">Subscribe Plan</Label>
 		    	<View id="pickerContentView" layout="composite" height="50" width="90%">

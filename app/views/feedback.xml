@@ -1,0 +1,46 @@
+<Alloy>
+	<ScrollView layout="vertical" class="container" backgroundColor="white" fullscreen="true">
+		<Require src="_header" ></Require>
+		<View layout="composite" height="50" backgroundColor="#AFCD3F">
+			<Label backgroundColor="transparent" color="white" left="20">Feedback</Label>
+			<ImageView backgroundColor="transparent" width="30" height="30" right="10" onClick="back" image="/images/close_icon.png"></ImageView>
+		</View>
+		<ScrollView id="scrollView" layout="vertical" width="90%">
+			<View platform="ios" id="contentView" layout="horizontal" height="50" top="10">
+				<Label color="black" height="50" width="30%" top="0">Subject*</Label>
+				<View id="pickerContentView" layout="composite" height="50" width="70%">
+					<Label id="subjectLabel" height="30" width="100%" backgroundColor="transparent" borderRadius="5" borderColor="#F2F2F2" color="black" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="10"></Label>
+					<Picker id="picker" height="40" width="100%" height="Ti.UI.SIZE" top="10" selectionIndicator="true" backgroundColor="#EFEFEF" visible="true">
+						<PickerRow title="Product Feedback"/>
+	        			<PickerRow title="Customer Service"/>
+					</Picker>
+				</View>
+			</View>
+			<View platform="android" layout="horizontal" height="50" top="10">
+				<Label color="black" height="50" width="30%" top="0">Subject*</Label>
+				<View layout="composite" height="50" width="70%">
+					<Picker id="picker" onChange="subjectType" width="100%" height="50" borderRadius="5" selectionIndicator="true" backgroundColor="black" visible="true">
+						<PickerRow title="Product Feedback"/>
+	        			<PickerRow title="Customer Service"/>
+					</Picker>
+					<ImageView image="/images/dropdown_icon.png" width="15" height="10" right="10" top="20"></ImageView>
+				</View>
+			</View>
+			<View layout="horizontal" height="60" top="10">
+				<Label color="black" height="50" left="0" width="30%">Email *</Label>
+				<TextField height="50" width="70%" top="10" borderRadius="5" color="black" borderColor="#F2F2F2"></TextField>
+			</View>
+			<View layout="horizontal" height="60" top="10">
+				<Label color="black" height="50" left="0" width="30%">Mobile No. *</Label>
+				<TextField height="50" width="70%" top="10" borderRadius="5" color="black" borderColor="#F2F2F2"></TextField>
+			</View>
+			<View layout="vertical" height="160" top="10">
+				<Label color="black" height="50" left="0">Number Selection</Label>
+				<TextArea id="textArea" borderColor="#F2F2F2" borderRadius="5" color="black" textAlign="left" value="" top="5" width="Ti.UI.FILL" height="100" />
+			</View>
+		</ScrollView>
+		<View height="50" backgroundColor="#AFCD3F">
+			<Label color="white">Send</Label>
+		</View>
+	</ScrollView>
+</Alloy>

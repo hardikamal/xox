@@ -14,7 +14,7 @@
 						<Label color="black" left="10" textAlign="left">011xxxxxxx</Label>
 					</View>
 				</View>
-				<View height="100%" width="15%" onClick="sublineDetails">
+				<View height="100%" width="15%">
 					<ImageView backgroundColor="transparent" width="30" height="40" image="/images/docedit_icon.png"></ImageView>
 				</View>
 				<View height="100%" width="15%" onClick="setting">
