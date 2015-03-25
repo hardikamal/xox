@@ -27,14 +27,10 @@ function navMenu(e){
 			DRAWER.navigation("settings",2);
 			break;
 		case 8: 
-<<<<<<< HEAD
-			DRAWER.navigation("support",2);
-=======
 			DRAWER.navigation("home",2);
 			break;
 		case 9: 
 			DRAWER.navigation("familyFriend",2);
->>>>>>> origin/master
 			break;
 	}
 }
