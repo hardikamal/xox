@@ -47,9 +47,12 @@ function Controller() {
     });
     $.__views.notification.add($.__views.__alloyId1420);
     $.__views.__alloyId1421 = Ti.UI.createLabel({
-        text: "Notification",
-        backgroundColor: "transparent",
         color: "white",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "18dp"
+        },
+        text: "Notification",
         left: "20",
         id: "__alloyId1421"
     });
@@ -71,21 +74,30 @@ function Controller() {
     });
     $.__views.notification.add($.__views.__alloyId1423);
     $.__views.title = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "25dp",
+            fontWeight: "bold"
+        },
         id: "title",
         width: "90%",
         height: Ti.UI.SIZE,
         top: "10",
-        textAlign: "left",
-        color: "black"
+        textAlign: "left"
     });
     $.__views.__alloyId1423.add($.__views.title);
     $.__views.label = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
         id: "label",
         width: "90%",
         height: Ti.UI.SIZE,
         top: "10",
-        textAlign: "left",
-        color: "black"
+        textAlign: "left"
     });
     $.__views.__alloyId1423.add($.__views.label);
     exports.destroy = function() {};

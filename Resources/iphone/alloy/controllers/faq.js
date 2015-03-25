@@ -67,9 +67,12 @@ function Controller() {
     });
     $.__views.faq.add($.__views.__alloyId438);
     $.__views.__alloyId439 = Ti.UI.createLabel({
-        text: "FAQs",
-        backgroundColor: "transparent",
         color: "white",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "18dp"
+        },
+        text: "FAQs",
         left: "20",
         id: "__alloyId439"
     });
@@ -111,9 +114,14 @@ function Controller() {
     });
     $.__views.__alloyId442.add($.__views.__alloyId443);
     $.__views.__alloyId444 = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "25dp",
+            fontWeight: "bold"
+        },
         text: "What is the Self Care Hotline?",
         textAlign: "left",
-        color: "black",
         left: "10",
         id: "__alloyId444"
     });
@@ -156,13 +164,16 @@ function Controller() {
     });
     $.__views.row1.add($.__views.__alloyId449);
     $.__views.__alloyId450 = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "white",
+        font: {
+            fontSize: "14dp"
+        },
         text: "Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)",
         width: "90%",
-        backgroundColor: "white",
         textAlign: "left",
         bottom: "2",
         right: "0",
-        color: "black",
         id: "__alloyId450"
     });
     $.__views.__alloyId449.add($.__views.__alloyId450);
@@ -187,9 +198,14 @@ function Controller() {
     });
     $.__views.__alloyId451.add($.__views.__alloyId452);
     $.__views.__alloyId453 = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "25dp",
+            fontWeight: "bold"
+        },
         text: "What is the Self Care Hotline?",
         textAlign: "left",
-        color: "black",
         left: "10",
         id: "__alloyId453"
     });
@@ -232,13 +248,16 @@ function Controller() {
     });
     $.__views.row2.add($.__views.__alloyId458);
     $.__views.__alloyId459 = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "white",
+        font: {
+            fontSize: "14dp"
+        },
         text: "Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)",
         width: "90%",
-        backgroundColor: "white",
         textAlign: "left",
         bottom: "2",
         right: "0",
-        color: "black",
         id: "__alloyId459"
     });
     $.__views.__alloyId458.add($.__views.__alloyId459);
@@ -263,9 +282,14 @@ function Controller() {
     });
     $.__views.__alloyId460.add($.__views.__alloyId461);
     $.__views.__alloyId462 = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "25dp",
+            fontWeight: "bold"
+        },
         text: "What is the Self Care Hotline?",
         textAlign: "left",
-        color: "black",
         left: "10",
         id: "__alloyId462"
     });
@@ -308,13 +332,16 @@ function Controller() {
     });
     $.__views.row3.add($.__views.__alloyId467);
     $.__views.__alloyId468 = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "white",
+        font: {
+            fontSize: "14dp"
+        },
         text: "Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)",
         width: "90%",
-        backgroundColor: "white",
         textAlign: "left",
         bottom: "2",
         right: "0",
-        color: "black",
         id: "__alloyId468"
     });
     $.__views.__alloyId467.add($.__views.__alloyId468);
@@ -339,9 +366,14 @@ function Controller() {
     });
     $.__views.__alloyId469.add($.__views.__alloyId470);
     $.__views.__alloyId471 = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "25dp",
+            fontWeight: "bold"
+        },
         text: "What is the Self Care Hotline?",
         textAlign: "left",
-        color: "black",
         left: "10",
         id: "__alloyId471"
     });
@@ -384,13 +416,16 @@ function Controller() {
     });
     $.__views.row4.add($.__views.__alloyId476);
     $.__views.__alloyId477 = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "white",
+        font: {
+            fontSize: "14dp"
+        },
         text: "Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)",
         width: "90%",
-        backgroundColor: "white",
         textAlign: "left",
         bottom: "2",
         right: "0",
-        color: "black",
         id: "__alloyId477"
     });
     $.__views.__alloyId476.add($.__views.__alloyId477);
@@ -415,9 +450,14 @@ function Controller() {
     });
     $.__views.__alloyId478.add($.__views.__alloyId479);
     $.__views.__alloyId480 = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "25dp",
+            fontWeight: "bold"
+        },
         text: "What is the Self Care Hotline?",
         textAlign: "left",
-        color: "black",
         left: "10",
         id: "__alloyId480"
     });
@@ -460,13 +500,16 @@ function Controller() {
     });
     $.__views.row5.add($.__views.__alloyId485);
     $.__views.__alloyId486 = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "white",
+        font: {
+            fontSize: "14dp"
+        },
         text: "Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)Petaling Jaya (Jaya One)",
         width: "90%",
-        backgroundColor: "white",
         textAlign: "left",
         bottom: "2",
         right: "0",
-        color: "black",
         id: "__alloyId486"
     });
     $.__views.__alloyId485.add($.__views.__alloyId486);

@@ -50,9 +50,12 @@ function Controller() {
     });
     $.__views.payment3.add($.__views.__alloyId1632);
     $.__views.__alloyId1633 = Ti.UI.createLabel({
-        text: "Payment",
-        backgroundColor: "transparent",
         color: "white",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "18dp"
+        },
+        text: "Payment",
         left: "20",
         id: "__alloyId1633"
     });
@@ -75,9 +78,12 @@ function Controller() {
     });
     $.__views.payment3.add($.__views.__alloyId1635);
     $.__views.__alloyId1636 = Ti.UI.createLabel({
-        text: "Prepaid Top Up",
-        backgroundColor: "transparent",
         color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
+        text: "Prepaid Top Up",
         top: "15",
         left: "20",
         id: "__alloyId1636"
@@ -97,31 +103,49 @@ function Controller() {
     });
     $.__views.scrollView.add($.__views.__alloyId1637);
     $.__views.__alloyId1638 = Ti.UI.createLabel({
-        text: "Mobile Number",
         color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
+        text: "Mobile Number",
         top: "20",
         textAlign: "center",
         id: "__alloyId1638"
     });
     $.__views.__alloyId1637.add($.__views.__alloyId1638);
     $.__views.__alloyId1639 = Ti.UI.createLabel({
-        text: "01X 0000000",
         color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "25dp",
+            fontWeight: "bold"
+        },
+        text: "01x 0000000",
         textAlign: "center",
         id: "__alloyId1639"
     });
     $.__views.__alloyId1637.add($.__views.__alloyId1639);
     $.__views.__alloyId1640 = Ti.UI.createLabel({
-        text: "Current Balance (RM)",
         color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
+        text: "Current Balance (RM)",
         top: "20",
         textAlign: "center",
         id: "__alloyId1640"
     });
     $.__views.__alloyId1637.add($.__views.__alloyId1640);
     $.__views.__alloyId1641 = Ti.UI.createLabel({
-        text: "00.00",
         color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "40dp",
+            fontWeight: "bold"
+        },
+        text: "00.00",
         textAlign: "center",
         id: "__alloyId1641"
     });
@@ -142,9 +166,13 @@ function Controller() {
     });
     $.__views.scrollView.add($.__views.contentView2);
     $.__views.__alloyId1643 = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "12dp"
+        },
         text: "Top Up Amount",
         textAlign: "center",
-        color: "black",
         id: "__alloyId1643"
     });
     $.__views.contentView2.add($.__views.__alloyId1643);
@@ -168,12 +196,16 @@ function Controller() {
     });
     $.__views.pickerContentView2.add($.__views.paymentLabel2);
     $.__views.picker2 = Ti.UI.createPicker({
+        color: "black",
+        backgroundColor: "#EFEFEF",
+        font: {
+            fontSize: "12dp"
+        },
         id: "picker2",
         height: Ti.UI.SIZE,
         width: "100%",
         top: "10",
         selectionIndicator: "true",
-        backgroundColor: "#EFEFEF",
         visible: "true"
     });
     $.__views.pickerContentView2.add($.__views.picker2);
@@ -212,9 +244,13 @@ function Controller() {
     });
     $.__views.scrollView.add($.__views.contentView);
     $.__views.__alloyId1650 = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "12dp"
+        },
         text: "Payment Method",
         textAlign: "center",
-        color: "black",
         id: "__alloyId1650"
     });
     $.__views.contentView.add($.__views.__alloyId1650);
@@ -226,13 +262,16 @@ function Controller() {
     });
     $.__views.contentView.add($.__views.pickerContentView);
     $.__views.paymentLabel = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "12dp"
+        },
         id: "paymentLabel",
         height: "30",
         width: "100%",
-        backgroundColor: "transparent",
         borderRadius: "5",
         borderColor: "#F2F2F2",
-        color: "black",
         textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
         top: "10"
     });
@@ -272,8 +311,12 @@ function Controller() {
     $.__views.payment3.add($.__views.__alloyId1655);
     proceed ? $.__views.__alloyId1655.addEventListener("click", proceed) : __defers["$.__views.__alloyId1655!click!proceed"] = true;
     $.__views.__alloyId1656 = Ti.UI.createLabel({
-        text: "PROCEED",
         color: "white",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
+        text: "Submit",
         id: "__alloyId1656"
     });
     $.__views.__alloyId1655.add($.__views.__alloyId1656);

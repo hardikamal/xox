@@ -59,10 +59,14 @@ function Controller() {
     });
     $.__views.support.add($.__views.__alloyId2813);
     $.__views.__alloyId2814 = Ti.UI.createLabel({
+        color: "white",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "18dp"
+        },
         text: "Support",
         left: "10",
         top: "10",
-        color: "white",
         id: "__alloyId2814"
     });
     $.__views.__alloyId2813.add($.__views.__alloyId2814);
@@ -86,9 +90,13 @@ function Controller() {
     });
     $.__views.__alloyId2816.add($.__views.__alloyId2817);
     $.__views.__alloyId2818 = Ti.UI.createLabel({
-        text: "FAQs",
-        backgroundColor: "transparent",
         color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "40dp",
+            fontWeight: "bold"
+        },
+        text: "FAQs",
         left: "5%",
         id: "__alloyId2818"
     });
@@ -130,9 +138,13 @@ function Controller() {
     });
     $.__views.__alloyId2821.add($.__views.__alloyId2822);
     $.__views.__alloyId2823 = Ti.UI.createLabel({
-        text: "User Guide",
-        backgroundColor: "transparent",
         color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "40dp",
+            fontWeight: "bold"
+        },
+        text: "User Guide",
         left: "5%",
         id: "__alloyId2823"
     });
@@ -174,9 +186,13 @@ function Controller() {
     });
     $.__views.__alloyId2826.add($.__views.__alloyId2827);
     $.__views.__alloyId2828 = Ti.UI.createLabel({
-        text: "Terms & Conditions",
-        backgroundColor: "transparent",
         color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "40dp",
+            fontWeight: "bold"
+        },
+        text: "Terms & Conditions",
         left: "5%",
         id: "__alloyId2828"
     });
@@ -218,9 +234,13 @@ function Controller() {
     });
     $.__views.__alloyId2831.add($.__views.__alloyId2832);
     $.__views.__alloyId2833 = Ti.UI.createLabel({
-        text: "Notification",
-        backgroundColor: "transparent",
         color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "40dp",
+            fontWeight: "bold"
+        },
+        text: "Notification",
         left: "5%",
         id: "__alloyId2833"
     });
@@ -262,9 +282,13 @@ function Controller() {
     });
     $.__views.__alloyId2836.add($.__views.__alloyId2837);
     $.__views.__alloyId2838 = Ti.UI.createLabel({
-        text: "Feedback",
-        backgroundColor: "transparent",
         color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "40dp",
+            fontWeight: "bold"
+        },
+        text: "Feedback",
         left: "5%",
         id: "__alloyId2838"
     });

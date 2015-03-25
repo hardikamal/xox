@@ -89,9 +89,12 @@ function Controller() {
     });
     $.__views.report.add($.__views.__alloyId2294);
     $.__views.__alloyId2295 = Ti.UI.createLabel({
-        text: "Feedback",
-        backgroundColor: "transparent",
         color: "white",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "18dp"
+        },
+        text: "Feedback",
         left: "20",
         id: "__alloyId2295"
     });
@@ -129,17 +132,25 @@ function Controller() {
     });
     $.__views.contentView.add($.__views.__alloyId2297);
     $.__views.__alloyId2298 = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
         text: "Subject",
         height: "50",
-        color: "black",
         textAlign: "left",
         id: "__alloyId2298"
     });
     $.__views.__alloyId2297.add($.__views.__alloyId2298);
     $.__views.__alloyId2299 = Ti.UI.createLabel({
+        color: "red",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
         text: "*",
         height: "50",
-        color: "red",
         textAlign: "left",
         id: "__alloyId2299"
     });
@@ -152,14 +163,17 @@ function Controller() {
     });
     $.__views.contentView.add($.__views.pickerContentView);
     $.__views.subjectLabel = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "#FCFCFC",
+        font: {
+            fontSize: "14dp"
+        },
         text: "Select an option",
         id: "subjectLabel",
         height: "30",
         width: "99%",
-        backgroundColor: "#FCFCFC",
         borderRadius: "5",
         borderColor: "gray",
-        color: "black",
         textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
         top: "10"
     });
@@ -240,17 +254,25 @@ function Controller() {
     });
     $.__views.__alloyId2305.add($.__views.__alloyId2306);
     $.__views.__alloyId2307 = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
         text: "Email",
         height: "50",
-        color: "black",
         textAlign: "left",
         id: "__alloyId2307"
     });
     $.__views.__alloyId2306.add($.__views.__alloyId2307);
     $.__views.__alloyId2308 = Ti.UI.createLabel({
+        color: "red",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
         text: "*",
         height: "50",
-        color: "red",
         textAlign: "left",
         id: "__alloyId2308"
     });
@@ -281,17 +303,25 @@ function Controller() {
     });
     $.__views.__alloyId2309.add($.__views.__alloyId2310);
     $.__views.__alloyId2311 = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
         text: "Mobile No.",
         height: "50",
-        color: "black",
         textAlign: "left",
         id: "__alloyId2311"
     });
     $.__views.__alloyId2310.add($.__views.__alloyId2311);
     $.__views.__alloyId2312 = Ti.UI.createLabel({
+        color: "red",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
         text: "*",
         height: "50",
-        color: "red",
         textAlign: "left",
         id: "__alloyId2312"
     });
@@ -314,17 +344,25 @@ function Controller() {
     });
     $.__views.scrollView.add($.__views.__alloyId2313);
     $.__views.__alloyId2314 = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
         text: "Message",
         height: "50",
-        color: "black",
         textAlign: "left",
         id: "__alloyId2314"
     });
     $.__views.__alloyId2313.add($.__views.__alloyId2314);
     $.__views.__alloyId2315 = Ti.UI.createLabel({
+        color: "red",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
         text: "*",
         height: "50",
-        color: "red",
         textAlign: "left",
         id: "__alloyId2315"
     });
@@ -340,9 +378,13 @@ function Controller() {
     });
     $.__views.scrollView.add($.__views.message);
     $.__views.__alloyId2316 = Ti.UI.createLabel({
+        color: "red",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
         text: "* Required fields",
         height: "50",
-        color: "red",
         textAlign: "left",
         left: "10%",
         top: "10",
@@ -357,8 +399,12 @@ function Controller() {
     $.__views.report.add($.__views.__alloyId2317);
     send ? $.__views.__alloyId2317.addEventListener("click", send) : __defers["$.__views.__alloyId2317!click!send"] = true;
     $.__views.__alloyId2318 = Ti.UI.createLabel({
-        text: "Send",
         color: "white",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
+        text: "Send",
         height: "100%",
         textAlign: "center",
         id: "__alloyId2318"

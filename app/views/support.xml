@@ -2,12 +2,12 @@
 	<View layout="vertical" class="container" backgroundColor="#E6E7E9" fullscreen="true">
 		<Require src="_header" ></Require>
 		<View height="20%" backgroundColor="#AFCD3F">
-			<Label left="10" top="10" color="white">Support</Label>
+			<Label class="bigFont" left="10" top="10" color="white">Support</Label>
 		</View>
 		<ScrollView layout="vertical">
 			<View layout="composite" height="20%" backgroundColor="#F4F6F5" onClick="faq">
 				<View layout="vertical" height="Ti.UI.SIZE">
-					<Label backgroundColor="transparent" color="black" left="5%">FAQs</Label>
+					<Label class="bigboldFont" backgroundColor="transparent" color="black" left="5%">FAQs</Label>
 				</View>
 				<View height="100%" width="Ti.UI.SIZE" right="10" backgroundColor="transparent">
 					<ImageView id="arrow1" image="/images/dropdown_icon.png" width="25" height="15"></ImageView>
@@ -16,7 +16,7 @@
 			<View backgroundColor="#E6E7E9" width="100%" height="1"></View>
 			<View layout="composite" height="20%" backgroundColor="#F4F6F5" onClick="userGuide">
 				<View layout="vertical" height="Ti.UI.SIZE">
-					<Label backgroundColor="transparent" color="black" left="5%">User Guide</Label>
+					<Label class="bigboldFont" backgroundColor="transparent" color="black" left="5%">User Guide</Label>
 				</View>
 				<View height="100%" width="Ti.UI.SIZE" right="10" backgroundColor="transparent">
 					<ImageView id="arrow2" image="/images/dropdown_icon.png" width="25" height="15"></ImageView>
@@ -25,7 +25,7 @@
 			<View backgroundColor="#E6E7E9" width="100%" height="1"></View>
 			<View layout="composite" height="20%" backgroundColor="#F4F6F5" onClick="terms">
 				<View layout="vertical" height="Ti.UI.SIZE">
-					<Label backgroundColor="transparent" color="black" left="5%">Terms & Conditions</Label>
+					<Label class="bigboldFont" backgroundColor="transparent" color="black" left="5%">Terms & Conditions</Label>
 				</View>
 				<View height="100%" width="Ti.UI.SIZE" right="10" backgroundColor="transparent">
 					<ImageView id="arrow3" image="/images/dropdown_icon.png" width="25" height="15"></ImageView>
@@ -34,7 +34,7 @@
 			<View backgroundColor="#E6E7E9" width="100%" height="1"></View>
 			<View layout="composite" height="20%" backgroundColor="#F4F6F5" onClick="notification">
 				<View layout="vertical" height="Ti.UI.SIZE">
-					<Label backgroundColor="transparent" color="black" left="5%">Notification</Label>
+					<Label class="bigboldFont" backgroundColor="transparent" color="black" left="5%">Notification</Label>
 				</View>
 				<View height="100%" width="Ti.UI.SIZE" right="10" backgroundColor="transparent">
 					<ImageView id="arrow4" image="/images/dropdown_icon.png" width="25" height="15"></ImageView>
@@ -43,7 +43,7 @@
 			<View backgroundColor="#E6E7E9" width="100%" height="1"></View>s
 			<View layout="composite" height="20%" backgroundColor="#F4F6F5" onClick="feedback">
 				<View layout="vertical" height="Ti.UI.SIZE">
-					<Label backgroundColor="transparent" color="black" left="5%">Feedback</Label>
+					<Label class="bigboldFont" backgroundColor="transparent" color="black" left="5%">Feedback</Label>
 				</View>
 				<View height="100%" width="Ti.UI.SIZE" right="10" backgroundColor="transparent">
 					<ImageView id="arrow5" image="/images/dropdown_icon.png" width="25" height="15"></ImageView>

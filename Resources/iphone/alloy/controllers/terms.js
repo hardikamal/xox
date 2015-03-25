@@ -115,9 +115,12 @@ function Controller() {
     });
     $.__views.terms.add($.__views.__alloyId2879);
     $.__views.__alloyId2880 = Ti.UI.createLabel({
-        text: "Terms & Conditions",
-        backgroundColor: "transparent",
         color: "white",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "18dp"
+        },
+        text: "Terms & Conditions",
         left: "20",
         id: "__alloyId2880"
     });
@@ -147,13 +150,16 @@ function Controller() {
     });
     $.__views.contentView.add($.__views.pickerContentView);
     $.__views.termLabel = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "#FCFCFC",
+        font: {
+            fontSize: "14dp"
+        },
         id: "termLabel",
         height: "30",
         width: "100%",
-        backgroundColor: "#FCFCFC",
         borderRadius: "15",
         borderColor: "#FCFCFC",
-        color: "black",
         textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
         top: "10"
     });
@@ -231,21 +237,30 @@ function Controller() {
     });
     $.__views.terms.add($.__views.__alloyId2888);
     $.__views.title = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "25dp",
+            fontWeight: "bold"
+        },
         id: "title",
         width: "90%",
         height: Ti.UI.SIZE,
         top: "10",
-        textAlign: "left",
-        color: "black"
+        textAlign: "left"
     });
     $.__views.__alloyId2888.add($.__views.title);
     $.__views.label = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
         id: "label",
         width: "90%",
         height: Ti.UI.SIZE,
         top: "10",
-        textAlign: "left",
-        color: "black"
+        textAlign: "left"
     });
     $.__views.__alloyId2888.add($.__views.label);
     exports.destroy = function() {};

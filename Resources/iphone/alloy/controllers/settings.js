@@ -51,10 +51,14 @@ function Controller() {
     });
     $.__views.win.add($.__views.__alloyId2562);
     $.__views.__alloyId2563 = Ti.UI.createLabel({
+        color: "white",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "18dp"
+        },
         text: "Settings",
         left: "10",
         top: "10",
-        color: "white",
         id: "__alloyId2563"
     });
     $.__views.__alloyId2562.add($.__views.__alloyId2563);
@@ -82,9 +86,12 @@ function Controller() {
     });
     $.__views.__alloyId2564.add($.__views.__alloyId2565);
     $.__views.__alloyId2566 = Ti.UI.createLabel({
-        text: "Push Notification",
-        backgroundColor: "transparent",
         color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
+        text: "Push Notification",
         textAlign: "left",
         left: "10",
         id: "__alloyId2566"
@@ -118,9 +125,12 @@ function Controller() {
     });
     $.__views.__alloyId2568.add($.__views.__alloyId2569);
     $.__views.__alloyId2570 = Ti.UI.createLabel({
-        text: "Social Sharing",
-        backgroundColor: "transparent",
         color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
+        text: "Social Sharing",
         textAlign: "left",
         left: "10",
         id: "__alloyId2570"
@@ -142,9 +152,12 @@ function Controller() {
     });
     $.__views.__alloyId2571.add($.__views.__alloyId2572);
     $.__views.__alloyId2573 = Ti.UI.createLabel({
-        text: "Facebook",
-        backgroundColor: "transparent",
         color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
+        text: "Facebook",
         textAlign: "left",
         left: "10",
         id: "__alloyId2573"
@@ -181,9 +194,12 @@ function Controller() {
     });
     $.__views.__alloyId2575.add($.__views.__alloyId2576);
     $.__views.__alloyId2577 = Ti.UI.createLabel({
-        text: "Twitter",
-        backgroundColor: "transparent",
         color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
+        text: "Twitter",
         textAlign: "left",
         left: "10",
         id: "__alloyId2577"

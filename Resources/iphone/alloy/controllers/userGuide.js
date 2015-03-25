@@ -111,9 +111,12 @@ function Controller() {
     });
     $.__views.userGuide.add($.__views.__alloyId2890);
     $.__views.__alloyId2891 = Ti.UI.createLabel({
-        text: "User Guide",
-        backgroundColor: "transparent",
         color: "white",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "18dp"
+        },
+        text: "User Guide",
         left: "20",
         id: "__alloyId2891"
     });
@@ -143,13 +146,16 @@ function Controller() {
     });
     $.__views.contentView.add($.__views.pickerContentView);
     $.__views.guideLabel = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "#FCFCFC",
+        font: {
+            fontSize: "14dp"
+        },
         id: "guideLabel",
         height: "30",
         width: "100%",
-        backgroundColor: "#FCFCFC",
         borderRadius: "15",
         borderColor: "#FCFCFC",
-        color: "black",
         textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
         top: "10"
     });
@@ -227,12 +233,16 @@ function Controller() {
     });
     $.__views.userGuide.add($.__views.__alloyId2899);
     $.__views.label = Ti.UI.createLabel({
+        color: "black",
+        backgroundColor: "transparent",
+        font: {
+            fontSize: "14dp"
+        },
         id: "label",
         width: "90%",
         height: Ti.UI.SIZE,
         top: "10",
-        textAlign: "left",
-        color: "black"
+        textAlign: "left"
     });
     $.__views.__alloyId2899.add($.__views.label);
     exports.destroy = function() {};
