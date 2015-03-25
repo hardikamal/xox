@@ -8,6 +8,9 @@ function __processArg(obj, key) {
 }
 
 function Controller() {
+    function back() {
+        DRAWER.navigation("support", 1);
+    }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "notification";
     if (arguments[0]) {
@@ -23,6 +26,7 @@ function Controller() {
     }
     var $ = this;
     var exports = {};
+    var __defers = {};
     $.__views.notification = Ti.UI.createView({
         backgroundColor: "#E6E7E9",
         layout: "vertical",
@@ -30,46 +34,42 @@ function Controller() {
         id: "notification"
     });
     $.__views.notification && $.addTopLevelView($.__views.notification);
-    $.__views.__alloyId1413 = Alloy.createController("_header", {
-        id: "__alloyId1413",
+    $.__views.__alloyId1448 = Alloy.createController("_header", {
+        id: "__alloyId1448",
         __parentSymbol: $.__views.notification
     });
-    $.__views.__alloyId1413.setParent($.__views.notification);
-    $.__views.__alloyId1414 = Ti.UI.createView({
-        height: "20%",
+    $.__views.__alloyId1448.setParent($.__views.notification);
+    $.__views.__alloyId1449 = Ti.UI.createView({
+        layout: "composite",
+        height: "50",
         backgroundColor: "#AFCD3F",
-        id: "__alloyId1414"
+        id: "__alloyId1449"
     });
-    $.__views.notification.add($.__views.__alloyId1414);
-    $.__views.__alloyId1415 = Ti.UI.createLabel({
-        text: "Support",
-        left: "10",
-        top: "10",
-        color: "white",
-        id: "__alloyId1415"
-    });
-    $.__views.__alloyId1414.add($.__views.__alloyId1415);
-    $.__views.__alloyId1416 = Ti.UI.createView({
-        height: "50",
-        backgroundColor: "#E6E7E9",
-        id: "__alloyId1416"
-    });
-    $.__views.notification.add($.__views.__alloyId1416);
-    $.__views.__alloyId1417 = Ti.UI.createLabel({
+    $.__views.notification.add($.__views.__alloyId1449);
+    $.__views.__alloyId1450 = Ti.UI.createLabel({
         text: "Notification",
-        left: "5%",
-        height: "50",
-        textAlign: "left",
-        color: "black",
-        id: "__alloyId1417"
+        backgroundColor: "transparent",
+        color: "white",
+        left: "20",
+        id: "__alloyId1450"
     });
-    $.__views.__alloyId1416.add($.__views.__alloyId1417);
-    $.__views.__alloyId1418 = Ti.UI.createScrollView({
+    $.__views.__alloyId1449.add($.__views.__alloyId1450);
+    $.__views.__alloyId1451 = Ti.UI.createImageView({
+        backgroundColor: "transparent",
+        width: "30",
+        height: "30",
+        right: "10",
+        image: "/images/close_icon.png",
+        id: "__alloyId1451"
+    });
+    $.__views.__alloyId1449.add($.__views.__alloyId1451);
+    back ? $.__views.__alloyId1451.addEventListener("click", back) : __defers["$.__views.__alloyId1451!click!back"] = true;
+    $.__views.__alloyId1452 = Ti.UI.createScrollView({
         layout: "vertical",
         backgroundColor: "white",
-        id: "__alloyId1418"
+        id: "__alloyId1452"
     });
-    $.__views.notification.add($.__views.__alloyId1418);
+    $.__views.notification.add($.__views.__alloyId1452);
     $.__views.title = Ti.UI.createLabel({
         id: "title",
         width: "90%",
@@ -78,7 +78,7 @@ function Controller() {
         textAlign: "left",
         color: "black"
     });
-    $.__views.__alloyId1418.add($.__views.title);
+    $.__views.__alloyId1452.add($.__views.title);
     $.__views.label = Ti.UI.createLabel({
         id: "label",
         width: "90%",
@@ -87,11 +87,12 @@ function Controller() {
         textAlign: "left",
         color: "black"
     });
-    $.__views.__alloyId1418.add($.__views.label);
+    $.__views.__alloyId1452.add($.__views.label);
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.title.text = "1.Title";
     $.label.text = "1.You can buy a top-up card from any authorised dealer in the form of:\n1.Top-Up Card / Voucher at any XOX Authorised Dealers\n2..Electronic Code / Top-Up Slip at\n3.Top-Up through XOX Self-Care Portal\n\nTop-up your prepaid account via:\n\nUSSD\na.Top-up your own prepaid account: Key in *132*1*<16-digit Pin Code># and press\nb.Top-up your friend's account: Key in *132*1*< 16-digit Pin Code >*< Mobile Number ># and press\nEXAMPLE: *132*1*< 16-digit Pin Code >*010300XXXX# and press";
+    __defers["$.__views.__alloyId1451!click!back"] && $.__views.__alloyId1451.addEventListener("click", back);
     _.extend($, exports);
 }
 

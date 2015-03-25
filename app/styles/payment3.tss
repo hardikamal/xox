@@ -1,0 +1,130 @@
+
+".bigFont" : {
+
+
+	color: 'white',
+	
+	backgroundColor: 'transparent',
+	
+	font: {
+	
+		fontSize: '18dp',
+		
+		//fontStyle: 'normal',
+		
+		//fontWeight: 'normal'
+	
+	} 
+
+ 
+
+}
+
+
+
+".midFont" : {
+
+
+	color: 'black',
+	
+	backgroundColor: 'transparent',
+	
+	font: {
+	
+		fontSize: '14dp',
+		
+		//fontStyle: 'normal',
+		
+		//fontWeight: 'normal'
+	
+	} 
+
+ 
+
+}
+
+
+
+".smallFont" : {
+
+
+	color: 'black',
+	
+	backgroundColor: 'transparent',
+	
+	font: {
+	
+		fontSize: '12dp',
+	
+		//fontStyle: 'normal',
+		
+		//fontWeight: 'normal'
+	
+	} 
+
+ 
+
+}
+
+
+
+".bigboldFont" : {
+
+
+	color: 'black',
+	
+	backgroundColor: 'transparent',
+	
+	font: {
+	
+		fontSize: '40dp',
+		
+		fontWeight: 'bold'
+	
+	} 
+
+ 
+
+}
+
+
+
+".midboldFont" : {
+
+
+	color: 'black',
+	
+	backgroundColor: 'transparent',
+	
+	font: {
+	
+		fontSize: '25dp',
+		
+		fontWeight: 'bold'
+	
+	} 
+
+ 
+
+}
+
+
+
+".smallboldFont" : {
+
+
+		color: 'black',
+		
+		backgroundColor: 'transparent',
+		
+		font: {
+		
+			fontSize: '14dp',
+			
+			fontWeight: 'bold'
+	
+	} 
+
+ 
+
+}

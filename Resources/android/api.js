@@ -28,7 +28,6 @@ exports.getStore = function() {
     var isUpdate = checker.getCheckerById("1");
     var last_updated = "";
     "" != isUpdate && (last_updated = isUpdate.updated);
-    console.log(storeLocatorUrl + "&last_updated=" + last_updated);
     var _result = contactServer(storeLocatorUrl + "&last_updated=");
     _result.onload = function() {
         var res = JSON.parse(this.responseText);
